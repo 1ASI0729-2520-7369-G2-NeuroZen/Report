@@ -198,6 +198,7 @@ para reconocer estos niveles a tiempo ni saber cómo actuar al respecto.
 ¿Cómo pueden los trabajadores detectar y manejar su estrés de forma temprana y
 efectiva en su entorno laboral, usando una herramienta accesible, fácil de usar e 
 integrada en su rutina diaria?
+
 ---
 ### 1.2.2.2 Lean UX Assumptions
 Feature: Sistema de identificación y gestión del estrés laboral en NeuroZen
@@ -251,6 +252,7 @@ Historial y Seguimiento: Dashboard interactivo que muestra evolución, tendencia
 
 
 Integración con Profesionales: Opción de contactar con psicólogos o especialistas en bienestar para intervenciones personalizadas.
+
 ---
 ### 1.2.2.3 Lean UX Hypothesis Statements
 
@@ -278,6 +280,17 @@ Integración con Profesionales: Opción de contactar con psicólogos o especiali
 
 ---
 ### 1.2.2.4 Lean UX Canvas
+![Lean UX Canvas](imgs/lean_ux_canvas.jpg)
 
 ---
 ## 1.2.3 Segmentos objetivo.
+
+**Personas activas en el ámbito laboral:**
+
+Este segmento está compuesto por personas con horario de trabajo extensos, de más de 8 horas laborales. Estos ciudadanos suelen experimentar una presión psicológica alta en sus trabajos lo cuál termina en generar un cuadro de estrés que puede perjudicar su rendimiento y su calidad de vida. Según estudios realizados en distintos campos laborales, un 70% del personal presenta un estrés agudo en sus actividades personales y laborales (Estudio LATAM, 2020). Este grupo ves clave para el éxito de la plataforma, ya que son los principales beneficiarios de las capacidades que propone este startup.
+
+**Adultos entre 20 y 50 años de edad:**
+
+Este segmento incluye personas que no necesariamente sean trabajadores formales. A menudo, son las que más experimentan grados de estrés, ya que no se rigen a un horario de trabajo, sino que su trabajo está presente a todas horas del día. Según un estudio realizado a 250 trabajadores informales se expresa que el 56% de ellos muestran nivel medio de estrés, mientras que el 33.3% está en un nivel bajo y solo el 10.6% está en un nivel alto (Porcayo, 2022). Este grupo obtendrá los mismos beneficios que el otro segmento objetivo, pero este tiene más potencial de expandir el tema del estrés laboral y por consecuencia el uso de esta plataforma.
+
+---
