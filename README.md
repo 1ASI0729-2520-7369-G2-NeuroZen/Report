@@ -500,7 +500,15 @@ Consistencia en los nombres en toda la app y web.
 
 ---
 
-### 4.2.3. SEO Tags and Meta Tags.  
+## 4.2.3. SEO Tags and Meta Tags
+
+Meta títulos: deben incluir palabras clave relacionadas con salud mental, estrés laboral y bienestar.
+
+Meta descripciones: claras, con llamado a la acción (ejemplo: “Evalúa tu nivel de estrés y recibe recomendaciones personalizadas”).
+
+Etiquetas alt en imágenes con descripciones concisas.
+
+Uso de headings (H1, H2, H3) para mejorar la indexación en buscadores.
 
 ---
 
@@ -647,6 +655,7 @@ Consistencia en los nombres en toda la app y web.
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
