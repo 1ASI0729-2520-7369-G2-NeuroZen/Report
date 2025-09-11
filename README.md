@@ -412,7 +412,37 @@ En este apartado analizaremos las posibles competencias para nuestra página web
 
 ---
 
-### 2.2.3. Análisis de entrevistas.  
+## 2.2.3. Análisis de entrevistas
+
+**Segmento 1: Personas activas en el ámbito laboral**
+
+**Hallazgos:**
+
+* Los profesionales experimentan jornadas laborales prolongadas de 10 a 12 horas diarias, sin límites claros entre vida laboral y personal.
+* Enfrentan presión constante por la obtención de resultados inmediatos, incluso en situaciones que requieren procesos más largos.
+* Presentan síntomas físicos y emocionales comunes: fatiga mental, insomnio, tensión muscular, irritabilidad y dolores de cabeza.
+* Las empresas ofrecen poco o nulo apoyo institucional en la gestión del estrés.
+* Aunque intentan aplicar técnicas de manejo del estrés, la carga laboral dificulta la constancia.
+* Valoran soluciones digitales accesibles, rápidas y adaptables a sus horarios saturados.
+
+**Conclusión:**
+Los profesionales con jornadas extensas conforman un segmento altamente vulnerable al estrés crónico, debido a la combinación de largas horas de trabajo, disponibilidad permanente y presión por resultados inmediatos. Sus esfuerzos individuales para manejar el estrés mediante técnicas tradicionales resultan insuficientes ante la ausencia de límites laborales y la falta de apoyo organizacional. Este grupo requiere soluciones tecnológicas personalizadas que se integren fácilmente a su rutina, ofrezcan intervenciones breves pero efectivas, y brinden tanto seguimiento automatizado como acceso a apoyo profesional. La aplicación debe enfocarse en fomentar microhábitos de bienestar que puedan sostenerse en entornos laborales exigentes, permitiendo recuperar el equilibrio sin comprometer el desempeño profesional.
+
+---
+
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+**Hallazgos:**
+
+* Ausencia de límites entre trabajo y vida personal: el teléfono móvil funciona como vínculo constante con el trabajo.
+* Horarios irregulares y variables según la demanda y las necesidades económicas.
+* Factores principales de estrés: inestabilidad económica, expectativas de disponibilidad constante y dificultad para desconectar.
+* Impacto en la salud: dolores físicos, cansancio, insomnio e irritabilidad.
+* Estrategias de afrontamiento poco consistentes: música, ejercicio o yoga, aplicados de forma irregular.
+* Interés en herramientas adaptables a horarios variables y accesibles desde dispositivos móviles.
+
+**Conclusión:**
+Los testimonios de Cristofer y Laura muestran la creciente prevalencia de trabajadores con horarios flexibles que enfrentan una disponibilidad laboral constante, lo que genera una difuminación de los límites entre la vida personal y laboral y repercute negativamente en su bienestar. Esta dinámica produce un ciclo en el que la inestabilidad económica impulsa a aceptar más trabajo, aumentando el nivel de estrés y afectando la salud física y mental. De esta manera, se evidencia la necesidad urgente de diseñar herramient
 
 ---
 
@@ -676,6 +706,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
