@@ -368,7 +368,27 @@ Este segmento incluye personas que no necesariamente sean trabajadores formales.
 
 ---
 
-## 2.1. Competidores.  
+## 2.1. Competidores
+En este apartado analizaremos las posibles competencias para nuestra página web, viendo en ello sus descripciones y planes de negocios.
+**Análisis de Competidores**
+
+**1. Calm**
+
+* **Características:** La aplicación ofrece ejercicios de respiración para la reducción del estrés, programas de instrucción de diez minutos diarios, prácticas físicas de relajación similares a meditaciones y relatos en formato de audiolibro para favorecer el sueño.
+* **Diferencias:** Calm se distingue por su enfoque multimedia de alta calidad, con narraciones realizadas por celebridades y pistas musicales profesionales. Además, ofrece programas especializados para necesidades específicas, como el manejo del estrés, la concentración y el sueño.
+* **Limitaciones:** La mayoría de su contenido es de pago, lo que restringe su accesibilidad. Asimismo, carece de controles parentales para la gestión del contenido por parte de adultos responsables.
+
+**2. Wysa**
+
+* **Características:** La aplicación está impulsada por inteligencia artificial mediante un chatbot de apoyo emocional. Ofrece ejercicios de respiración guiada, técnicas de relajación muscular, meditaciones y prácticas diversas. Garantiza la privacidad del usuario al no requerir identidad real y ofrece una versión premium con acceso a terapeutas profesionales.
+* **Diferencias:** A diferencia de Calm, que se centra en audios, y de Equoo, que utiliza dinámicas de juego, Wysa adopta una interfaz conversacional con un chatbot de IA. Integra técnicas estructuradas de terapia cognitivo-conductual (CBT) y terapia dialéctico-conductual (DBT). Su modelo freemium ofrece un chatbot gratuito con la posibilidad de pago por apoyo humano.
+* **Limitaciones:** Wysa no puede responder a situaciones de emergencia en salud mental ni sustituir atención profesional especializada. Además, presenta limitaciones en la comprensión de lenguaje natural complejo y matices emocionales.
+
+**3. Equoo**
+
+* **Características:** Utiliza técnicas de terapia cognitivo-conductual y psicología positiva para fomentar habilidades emocionales. Funciona como un juego con 52 niveles que abordan dimensiones como neuroticismo, amabilidad y reciprocidad. Cuenta con un chatbot personalizado y se apoya en estudios clínicos que validan su utilidad para reducir síntomas de depresión y ansiedad.
+* **Diferencias:** Equoo sobresale por su experiencia gamificada, basada en misiones y recompensas, frente al enfoque auditivo de Calm o el conversacional de Wysa. Está dirigido principalmente a adolescentes y adultos jóvenes, con un diseño narrativo adaptado a ese público. Su sistema de progresión por niveles y estadísticas lo diferencia de las otras plataformas.
+* **Limitaciones:** La variedad de juegos emocionales es limitada, lo que puede generar repetitividad a largo plazo. Además, su enfoque lúdico puede no resultar atractivo para usuarios que prefieran métodos más directos de apoyo en salud mental.
 
 ---
 
@@ -619,5 +639,6 @@ Este segmento incluye personas que no necesariamente sean trabajadores formales.
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
