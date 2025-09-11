@@ -88,6 +88,75 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
+  - [2.1 Competidores](#21-competidores)  
+    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)  
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+  - [2.2 Entrevistas](#22-entrevistas)  
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)  
+    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)  
+    - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)  
+  - [2.3 Needfinding](#23-needfinding)  
+    - [2.3.1 User Personas](#231-user-personas)  
+    - [2.3.2 User Task Matrix](#232-user-task-matrix)  
+    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)  
+    - [2.3.4 Empathy Mapping](#234-empathy-mapping)  
+    - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+  - [2.4 Ubiquitous Language](#24-ubiquitous-language)  
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
+  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+  - [3.2 User Stories](#32-user-stories)  
+  - [3.3 Impact Mapping](#33-impact-mapping)  
+  - [3.4 Product Backlog](#34-product-backlog)  
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)  
+  - [4.1 Style Guidelines](#41-style-guidelines)  
+    - [4.1.1 General Style Guidelines](#411-general-style-guidelines)  
+    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)  
+  - [4.2 Information Architecture](#42-information-architecture)  
+    - [4.2.1 Organization Systems](#421-organization-systems)  
+    - [4.2.2 Labeling Systems](#422-labeling-systems)  
+    - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+    - [4.2.4 Searching Systems](#424-searching-systems)  
+    - [4.2.5 Navigation Systems](#425-navigation-systems)  
+  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)  
+    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)  
+    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)  
+  - [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)  
+    - [4.4.1 Web Applications Wireframes](#441-web-applications-wireframes)  
+    - [4.4.2 Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
+    - [4.4.2 Web Applications Mock-ups](#442-web-applications-mock-ups)  
+    - [4.4.3 Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)  
+  - [4.5 Web Applications Prototyping](#45-web-applications-prototyping)  
+  - [4.6 Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
+    - [4.6.1 Software Architecture Context Diagram](#461-software-architecture-context-diagram)  
+    - [4.6.2 Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)  
+    - [4.6.3 Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)  
+  - [4.7 Software Object-Oriented Design](#47-software-object-oriented-design)  
+    - [4.7.1 Class Diagrams](#471-class-diagrams)  
+    - [4.7.2 Class Dictionary](#472-class-dictionary)  
+  - [4.8 Database Design](#48-database-design)  
+    - [4.8.1 Database Diagram](#481-database-diagram)  
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)  
+  - [5.1 Software Configuration Management](#51-software-configuration-management)  
+    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)  
+    - [5.1.2 Source Code Management](#512-source-code-management)  
+    - [5.1.3 Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)  
+  - [5.2 Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
+    - [5.2.X Sprint n](#52x-sprint-n)  
+      - [5.2.X.1 Sprint Planning n](#52x1-sprint-planning-n)  
+      - [5.2.X.2 Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)  
+      - [5.2.X.3 Sprint Backlog n](#52x3-sprint-backlog-n)  
+      - [5.2.X.4 Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)  
+      - [5.2.X.5 Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)  
+      - [5.2.X.6 Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)  
+      - [5.2.X.7 Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)  
+      - [5.2.X.8 Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
+  - [5.3 Validation Interviews](#53-validation-interviews)  
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)  
+    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)  
+    - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
+  - [5.4 Video About-the-Product](#54-video-about-the-product)  
 
 ---
 
@@ -293,4 +362,325 @@ Este segmento está compuesto por personas con horario de trabajo extensos, de m
 
 Este segmento incluye personas que no necesariamente sean trabajadores formales. A menudo, son las que más experimentan grados de estrés, ya que no se rigen a un horario de trabajo, sino que su trabajo está presente a todas horas del día. Según un estudio realizado a 250 trabajadores informales se expresa que el 56% de ellos muestran nivel medio de estrés, mientras que el 33.3% está en un nivel bajo y solo el 10.6% está en un nivel alto (Porcayo, 2022). Este grupo obtendrá los mismos beneficios que el otro segmento objetivo, pero este tiene más potencial de expandir el tema del estrés laboral y por consecuencia el uso de esta plataforma.
 
+
 ---
+# Capítulo II: Requirements Elicitation & Analysis  
+
+---
+
+## 2.1. Competidores
+En este apartado analizaremos las posibles competencias para nuestra página web, viendo en ello sus descripciones y planes de negocios.
+**Análisis de Competidores**
+
+**1. Calm**
+
+* **Características:** La aplicación ofrece ejercicios de respiración para la reducción del estrés, programas de instrucción de diez minutos diarios, prácticas físicas de relajación similares a meditaciones y relatos en formato de audiolibro para favorecer el sueño.
+* **Diferencias:** Calm se distingue por su enfoque multimedia de alta calidad, con narraciones realizadas por celebridades y pistas musicales profesionales. Además, ofrece programas especializados para necesidades específicas, como el manejo del estrés, la concentración y el sueño.
+* **Limitaciones:** La mayoría de su contenido es de pago, lo que restringe su accesibilidad. Asimismo, carece de controles parentales para la gestión del contenido por parte de adultos responsables.
+
+**2. Wysa**
+
+* **Características:** La aplicación está impulsada por inteligencia artificial mediante un chatbot de apoyo emocional. Ofrece ejercicios de respiración guiada, técnicas de relajación muscular, meditaciones y prácticas diversas. Garantiza la privacidad del usuario al no requerir identidad real y ofrece una versión premium con acceso a terapeutas profesionales.
+* **Diferencias:** A diferencia de Calm, que se centra en audios, y de Equoo, que utiliza dinámicas de juego, Wysa adopta una interfaz conversacional con un chatbot de IA. Integra técnicas estructuradas de terapia cognitivo-conductual (CBT) y terapia dialéctico-conductual (DBT). Su modelo freemium ofrece un chatbot gratuito con la posibilidad de pago por apoyo humano.
+* **Limitaciones:** Wysa no puede responder a situaciones de emergencia en salud mental ni sustituir atención profesional especializada. Además, presenta limitaciones en la comprensión de lenguaje natural complejo y matices emocionales.
+
+**3. Equoo**
+
+* **Características:** Utiliza técnicas de terapia cognitivo-conductual y psicología positiva para fomentar habilidades emocionales. Funciona como un juego con 52 niveles que abordan dimensiones como neuroticismo, amabilidad y reciprocidad. Cuenta con un chatbot personalizado y se apoya en estudios clínicos que validan su utilidad para reducir síntomas de depresión y ansiedad.
+* **Diferencias:** Equoo sobresale por su experiencia gamificada, basada en misiones y recompensas, frente al enfoque auditivo de Calm o el conversacional de Wysa. Está dirigido principalmente a adolescentes y adultos jóvenes, con un diseño narrativo adaptado a ese público. Su sistema de progresión por niveles y estadísticas lo diferencia de las otras plataformas.
+* **Limitaciones:** La variedad de juegos emocionales es limitada, lo que puede generar repetitividad a largo plazo. Además, su enfoque lúdico puede no resultar atractivo para usuarios que prefieran métodos más directos de apoyo en salud mental.
+
+---
+
+### 2.1.1. Análisis competitivo.  
+
+---
+
+### 2.1.2. Estrategias y tácticas frente a competidores.  
+
+---
+
+## 2.2. Entrevistas.  
+
+---
+
+### 2.2.1. Diseño de entrevistas.  
+
+---
+
+### 2.2.2. Registro de entrevistas.  
+
+---
+
+### 2.2.3. Análisis de entrevistas.  
+
+---
+
+## 2.3. Needfinding.  
+
+---
+
+### 2.3.1. User Personas.  
+
+---
+
+### 2.3.2. User Task Matrix.  
+
+---
+
+### 2.3.3. User Journey Mapping.  
+
+---
+
+### 2.3.4. Empathy Mapping.  
+
+---
+
+### 2.3.5. As-is Scenario Mapping.  
+
+---
+
+## 2.4. Ubiquitous Language. 
+
+---
+
+# Capítulo III: Requirements Specification  
+
+---
+
+## 3.1. To-Be Scenario Mapping.  
+
+---
+
+## 3.2. User Stories.  
+
+---
+
+## 3.3. Impact Mapping.  
+
+---
+
+## 3.4. Product Backlog.  
+
+---
+
+# Capítulo IV: Product Design  
+
+---
+
+## 4.1. Style Guidelines.  
+
+---
+
+### 4.1.1. General Style Guidelines.  
+
+---
+
+### 4.1.2. Web Style Guidelines.  
+
+---
+
+## 4.2. Information Architecture.  
+
+---
+
+## 4.2.1. Organization Systems
+
+La información se organiza de forma lógica para que el usuario encuentre rápido lo que necesita:
+
+
+Estructura basada en módulos claros: inicio, autoevaluación, recomendaciones, profesionales, comunidad y recursos.
+
+Jerarquización de contenidos: lo más usado (tests y recomendaciones) aparece en posiciones destacadas.
+
+---
+
+## 4.2.2. Labeling Systems
+
+El etiquetado debe ser claro, breve y familiar para los usuarios:
+
+Uso de términos simples como: Inicio, Test de Estrés, Recomendaciones, Comunidad, Psicólogos, Recursos.
+
+Evitar tecnicismos clínicos, priorizando un lenguaje cotidiano.
+
+Consistencia en los nombres en toda la app y web.
+
+---
+
+## 4.2.3. SEO Tags and Meta Tags
+
+Meta títulos: deben incluir palabras clave relacionadas con salud mental, estrés laboral y bienestar.
+
+Meta descripciones: claras, con llamado a la acción (ejemplo: “Evalúa tu nivel de estrés y recibe recomendaciones personalizadas”).
+
+Etiquetas alt en imágenes con descripciones concisas.
+
+Uso de headings (H1, H2, H3) para mejorar la indexación en buscadores.
+
+---
+
+## 4.2.4. Searching Systems
+
+Búsqueda interna intuitiva, con autocompletado y sugerencias rápidas.
+
+Posibilidad de filtrar resultados (ejemplo: artículos, psicólogos, recursos, ejercicios).
+
+Optimización para resultados relevantes según la necesidad del usuario.
+
+---
+
+## 4.2.5. Navigation Systems
+
+Menú principal: siempre visible, con las secciones clave (Inicio, Autoevaluación, Recomendaciones, Comunidad, Contacto).
+
+Breadcrumbs para indicar dónde se encuentra el usuario.
+
+CTA (Call To Action) claros y visibles, guiando al usuario hacia las acciones más importantes (hacer test, contactar especialista, unirse a un grupo).
+
+Compatibilidad responsive, manteniendo la navegación fluida en móviles y escritorio.
+
+---
+
+## 4.3. Landing Page UI Design.  
+
+---
+
+### 4.3.1. Landing Page Wireframe.  
+
+---
+
+### 4.3.2. Landing Page Mock-up.  
+
+---
+
+## 4.4. Web Applications UX/UI Design.  
+
+---
+
+### 4.4.1. Web Applications Wireframes.  
+
+---
+
+### 4.4.2. Web Applications Wireflow Diagrams.  
+
+---
+
+### 4.4.2. Web Applications Mock-ups.  
+
+---
+
+### 4.4.3. Web Applications User Flow Diagrams.  
+
+---
+
+## 4.5. Web Applications Prototyping.  
+
+---
+
+## 4.6. Domain-Driven Software Architecture.  
+
+---
+
+### 4.6.1. Software Architecture Context Diagram.  
+
+---
+
+### 4.6.2. Software Architecture Container Diagrams.  
+
+---
+
+### 4.6.3. Software Architecture Components Diagrams.  
+
+---
+
+## 4.7. Software Object-Oriented Design.  
+
+---
+
+### 4.7.1. Class Diagrams.
+
+---
+
+### 4.7.2. Class Dictionary.  
+
+---
+
+## 4.8. Database Design.  
+
+---
+
+### 4.8.1. Database Diagram.  
+
+---
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+---
+
+## 5.1. Software Configuration Management.  
+
+---
+
+### 5.1.1. Software Development Environment Configuration.  
+
+---
+
+### 5.1.2. Source Code Management.  
+
+---
+
+### 5.1.3. Source Code Style Guide & Conventions.  
+
+---
+
+### 5.1.4. Software Deployment Configuration.  
+
+---
+
+## 5.2. Landing Page, Services & Applications Implementation.  
+
+---
+
+## 5.2.X. Sprint n  
+
+---
+
+### 5.2.X.1. Sprint Planning n.  
+
+---
+
+### 5.2.X.2. Aspect Leaders and Collaborators.  
+
+---
+
+### 5.2.X.3. Sprint Backlog n.  
+
+---
+
+### 5.2.X.4. Development Evidence for Sprint Review.  
+
+---
+
+### 5.2.X.5. Execution Evidence for Sprint Review.  
+
+---
+
+### 5.2.X.6. Services Documentation Evidence for Sprint Review.  
+
+---
+
+### 5.2.X.7. Software Deployment Evidence for Sprint Review.  
+
+---
+
+### 5.2.X.8. Team Collaboration Insights during Sprint.  
+
+---
+
+
+
+
+
+
+
+
