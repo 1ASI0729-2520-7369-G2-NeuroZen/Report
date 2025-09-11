@@ -392,7 +392,116 @@ En este apartado analizaremos las posibles competencias para nuestra página web
 
 ---
 
-### 2.1.1. Análisis competitivo.  
+## 2.1.1. Análisis competitivo
+
+<table border="1">
+  <tr>
+    <th colspan="6" style="text-align:left">Competitive Analysis Landscape (Panorama del análisis competitivo)</th>
+  </tr>
+  <tr>
+    <td><strong>¿Por qué llevar a cabo este análisis?</strong></td>
+    <td colspan="5">Para conocer a nuestros competidores</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Aplicación</strong></td>
+    <td><strong>Calm</strong></td>
+    <td><strong>Wysa</strong></td>
+    <td><strong>Equoo</strong></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th rowspan="3">Perfil</th>
+    <td><strong>Descripción</strong></td>
+    <td>Aplicación de bienestar mental diseñada para ayudarte a relajarte, dormir mejor y reducir el estrés. Ofrece meditaciones guiadas, historias para dormir, música relajante, ejercicios de respiración y clases de mindfulness.</td>
+    <td>Asistente de bienestar emocional basado en IA que ofrece terapia cognitivo‑conductual, DBT, journaling y meditaciones, disponible 24/7.</td>
+    <td>Plataforma gamificada que desarrolla inteligencia emocional mediante juegos interactivos basados en psicología.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Ventaja competitiva</strong></td>
+    <td>Diversidad de maneras para relajar a las personas, se podría decir que es efectivo para cualquier necesidad.</td>
+    <td>Combina un chatbot accesible 24/7 con técnicas terapéuticas validadas, y ofrece la opción de coaching humano para un apoyo más profundo.</td>
+    <td>Combina entretenimiento con técnicas psicológicas efectivas, aumentando adherencia y compromiso en el desarrollo emocional.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>¿Qué valor ofrece al cliente?</strong></td>
+    <td>Bienestar emocional, mejor sueño y reducción de estrés mediante opciones variadas.</td>
+    <td>Accesibilidad constante y apoyo con base en evidencia científica.</td>
+    <td>Motivación sostenida a través de gamificación y desarrollo emocional.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>Adultos entre 30 y 35 años de edad con ingresos medio altos que puedan pagar una suscripción.</td>
+    <td>Adultos jóvenes (18–35) y empresas que buscan herramientas de salud mental accesibles y 24/7.</td>
+    <td>Adultos jóvenes (18-35), profesionales estresados, empresas, instituciones educativas.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>Usan un modelo freemium, marketing con celebridades y alianzas con empresas.</td>
+    <td>Marketing de contenidos, alianzas B2B y ASO con campañas en Instagram y LinkedIn.</td>
+    <td>Contenido educativo, partnerships B2B, campañas en redes sociales, pruebas gratuitas.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <td><strong>Productos & Servicios</strong></td>
+    <td>Meditaciones guiadas, historias para dormir, música relajante, ejercicios de respiración, clases de movimientos.</td>
+    <td>Chatbot gratuito con CBT/DBT y “pathways” temáticos; sesiones premium con coaches humanos.</td>
+    <td>App de entrenamiento emocional, versión empresarial, evaluaciones personalizadas.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Precios & Costos</strong></td>
+    <td>Modelo freemium: gratuito básico; plan mensual 15 USD; plan anual 70 USD; plan familiar 100 USD; plan de por vida 400 USD.</td>
+    <td>Modelo freemium: gratuito básico; premium USD 9–12/mes (anual) o USD 19/mes; tarifas corporativas variables.</td>
+    <td>Modelo freemium; $5-10/mes individual, planes corporativos por volumen.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Canales de distribución</strong></td>
+    <td>App móvil en iOS y Android; plataforma web para empresas y coaching.</td>
+    <td>App móvil en iOS y Android; plataforma web para empresas y coaching.</td>
+    <td>Apps móviles (iOS/Android), plataforma web, integración con sistemas corporativos.</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th rowspan="4">Análisis SWOT (FODA)</th>
+    <td><strong>Fortalezas</strong></td>
+    <td>Disponible 24/7, diversidad de opciones para hacer en la aplicación.</td>
+    <td>Disponible 24/7, técnicas terapéuticas validadas e interfaz intuitiva.</td>
+    <td>Base científica sólida, formato atractivo, enfoque preventivo.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Debilidades</strong></td>
+    <td>Precio elevado, no ofrece sesiones en vivo, enfoque principal a personas que hablan inglés.</td>
+    <td>No reemplaza terapia presencial, contenido gratuito limitado y calidad dependiente de la IA.</td>
+    <td>Alta competencia, creación continua de contenido, percepción como solución "ligera".</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Oportunidades</strong></td>
+    <td>Expansión internacional, integración con servicios de salud mental profesional.</td>
+    <td>Expansión en nuevos mercados, alianzas con telemedicina y wearables, localización cultural.</td>
+    <td>Creciente interés en salud mental, expansión internacional, integraciones tecnológicas.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Amenazas</strong></td>
+    <td>Competencia intensa, precios más asequibles en otras aplicaciones.</td>
+    <td>Competencia intensa, regulaciones de salud digital y preocupaciones por privacidad de datos.</td>
+    <td>Saturación del mercado, cambios en políticas de privacidad, escepticismo sobre eficacia digital.</td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
@@ -841,6 +950,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
