@@ -454,7 +454,69 @@ Buenos días/tardes, soy \[...], representante de NeuroZen. Estamos desarrolland
 
 ---
 
-### 2.2.2. Registro de entrevistas.  
+## 2.2.2. Registro de entrevistas
+
+### Segmento 1: Personas activas en el ámbito laboral con jornadas extendidas
+
+**Entrevista N.º 1**
+
+* **Nombre:** Enzo Joaquín Alatrista Amaya
+* **Sexo:** Masculino
+* **Edad:** 25 años
+* **Estado Civil:** Soltero
+* **Ocupación:** Ingeniero de Sistemas
+* **Duración:** 3 minutos 26 segundos
+* **Link:** [Ver entrevista](https://drive.google.com/file/d/13V0bp8f4mNgHBX6nU5c74mhhuCYzXYmT/view?usp=sharing)
+
+**Resumen de puntos clave:**
+La entrevista con Enzo revela la presión constante en el sector tecnológico, donde enfrenta jornadas laborales de hasta 11 horas, disponibilidad permanente y cambios inesperados. Dichas condiciones han generado problemas de salud como insomnio, dolores de cabeza e irritabilidad, lo que afecta directamente su productividad y bienestar personal. Aunque busca manejar el estrés mediante caminatas y ejercicios de respiración, su rutina laboral le impide mantener estos hábitos de forma constante. Asimismo, su empresa no brinda un apoyo estructurado en la gestión del estrés, limitándose a charlas ocasionales. Enzo valora herramientas simples y accesibles que ofrezcan recordatorios para pausas activas, ejercicios rápidos y la posibilidad de contactar a un profesional dentro de la misma aplicación.
+
+---
+
+**Entrevista N.º 2**
+
+* **Nombre:** Andrés Luján Carrión
+* **Sexo:** Masculino
+* **Edad:** 40 años
+* **Estado Civil:** Soltero
+* **Ocupación:** Rector (USL)
+* **Duración:** 4 minutos 11 segundos
+* **Link:** [Ver entrevista](https://drive.google.com/file/d/1aePzhaW86rM-1leKeeb1c65SbWk9Y0yZ/view?usp=sharing)
+
+**Resumen de puntos clave:**
+Andrés trabaja entre 10 y 12 horas diarias, enfrentando altos niveles de estrés debido a la necesidad de obtener resultados inmediatos en procesos que requieren tiempo prolongado. Ha identificado efectos negativos como fatiga mental, insomnio y tensión muscular. Considera valiosas las herramientas de coaching personalizado y plataformas digitales que permitan un acompañamiento integral. Destaca el interés en funcionalidades como coaching emocional, monitoreo del estrés y una comunidad de apoyo que fomente el bienestar compartido.
+
+---
+
+### Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos
+
+**Entrevista N.º 3**
+
+* **Nombre:** Cristofer Pablo Paucar
+* **Sexo:** Masculino
+* **Edad:** 21 años
+* **Estado Civil:** Soltero
+* **Ocupación:** Repartidor
+* **Duración:** 6 minutos 27 segundos
+* **Link:** Entrevista Cristofer NeuroZen.mp3
+
+**Resumen de puntos clave:**
+Cristofer desempeña labores de reparto sin un horario fijo, organizando su trabajo en función de la demanda y de sus necesidades económicas. Esta modalidad le implica largas jornadas, frecuentemente extendidas hasta altas horas de la noche, y dificulta la delimitación entre su vida laboral y personal, dado que la gestión depende del uso constante del celular. Entre los principales factores de estrés identificados se encuentran la inestabilidad laboral, la incertidumbre económica, las fallas en las aplicaciones de reparto, el tráfico, clientes exigentes y el desgaste físico. Aunque intenta reducir su nivel de estrés escuchando música o desconectándose ocasionalmente, estas prácticas no siempre resultan efectivas. Reconoce afectaciones físicas (dolores corporales, cansancio) y psicológicas (insomnio, irritabilidad). Manifiesta interés en explorar herramientas digitales de apoyo, identificando la mañana y la noche como los momentos más adecuados para actividades de relajación, condicionados por el flujo de trabajo.
+
+---
+
+**Entrevista N.º 4**
+
+* **Nombre:** Laura Méndez
+* **Sexo:** Femenino
+* **Edad:** 24 años
+* **Estado Civil:** Soltera
+* **Ocupación:** Diseñadora gráfica y fotógrafa freelance
+* **Duración:** 8 minutos 39 segundos
+* **Link:** [Ver entrevista](https://drive.google.com/file/d/1UglVUZqgommlzxa7QGvVOpFjeJ5BP8ta/view?usp=sharing)
+
+**Resumen de puntos clave:**
+Laura enfrenta los retos característicos del trabajo independiente, con horarios irregulares y ausencia de límites claros entre vida laboral y personal. La constante expectativa de disponibilidad de los clientes convierte su teléfono en una “oficina móvil”, lo que intensifica su nivel de estrés. Sus principales factores de presión incluyen la inestabilidad económica, la sobrecarga de proyectos, las altas demandas de los clientes y la imposibilidad de desconectar por completo. Esto ha derivado en un estrés medio-alto con repercusiones en su salud física y en su capacidad creativa. Aunque intenta incorporar rutinas como yoga o ejercicio, la inconsistencia limita sus beneficios. Requiere soluciones tecnológicas flexibles, accesibles desde dispositivos móviles, que le permitan gestionar pausas, establecer límites sin afectar la relación con sus clientes y disponer de técnicas efect
 
 ---
 
@@ -752,6 +814,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
