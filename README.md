@@ -396,7 +396,32 @@ En este apartado analizaremos las posibles competencias para nuestra página web
 
 ---
 
-### 2.1.2. Estrategias y tácticas frente a competidores.  
+## 2.1.2. Estrategias y tácticas frente a competidores
+
+
+FODA de nuestra empresa: "NeuroZen"
+
+F: Sistema de detección rápida de estrés laboral con test personalizados y conexión directa a profesionales de salud mental.
+
+O: Creciente conciencia sobre salud mental en empresas y mayor disposición a invertir en bienestar laboral.
+
+D: Posible resistencia de los usuarios a reconocer problemas de estrés y dependencia de la honestidad en las respuestas al test.
+
+A: Aparición de soluciones similares en el mercado y preocupaciones sobre confidencialidad de datos sensibles de salud mental.
+
+
+Para aprovechar las fortalezas y oportunidades de "NeuroZen", y al mismo tiempo enfrentar las debilidades y contrarrestar las amenazas del entorno competitivo, podemos considerar las siguientes estrategias y tácticas:
+
+
+Desarrollar programas de implementación corporativa que incluyan talleres de sensibilización sobre la importancia de la salud mental.
+
+Establecer alianzas con empresas de seguros médicos para ofrecer descuentos a organizaciones que implementen nuestro sistema preventivo.
+
+Implementar tecnología de análisis de comportamiento que complemente las respuestas subjetivas del test con indicadores objetivos.
+
+Crear un sólido programa de certificación en privacidad de datos y comunicarlo claramente a usuarios y empresas clientes.
+
+Generar reportes anónimos agregados para departamentos de RR.HH. que muestren el ROI en términos de reducción de ausentismo y mejora de productividad.
 
 ---
 
@@ -816,6 +841,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
