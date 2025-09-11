@@ -484,7 +484,14 @@ En este apartado analizaremos las posibles competencias para nuestra página web
 
 ---
 
-### 4.2.1. Organization Systems.  
+## 4.2.1. Organization Systems
+
+La información se organiza de forma lógica para que el usuario encuentre rápido lo que necesita:
+
+
+Estructura basada en módulos claros: inicio, autoevaluación, recomendaciones, profesionales, comunidad y recursos.
+
+Jerarquización de contenidos: lo más usado (tests y recomendaciones) aparece en posiciones destacadas.
 
 ---
 
@@ -661,6 +668,7 @@ Optimización para resultados relevantes según la necesidad del usuario.
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
