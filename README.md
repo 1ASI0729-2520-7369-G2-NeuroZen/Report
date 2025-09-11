@@ -554,7 +554,9 @@ Los testimonios de Cristofer y Laura muestran la creciente prevalencia de trabaj
 
 ---
 
-## 2.3. Needfinding.  
+## 2.3. Needfinding
+
+Al recopilar toda la información de los segmentos objetivo y realizar las entrevistas se hará un análisis de estos mismos haciendo uso de User Persona, Task Matrix, Journey Mapping, Empathy Mapping y As-Is Scenario Mapping.
 
 ---
 
@@ -814,6 +816,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
