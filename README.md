@@ -873,7 +873,13 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ---
 
-## 3.3. Impact Mapping.  
+## 3.3. Impact Mapping
+
+Impact Mapping - Segmento 1
+![ImpactMapping_s1](imgs/impactmapping_s1.png)
+
+Impact Mapping - Segmento 2
+![ImpactMapping_s2](imgs/impactmapping_s2.png)
 
 ---
 
@@ -1093,6 +1099,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
