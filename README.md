@@ -722,7 +722,27 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ---
 
-## 3.1. To-Be Scenario Mapping.  
+## 3.1. To-Be Scenario Mapping
+
+**User Journey Mapping – Laura Méndez**
+
+| Fases                                     | Doing                                                                                   | Thinking                                                                         | Feeling                                     |
+|------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------|
+| Registrar señales corporales de estrés   | La app detecta automáticamente postura y signos faciales                               | “Es útil que el sistema registre señales sin que yo tenga que hacerlo.”         | Tranquilidad por el monitoreo pasivo        |
+| Completar autoevaluación de niveles de estrés | Recibe notificaciones de autoevaluación guiada con IA                                   | “Ahora sé si lo que siento es estrés o solo cansancio.”                         | Alivio por entender rápidamente su estado emocional |
+| Consultar análisis de patrones de estrés | Visualiza resúmenes visuales con predicción de picos                                   | “Ya puedo ver cómo ciertos clientes o días afectan mi bienestar.”               | Curiosidad y sensación de control            |
+| Acceder a recomendaciones personalizadas | Recibe sugerencias integradas a su rutina diaria                                       | “Esto se adapta a mí y no interrumpe mi día.”                                   | Esperanza al ver opciones viables            |
+| Registrar seguimiento de estrategias     | Ve sus avances con ayuda de recordatorios motivacionales                               | “Estoy logrando mantener el hábito, y se nota en mi bienestar.”                 | Orgullo y motivación al ver progresos        |
+
+**User Journey Mapping – Andrés Luján**
+
+| Fases                                     | Doing                                                                                   | Thinking                                                                       | Feeling                                       |
+|------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------|
+| Registrar señales corporales de estrés   | El sistema registra tensión y postura automáticamente                                  | “El sistema me ayuda a notar lo que mi cuerpo expresa.”                       | Alivio al no depender solo de su percepción   |
+| Completar autoevaluación de niveles de estrés | Usa voz o toques rápidos para autoevaluarse                                             | “Esta evaluación se adapta a mis tiempos.”                                    | Comodidad y sensación de autonomía            |
+| Consultar análisis de patrones de estrés | El sistema anticipa picos de estrés según su agenda                                    | “Puedo prever cuándo debo cuidarme más o delegar.”                            | Seguridad al planificar estratégicamente      |
+| Acceder a recomendaciones personalizadas | Recibe recomendaciones justo después de momentos clave                                 | “Estas estrategias están hechas para mi rol de liderazgo.”                    | Optimismo por la personalización del sistema  |
+| Registrar seguimiento de estrategias     | Revisa un resumen mensual con IA                                                       | “Sé qué funcionó y qué debo ajustar para el próximo mes.”                     | Satisfacción por tener una guía continua      |
 
 ---
 
@@ -950,6 +970,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
