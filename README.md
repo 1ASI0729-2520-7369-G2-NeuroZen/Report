@@ -883,7 +883,30 @@ Impact Mapping - Segmento 2
 
 ---
 
-## 3.4. Product Backlog.  
+## 3.4. Product Backlog
+
+| Prioridad | User Story ID | Título HU                                  | Story Points |
+| --------- | ------------- | ------------------------------------------ | ------------ |
+| 1         | US01          | Registrar cuenta de usuario                | 3            |
+| 2         | US02          | Configurar perfil biométrico               | 5            |
+| 3         | US03          | Completar cuestionario inicial de salud    | 3            |
+| 4         | US04          | Realizar test de autoevaluación de estrés  | 5            |
+| 5         | US05          | Análisis biométrico de señales de estrés   | 8            |
+| 6         | US06          | Registro de síntomas físicos               | 3            |
+| 7         | US07          | Recibir recomendaciones personalizadas     | 5            |
+| 8         | US08          | Realizar ejercicios de respiración guiados | 3            |
+| 9         | US09          | Programar pausas activas laborales         | 3            |
+| 10        | US10          | Visualizar dashboard personal de estrés    | 5            |
+| 11        | US11          | Generar informes de progreso               | 5            |
+| 12        | US12          | Registrar desencadenantes de estrés        | 3            |
+| 13        | US13          | Buscar psicólogos especializados           | 3            |
+| 14        | US14          | Agendar cita con psicólogo                 | 5            |
+| 15        | US15          | Compartir informes con especialistas       | 3            |
+| 16        | US16          | Participar en grupos de apoyo              | 3            |
+| 17        | US17          | Acceder a biblioteca de recursos           | 2            |
+| 18        | US18          | Participar en desafíos antiestrés          | 3            |
+| 19        | US19          | Analizar carga laboral                     | 5            |
+| 20        | US20          | Recibir recordatorios de ergonomía         | 2            |
 
 ---
 
@@ -1099,6 +1122,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
