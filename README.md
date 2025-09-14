@@ -873,6 +873,8 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 
 ### 4.7.1. Class Diagrams.
 
+![Diagrama de Clases](imgs/class_diagram.png)
+
 ---
 
 ### 4.7.2. Class Dictionary.  
@@ -883,7 +885,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 
 ---
 
-### 4.8.1. Database Diagram.  
+### 4.8.1. Database Diagram.
 
 ---
 
@@ -950,6 +952,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
