@@ -881,7 +881,9 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 
 ---
 
-## 4.8. Database Design.  
+## 4.8. Database Design.
+
+![Diagrama de la Base de Datos](imgs/database_diagram.png) 
 
 ---
 
@@ -952,6 +954,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
