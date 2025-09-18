@@ -117,6 +117,12 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ### 2.3.1. User Personas.  
 
+### Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral
+AQUI VA UNA IMAGEN!!
+
+### Segmento 2:Clínicas, psicólogos y centros de salud mental
+AQUI VA UNA IMAGEN!!
+
 ---
 
 ### 2.3.2. User Task Matrix.  
@@ -188,6 +194,7 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
 
 ---
+
 
 
 
