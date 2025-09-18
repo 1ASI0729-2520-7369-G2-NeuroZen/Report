@@ -1,70 +1,66 @@
-# Capítulo II: Requirements Elicitation & Analysis  
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ---
 
-## 2.1. Competidores.  
+## 5.1. Software Configuration Management.  
 
 ---
 
-### 2.1.1. Análisis competitivo.  
+### 5.1.1. Software Development Environment Configuration.  
 
 ---
 
-### 2.1.2. Estrategias y tácticas frente a competidores.  
+### 5.1.2. Source Code Management.  
 
 ---
 
-## 2.2. Entrevistas.  
+### 5.1.3. Source Code Style Guide & Conventions.  
 
 ---
 
-### 2.2.1. Diseño de entrevistas.  
+### 5.1.4. Software Deployment Configuration.  
 
 ---
 
-### 2.2.2. Registro de entrevistas.  
+## 5.2. Landing Page, Services & Applications Implementation.  
 
 ---
 
-### 2.2.3. Análisis de entrevistas.  
+### 5.2.1. Sprint 1  
 
 ---
 
-## 2.3. Needfinding.  
+### 5.2.1.1. Sprint Planning 1.  
 
 ---
 
-### 2.3.1. User Personas.  
+### 5.2.1.2. Aspect Leaders and Collaborators.  
 
 ---
 
-### 2.3.2. User Task Matrix.  
+### 5.2.1.3. Sprint Backlog 1.  
 
 ---
 
-### 2.3.3. User Journey Mapping.  
+### 5.2.1.4. Development Evidence for Sprint Review.  
 
 ---
 
-### 2.3.4. Empathy Mapping.  
+### 5.2.1.5. Execution Evidence for Sprint Review.  
 
 ---
 
-### 2.3.5. As-is Scenario Mapping.  
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.  
 
 ---
 
-## 2.4. Ubiquitous Language.  
+### 5.2.1.7. Software Deployment Evidence for Sprint Review.  
 
 ---
 
+### 5.2.1.8. Team Collaboration Insights during Sprint.  
 
-
-
-
-
-
-
+---
 
 
 
