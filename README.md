@@ -1,8 +1,5 @@
 # Capítulo I: Introducción
 
----
-
-
 ## 1.1. Startup Profile  
 
 ### 1.1.1. Descripción de la Startup  
@@ -22,8 +19,6 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 - **Accesibilidad**
 - **Empatía**
 
----
-
 ### 1.1.2 Perfiles de integrantes del equipo
 
 | Foto                                          | Nombre completo | Código     | Carrera                | Habilidades técnicas y rol                  |
@@ -34,14 +29,10 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 | ![Miguel](imgs/foto_miguel.jpg) | Vila Guillen Miguel Angel | U202321774 | Ingeniería de Software | Conocimientos en Java, Node.js, HTML, C++, TypeScript |
 | ![Diego](imgs/foto_diego.jpg) | Requena Gutiérrez Diego Gabriel | U202321774 | Ingeniería de Software | Manejo de Java, Node.js, HTML, C++, TypeScript |
 
----
-
 ## 1.2. Solution Profile 
 
 La presente sección expone el perfil de la solución propuesta denominada *NeuroZen*, la cual busca abordar la problemática del estrés laboral mediante una plataforma digital de detección temprana, autoevaluación y acompañamiento personalizado. 
 El análisis se estructura en dos apartados: primero, los **Antecedentes y Problemática**, en donde se describe el contexto y los principales factores que motivan el desarrollo de la solución; y segundo, la aplicación del **Lean UX Process**, que permite precisar los segmentos de clientes, necesidades, supuestos y la estrategia inicial de la propuesta.
-
----
 
 ### 1.2.1. Antecedentes y problemática  
 
@@ -88,13 +79,9 @@ Los clientes usarán NeuroZen en jornadas laborales intensas, durante períodos 
 *¿Qué llevará a la persona a usar nuestro producto?*
 La necesidad de detectar tempranamente el estrés, evitar complicaciones de salud mental y contar con recomendaciones prácticas y accesibles motivará a los usuarios a adoptar la plataforma. Para las organizaciones, la posibilidad de contar con reportes agregados que apoyen programas de bienestar laboral será un incentivo clave.
 
----
-
 ### 1.2.2. Lean UX Process.  
 
 **Lean UX** se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de enfocarse en desarrollar un producto completamente detallado desde el inicio, este enfoque promueve la construcción de prototipos rápidos y pruebas frecuentes con usuarios reales en contextos auténticos. Estas validaciones permiten ajustar hipótesis y evolucionar la solución en función de la retroalimentación obtenida. El objetivo principal de Lean UX es reducir el desperdicio, minimizar riesgos y aumentar la eficiencia en el desarrollo de productos, asegurando que la propuesta responda de manera ágil a las necesidades reales de los usuarios (Gothelf & Seiden, 2013).
-
----
 
 ### 1.2.2.1. Lean UX Problem Statements.  
 
@@ -109,8 +96,6 @@ El registro manual de síntomas suele ser inconsistente y poco confiable. La fal
 
 **¿Cómo podemos ofrecer una experiencia digital intuitiva y accesible que se adapte tanto a personas con poca familiaridad tecnológica como a profesionales que buscan información más detallada?**
 Las soluciones actuales suelen ser demasiado generales o, por el contrario, demasiado complejas. Se requiere una plataforma que logre equilibrar simplicidad para el usuario común y profundidad para los especialistas.
-
----
 
 ### 1.2.2.2. Lean UX Assumptions.  
 
@@ -175,8 +160,6 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 * Seguridad y confidencialidad de datos.
 * Interfaz intuitiva y accesible.
 
----
-
 ### 1.2.2.3. Lean UX Hypothesis Statements.  
 
 **Hipótesis 1: Evaluación rápida del estrés laboral**
@@ -187,13 +170,9 @@ Creemos que una herramienta digital que permita a los usuarios realizar un test 
 
 Creemos que integrar el contacto directo con psicólogos y ofrecer actividades de apoyo personalizadas mejorará la adherencia al tratamiento y la percepción de acompañamiento. Sabremos que estamos bien cuando al menos el **60% de los usuarios activos participen en una consulta o utilicen actividades sugeridas por la aplicación** dentro de los primeros seis meses.
 
----
-
 ### 1.2.2.4. Lean UX Canvas.  
 
 ![Lean UX Canvas](imgs/lean_ux_canvas.jpg)
-
----
 
 ## 1.3. Segmentos objetivo. 
 
@@ -210,6 +189,7 @@ Instituciones y profesionales que buscan complementar sus servicios con solucion
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
 
