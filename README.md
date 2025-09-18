@@ -345,19 +345,113 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ### 4.7.1. Class Diagrams.  
 
----
+Para NeuroZen, hemos diseñado un diagrama de clases que muestra la estructura estática del sistema, incluyendo las entidades principales, sus atributos y relaciones. Este diagrama ayuda a entender cómo se organizan y comunican las diferentes partes del sistema.
+
+Clases principales:
+
+- User
+- Psychologist
+- CheckIn
+- Plan
+- Notification
+- Session
+
+![class_diagram](imgs/class_diagram.png)
 
 ### 4.7.2. Class Dictionary.  
 
----
+A continuación se describe cada clase y sus atributos:
+
+**Clase: User**
+Representa a los usuarios de la aplicación
+
+| Atributo | Tipo de dato | Descripción                     |
+| -------- | ------------ | ------------------------------- |
+| id       | int          | Identificador único del usuario |
+| name     | string       | Nombre del usuario              |
+| email    | string       | Correo electrónico registrado   |
+| password | string       | Contraseña de acceso            |
+| role     | string       | Rol del usuario (user, admin)   |
+
+**Clase: Psychologist**
+Especialista que puede agendar sesiones con usuarios.
+
+| Atributo  | Tipo de dato | Descripción                       |
+| --------- | ------------ | --------------------------------- |
+| id        | int          | Identificador único del psicólogo |
+| name      | string       | Nombre completo                   |
+| specialty | string       | Área de especialidad              |
+| email     | string       | Correo electrónico                |
+| phone     | string       | Número de contacto                |
+
+**Clase: CheckIn**
+Registro de los niveles de estrés de los usuarios
+
+| Atributo | Tipo de dato | Descripción                                      |
+| -------- | ------------ | ------------------------------------------------ |
+| id       | int          | Identificador único del check-in                 |
+| userId   | int          | Referencia al usuario                            |
+| date     | DateTime     | Fecha y hora del check-in                        |
+| mood     | string       | Estado del usuario (Calm, Stressed, Overwhelmed) |
+| notes    | string       | Observaciones adicionales                        |
+
+**Clase: Plan**
+Planes personalizados de bienestar asignados a los usuarios
+
+| Atributo    | Tipo de dato | Descripción                         |
+| ----------- | ------------ | ----------------------------------- |
+| id          | int          | Identificador del plan              |
+| userId      | int          | Referencia al usuario               |
+| title       | string       | Nombre del plan                     |
+| description | string       | Detalles del plan                   |
+| duration    | int          | Duración en días                    |
+| status      | string       | Estado del plan (Active, Completed) |
+
+**Clase: Notification**
+Notificaciones enviadas a los usuarios para recordatorios o alertas
+
+| Atributo | Tipo de dato | Descripción                            |
+| -------- | ------------ | -------------------------------------- |
+| id       | int          | Identificador único de la notificación |
+| userId   | int          | Referencia al usuario                  |
+| message  | string       | Contenido de la notificación           |
+| sentAt   | DateTime     | Fecha y hora de envío                  |
+| read     | boolean      | Indica si fue leída                    |
+
+**Clase: Session**
+Registra citas agendadas con psicólogos
+
+| Atributo       | Tipo de dato | Descripción                                           |
+| -------------- | ------------ | ----------------------------------------------------- |
+| id             | int          | Identificador único de la sesión                      |
+| userId         | int          | Referencia al usuario                                 |
+| psychologistId | int          | Referencia al psicólogo                               |
+| scheduledAt    | DateTime     | Fecha y hora programada                               |
+| status         | string       | Estado de la sesión (Scheduled, Completed, Cancelled) |
+
 
 ## 4.8. Database Design.  
 
----
-
 ### 4.8.1. Database Diagram.  
 
----
+El diagrama de base de datos representa visualmente las tablas y sus relaciones para NeuroZen. Cada clase del diseño orientado a objetos corresponde a una tabla en la base de datos, con sus columnas y relaciones.
+
+**Tablas principales y relaciones:**
+- Users (id, name, email, password, role)
+- Psychologists (id, name, specialty, email, phone)
+- CheckIns (id, userId → Users.id, date, mood, notes)
+- Plans (id, userId → Users.id, title, description, duration, status)
+- Notifications (id, userId → Users.id, message, sentAt, read)
+- Sessions (id, userId → Users.id, psychologistId → Psychologists.id, scheduledAt, status)
+
+**Relaciones principales:**
+- Users → CheckIns (1 a muchos)
+- Users → Plans (1 a muchos)
+- Users → Notifications (1 a muchos)
+- Users → Sessions (1 a muchos)
+- Psychologists → Sessions (1 a muchos)
+
+![database_design](imgs/database_design.png)
 
 
 
