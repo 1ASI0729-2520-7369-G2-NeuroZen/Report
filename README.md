@@ -575,16 +575,16 @@ Buenos días/tardes, soy \[...], representante de NeuroZen. Estamos desarrolland
 
 **Preguntas guía:**
 
-1. ¿Podrías contarnos a qué te dedicas y cómo es tu rutina de trabajo habitual?
-2. ¿Cómo organizas tu tiempo entre el trabajo y otras actividades? ¿Tienes algún método para establecer límites?
-3. ¿Sientes que tu trabajo “te sigue a todas partes”? ¿Podrías describir cómo es esa experiencia?
-4. ¿Cuáles son los principales factores que te generan estrés en tu trabajo?
-5. ¿Cómo describirías el nivel de estrés que experimentas habitualmente (bajo, medio, alto)? ¿Varía dependiendo de las temporadas o circunstancias?
-6. ¿De qué manera crees que el no tener un horario fijo afecta tu nivel de estrés, en comparación con trabajos formales con horarios establecidos?
-7. ¿Has notado algún impacto en tu salud física o mental debido al estrés relacionado con tu trabajo?
-8. ¿Qué estrategias o métodos utilizas actualmente para manejar el estrés cuando sientes que el trabajo invade todos los aspectos de tu vida?
-9. ¿Utilizas alguna aplicación, plataforma o recurso digital para ayudarte a organizar tu trabajo o manejar el estrés? ¿Cuál ha sido tu experiencia?
-10. ¿Qué momentos del día considerarías más apropiados para dedicar tiempo a actividades que reduzcan el estrés?
+1. ¿Cuál es tu experiencia específica trabajando con pacientes que sufren de estrés y ansiedad?
+2. ¿Cómo sueles estructurar tus sesiones presenciales con pacientes que buscan ayuda por problemas de estrés? ¿Cuál es tu metodología típica?
+3. ¿Qué opinas sobre el uso de tests digitales para medir niveles de estrés como herramienta complementaria? ¿Crees que los resultados pueden ayudarte a preparar mejor las sesiones presenciales?
+4. ¿Estarías dispuesto/a a revisar el historial de estrés del paciente en la plataforma antes de cada cita para personalizar mejor el tratamiento?
+5. ¿Qué disponibilidad horaria tienes para recibir nuevos pacientes? ¿Cuál es tu capacidad actual para agendar citas presenciales?
+6. ¿Cómo describirías el ambiente que ofreces para pacientes con altos niveles de estrés?
+7. ¿Qué tarifas manejas por sesión presencial? ¿Estarías dispuesto/a a ofrecer planes de sesiones múltiples con descuentos para pacientes que requieren seguimiento continuo?
+8. ¿Cómo prefieres manejar las cancelaciones y reagendamiento de citas? ¿Tienes políticas específicas para esto?
+9. ¿Estarías interesado/a en que los pacientes puedan hacer seguimiento de su progreso entre sesiones usando las herramientas de la app (actividades antiestrés, test de seguimiento)?
+10. ¿Qué te motiva a formar parte de una plataforma que facilita el acceso a psicólogos especializados en estrés? ¿Cómo crees que esto puede beneficiar tu práctica profesional?
 
 ---
 
@@ -954,6 +954,7 @@ Compatibilidad responsive, manteniendo la navegación fluida en móviles y escri
 ### 5.2.X.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
