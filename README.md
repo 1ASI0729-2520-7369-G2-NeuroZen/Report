@@ -36,39 +36,39 @@ El análisis se estructura en dos apartados: primero, los **Antecedentes y Probl
 
 ### 1.2.1. Antecedentes y problemática  
 
-**Metodología 5W y 2H - NeuroZen**
+*Metodología 5W y 2H - NeuroZen*
 
 La metodología 5W y 2H constituye una herramienta útil para identificar las causas, condiciones y posibles soluciones a los problemas detectados. Su aplicación en el contexto de NeuroZen permite comprender de manera estructurada la problemática del estrés laboral y orientar el diseño de una solución tecnológica adecuada.
 
-**What – ¿Cuál es el problema?**
+*What – ¿Cuál es el problema?*
 
 El problema es la detección tardía y el inadecuado manejo del estrés laboral en personas de 20 a 50 años, lo que genera consecuencias como ansiedad, agotamiento emocional, disminución del rendimiento y problemas de salud física y mental. Las empresas y clínicas psicológicas carecen de mecanismos digitales eficientes para monitorear patrones de estrés y ofrecer recomendaciones personalizadas de intervención.
 
-**¿Cuál es la relación con la persona en cuestión?**
+*¿Cuál es la relación con la persona en cuestión?*
 
 El sistema está diseñado para que cada usuario registre señales de estrés, realice autoevaluaciones y reciba un análisis de tendencias y recomendaciones personalizadas. En paralelo, psicólogos y profesionales de la salud mental podrán acceder a información organizada que facilite un seguimiento más eficiente y focalizado.
 
-**When – ¿Cuándo sucede el problema?**
+*When – ¿Cuándo sucede el problema?*
 
 El problema ocurre de manera constante en el entorno laboral, especialmente en períodos de alta carga de trabajo, reuniones prolongadas o cambios organizacionales. Se intensifica durante temporadas críticas (cierres contables, evaluaciones de desempeño, proyectos estratégicos, etc.).
 
-**¿Cuándo utiliza el cliente el producto?**
+*¿Cuándo utiliza el cliente el producto?*
 
 El cliente utilizará el producto de manera periódica para registrar síntomas de estrés (tensión muscular, fatiga, insomnio, etc.), realizar evaluaciones rápidas al final de la jornada y consultar recomendaciones adaptadas.
 
-**Where – ¿Dónde está el cliente cuando usa el producto?**
+*Where – ¿Dónde está el cliente cuando usa el producto?*
 
 El cliente estará principalmente en su lugar de trabajo o en el hogar, utilizando dispositivos móviles o computadoras con acceso a internet.
 
-**¿Dónde surge el problema?**
+*¿Dónde surge el problema?*
 
 El problema surge en el ámbito laboral y académico, donde la presión por resultados, la sobrecarga de tareas y la falta de equilibrio vida-trabajo desencadenan altos niveles de estrés.
 
-**Why – ¿Cuál es la causa principal del problema?**
+*Why – ¿Cuál es la causa principal del problema?*
 
 La causa principal es la ausencia de herramientas accesibles y personalizadas para detectar el estrés en sus primeras fases y acompañar al trabajador con estrategias adaptadas. Las intervenciones suelen producirse en fases avanzadas del problema, cuando los síntomas ya afectan la productividad y la salud.
 
-**Who – ¿Quiénes están involucrados?**
+*Who – ¿Quiénes están involucrados?*
 
 Los principales involucrados son los trabajadores de entre 20 y 50 años y los psicólogos o clínicas que buscan optimizar el monitoreo de sus pacientes.
 
@@ -81,7 +81,7 @@ A las personas que enfrentan entornos laborales exigentes con recursos limitados
 - Trabajadores que desean identificar y manejar de manera práctica sus niveles de estrés.
 - Psicólogos y clínicas psicológicas, quienes podrán realizar un seguimiento más preciso a través de información organizada y tendencias de los pacientes.
 
-**How – ¿Cómo ocurre el problema?**
+*How – ¿Cómo ocurre el problema?*
 
 El problema ocurre cuando los trabajadores experimentan estrés recurrente sin contar con un sistema de monitoreo que les permita registrar síntomas y recibir estrategias preventivas. La falta de retroalimentación objetiva y personalizada prolonga la exposición al estrés.
 
@@ -99,25 +99,23 @@ La necesidad de detectar tempranamente el estrés, evitar complicaciones de salu
 
 ### 1.2.2.1. Lean UX Problem Statements.  
 
-**¿Cómo podemos diseñar una plataforma innovadora que permita a los trabajadores detectar tempranamente señales de estrés laboral y acceder a estrategias personalizadas de afrontamiento?**
+*¿Cómo podemos diseñar una plataforma innovadora que permita a los trabajadores detectar tempranamente señales de estrés laboral y acceder a estrategias personalizadas de afrontamiento?*
 
 El estrés laboral es un problema creciente que afecta el rendimiento, la salud física y el bienestar emocional de las personas. Actualmente, las herramientas disponibles no ofrecen un monitoreo continuo ni recomendaciones adaptadas al perfil del usuario, lo que dificulta la prevención oportuna.
 
-**¿Cómo podemos crear un sistema que brinde claridad, confianza y motivación a los usuarios en el proceso de autoevaluación de su bienestar mental?**
+*¿Cómo podemos crear un sistema que brinde claridad, confianza y motivación a los usuarios en el proceso de autoevaluación de su bienestar mental?*
 
 Muchos trabajadores dudan en reconocer sus niveles de estrés o no cuentan con un espacio seguro para hacerlo. La ausencia de retroalimentación objetiva y personalizada genera incertidumbre, desconfianza en las estrategias aplicadas y, en ocasiones, abandono de procesos de autocuidado.
 
-**¿Cómo podemos integrar análisis automáticos y visualizaciones intuitivas que permitan tanto a los usuarios como a los profesionales de la salud mental dar seguimiento a los patrones de estrés?**
+*¿Cómo podemos integrar análisis automáticos y visualizaciones intuitivas que permitan tanto a los usuarios como a los profesionales de la salud mental dar seguimiento a los patrones de estrés?*
 
 El registro manual de síntomas suele ser inconsistente y poco confiable. La falta de reportes claros y gráficos interpretables limita la capacidad de los psicólogos y clínicas para ofrecer intervenciones más efectivas y oportunas.
 
-**¿Cómo podemos ofrecer una experiencia digital intuitiva y accesible que se adapte tanto a personas con poca familiaridad tecnológica como a profesionales que buscan información más detallada?**
+*¿Cómo podemos ofrecer una experiencia digital intuitiva y accesible que se adapte tanto a personas con poca familiaridad tecnológica como a profesionales que buscan información más detallada?*
 
 Las soluciones actuales suelen ser demasiado generales o, por el contrario, demasiado complejas. Se requiere una plataforma que logre equilibrar simplicidad para el usuario común y profundidad para los especialistas.
 
 ### 1.2.2.2. Lean UX Assumptions.  
-
-markdown# Business Outcomes y User Outcomes - NeuroZen
 
 **Business Outcomes**
 
@@ -155,7 +153,7 @@ En la gestión cotidiana de la salud mental: manejo del estrés, ansiedad y emoc
 
 **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
-* **Riesgo de abandono del uso** → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
+* Riesgo de abandono del uso** → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
 * **Desconfianza en la efectividad** → Se resolverá mostrando respaldo científico, contenido validado y alianzas con profesionales certificados.
 
 **¿Cómo y cuándo es usado nuestro producto?**
@@ -164,8 +162,8 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 
 **¿Qué problemas tiene nuestro producto?**
 
-* **Falta de personalización para cada usuario** → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
-* **Posible saturación de información** → Se solucionará con una interfaz clara, simple y progresiva.
+* Falta de personalización para cada usuario** → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
+* Posible saturación de información** → Se solucionará con una interfaz clara, simple y progresiva.
 
 **¿Qué características son importantes?**
 
@@ -196,17 +194,18 @@ Creemos que integrar el contacto directo con psicólogos y ofrecer actividades d
 
 El segmento objetivo de **NeuroZen** está compuesto por dos grupos principales:
 
-## 1. Trabajadores y profesionales en entornos de alta presión laboral
+**1. Trabajadores y profesionales en entornos de alta presión laboral**
 
 Personas de entre 20 y 50 años que enfrentan altos niveles de estrés derivados de cargas laborales intensas, horarios extensos o ambientes competitivos. Este grupo requiere herramientas digitales que faciliten la detección temprana de signos de estrés, ofrezcan orientación práctica y promuevan hábitos de autocuidado.
 
-## 2. Clínicas, psicólogos y centros de salud mental
+**2. Clínicas, psicólogos y centros de salud mental**
 
 Instituciones y profesionales que buscan complementar sus servicios con soluciones tecnológicas, con el fin de optimizar la detección de síntomas, realizar un seguimiento más eficiente y brindar apoyo continuo a sus pacientes.
 
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
 
