@@ -127,6 +127,26 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ### 2.3.5. As-is Scenario Mapping.  
 
+## Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral
+
+| **Fases**                     | **Doing**                                                                                   | **Thinking**                                                                                                  | **Feeling**                                                                                           |
+|-------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Descubrimiento**            | Reconoce que el estrés afecta su rendimiento.<br>Busca artículos rápidos sobre productividad y manejo de ansiedad.<br>Escucha consejos de colegas. | “Mi estrés está afectando mi carrera.”<br>“Debe existir una solución más práctica.”<br>“No puedo seguir así mucho tiempo.” | Preocupación.<br>Agobio.<br>Esperanza leve. |
+| **Evaluación**                | Revisa reseñas de apps de meditación y estrés.<br>Descarga versiones gratuitas para probar.<br>Compara entre cursos online y apps móviles. | “¿Funcionará esta app o curso?”<br>“No quiero perder tiempo ni dinero.”<br>“Quizá lo digital sea más rápido que un psicólogo presencial.” | Curiosidad.<br>Duda.<br>Impaciencia. |
+| **Uso de herramientas actuales** | Usa café y cigarrillos para mantenerse activo.<br>Descarga apps de meditación pero las abandona.<br>Se automedica ocasionalmente con analgésicos. | “Esto solo me calma un rato.”<br>“Nunca logro ser constante.”<br>“Necesito algo más estructurado.” | Ansiedad.<br>Frustración.<br>Dependencia. |
+| **Seguimiento personal**      | Intenta rutinas de ejercicio sin constancia.<br>Lee consejos en LinkedIn.<br>Reflexiona sobre su falta de progreso real. | “Nada me dura más de una semana.”<br>“¿Soy yo el problema?”<br>“Quiero ver resultados medibles.” | Desánimo.<br>Culpa.<br>Escepticismo. |
+
+---
+
+## Segmento 2: Clínicas, psicólogos y centros de salud mental
+
+| **Fases**                     | **Doing**                                                                                   | **Thinking**                                                                                                  | **Feeling**                                                                                           |
+|-------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Descubrimiento**            | Busca nuevas formas digitales para apoyar a sus pacientes.<br>Lee artículos sobre apps de salud mental.<br>Escucha recomendaciones de colegas en congresos. | “Necesito herramientas modernas para no quedarme atrás.”<br>“Mis pacientes jóvenes esperan opciones digitales.”<br>“¿Habrá una app seria y confiable?” | Curiosidad por nuevas tecnologías.<br>Entusiasmo por modernizar su práctica.<br>Inseguridad por la fiabilidad de las apps. |
+| **Evaluación**                | Revisa plataformas online para psicólogos.<br>Solicita demostraciones o pruebas gratuitas.<br>Compara precios y funcionalidades. | “¿Será segura para los datos de mis pacientes?”<br>“¿Podré integrarla fácilmente en mi práctica?”<br>“¿Mis pacientes la aceptarán o la verán complicada?” | Expectativa por mejorar su servicio.<br>Cautela y dudas sobre costos.<br>Presión por no perder pacientes frente a colegas innovadores. |
+| **Uso de herramientas actuales** | Usa hojas de Excel y WhatsApp para dar seguimiento.<br>Envía audios o PDFs con ejercicios.<br>Agenda citas manualmente. | “Esto me consume mucho tiempo administrativo.”<br>“No es profesional depender de WhatsApp para todo.”<br>“Necesito algo más organizado y escalable.” | Frustración con procesos manuales.<br>Estrés por la carga administrativa.<br>Limitación al no poder escalar sus terapias. |
+| **Seguimiento con pacientes** | Analiza reportes de progreso enviados por pacientes.<br>Ajusta terapias en base a su percepción subjetiva.<br>Da seguimiento en sesiones semanales. | “Los reportes manuales no son suficientes.”<br>“Me gustaría tener métricas claras y visuales.”<br>“¿Estoy logrando que el paciente mejore realmente?” | Satisfacción cuando ve avances en sus pacientes.<br>Duda sobre la precisión de sus métodos actuales.<br>Deseo de tener más confianza en los resultados. |
+
 ---
 
 ## 2.4. Ubiquitous Language.  
@@ -146,6 +166,7 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
 
 ---
+
 
 
 
