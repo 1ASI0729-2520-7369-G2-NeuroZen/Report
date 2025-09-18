@@ -2,6 +2,7 @@
 
 ---
 
+
 ## 1.1. Startup Profile  
 
 ### 1.1.1. Descripción de la Startup  
@@ -9,13 +10,13 @@
 NeuroZen es una startup tecnológica enfocada en la rápida detección y gestión del estrés en el ámbito laboral, dirigida a personas entre 20 y 50 años. Nuestra plataforma digital promueve el bienestar mental mediante un enfoque integral que combina tecnología, psicología y actividades complementarias para el cuidado de la salud emocional. 
 A través de un test interactivo, NeuroZen recopila información sobre la salud, comportamiento, actitudes y patrones del usuario, ofreciendo un diagnóstico preliminar. Además, conecta a las personas con psicólogos especializados y fomenta actividades personalizadas que ayudan a reducir el estrés y mejorar la calidad de vida.
 
-## Misión
+**Misión**
 Nuestra misión es mejorar la salud mental en el entorno laboral mediante una plataforma digital que permita detectar, prevenir y tratar el estrés de forma ágil, accesible y personalizada, conectando a los usuarios con profesionales de la psicología y herramientas de bienestar.
 
-## Visión
+**Visión**
 Nuestra visión es convertirnos en la aplicación líder en salud mental laboral en América Latina, reconocida por apoyar a las personas y organizaciones en la construcción de ambientes de trabajo más saludables, equilibrados y sostenibles.
 
-## Valores
+**Valores**
 - **Bienestar**
 - **Innovación**
 - **Accesibilidad**
@@ -24,6 +25,7 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 ---
 
 ### 1.1.2 Perfiles de integrantes del equipo
+
 | Foto                                          | Nombre completo | Código     | Carrera                | Habilidades técnicas y rol                  |
 |-----------------------------------------------|-----------------|------------|------------------------|---------------------------------------------|
 | ![Alexander](imgs/foto_alexander.jpg) | Fernandez Garfias Alexander Piero | U20231B475 | Ingeniería de Software | Conocimientos en Java, Flutter, Node.js, HTML, C++, TypeScript |
@@ -34,7 +36,7 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 
 ---
 
-## 1.2. Solution Profile  
+## 1.2. Solution Profile 
 
 La presente sección expone el perfil de la solución propuesta denominada *NeuroZen*, la cual busca abordar la problemática del estrés laboral mediante una plataforma digital de detección temprana, autoevaluación y acompañamiento personalizado. 
 El análisis se estructura en dos apartados: primero, los **Antecedentes y Problemática**, en donde se describe el contexto y los principales factores que motivan el desarrollo de la solución; y segundo, la aplicación del **Lean UX Process**, que permite precisar los segmentos de clientes, necesidades, supuestos y la estrategia inicial de la propuesta.
@@ -43,47 +45,47 @@ El análisis se estructura en dos apartados: primero, los **Antecedentes y Probl
 
 ### 1.2.1. Antecedentes y problemática  
 
-# Metodología 5W y 2H - NeuroZen
+**Metodología 5W y 2H - NeuroZen**
 La metodología 5W y 2H constituye una herramienta útil para identificar las causas, condiciones y posibles soluciones a los problemas detectados. Su aplicación en el contexto de NeuroZen permite comprender de manera estructurada la problemática del estrés laboral y orientar el diseño de una solución tecnológica adecuada.
 
-## What – ¿Cuál es el problema?
+**What – ¿Cuál es el problema?**
 El problema es la detección tardía y el inadecuado manejo del estrés laboral en personas de 20 a 50 años, lo que genera consecuencias como ansiedad, agotamiento emocional, disminución del rendimiento y problemas de salud física y mental. Las empresas y clínicas psicológicas carecen de mecanismos digitales eficientes para monitorear patrones de estrés y ofrecer recomendaciones personalizadas de intervención.
 
-### ¿Cuál es la relación con la persona en cuestión?
+**¿Cuál es la relación con la persona en cuestión?**
 El sistema está diseñado para que cada usuario registre señales de estrés, realice autoevaluaciones y reciba un análisis de tendencias y recomendaciones personalizadas. En paralelo, psicólogos y profesionales de la salud mental podrán acceder a información organizada que facilite un seguimiento más eficiente y focalizado.
 
-## When – ¿Cuándo sucede el problema?
+**When – ¿Cuándo sucede el problema?**
 El problema ocurre de manera constante en el entorno laboral, especialmente en períodos de alta carga de trabajo, reuniones prolongadas o cambios organizacionales. Se intensifica durante temporadas críticas (cierres contables, evaluaciones de desempeño, proyectos estratégicos, etc.).
 
-### ¿Cuándo utiliza el cliente el producto?
+**¿Cuándo utiliza el cliente el producto?**
 El cliente utilizará el producto de manera periódica para registrar síntomas de estrés (tensión muscular, fatiga, insomnio, etc.), realizar evaluaciones rápidas al final de la jornada y consultar recomendaciones adaptadas.
 
-## Where – ¿Dónde está el cliente cuando usa el producto?
+**Where – ¿Dónde está el cliente cuando usa el producto?**
 El cliente estará principalmente en su lugar de trabajo o en el hogar, utilizando dispositivos móviles o computadoras con acceso a internet.
 
-### ¿Dónde surge el problema?
+**¿Dónde surge el problema?**
 El problema surge en el ámbito laboral y académico, donde la presión por resultados, la sobrecarga de tareas y la falta de equilibrio vida-trabajo desencadenan altos niveles de estrés.
 
-## Why – ¿Cuál es la causa principal del problema?
+**Why – ¿Cuál es la causa principal del problema?**
 La causa principal es la ausencia de herramientas accesibles y personalizadas para detectar el estrés en sus primeras fases y acompañar al trabajador con estrategias adaptadas. Las intervenciones suelen producirse en fases avanzadas del problema, cuando los síntomas ya afectan la productividad y la salud.
 
-## Who – ¿Quiénes están involucrados?
+**Who – ¿Quiénes están involucrados?**
 Los principales involucrados son los trabajadores de entre 20 y 50 años y los psicólogos o clínicas que buscan optimizar el monitoreo de sus pacientes.
 
-### ¿A quiénes les sucede el problema?
+*¿A quiénes les sucede el problema?*
 A las personas que enfrentan entornos laborales exigentes con recursos limitados para gestionar el estrés y a las instituciones que buscan reducir el impacto del estrés en el bienestar y desempeño de sus colaboradores o pacientes.
 
-### ¿Quién lo utilizará?
+*¿Quién lo utilizará?*
 - Trabajadores que desean identificar y manejar de manera práctica sus niveles de estrés.
 - Psicólogos y clínicas psicológicas, quienes podrán realizar un seguimiento más preciso a través de información organizada y tendencias de los pacientes.
 
-## How – ¿Cómo ocurre el problema?
+**How – ¿Cómo ocurre el problema?**
 El problema ocurre cuando los trabajadores experimentan estrés recurrente sin contar con un sistema de monitoreo que les permita registrar síntomas y recibir estrategias preventivas. La falta de retroalimentación objetiva y personalizada prolonga la exposición al estrés.
 
-### ¿En qué condiciones los clientes usan nuestro producto?
+*¿En qué condiciones los clientes usan nuestro producto?*
 Los clientes usarán NeuroZen en jornadas laborales intensas, durante períodos de cambios organizacionales o cuando busquen estrategias prácticas para gestionar mejor su bienestar.
 
-### ¿Qué llevará a la persona a usar nuestro producto?
+*¿Qué llevará a la persona a usar nuestro producto?*
 La necesidad de detectar tempranamente el estrés, evitar complicaciones de salud mental y contar con recomendaciones prácticas y accesibles motivará a los usuarios a adoptar la plataforma. Para las organizaciones, la posibilidad de contar con reportes agregados que apoyen programas de bienestar laboral será un incentivo clave.
 
 ---
@@ -114,7 +116,7 @@ Las soluciones actuales suelen ser demasiado generales o, por el contrario, dema
 
 markdown# Business Outcomes y User Outcomes - NeuroZen
 
-## Business Outcomes
+**Business Outcomes**
 
 Creemos que nuestros usuarios necesitan una herramienta digital accesible y confiable para cuidar su salud mental de manera continua y personalizada. Esta necesidad se resuelve con una aplicación que ofrece seguimiento emocional, técnicas basadas en evidencia psicológica, acceso a recursos de bienestar y conexión con profesionales especializados.
 
@@ -137,32 +139,32 @@ Nuestro mayor riesgo es que los usuarios no confíen en la efectividad de la app
 
 Creemos que al brindar acompañamiento digital confiable y accesible, **Neurozeen contribuirá a reducir la brecha en el acceso a la salud mental, mejorará la calidad de vida de las personas y fortalecerá la relación entre pacientes y profesionales**. Si esta hipótesis es incorrecta, podríamos tener baja retención de usuarios y escaso interés en alianzas clínicas.
 
-## User Outcomes
+**User Outcomes**
 
-### ¿Quién será nuestro usuario?
+**¿Quién será nuestro usuario?**
 
 1. Personas que buscan apoyo accesible y práctico para mejorar su bienestar mental.
 2. Clínicas y profesionales de psicología que desean integrar soluciones digitales a sus servicios.
 
-### ¿Dónde encaja nuestro producto en su vida?
+**¿Dónde encaja nuestro producto en su vida?**
 
 En la gestión cotidiana de la salud mental: manejo del estrés, ansiedad y emociones, recordatorios para hábitos saludables, y acceso a especialistas cuando sea necesario.
 
-### ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
 * **Riesgo de abandono del uso** → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
 * **Desconfianza en la efectividad** → Se resolverá mostrando respaldo científico, contenido validado y alianzas con profesionales certificados.
 
-### ¿Cómo y cuándo es usado nuestro producto?
+**¿Cómo y cuándo es usado nuestro producto?**
 
 De manera regular en la vida diaria: al iniciar el día con ejercicios de respiración, en momentos de estrés laboral o académico, antes de dormir con prácticas de relajación, y en citas agendadas con especialistas.
 
-### ¿Qué problemas tiene nuestro producto?
+**¿Qué problemas tiene nuestro producto?**
 
 * **Falta de personalización para cada usuario** → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
 * **Posible saturación de información** → Se solucionará con una interfaz clara, simple y progresiva.
 
-### ¿Qué características son importantes?
+**¿Qué características son importantes?**
 
 * Evaluaciones emocionales rápidas y fáciles.
 * Técnicas prácticas de relajación y mindfulness.
@@ -177,11 +179,11 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.  
 
-## Hipótesis 1: Evaluación rápida del estrés laboral
+**Hipótesis 1: Evaluación rápida del estrés laboral**
 
 Creemos que una herramienta digital que permita a los usuarios realizar un test para detectar niveles de estrés laboral y recibir retroalimentación inmediata aumentará la conciencia sobre su salud mental. Sabremos que estamos bien cuando al menos el **70% de los usuarios reporten que el test les ayudó a identificar mejor su nivel de estrés** en los primeros tres meses de uso.
 
-## Hipótesis 2: Acceso a psicólogos y recomendaciones personalizadas
+**Hipótesis 2: Acceso a psicólogos y recomendaciones personalizadas**
 
 Creemos que integrar el contacto directo con psicólogos y ofrecer actividades de apoyo personalizadas mejorará la adherencia al tratamiento y la percepción de acompañamiento. Sabremos que estamos bien cuando al menos el **60% de los usuarios activos participen en una consulta o utilicen actividades sugeridas por la aplicación** dentro de los primeros seis meses.
 
@@ -208,6 +210,7 @@ Instituciones y profesionales que buscan complementar sus servicios con solucion
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
 
