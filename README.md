@@ -4,8 +4,6 @@
 
 ## 4.1. Style Guidelines.  
 
----
-
 ### 4.1.1. General Style Guidelines.  
 
 **Tipografía:**
@@ -24,14 +22,13 @@
 - Texto secundario: #475569 (--muted).
 - Fondos suaves: #f8fafc + degradados.
 
-**!Poner imagen de paleta de colores aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+![Color Palette](imgs/color_palette.png)
 
 **Componentes:**
 - Botones redondeados estilo pill (.btn-pill).
 - Tarjetas con bordes y sombras (.card-popular).
 - Íconos en burbujas (.icon-bubble).
 
-**!Poner imagen de ejemplos de botones e íconos aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 
 ### 4.1.2. Web Style Guidelines.  
@@ -42,7 +39,7 @@
 - Fondos con gradientes suaves (`.bg-soft`) y blobs decorativos.  
 - Teléfono mockup (`.phone`) para mostrar pantallas de la app.  
 
-**!Poner imagen de la landing page principal aquí (ejemplo con hero y mockup)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+![landing page](imgs/landing_page.png)
 
 **Imágenes recomendadas:**
 
@@ -51,7 +48,7 @@
 - Pricing: tabla de precios con iconografía.  
 - CTA final: ilustración relajante (ej. meditación / naturaleza).  
 
-**!Poner imagen de cada sección (hero, features, pricing, CTA) aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+ ![hero_section](imgs/hero_section.png)
 
 **Accesibilidad:**
 
@@ -62,8 +59,6 @@
 ---
 
 ## 4.2. Information Architecture.  
-
----
 
 ### 4.2.1. Organization Systems.  
 
@@ -80,7 +75,6 @@ En la plataforma, se emplean diferentes sistemas de organización del contenido 
 - **Secuencial (Step-by-Step):**  
   En tareas que requieren pasos consecutivos, como la autoevaluación emocional o la configuración de un perfil, se utiliza un enfoque paso a paso. Esto asegura que el usuario complete cada acción antes de pasar a la siguiente, reduciendo la confusión y aumentando la claridad del proceso.
 
----
 
 **Esquemas de Categorización de Contenido**
 
@@ -92,7 +86,6 @@ En la plataforma, se emplean diferentes sistemas de organización del contenido 
 - **Por Tópicos:**  
   La categorización por temas se aplica en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías como **Preguntas Frecuentes**, **Política de Privacidad** y **Centro de Ayuda**, lo que facilita encontrar información relevante para resolver problemas específicos.
 
----
 
 **Implementación en la Interfaz**
 
@@ -108,7 +101,6 @@ Este enfoque asegura que la experiencia de navegación sea **intuitiva, eficient
 La plataforma emplea un sistema de etiquetado **directo, simple y orientado a la acción**, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para ambos tipos de usuarios (empleados y psicólogos).  
 Se prioriza la **claridad** en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en **íconos visuales** para reforzar los mensajes clave.
 
----
 
 **Menú de navegación**  
 En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
@@ -126,7 +118,7 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 **Botón principal (CTA)**  
 - **Registrarse** → llamada a la acción principal, válida tanto para empleados como para psicólogos.  
 
-**!Poner imagen de botón CTA aquí!**
+ ![boton_principal](imgs/boton_principal.png)
 
 ---
 
@@ -136,7 +128,7 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 - **Recibir recomendaciones** (icono de estrella o varita mágica)  
 - **Hacer seguimiento de progreso** (icono de gráfico de líneas)  
 
-**!Poner imagen de flujo empleados aquí!**
+ ![features](imgs/features.png)
 
 ---
 
@@ -146,7 +138,7 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 - **Conectar con pacientes** (icono de chat o persona)  
 - **Dar seguimiento y ajustar terapias** (icono de calendario o check)  
 
-**!Poner imagen de flujo psicólogos aquí!**
+ ![how](imgs/how.png)
 
 ---
 
@@ -161,7 +153,7 @@ En el pie de página se incluyen etiquetas claras y concisas:
 
 También se incorporan **íconos de redes sociales**: Facebook, Instagram, LinkedIn, Twitter.  
 
-**!Poner imagen de footer aquí!**
+ ![planes](imgs/planes.png)
 
 ---
 
@@ -184,7 +176,6 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="/images/logo.png" alt="Logo">
-
 
 
 ### 4.2.4. Searching Systems.  
@@ -354,6 +345,7 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
