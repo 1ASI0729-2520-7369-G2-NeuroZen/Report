@@ -233,7 +233,45 @@ INSERTAR IMAGEN AQUI!!
 
 ## 3.4. Product Backlog.  
 
+## Orden de User Stories y Technical Stories
+
+| Orden | ID   | User Story / Technical Story                              | Story Points |
+|------|------|---------------------------------------------------------|-------------|
+| 01   | US01 | Registro de usuario                                     | 5           |
+| 02   | US02 | Inicio de sesión seguro                                 | 3           |
+| 03   | US03 | Recuperación de contraseña                              | 3           |
+| 04   | US04 | Edición de perfil personal                              | 5           |
+| 05   | TS01 | Validar formularios de registro/login en frontend       | 3           |
+| 06   | US05 | Registro de psicólogo                                   | 5           |
+| 07   | US06 | Verificación de credenciales profesionales              | 8           |
+| 08   | US07 | Configuración de datos de contacto                      | 3           |
+| 09   | US08 | Edición de perfil de psicólogo                          | 5           |
+| 10   | TS02 | Validar documentos y credenciales en frontend           | 5           |
+| 11   | US09 | Registrar rutina personalizada                          | 5           |
+| 12   | US10 | Acceder a ejercicios de relajación y respiración        | 8           |
+| 13   | US11 | Editar o actualizar rutina diaria                       | 5           |
+| 14   | US12 | Eliminar rutina                                         | 3           |
+| 15   | TS03 | Implementar reproductor de audio/video para ejercicios  | 8           |
+| 16   | US13 | Realizar test de nivel de estrés                        | 5           |
+| 17   | US14 | Ver resultados e historial de evaluaciones              | 5           |
+| 18   | US15 | Recibir recomendaciones automáticas según resultados    | 8           |
+| 19   | US16 | Generar recordatorios para seguimiento                  | 5           |
+| 20   | TS04 | Desarrollar algoritmo de cálculo de nivel de estrés     | 8           |
+| 21   | US17 | Realizar pago de suscripción                            | 5           |
+| 22   | US18 | Consultar comprobantes de pago                          | 3           |
+| 23   | US19 | Actualizar plan de suscripción                          | 5           |
+| 24   | TS05 | Integrar pasarela de pagos segura                       | 8           |
+| 25   | US20 | Dejar reseña sobre psicólogo                            | 3           |
+| 26   | US21 | Calificar ejercicios o rutinas                          | 3           |
+| 27   | US22 | Acceder a soporte técnico desde la app                  | 3           |
+| 28   | US23 | Consultar preguntas frecuentes                          | 2           |
+| 29   | US24 | Reportar un problema                                    | 3           |
+| 30   | TS06 | Implementar chat de soporte básico                      | 5           |
+| 31   | US25 | Explorar funcionalidades de la app sin registro         | 2           |
+| 32   | US26 | Visualizar landing page con beneficios y testimonios    | 2           |
+
 ---
+
 
 
 
