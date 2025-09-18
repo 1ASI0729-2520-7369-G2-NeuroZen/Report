@@ -4,6 +4,10 @@
 
 ## 4.1. Style Guidelines.  
 
+---
+
+### 4.1.1. General Style Guidelines.  
+
 **Tipografía:**
 
 - Fuente primaria: Inter (fallback system-ui, Roboto, Arial).
@@ -29,11 +33,31 @@
 
 **!Poner imagen de ejemplos de botones e íconos aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
-### 4.1.1. General Style Guidelines.  
-
----
 
 ### 4.1.2. Web Style Guidelines.  
+
+**Diseño general:**
+
+- Minimalista, con mucho aire (espacios).  
+- Fondos con gradientes suaves (`.bg-soft`) y blobs decorativos.  
+- Teléfono mockup (`.phone`) para mostrar pantallas de la app.  
+
+**!Poner imagen de la landing page principal aquí (ejemplo con hero y mockup)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
+**Imágenes recomendadas:**
+
+- Hero section: mockup de app dentro de un `.phone`.  
+- Features: ilustraciones pequeñas o íconos representativos.  
+- Pricing: tabla de precios con iconografía.  
+- CTA final: ilustración relajante (ej. meditación / naturaleza).  
+
+**!Poner imagen de cada sección (hero, features, pricing, CTA) aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
+**Accesibilidad:**
+
+- Contraste fuerte verde/blanco.  
+- Texto alternativo en imágenes (`alt`).  
+- Botones con `aria-label` en íconos.
 
 ---
 
@@ -43,23 +67,82 @@
 
 ### 4.2.1. Organization Systems.  
 
+- Estructura jerárquica:  
+  - Home (Landing Page) → Secciones: Hero, Features, Pricing, FAQ, CTA.  
+  - Menú principal: Inicio, Funcionalidades, Rutinas, Psicólogos, Precios, Soporte.  
+  - Footer: legales, redes, contacto.  
+
+**!Poner diagrama de arquitectura de información aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
 ---
 
 ### 4.2.2. Labeling Systems.  
+
+- Labels claros y consistentes:  
+  - Botones: “Empieza ahora”, “Suscríbete”, “Descubre más”.  
+  - Secciones: “Características”, “Planes”, “Preguntas frecuentes”.  
+
+**!Poner imagen de ejemplo con labels y botones aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ---
 
 ### 4.2.3. SEO Tags and Meta Tags.  
 
----
+**Título base:**
+
+**html:**
+<title>NeuroZen - Gestión del Estrés y Bienestar Mental</title>
+
+**Meta Description:**
+<meta name="description" content="Descubre NeuroZen, la app para psicólogos y pacientes que ayuda a medir, gestionar y reducir el estrés.">
+
+**Open Graph:**
+<meta property="og:title" content="NeuroZen - Bienestar Mental Inteligente" />
+<meta property="og:description" content="Rutinas, test de estrés y conexión con psicólogos certificados." />
+<meta property="og:image" content="!Poner imagen miniatura para redes sociales aquí!" />
 
 ### 4.2.4. Searching Systems.  
+
+- Buscador interno con **autocompletado**.  
+- Filtros disponibles:  
+  - Psicólogos (especialidad, disponibilidad, idioma).  
+  - Rutinas (nivel de dificultad, duración, categoría).  
+  - Ejercicios (tipo: respiración, meditación, mindfulness).  
+- Resultados priorizados por **relevancia y popularidad**.  
+- Barra de búsqueda visible en el **header** y en la sección de rutinas.  
+
+**!Poner mockup de buscador con filtros aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ---
 
 ### 4.2.5. Navigation Systems.  
 
----
+- **Navbar (superior):**  
+  - Inicio  
+  - Funcionalidades  
+  - Rutinas  
+  - Psicólogos  
+  - Precios  
+  - Soporte  
+
+- **Footer:**  
+  - Soporte  
+  - FAQ  
+  - Términos y condiciones  
+  - Privacidad  
+  - Contacto  
+
+- **CTA constantes:**  
+  - Botón **“Empieza ahora”** visible en:  
+    - Hero section  
+    - Pricing  
+    - CTA final  
+
+- **Versión móvil:**  
+  - Menú hamburguesa lateral.  
+  - Acceso rápido a CTA principal.  
+
+**!Poner captura de navegación web y móvil aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ## 4.3. Landing Page UI Design.  
 
@@ -132,6 +215,7 @@
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
