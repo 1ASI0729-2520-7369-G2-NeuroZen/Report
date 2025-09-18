@@ -171,7 +171,6 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 
 #### Landing Page
 
-```md
 <title>SmartSay - Bienestar emocional y apoyo psicológico en tu empresa</title>
 <meta name="description" content="SmartSay conecta empleados y psicólogos en un espacio seguro para gestionar el bienestar emocional dentro de la empresa. Rápido, confidencial y accesible.">
 <meta name="keywords" content="SmartSay, salud mental laboral, apoyo psicológico, bienestar emocional, estrés laboral, psicólogos online">
@@ -186,7 +185,7 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="/images/logo.png" alt="Logo">
 
-```md
+
 
 ### 4.2.4. Searching Systems.  
 
@@ -302,6 +301,7 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
