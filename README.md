@@ -216,26 +216,25 @@
 | EP07    | Soporte y Ayuda | US24 | Reportar un problema | Como usuario, quiero reportar un problema dentro de la app para notificar errores o inconvenientes. | **Escenario 1: Reporte exitoso**<br>Dado que el usuario detecta un problema,<br>Cuando llena el formulario de reporte y lo envía,<br>Entonces el sistema guarda el reporte y muestra confirmación.<br><br>**Escenario 2: Reporte inválido**<br>Dado que el usuario deja el formulario vacío o incompleto,<br>Cuando presiona “Enviar”,<br>Entonces el sistema muestra mensajes de validación solicitando completar los campos. |
 | EP07    | Soporte y Ayuda | TS06 | Implementar chat de soporte básico | Como desarrollador, quiero implementar un chat básico para que los usuarios puedan comunicarse en tiempo real con soporte. | **Escenario 1: Chat activo**<br>Dado que el usuario abre el chat de soporte,<br>Cuando envía un mensaje,<br>Entonces el sistema lo transmite correctamente y soporte puede responder.<br><br>**Escenario 2: Chat no disponible**<br>Dado que no hay agentes en línea,<br>Cuando el usuario intenta abrir el chat,<br>Entonces el sistema muestra un mensaje “Agente no disponible, intente más tarde”. |
 
-# EP08 – Exploración como Visitante  
+## EP08 – Exploración como Visitante
 
-| **ID Épica** | **Épica** |
-|-------------|-----------|
-| EP08 | Exploración como Visitante |
-
-| **ID** | **Título** | **Descripción** | **Criterios de Aceptación** |
-|-------|-----------|----------------|---------------------------|
-| **US25** | Explorar funcionalidades de la app sin registro | Como visitante, quiero explorar las funcionalidades principales de la app sin registrarme para conocer su utilidad. | **Escenario 1: Exploración exitosa**<br>• Dado que el visitante abre la app,<br>• Cuando navega a la sección de exploración,<br>• Entonces el sistema permite visualizar funcionalidades limitadas sin necesidad de cuenta.<br><br>**Escenario 2: Restricción de funciones**<br>• Dado que el visitante intenta acceder a una función premium,<br>• Cuando no tiene cuenta registrada,<br>• Entonces el sistema muestra un mensaje invitando a registrarse. |
-| **US26** | Visualizar landing page con beneficios y testimonios | Como visitante, quiero visualizar una página inicial con beneficios y testimonios para decidir si registrarme. | **Escenario 1: Visualización correcta**<br>• Dado que el visitante abre la app o la web,<br>• Cuando carga la landing page,<br>• Entonces el sistema muestra beneficios, funcionalidades destacadas y testimonios.<br><br>**Escenario 2: Error de carga**<br>• Dado que ocurre un problema de conexión,<br>• Cuando el visitante intenta ver la landing page,<br>• Entonces el sistema muestra un mensaje “Error al cargar, intente más tarde”. |
+| ID Épica | **Título**                  | ID   | Título                                           | Descripción                                                                                   | Criterios de Aceptación |
+|---------|-----------------------------|------|------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------|
+| EP08    | Exploración como Visitante | US25 | Explorar funcionalidades de la app sin registro | Como visitante, quiero explorar las funcionalidades principales de la app sin registrarme para conocer su utilidad. | **Escenario 1: Exploración exitosa**<br>Dado que el visitante abre la app,<br>Cuando navega a la sección de exploración,<br>Entonces el sistema permite visualizar funcionalidades limitadas sin necesidad de cuenta.<br><br>**Escenario 2: Restricción de funciones**<br>Dado que el visitante intenta acceder a una función premium,<br>Cuando no tiene cuenta registrada,<br>Entonces el sistema muestra un mensaje invitando a registrarse. |
+| EP08    | Exploración como Visitante | US26 | Visualizar landing page con beneficios y testimonios | Como visitante, quiero visualizar una página inicial con beneficios y testimonios para decidir si registrarme. | **Escenario 1: Visualización correcta**<br>Dado que el visitante abre la app o la web,<br>Cuando carga la landing page,<br>Entonces el sistema muestra beneficios, funcionalidades destacadas y testimonios.<br><br>**Escenario 2: Error de carga**<br>Dado que ocurre un problema de conexión,<br>Cuando el visitante intenta ver la landing page,<br>Entonces el sistema muestra un mensaje “Error al cargar, intente más tarde”. |
 
 ---
 
 ## 3.3. Impact Mapping.  
+
+INSERTAR IMAGEN AQUI!!
 
 ---
 
 ## 3.4. Product Backlog.  
 
 ---
+
 
 
 
