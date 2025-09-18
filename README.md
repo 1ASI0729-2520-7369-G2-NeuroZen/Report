@@ -4,6 +4,12 @@
 
 ## 2.1. Competidores.  
 
+En el mercado de soluciones digitales para la gestión del estrés y la salud mental, existen múltiples aplicaciones y plataformas que ya ofrecen herramientas de meditación, seguimiento del bienestar emocional y contacto con profesionales.  
+
+Entre los competidores más relevantes se encuentran **Headspace**, **Calm** y **BetterHelp**, cada uno con enfoques distintos que van desde la relajación guiada hasta la terapia en línea.  
+
+Analizar estas alternativas permite identificar fortalezas y debilidades que servirán como base para diferenciar a **Neurozeen** mediante la detección temprana del estrés laboral y el acompañamiento personalizado.
+
 ---
 
 ### 2.1.1. Análisis competitivo.  
@@ -57,6 +63,7 @@
 ## 2.4. Ubiquitous Language.  
 
 ---
+
 
 
 
