@@ -1,65 +1,114 @@
-# Capítulo II: Requirements Elicitation & Analysis  
+# Capítulo IV: Product Design
 
 ---
 
-## 2.1. Competidores.  
+## 4.1. Style Guidelines.  
 
 ---
 
-### 2.1.1. Análisis competitivo.  
+### 4.1.1. General Style Guidelines.  
 
 ---
 
-### 2.1.2. Estrategias y tácticas frente a competidores.  
+### 4.1.2. Web Style Guidelines.  
 
 ---
 
-## 2.2. Entrevistas.  
+## 4.2. Information Architecture.  
 
 ---
 
-### 2.2.1. Diseño de entrevistas.  
+### 4.2.1. Organization Systems.  
 
 ---
 
-### 2.2.2. Registro de entrevistas.  
+### 4.2.2. Labeling Systems.  
 
 ---
 
-### 2.2.3. Análisis de entrevistas.  
+### 4.2.3. SEO Tags and Meta Tags.  
 
 ---
 
-## 2.3. Needfinding.  
+### 4.2.4. Searching Systems.  
 
 ---
 
-### 2.3.1. User Personas.  
+### 4.2.5. Navigation Systems.  
 
 ---
 
-### 2.3.2. User Task Matrix.  
+## 4.3. Landing Page UI Design.  
 
 ---
 
-### 2.3.3. User Journey Mapping.  
+### 4.3.1. Landing Page Wireframe.  
 
 ---
 
-### 2.3.4. Empathy Mapping.  
+### 4.3.2. Landing Page Mock-up.  
 
 ---
 
-### 2.3.5. As-is Scenario Mapping.  
+## 4.4. Web Applications UX/UI Design.  
 
 ---
 
-## 2.4. Ubiquitous Language.  
+### 4.4.1. Web Applications Wireframes.  
 
 ---
 
+### 4.4.2. Web Applications Wireflow Diagrams.  
 
+---
 
+### 4.4.2. Web Applications Mock-ups.  
+
+---
+
+### 4.4.3. Web Applications User Flow Diagrams.  
+
+---
+
+## 4.5. Web Applications Prototyping.  
+
+---
+
+## 4.6. Domain-Driven Software Architecture.  
+
+---
+
+### 4.6.1. Software Architecture Context Diagram.  
+
+---
+
+### 4.6.2. Software Architecture Container Diagrams.  
+
+---
+
+### 4.6.3. Software Architecture Components Diagrams.  
+
+---
+
+## 4.7. Software Object-Oriented Design.  
+
+---
+
+### 4.7.1. Class Diagrams.  
+
+---
+
+### 4.7.2. Class Dictionary.  
+
+---
+
+## 4.8. Database Design.  
+
+---
+
+### 4.8.1. Database Diagram.  
+
+---
 
 
 
