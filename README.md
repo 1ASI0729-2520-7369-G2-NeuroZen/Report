@@ -205,11 +205,14 @@ Creemos que integrar el contacto directo con psicólogos y ofrecer actividades d
 
 ### 1.2.2.4. Lean UX Canvas.  
 
+AQUI VA UNA IMAGEN!!!!!
+
 ---
 
 ## 1.3. Segmentos objetivo.  
 
 ---
+
 
 
 
