@@ -33,6 +33,10 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 
 ## 1.2. Solution Profile  
 
+La presente sección expone el perfil de la solución propuesta denominada *NeuroZen*, la cual busca abordar la problemática del estrés laboral mediante una plataforma digital de detección temprana, autoevaluación y acompañamiento personalizado. 
+
+El análisis se estructura en dos apartados: primero, los **Antecedentes y Problemática**, en donde se describe el contexto y los principales factores que motivan el desarrollo de la solución; y segundo, la aplicación del **Lean UX Process**, que permite precisar los segmentos de clientes, necesidades, supuestos y la estrategia inicial de la propuesta.
+
 ---
 
 ### 1.2.1. Antecedentes y problemática  
@@ -62,4 +66,5 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 ## 1.3. Segmentos objetivo.  
 
 ---
+
 
