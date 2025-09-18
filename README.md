@@ -8,6 +8,8 @@ Entre los competidores más relevantes se encuentran **Headspace**, **Calm** y *
 
 Analizar estas alternativas permite identificar fortalezas y debilidades que servirán como base para diferenciar a **Neurozeen** mediante la detección temprana del estrés laboral y el acompañamiento personalizado.
 
+---
+
 ## 2.1.1. Análisis competitivo
 
 <table border="1">
@@ -157,8 +159,9 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 - Crear una comunidad digital (foros, grupos en redes) donde los usuarios compartan experiencias y consejos, aumentando la retención.  
 - Implementar un piloto gratuito en empresas y universidades para validar la efectividad y generar casos de éxito iniciales.  
 
-## 2.2. Entrevistas.  
+---
 
+## 2.2. Entrevistas.  
 
 ### 2.2.1. Diseño de entrevistas.  
 
@@ -182,6 +185,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 - ¿Estarían dispuestos a pagar por una suscripción empresarial o modelo de licencia para integrar esta solución en su clínica?  
 - ¿Qué tan abierta está su institución a adoptar nuevas tecnologías para mejorar la atención en salud mental?  
 
+---
 
 ### 2.2.2. Registro de entrevistas  
 
@@ -248,8 +252,9 @@ Cristofer trabaja como repartidor y no tiene horarios fijos. La inestabilidad la
 
 Laura es diseñadora gráfica freelance y fotógrafa de eventos. Sufre estrés medio-alto por la inestabilidad económica, la sobrecarga de proyectos y clientes exigentes. No logra desconectarse, afectando su salud y creatividad. Usa yoga o ejercicio, pero de forma irregular. Valora soluciones móviles rápidas, técnicas para establecer límites con clientes y métodos que le ayuden a relajarse al cerrar la jornada.  
 
+---
 
-**Entrevista – Segmento 2: Clínicas, psicólogos y centros de salud mental  
+**Entrevista – Segmento 2: Clínicas, psicólogos y centros de salud mental**  
 
 
 **Entrevista 1**
@@ -299,6 +304,7 @@ Diego es psicólogo organizacional y trabaja con programas de bienestar laboral.
 
 Martín es psicólogo educativo y actualmente trabaja con estudiantes universitarios usando formularios y videollamadas. Percibe muchas limitaciones en las apps actuales y considera que NeuroZen sería de gran utilidad si integra autoevaluaciones rápidas y ejercicios prácticos. Sus principales preocupaciones son la privacidad y la accesibilidad económica.  
 
+---
 
 ### 2.2.3. Análisis de entrevistas.  
 
@@ -333,6 +339,8 @@ Ambos segmentos están dispuestos a pagar por una suscripción si perciben valor
 
 ## 2.3. Needfinding.  
 
+---
+
 Al recopilar toda la información de los segmentos objetivo y realizar las entrevistas, se hará un análisis de estos mismos haciendo uso de:  
 
 - **User Persona**  
@@ -341,6 +349,7 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 - **Empathy Mapping**  
 - **As-Is Scenario Mapping**
 
+---
 
 ### 2.3.1. User Personas.  
 
@@ -421,6 +430,7 @@ CREAR IMAGEN DE EMPATHY MAPPIING
 | **Patient Follow-Up**          | Seguimiento de pacientes         | Herramienta dirigida a psicólogos y clínicas para monitorear en tiempo real el estado emocional y el progreso de sus pacientes. |
 | **Privacy and Security Module**| Módulo de privacidad y seguridad | Conjunto de protocolos y funciones que garantizan la confidencialidad de la información del usuario, cumpliendo normas éticas y legales. |
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
+
 
 
 
