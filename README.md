@@ -4,7 +4,30 @@
 
 ## 4.1. Style Guidelines.  
 
----
+**Tipografía:**
+
+- Fuente primaria: Inter (fallback system-ui, Roboto, Arial).
+- Jerarquía:
+  - Títulos (h1, h2, h3) → peso 600–700.
+  - Texto general → peso 400–500.
+  - Labels secundarios → peso 400, .text-muted-600.
+
+**Paleta de colores:**
+
+- Verde (principal): #10b981 (--brand-green).
+- Índigo (secundario): #6366f1 (--brand-indigo).
+- Texto: #0f172a (--ink).
+- Texto secundario: #475569 (--muted).
+- Fondos suaves: #f8fafc + degradados.
+
+**!Poner imagen de paleta de colores aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
+**Componentes:**
+- Botones redondeados estilo pill (.btn-pill).
+- Tarjetas con bordes y sombras (.card-popular).
+- Íconos en burbujas (.icon-bubble).
+
+**!Poner imagen de ejemplos de botones e íconos aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ### 4.1.1. General Style Guidelines.  
 
@@ -109,6 +132,7 @@
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
