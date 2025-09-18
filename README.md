@@ -24,7 +24,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ---
 
-### 1. Estrategias frente a las fortalezas de los competidores
+### A. Estrategias frente a las fortalezas de los competidores
 
 - **Diversidad de recursos de Calm:** competir con una estrategia de especialización, ofreciendo contenido contextualizado al mercado local (idioma, cultura y problemáticas propias), diferenciándonos de las soluciones globales de carácter más genérico.  
 - **Disponibilidad 24/7 y chatbot de Wysa:** implementar un asistente conversacional híbrido que combine IA con seguimiento por profesionales acreditados, logrando mayor confianza y percepción de valor.  
@@ -32,7 +32,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ---
 
-### 2. Estrategias para aprovechar debilidades de los competidores
+### B. Estrategias para aprovechar debilidades de los competidores
 
 - **Altos costos de suscripción en Calm:** posicionar un modelo freemium accesible, con funciones premium más económicas y paquetes para instituciones (clínicas y universidades).  
 - **Limitaciones del contenido gratuito en Wysa:** ofrecer un catálogo de recursos amplios y gratuitos, con módulos premium en áreas específicas (estrés académico, ansiedad laboral).  
@@ -40,7 +40,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ---
 
-### 3. Estrategias frente a oportunidades del mercado
+### C. Estrategias frente a oportunidades del mercado
 
 - **Expansión internacional y localización:** comenzar con un enfoque en Latinoamérica, donde existe alta demanda y baja penetración de apps adaptadas culturalmente.  
 - **Alianzas estratégicas:** establecer convenios con clínicas psicológicas, universidades y programas de bienestar corporativo, aprovechando la tendencia de las empresas en invertir en salud mental de sus colaboradores.  
@@ -48,7 +48,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ---
 
-### 4. Estrategias frente a amenazas del entorno
+### D. Estrategias frente a amenazas del entorno
 
 - **Competencia intensa y consolidada:** diferenciarse con valor local y accesibilidad económica, evitando competir únicamente en cantidad de contenido.  
 - **Preocupaciones de privacidad de datos:** adoptar estándares de ciberseguridad y cumplimiento normativo (GDPR, HIPAA) como parte de la propuesta de valor.  
@@ -56,7 +56,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ---
 
-### 5. Tácticas preliminares
+### E. Tácticas preliminares
 
 - Lanzar campañas de marketing educativo en redes sociales enfocadas en desestigmatizar la terapia y resaltar el bienestar emocional.  
 - Desarrollar un programa de embajadores universitarios que promocione la aplicación en entornos académicos.  
@@ -83,6 +83,14 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ## 2.3. Needfinding.  
 
+Al recopilar toda la información de los segmentos objetivo y realizar las entrevistas, se hará un análisis de estos mismos haciendo uso de:  
+
+- **User Persona**  
+- **Task Matrix**  
+- **Journey Mapping**  
+- **Empathy Mapping**  
+- **As-Is Scenario Mapping**
+
 ---
 
 ### 2.3.1. User Personas.  
@@ -108,6 +116,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 ## 2.4. Ubiquitous Language.  
 
 ---
+
 
 
 
