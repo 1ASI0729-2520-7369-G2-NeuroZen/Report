@@ -67,39 +67,126 @@
 
 ### 4.2.1. Organization Systems.  
 
-- Estructura jerárquica:  
-  - Home (Landing Page) → Secciones: Hero, Features, Pricing, FAQ, CTA.  
-  - Menú principal: Inicio, Funcionalidades, Rutinas, Psicólogos, Precios, Soporte.  
-  - Footer: legales, redes, contacto.  
+En la plataforma, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
 
-**!Poner diagrama de arquitectura de información aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+---
+
+**Organización Visual del Contenido**
+
+- **Jerárquica (Visual Hierarchy):**  
+  La organización jerárquica se aplica en secciones donde es fundamental mostrar una estructura clara de importancia y relevancia, como en el dashboard, los reportes de progreso y las recomendaciones personalizadas.  
+  Se emplean tamaños de texto diferenciados, títulos destacados y un orden lógico de presentación, resaltando los elementos más importantes (como botones de acción o métricas clave) para guiar al usuario de forma natural.
+
+- **Secuencial (Step-by-Step):**  
+  En tareas que requieren pasos consecutivos, como la autoevaluación emocional o la configuración de un perfil, se utiliza un enfoque paso a paso. Esto asegura que el usuario complete cada acción antes de pasar a la siguiente, reduciendo la confusión y aumentando la claridad del proceso.
+
+---
+
+**Esquemas de Categorización de Contenido**
+
+- **Por Audiencia (Grupos de Usuarios):**  
+  La plataforma distingue entre dos perfiles de usuario principales:  
+  - **Empleados:** acceden a funciones de autoevaluación, detección temprana, recomendaciones personalizadas y seguimiento de su progreso.  
+  - **Psicólogos:** tienen acceso a herramientas de análisis, consultas y soporte a empleados desde la plataforma.  
+
+- **Por Tópicos:**  
+  La categorización por temas se aplica en las secciones de ayuda y soporte. Los usuarios pueden acceder a diferentes categorías como **Preguntas Frecuentes**, **Política de Privacidad** y **Centro de Ayuda**, lo que facilita encontrar información relevante para resolver problemas específicos.
+
+---
+
+**Implementación en la Interfaz**
+
+La organización jerárquica y secuencial se refleja en el diseño de la interfaz mediante menús claros, tarjetas con íconos, pasos visibles en formularios y botones de acción destacados.  
+Los esquemas de categorización por audiencia y por tópicos están integrados en las pantallas de inicio y soporte, donde los usuarios encuentran rápidamente la información más relevante.  
+
+Este enfoque asegura que la experiencia de navegación sea **intuitiva, eficiente y adaptada a las necesidades de cada perfil de usuario**, mejorando la usabilidad y efectividad de la plataforma.
 
 ---
 
 ### 4.2.2. Labeling Systems.  
 
-- Labels claros y consistentes:  
-  - Botones: “Empieza ahora”, “Suscríbete”, “Descubre más”.  
-  - Secciones: “Características”, “Planes”, “Preguntas frecuentes”.  
+La plataforma emplea un sistema de etiquetado **directo, simple y orientado a la acción**, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para ambos tipos de usuarios (empleados y psicólogos).  
+Se prioriza la **claridad** en la presentación textual de las secciones, utilizando el menor número de palabras posible y apoyándose en **íconos visuales** para reforzar los mensajes clave.
 
-**!Poner imagen de ejemplo con labels y botones aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+---
+
+**Menú de navegación**  
+En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
+
+- **Inicio** (icono de casa)  
+- **Sobre nosotros** (icono de información)  
+- **Servicios** (icono de herramientas)  
+- **Cómo funciona** (icono de bombilla)  
+- **Planes** (icono de moneda)  
+- **Reseñas** (icono de comentarios)  
+- **Contacto** (icono de sobre)
+
+---
+
+**Botón principal (CTA)**  
+- **Registrarse** → llamada a la acción principal, válida tanto para empleados como para psicólogos.  
+
+**!Poner imagen de botón CTA aquí!**
+
+---
+
+**Sección "Cómo funciona" para Empleados**  
+- **Registrarse** (icono de usuario con +)  
+- **Realizar autoevaluación** (icono de clipboard)  
+- **Recibir recomendaciones** (icono de estrella o varita mágica)  
+- **Hacer seguimiento de progreso** (icono de gráfico de líneas)  
+
+**!Poner imagen de flujo empleados aquí!**
+
+---
+
+**Sección "Cómo funciona" para Psicólogos**  
+- **Registrarse** (icono de usuario con +)  
+- **Acceder a reportes** (icono de gráfico de barras)  
+- **Conectar con pacientes** (icono de chat o persona)  
+- **Dar seguimiento y ajustar terapias** (icono de calendario o check)  
+
+**!Poner imagen de flujo psicólogos aquí!**
+
+---
+
+**Footer**  
+En el pie de página se incluyen etiquetas claras y concisas:  
+
+- Aviso legal  
+- Política de privacidad  
+- Política de cookies  
+- Centro de ayuda  
+- Contacto de soporte  
+
+También se incorporan **íconos de redes sociales**: Facebook, Instagram, LinkedIn, Twitter.  
+
+**!Poner imagen de footer aquí!**
 
 ---
 
 ### 4.2.3. SEO Tags and Meta Tags.  
 
-**Título base:**
+Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el fin de optimizar la visibilidad en buscadores y mejorar la experiencia de los usuarios en redes sociales y navegadores. A continuación, se detallan los ejemplos aplicados en la **Landing Page**:
 
-**html:**
-<title>NeuroZen - Gestión del Estrés y Bienestar Mental</title>
+#### Landing Page
 
-**Meta Description:**
-<meta name="description" content="Descubre NeuroZen, la app para psicólogos y pacientes que ayuda a medir, gestionar y reducir el estrés.">
+```md
+<title>SmartSay - Bienestar emocional y apoyo psicológico en tu empresa</title>
+<meta name="description" content="SmartSay conecta empleados y psicólogos en un espacio seguro para gestionar el bienestar emocional dentro de la empresa. Rápido, confidencial y accesible.">
+<meta name="keywords" content="SmartSay, salud mental laboral, apoyo psicológico, bienestar emocional, estrés laboral, psicólogos online">
+<meta name="author" content="Equipo SmartSay">
 
-**Open Graph:**
-<meta property="og:title" content="NeuroZen - Bienestar Mental Inteligente" />
-<meta property="og:description" content="Rutinas, test de estrés y conexión con psicólogos certificados." />
-<meta property="og:image" content="!Poner imagen miniatura para redes sociales aquí!" />
+<!-- CSS & Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="/images/logo.png" alt="Logo">
+
+```md
 
 ### 4.2.4. Searching Systems.  
 
@@ -215,6 +302,7 @@
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
