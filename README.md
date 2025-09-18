@@ -189,46 +189,99 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 
 ### 4.2.4. Searching Systems.  
 
-- Buscador interno con **autocompletado**.  
-- Filtros disponibles:  
-  - Psicólogos (especialidad, disponibilidad, idioma).  
-  - Rutinas (nivel de dificultad, duración, categoría).  
-  - Ejercicios (tipo: respiración, meditación, mindfulness).  
-- Resultados priorizados por **relevancia y popularidad**.  
-- Barra de búsqueda visible en el **header** y en la sección de rutinas.  
+En **SmartSay**, el sistema de búsqueda y filtros está diseñado para que tanto empleados como psicólogos encuentren de manera rápida la información que necesitan dentro de la aplicación. Estos mecanismos simplifican la navegación y permiten acceder de forma más directa a recursos, sesiones o reportes.
 
-**!Poner mockup de buscador con filtros aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+#### Filtros de búsqueda por entradas
+
+**Empleados:**
+- **Buscar psicólogos disponibles:** Filtrar por nombre, especialidad o nivel de experiencia.  
+- **Filtrar por disponibilidad horaria:** Encontrar sesiones libres en horarios compatibles.  
+- **Filtrar por modalidad:** Sesiones virtuales individuales o grupales.  
+- **Historial de sesiones:** Búsqueda por fecha de sesión o tema tratado.  
+
+**Psicólogos:**
+- **Buscar empleados asignados:** Filtrar por nombre o ID del empleado.  
+- **Filtrar por estado de cita:** “Pendiente”, “Completada”, “Cancelada”.  
+- **Filtrar por fechas:** Consultar calendario de sesiones semanales o mensuales.  
+- **Categorías de apoyo:** Filtrar casos por tópicos como “estrés laboral”, “ansiedad” o “rendimiento”.  
+
+#### Filtros de búsqueda por tabs
+
+Para mejorar la experiencia de usuario, se implementarán **tabs interactivos** que organizan la información de forma clara y accesible.
+
+**Empleados:**
+- **Tab de psicólogos recomendados:** Visualización personalizada basada en su perfil y necesidades.  
+- **Tab de historial de apoyo:** Registro de sesiones pasadas con filtros por fecha y tema.  
+- **Tab de búsqueda rápida:** Acceso directo a psicólogos disponibles por horario.  
+
+**Psicólogos:**
+- **Tab de agenda de sesiones:** Vista organizada con filtros por día y hora.  
+- **Tab de historial de casos:** Registros de sesiones filtrados por empleado o tema.  
+- **Tab de reportes:** Acceso a métricas de bienestar agrupadas por fechas o categorías.  
+
+#### Flujo de búsqueda y filtros
+
+El flujo de búsqueda se caracteriza por ser **simple y eficiente**:
+1. El usuario selecciona un campo de búsqueda o un filtro.  
+2. La información se actualiza en tiempo real, sin necesidad de recargar la página.  
+3. Se permite **aplicar múltiples filtros** de forma simultánea.  
+4. El usuario puede **eliminar filtros fácilmente** para volver a la vista general.  
 
 ---
 
-### 4.2.5. Navigation Systems.  
+### 4.2.5. Navigation Systems
 
-- **Navbar (superior):**  
-  - Inicio  
-  - Funcionalidades  
-  - Rutinas  
-  - Psicólogos  
-  - Precios  
-  - Soporte  
+En **SmartSay**, la navegación está diseñada para ser **clara, accesible y diferenciada** según el tipo de usuario (empleado o psicólogo). Se busca garantizar que cada perfil encuentre las herramientas clave con la menor fricción posible.
 
-- **Footer:**  
-  - Soporte  
-  - FAQ  
-  - Términos y condiciones  
-  - Privacidad  
-  - Contacto  
+#### 1. Navegación en la Landing Page
 
-- **CTA constantes:**  
-  - Botón **“Empieza ahora”** visible en:  
-    - Hero section  
-    - Pricing  
-    - CTA final  
+La **Landing Page** guía a los usuarios hacia la acción principal: registrarse en la plataforma y conocer sus beneficios.
 
-- **Versión móvil:**  
-  - Menú hamburguesa lateral.  
-  - Acceso rápido a CTA principal.  
+**Elementos de navegación:**
+- **Menú superior fijo** con secciones:  
+  - Home  
+  - About  
+  - Services  
+  - How it works  
+  - Prices  
+  - Testimonials  
+  - Contact Us  
+- **Llamadas a la acción (CTAs):**  
+  - “Sign up as Employee”  
+  - “Sign up as Psychologist”  
+- **Desplazamiento fluido (scroll):** Permite recorrer secciones sin cambiar de página.  
 
-**!Poner captura de navegación web y móvil aquí!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+#### 2. Navegación en la Web Application
+
+La aplicación web ofrece una **navegación adaptada al rol**:
+
+**Para Empleados:**
+- **Menú lateral simplificado** con accesos a:  
+  - Dashboard  
+  - Buscar Psicólogo  
+  - Sesiones agendadas  
+  - Historial de apoyo  
+  - Configuración de perfil  
+- **Accesos rápidos:** Botones destacados para reservar una nueva sesión o contactar soporte.  
+- **Breadcrumbs:** Para volver fácilmente a secciones anteriores.  
+
+**Para Psicólogos:**
+- **Menú lateral extendido** con accesos a:  
+  - Dashboard  
+  - Agenda de sesiones  
+  - Lista de empleados asignados  
+  - Historial de casos  
+  - Reportes y métricas  
+  - Configuración  
+- **Accesos rápidos:** Crear reporte, iniciar sesión virtual o enviar recordatorio.  
+- **Breadcrumbs:** Para mantener trazabilidad de navegación en sesiones o reportes.  
+
+#### Interacción y accesibilidad
+
+- **Navegación clara y visible:** Íconos + texto para mejorar la comprensión.  
+- **Navegación de búsqueda:** Filtros rápidos integrados al menú superior o lateral.  
+- **Ayuda contextual:** Guías paso a paso y tutoriales disponibles desde cada sección clave.  
+- **Responsive Design:** Adaptación total a escritorio, tablet y móvil.  
 
 ## 4.3. Landing Page UI Design.  
 
@@ -301,6 +354,7 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
