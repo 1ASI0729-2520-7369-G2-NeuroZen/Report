@@ -128,6 +128,67 @@ Las soluciones actuales suelen ser demasiado generales o, por el contrario, dema
 
 ### 1.2.2.2. Lean UX Assumptions.  
 
+markdown# Business Outcomes y User Outcomes - NeuroZen
+
+## Business Outcomes
+
+Creemos que nuestros usuarios necesitan una herramienta digital accesible y confiable para cuidar su salud mental de manera continua y personalizada. Esta necesidad se resuelve con una aplicación que ofrece seguimiento emocional, técnicas basadas en evidencia psicológica, acceso a recursos de bienestar y conexión con profesionales especializados.
+
+Nuestros clientes iniciales serán **jóvenes y adultos que buscan apoyo en su bienestar emocional** y **clínicas psicológicas que deseen complementar sus servicios con una plataforma digital**.
+
+El valor principal que los usuarios esperan es **el acompañamiento constante en su salud mental**, con herramientas prácticas y de fácil acceso. Otros beneficios clave incluyen:
+
+* Evaluaciones periódicas del estado emocional.
+* Ejercicios guiados de relajación, meditación y manejo del estrés.
+* Recordatorios personalizados para hábitos saludables.
+* Acceso a directorios de psicólogos y clínicas asociadas.
+
+Generaremos ingresos a través de modelos **freemium** (versión gratuita con funciones básicas) y **planes premium** que incluyen asesorías en línea, métricas avanzadas de bienestar, contenidos exclusivos y descuentos en consultas con especialistas.
+
+Nuestra principal competencia serán otras apps de meditación, bienestar y salud mental, así como los servicios presenciales tradicionales. Sin embargo, **Neurozeen se diferencia por integrar la autogestión emocional con el apoyo profesional clínico en un solo ecosistema**.
+
+Superaremos a la competencia ofreciendo un enfoque híbrido (digital + profesional), algoritmos de personalización y un diseño inclusivo y accesible.
+
+Nuestro mayor riesgo es que los usuarios no confíen en la efectividad de la app o abandonen su uso con el tiempo. Lo resolveremos con **metodologías validadas en psicología**, transparencia en los procesos, soporte continuo y la construcción de una comunidad de confianza.
+
+Creemos que al brindar acompañamiento digital confiable y accesible, **Neurozeen contribuirá a reducir la brecha en el acceso a la salud mental, mejorará la calidad de vida de las personas y fortalecerá la relación entre pacientes y profesionales**. Si esta hipótesis es incorrecta, podríamos tener baja retención de usuarios y escaso interés en alianzas clínicas.
+
+## User Outcomes
+
+### ¿Quién será nuestro usuario?
+
+1. Personas que buscan apoyo accesible y práctico para mejorar su bienestar mental.
+2. Clínicas y profesionales de psicología que desean integrar soluciones digitales a sus servicios.
+
+### ¿Dónde encaja nuestro producto en su vida?
+
+En la gestión cotidiana de la salud mental: manejo del estrés, ansiedad y emociones, recordatorios para hábitos saludables, y acceso a especialistas cuando sea necesario.
+
+### ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+
+* **Riesgo de abandono del uso** → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
+* **Desconfianza en la efectividad** → Se resolverá mostrando respaldo científico, contenido validado y alianzas con profesionales certificados.
+
+### ¿Cómo y cuándo es usado nuestro producto?
+
+De manera regular en la vida diaria: al iniciar el día con ejercicios de respiración, en momentos de estrés laboral o académico, antes de dormir con prácticas de relajación, y en citas agendadas con especialistas.
+
+### ¿Qué problemas tiene nuestro producto?
+
+* **Falta de personalización para cada usuario** → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
+* **Posible saturación de información** → Se solucionará con una interfaz clara, simple y progresiva.
+
+### ¿Qué características son importantes?
+
+* Evaluaciones emocionales rápidas y fáciles.
+* Técnicas prácticas de relajación y mindfulness.
+* Recordatorios personalizados de hábitos saludables.
+* Directorio de psicólogos y clínicas aliadas.
+* Acceso a sesiones virtuales con profesionales.
+* Reportes visuales de progreso en bienestar.
+* Seguridad y confidencialidad de datos.
+* Interfaz intuitiva y accesible.
+
 ---
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.  
@@ -141,6 +202,7 @@ Las soluciones actuales suelen ser demasiado generales o, por el contrario, dema
 ## 1.3. Segmentos objetivo.  
 
 ---
+
 
 
 
