@@ -102,6 +102,8 @@ La necesidad de detectar tempranamente el estrés, evitar complicaciones de salu
 
 ### 1.2.2. Lean UX Process.  
 
+**Lean UX** se define como un proceso iterativo y colaborativo que prioriza la experimentación y el aprendizaje continuo sobre la creación de documentación exhaustiva. En lugar de enfocarse en desarrollar un producto completamente detallado desde el inicio, este enfoque promueve la construcción de prototipos rápidos y pruebas frecuentes con usuarios reales en contextos auténticos. Estas validaciones permiten ajustar hipótesis y evolucionar la solución en función de la retroalimentación obtenida. El objetivo principal de Lean UX es reducir el desperdicio, minimizar riesgos y aumentar la eficiencia en el desarrollo de productos, asegurando que la propuesta responda de manera ágil a las necesidades reales de los usuarios (Gothelf & Seiden, 2013).
+
 ---
 
 ### 1.2.2.1. Lean UX Problem Statements.  
@@ -123,6 +125,7 @@ La necesidad de detectar tempranamente el estrés, evitar complicaciones de salu
 ## 1.3. Segmentos objetivo.  
 
 ---
+
 
 
 
