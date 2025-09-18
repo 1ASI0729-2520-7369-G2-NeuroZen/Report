@@ -99,6 +99,22 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ### 2.3.2. User Task Matrix.  
 
+## User Task
+
+| **Tarea** | **Mariana López (Segmento 1)**<br>Frecuencia | **Mariana López (Segmento 1)**<br>Importancia | **Jorge Ramírez (Segmento 2)**<br>Frecuencia | **Jorge Ramírez (Segmento 2)**<br>Importancia |
+|----------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| **Monitorear el progreso de pacientes** | Often | High | Never | Low |
+| **Acceder a reportes automáticos de síntomas** | Often | High | Never | Low |
+| **Recomendar ejercicios digitales a pacientes** | Sometimes | High | Never | Low |
+| **Coordinar seguimiento remoto entre sesiones** | Sometimes | High | Never | Low |
+| **Completar autoevaluación de estrés** | Never | Low | Often | High |
+| **Consultar análisis de patrones de sueño/estrés** | Never | Low | Sometimes | High |
+| **Acceder a recomendaciones personalizadas** | Sometimes | High | Often | High |
+| **Registrar implementación de micro hábitos (respiración, pausas activas)** | Rarely | Medium | Often | High |
+| **Recibir recordatorios de autocuidado** | Rarely | Medium | Often | Medium |
+| **Explorar recursos digitales (ejercicios guiados, meditaciones)** | Sometimes | Medium | Sometimes | High |
+
+
 ---
 
 ### 2.3.3. User Journey Mapping.  
@@ -116,6 +132,7 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 ## 2.4. Ubiquitous Language.  
 
 ---
+
 
 
 
