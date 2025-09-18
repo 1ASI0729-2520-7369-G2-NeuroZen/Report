@@ -18,6 +18,51 @@ Analizar estas alternativas permite identificar fortalezas y debilidades que ser
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.  
 
+En el contexto competitivo de las aplicaciones de salud mental, **NeuroZen** se posiciona como una solución diferenciada que combina accesibilidad, acompañamiento personalizado y un enfoque integral del bienestar emocional.  
+
+A continuación, se plantean las **estrategias y tácticas preliminares** frente a los principales competidores identificados (**Calm**, **Wysa** y **Equoo**):  
+
+---
+
+### 1. Estrategias frente a las fortalezas de los competidores
+
+- **Diversidad de recursos de Calm:** competir con una estrategia de especialización, ofreciendo contenido contextualizado al mercado local (idioma, cultura y problemáticas propias), diferenciándonos de las soluciones globales de carácter más genérico.  
+- **Disponibilidad 24/7 y chatbot de Wysa:** implementar un asistente conversacional híbrido que combine IA con seguimiento por profesionales acreditados, logrando mayor confianza y percepción de valor.  
+- **Gamificación de Equoo:** integrar elementos de motivación progresiva (niveles, logros y recompensas digitales) para mantener la adherencia, pero vinculados directamente con objetivos terapéuticos.  
+
+---
+
+### 2. Estrategias para aprovechar debilidades de los competidores
+
+- **Altos costos de suscripción en Calm:** posicionar un modelo freemium accesible, con funciones premium más económicas y paquetes para instituciones (clínicas y universidades).  
+- **Limitaciones del contenido gratuito en Wysa:** ofrecer un catálogo de recursos amplios y gratuitos, con módulos premium en áreas específicas (estrés académico, ansiedad laboral).  
+- **Percepción de “ligereza” en Equoo:** construir confianza mediante respaldo científico y alianzas con psicólogos certificados, reforzando la credibilidad.  
+
+---
+
+### 3. Estrategias frente a oportunidades del mercado
+
+- **Expansión internacional y localización:** comenzar con un enfoque en Latinoamérica, donde existe alta demanda y baja penetración de apps adaptadas culturalmente.  
+- **Alianzas estratégicas:** establecer convenios con clínicas psicológicas, universidades y programas de bienestar corporativo, aprovechando la tendencia de las empresas en invertir en salud mental de sus colaboradores.  
+- **Integración tecnológica:** explorar compatibilidad con wearables y apps de productividad, fortaleciendo el monitoreo de bienestar en tiempo real.  
+
+---
+
+### 4. Estrategias frente a amenazas del entorno
+
+- **Competencia intensa y consolidada:** diferenciarse con valor local y accesibilidad económica, evitando competir únicamente en cantidad de contenido.  
+- **Preocupaciones de privacidad de datos:** adoptar estándares de ciberseguridad y cumplimiento normativo (GDPR, HIPAA) como parte de la propuesta de valor.  
+- **Saturación del mercado:** mantener un enfoque claro en salud mental preventiva y personalizada, evitando dispersión de funcionalidades.  
+
+---
+
+### 5. Tácticas preliminares
+
+- Lanzar campañas de marketing educativo en redes sociales enfocadas en desestigmatizar la terapia y resaltar el bienestar emocional.  
+- Desarrollar un programa de embajadores universitarios que promocione la aplicación en entornos académicos.  
+- Crear una comunidad digital (foros, grupos en redes) donde los usuarios compartan experiencias y consejos, aumentando la retención.  
+- Implementar un piloto gratuito en empresas y universidades para validar la efectividad y generar casos de éxito iniciales.  
+
 ---
 
 ## 2.2. Entrevistas.  
@@ -63,6 +108,7 @@ Analizar estas alternativas permite identificar fortalezas y debilidades que ser
 ## 2.4. Ubiquitous Language.  
 
 ---
+
 
 
 
