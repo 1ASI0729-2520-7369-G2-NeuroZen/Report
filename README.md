@@ -193,6 +193,14 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.  
 
+## Hipótesis 1: Evaluación rápida del estrés laboral
+
+Creemos que una herramienta digital que permita a los usuarios realizar un test para detectar niveles de estrés laboral y recibir retroalimentación inmediata aumentará la conciencia sobre su salud mental. Sabremos que estamos bien cuando al menos el **70% de los usuarios reporten que el test les ayudó a identificar mejor su nivel de estrés** en los primeros tres meses de uso.
+
+## Hipótesis 2: Acceso a psicólogos y recomendaciones personalizadas
+
+Creemos que integrar el contacto directo con psicólogos y ofrecer actividades de apoyo personalizadas mejorará la adherencia al tratamiento y la percepción de acompañamiento. Sabremos que estamos bien cuando al menos el **60% de los usuarios activos participen en una consulta o utilicen actividades sugeridas por la aplicación** dentro de los primeros seis meses.
+
 ---
 
 ### 1.2.2.4. Lean UX Canvas.  
@@ -202,6 +210,7 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 ## 1.3. Segmentos objetivo.  
 
 ---
+
 
 
 
