@@ -327,19 +327,17 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ## 4.6. Domain-Driven Software Architecture.  
 
----
-
 ### 4.6.1. Software Architecture Context Diagram.  
 
----
+![context_diagram](imgs/context_diagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams.  
 
----
+![container_diagram](imgs/container_diagram.png)
 
 ### 4.6.3. Software Architecture Components Diagrams.  
 
----
+![components_diagram](imgs/components_diagram.png)
 
 ## 4.7. Software Object-Oriented Design.  
 
@@ -360,6 +358,7 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 ### 4.8.1. Database Diagram.  
 
 ---
+
 
 
 
