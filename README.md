@@ -310,7 +310,7 @@ Martín es psicólogo educativo y actualmente trabaja con estudiantes universita
 
 **Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
 
-![segment_analysis_1](imgs/segment_analysis_1.ppg)
+![segment_analysis_1](imgs/segment_analysis_1.png)
 
 **Hallazgos clave Segmento 1:**
 
@@ -321,7 +321,7 @@ Martín es psicólogo educativo y actualmente trabaja con estudiantes universita
 
 **Segmento 2 – Clínicas, psicólogos y centros de salud mental**
 
-![segment_analysis_2](imgs/segment_analysis_2.ppg)
+![segment_analysis_2](imgs/segment_analysis_2.png)
 
 **Hallazgos clave Segmento 2:**
 
@@ -355,11 +355,11 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 **Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
 
-![jorge_ramírez](imgs/jorge_ramírez.ppg)
+![jorge_ramírez](imgs/jorge_ramírez.png)
 
 **Segmento 2:Clínicas, psicólogos y centros de salud mental**
 
-![mariana_lopez](imgs/mariana_lopez.ppg)
+![mariana_lopez](imgs/mariana_lopez.png)
 
 
 ### 2.3.2. User Task Matrix.  
@@ -383,11 +383,11 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 **Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
 
-![customer_journey_map1](imgs/customer_journey_map1.ppg)
+![customer_journey_map1](imgs/customer_journey_map1.png)
 
 **Segmento 2:Clínicas, psicólogos y centros de salud mental**
 
-![customer_journey_map2](imgs/customer_journey_map2.ppg)
+![customer_journey_map2](imgs/customer_journey_map2.png)
 
 ### 2.3.4. Empathy Mapping.  
 
@@ -430,6 +430,7 @@ CREAR IMAGEN DE EMPATHY MAPPIING
 | **Patient Follow-Up**          | Seguimiento de pacientes         | Herramienta dirigida a psicólogos y clínicas para monitorear en tiempo real el estado emocional y el progreso de sus pacientes. |
 | **Privacy and Security Module**| Módulo de privacidad y seguridad | Conjunto de protocolos y funciones que garantizan la confidencialidad de la información del usuario, cumpliendo normas éticas y legales. |
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
+
 
 
 
