@@ -209,9 +209,22 @@ AQUI VA UNA IMAGEN!!!!!
 
 ---
 
-## 1.3. Segmentos objetivo.  
+## 1.3. Segmentos objetivo. 
+
+El segmento objetivo de **NeuroZen** está compuesto por dos grupos principales:
+
+## 1. Trabajadores y profesionales en entornos de alta presión laboral
+
+Personas de entre 20 y 50 años que enfrentan altos niveles de estrés derivados de cargas laborales intensas, horarios extensos o ambientes competitivos. Este grupo requiere herramientas digitales que faciliten la detección temprana de signos de estrés, ofrezcan orientación práctica y promuevan hábitos de autocuidado.
+
+## 2. Clínicas, psicólogos y centros de salud mental
+
+Instituciones y profesionales que buscan complementar sus servicios con soluciones tecnológicas, con el fin de optimizar la detección de síntomas, realizar un seguimiento más eficiente y brindar apoyo continuo a sus pacientes.
+
+En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
 
