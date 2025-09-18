@@ -185,7 +185,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 ### 2.2.2. Registro de entrevistas  
 
-### Entrevista – Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral  
+**Entrevista – Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
 
 **Entrevista 1**  
 
@@ -202,7 +202,7 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 
 Enzo trabaja como ingeniero de sistemas y enfrenta jornadas de hasta 11 horas. La alta presión, disponibilidad constante y cambios de último momento afectan su salud con insomnio, dolores de cabeza e irritabilidad. Aunque intenta manejarlo con caminatas y ejercicios de respiración, no logra ser constante. Su empresa ofrece poco apoyo, limitándose a charlas. Valora una app que le dé recordatorios simples, ejercicios rápidos y contacto directo con un profesional.  
 
-**Entrevista 2  **
+**Entrevista 2**
 
 **Datos del entrevistado:**  
 
@@ -233,7 +233,7 @@ Andrés es rector universitario y trabaja entre 10 y 12 horas diarias. Su princi
 Cristofer trabaja como repartidor y no tiene horarios fijos. La inestabilidad laboral, el tráfico y la exigencia de clientes generan estrés medio-alto, con problemas de sueño, irritabilidad y dolores físicos. Intenta manejarlo con música y actividades recreativas, pero reconoce que necesita herramientas más efectivas. Una app flexible, accesible desde el celular y adaptable a su rutina caótica sería ideal.  
 
 
-** Entrevista **  
+**Entrevista 4**  
 
 **Datos del entrevistado:**  
 
@@ -249,10 +249,10 @@ Cristofer trabaja como repartidor y no tiene horarios fijos. La inestabilidad la
 Laura es diseñadora gráfica freelance y fotógrafa de eventos. Sufre estrés medio-alto por la inestabilidad económica, la sobrecarga de proyectos y clientes exigentes. No logra desconectarse, afectando su salud y creatividad. Usa yoga o ejercicio, pero de forma irregular. Valora soluciones móviles rápidas, técnicas para establecer límites con clientes y métodos que le ayuden a relajarse al cerrar la jornada.  
 
 
-### Entrevista – Segmento 2: Clínicas, psicólogos y centros de salud mental  
+**Entrevista – Segmento 2: Clínicas, psicólogos y centros de salud mental  
 
 
-** Entrevista 1  **
+**Entrevista 1**
 
 **Datos del entrevistado:**  
 
@@ -267,7 +267,7 @@ Laura es diseñadora gráfica freelance y fotógrafa de eventos. Sufre estrés m
 
 Carlos es psicólogo clínico y actualmente usa videollamadas y formularios online, aunque reconoce sus limitaciones. Valora mucho la idea de una app con ejercicios guiados y reportes automáticos, aunque enfatiza la necesidad de seguridad y respaldo científico. Estaría dispuesto a pagar por la solución si el costo es accesible.  
 
-** Entrevista 2  **
+**Entrevista 2**
 
 **Datos del entrevistado:**  
 
@@ -284,7 +284,7 @@ Diego es psicólogo organizacional y trabaja con programas de bienestar laboral.
 
 ---
 
-**Entrevista 3  **
+**Entrevista 3**
 
 **Datos del entrevistado:**  
 
@@ -421,5 +421,6 @@ CREAR IMAGEN DE EMPATHY MAPPIING
 | **Patient Follow-Up**          | Seguimiento de pacientes         | Herramienta dirigida a psicólogos y clínicas para monitorear en tiempo real el estado emocional y el progreso de sus pacientes. |
 | **Privacy and Security Module**| Módulo de privacidad y seguridad | Conjunto de protocolos y funciones que garantizan la confidencialidad de la información del usuario, cumpliendo normas éticas y legales. |
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
+
 
 
