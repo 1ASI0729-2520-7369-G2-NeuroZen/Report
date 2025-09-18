@@ -14,6 +14,8 @@ Analizar estas alternativas permite identificar fortalezas y debilidades que ser
 
 ### 2.1.1. Análisis competitivo.  
 
+AQUI INSERTAR IMAGEN!!!
+
 ---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.  
@@ -70,6 +72,26 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 ---
 
 ### 2.2.1. Diseño de entrevistas.  
+
+**Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**  
+- ¿Qué métodos usas actualmente para manejar el estrés o la ansiedad en tu día a día?  
+- ¿Con qué frecuencia recurres a aplicaciones o recursos digitales para tu bienestar emocional?  
+- ¿Qué señales o síntomas de estrés te preocupan más en tu vida laboral (insomnio, fatiga, irritabilidad, falta de concentración, etc.)?  
+- ¿Te gustaría recibir recordatorios o notificaciones que te ayuden a pausar y cuidar tu salud mental durante tu jornada laboral?  
+- ¿Qué tan dispuesto estarías a usar una app que mida tu nivel de estrés a partir de rutinas de autoevaluación rápida?  
+- ¿Qué tipo de contenidos o herramientas valoras más en una app de bienestar (ejercicios de respiración, meditación, consejos prácticos, reportes de progreso, etc.)?  
+- ¿Qué barreras tienes para buscar ayuda profesional cuando sientes altos niveles de estrés?  
+- ¿Qué características harían que confíes en una app de salud mental y la uses de manera constante?  
+
+**Segmento 2: Clínicas, psicólogos y centros de salud mental**  
+- ¿Qué herramientas digitales utilizan actualmente en su práctica para apoyar la detección y seguimiento de pacientes con estrés o ansiedad?  
+- ¿Qué limitaciones encuentran en el uso de aplicaciones de bienestar ya existentes?  
+- ¿Qué tan útil consideran que sería contar con una app que complemente las sesiones presenciales o virtuales con ejercicios guiados y seguimiento del paciente?  
+- ¿Estarían interesados en recibir reportes automáticos sobre el progreso y hábitos de sus pacientes?  
+- ¿Qué preocupaciones tendrían respecto a la privacidad y seguridad de la información de los pacientes al usar una app de salud mental?  
+- ¿Qué funcionalidades serían imprescindibles en una app para que la recomienden a sus pacientes?  
+- ¿Estarían dispuestos a pagar por una suscripción empresarial o modelo de licencia para integrar esta solución en su clínica?  
+- ¿Qué tan abierta está su institución a adoptar nuevas tecnologías para mejorar la atención en salud mental?  
 
 ---
 
@@ -166,6 +188,7 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
 
 ---
+
 
 
 
