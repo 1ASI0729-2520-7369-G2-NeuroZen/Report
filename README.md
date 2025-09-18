@@ -100,15 +100,19 @@ La necesidad de detectar tempranamente el estrés, evitar complicaciones de salu
 ### 1.2.2.1. Lean UX Problem Statements.  
 
 **¿Cómo podemos diseñar una plataforma innovadora que permita a los trabajadores detectar tempranamente señales de estrés laboral y acceder a estrategias personalizadas de afrontamiento?**
+
 El estrés laboral es un problema creciente que afecta el rendimiento, la salud física y el bienestar emocional de las personas. Actualmente, las herramientas disponibles no ofrecen un monitoreo continuo ni recomendaciones adaptadas al perfil del usuario, lo que dificulta la prevención oportuna.
 
 **¿Cómo podemos crear un sistema que brinde claridad, confianza y motivación a los usuarios en el proceso de autoevaluación de su bienestar mental?**
+
 Muchos trabajadores dudan en reconocer sus niveles de estrés o no cuentan con un espacio seguro para hacerlo. La ausencia de retroalimentación objetiva y personalizada genera incertidumbre, desconfianza en las estrategias aplicadas y, en ocasiones, abandono de procesos de autocuidado.
 
 **¿Cómo podemos integrar análisis automáticos y visualizaciones intuitivas que permitan tanto a los usuarios como a los profesionales de la salud mental dar seguimiento a los patrones de estrés?**
+
 El registro manual de síntomas suele ser inconsistente y poco confiable. La falta de reportes claros y gráficos interpretables limita la capacidad de los psicólogos y clínicas para ofrecer intervenciones más efectivas y oportunas.
 
 **¿Cómo podemos ofrecer una experiencia digital intuitiva y accesible que se adapte tanto a personas con poca familiaridad tecnológica como a profesionales que buscan información más detallada?**
+
 Las soluciones actuales suelen ser demasiado generales o, por el contrario, demasiado complejas. Se requiere una plataforma que logre equilibrar simplicidad para el usuario común y profundidad para los especialistas.
 
 ### 1.2.2.2. Lean UX Assumptions.  
@@ -203,6 +207,7 @@ Instituciones y profesionales que buscan complementar sus servicios con solucion
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
 
