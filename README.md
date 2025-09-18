@@ -279,18 +279,6 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ### 4.3.1. Landing Page Wireframe.  
 
-![wireframe1](imgs/wireframe1.png)
-
-![wireframe2](imgs/wireframe2.png)
-
-![wireframe3](imgs/wireframe3.png)
-
-![wireframe4](imgs/wireframe4.png)
-
-![wireframe5](imgs/wireframe5.png)
-
-### 4.3.2. Landing Page Mock-up.  
-
 ![mockup1](imgs/mockup1.png)
 
 ![mockup2](imgs/mockup2.png)
@@ -301,6 +289,17 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ![mockup5](imgs/mockup5.png)
 
+### 4.3.2. Landing Page Mock-up.  
+
+![wireframe1](imgs/wireframe1.png)
+
+![wireframe2](imgs/wireframe2.png)
+
+![wireframe3](imgs/wireframe3.png)
+
+![wireframe4](imgs/wireframe4.png)
+
+![wireframe5](imgs/wireframe5.png)
 
 ## 4.4. Web Applications UX/UI Design.  
 
