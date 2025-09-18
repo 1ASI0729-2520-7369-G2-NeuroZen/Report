@@ -1,7 +1,5 @@
 # Capítulo III: Requirements Specification
 
----
-
 ## 3.1. To-Be Scenario Mapping.  
 
 | **FASES** | **DESCUBRIMIENTO** | **EVALUACIÓN** | **USO DE LA APP SMARTSTRESS** | **SEGUIMIENTO PERSONAL** |
@@ -14,7 +12,7 @@
 
 ## 3.2. User Stories.  
 
-# Epics
+**Epics**
 
 | EPIC ID | Nombre del EPIC                         |
 |---------|----------------------------------------|
@@ -27,11 +25,11 @@
 | EP07    | Soporte y Ayuda                         |
 | EP08    | Exploración como Visitante              |
 
-# User Stories por Epic
+**User Stories por Epic**
 
-## EP01 – Registro y Gestión de Perfil de Usuario
+**EP01 – Registro y Gestión de Perfil de Usuario**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                    |
 |---------------|-------------------------|
@@ -40,15 +38,15 @@
 | US03          | Recuperación de contraseña |
 | US04          | Edición de perfil personal |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                                         |
 |--------------------|-----------------------------------------------|
 | TS01              | Validar formularios de registro/login en frontend |
 
-## EP02 – Registro y Gestión de Perfil de Psicólogo
+**EP02 – Registro y Gestión de Perfil de Psicólogo**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                               |
 |---------------|-------------------------------------|
@@ -57,15 +55,15 @@
 | US07          | Configuración de datos de contacto  |
 | US08          | Edición de perfil de psicólogo      |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                                           |
 |--------------------|-------------------------------------------------|
 | TS02              | Validar documentos y credenciales en frontend    |
 
-## EP03 – Gestión de Rutinas y Ejercicios
+**EP03 – Gestión de Rutinas y Ejercicios**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                                      |
 |---------------|-------------------------------------------|
@@ -74,15 +72,15 @@
 | US11          | Editar o actualizar rutina diaria          |
 | US12          | Eliminar rutina                            |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                                           |
 |--------------------|-------------------------------------------------|
 | TS03              | Implementar reproductor de audio/video para ejercicios |
 
-## EP04 – Evaluación y Seguimiento del Estrés
+**EP04 – Evaluación y Seguimiento del Estrés**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                                           |
 |---------------|-------------------------------------------------|
@@ -91,15 +89,15 @@
 | US15          | Recibir recomendaciones automáticas según resultados |
 | US16          | Generar recordatorios para seguimiento          |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                                      |
 |--------------------|---------------------------------------------|
 | TS04              | Desarrollar algoritmo de cálculo de nivel de estrés |
 
-## EP05 – Pagos y Suscripciones
+**EP05 – Pagos y Suscripciones**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                         |
 |---------------|---------------------------------|
@@ -107,26 +105,25 @@
 | US18          | Consultar comprobantes de pago  |
 | US19          | Actualizar plan de suscripción  |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                           |
 |--------------------|----------------------------------|
 | TS05              | Integrar pasarela de pagos segura |
 
-## EP06 – Reseñas y Calificaciones
+**EP06 – Reseñas y Calificaciones**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                        |
 |---------------|-------------------------------|
 | US20          | Dejar reseña sobre psicólogo  |
 | US21          | Calificar ejercicios o rutinas |
 
----
 
-## EP07 – Soporte y Ayuda
+**EP07 – Soporte y Ayuda**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                                  |
 |---------------|----------------------------------------|
@@ -134,24 +131,23 @@
 | US23          | Consultar preguntas frecuentes         |
 | US24          | Reportar un problema                   |
 
-### Technical Stories
+*Technical Stories*
 
 | Technical Story ID | Título                          |
 |--------------------|---------------------------------|
 | TS06              | Implementar chat de soporte básico |
 
-## EP08 – Exploración como Visitante
+**EP08 – Exploración como Visitante**
 
-### User Stories
+*User Stories*
 
 | User Story ID | Título                                                       |
 |---------------|-------------------------------------------------------------|
 | US25          | Explorar funcionalidades de la app sin registro              |
 | US26          | Visualizar landing page con beneficios y testimonios         |
 
----
 
-## EP01 – Registro y Gestión de Perfil de Usuario
+**EP01 – Registro y Gestión de Perfil de Usuario**
 
 | ID Épica | Épica                                  | ID  | Título                   | Descripción                                                                 | Criterios de Aceptación |
 |---------|----------------------------------------|-----|------------------------|----------------------------------------------------------------------------|------------------------|
@@ -161,7 +157,7 @@
 | EP01    | Registro y Gestión de Perfil de Usuario | US04 | Edición de perfil personal | Como usuario, quiero editar mi información personal para mantenerla actualizada.| **Escenario 1:** Edición exitosa → Dado que el usuario está logueado, Cuando modifica sus datos personales y guarda, Entonces el sistema actualiza la información correctamente.<br>**Escenario 2:** Error en el guardado → Dado que el usuario edita su información, Cuando el sistema presenta una falla en la actualización, Entonces se muestra un mensaje de error y no se guardan los cambios. |
 | EP01    | Registro y Gestión de Perfil de Usuario | TS01 | Validaciones frontend registro/login | Como desarrollador, quiero validar formularios en frontend para evitar errores.| **Escenario 1:** Validación de campos vacíos → Dado que el usuario deja campos en blanco, Cuando intenta registrarse o iniciar sesión, Entonces el sistema muestra mensajes de validación.<br>**Escenario 2:** Validación de formato de correo → Dado que el usuario ingresa un correo con formato inválido, Cuando intenta guardar o iniciar sesión, Entonces el sistema muestra un mensaje indicando que el correo no es válido. |
 
-## EP02 – Registro y Gestión de Perfil de Psicólogo
+**EP02 – Registro y Gestión de Perfil de Psicólogo**
 
 | ID Épica | Épica                                   | ID   | Título                        | Descripción                                                                 | Criterios de Aceptación |
 |---------|-----------------------------------------|------|-----------------------------|----------------------------------------------------------------------------|------------------------|
@@ -171,7 +167,7 @@
 | EP02    | Registro y Gestión de Perfil de Psicólogo| US08 | Edición de perfil de psicólogo | Como psicólogo, quiero editar mi información profesional para mantenerla actualizada.| **Escenario 1:** Edición exitosa → Dado que el psicólogo está logueado, Cuando modifica su información de especialidad, experiencia o tarifas y guarda, Entonces el sistema actualiza la información correctamente.<br>**Escenario 2:** Error en el guardado → Dado que el psicólogo edita su información, Cuando el sistema presenta un error de conexión, Entonces se muestra un mensaje indicando que los cambios no se guardaron. |
 | EP02    | Registro y Gestión de Perfil de Psicólogo| TS02 | Validar campos de formulario en frontend | Como desarrollador, quiero validar los campos de formulario (correo, contraseña, documento) para asegurar calidad en los datos.| **Escenario 1:** Validación de correo → Dado que el usuario ingresa un correo inválido, Cuando intenta guardar, Entonces el sistema muestra un mensaje de error.<br>**Escenario 2:** Validación de documento → Dado que el psicólogo sube un archivo en un formato no permitido, Cuando intenta verificar identidad, Entonces el sistema muestra un mensaje de validación. |
 
-# EP03 – Gestión de Rutinas y Ejercicios
+**EP03 – Gestión de Rutinas y Ejercicios**
 
 | ID Épica | Épica                          | ID   | Título                                    | Descripción                                                                 | Criterios de Aceptación |
 |---------|--------------------------------|------|-------------------------------------------|-----------------------------------------------------------------------------|------------------------|
@@ -181,7 +177,7 @@
 | EP03    | Gestión de Rutinas y Ejercicios | US12 | Eliminar rutina                           | Como usuario, quiero eliminar una rutina que ya no utilizo para mantener mi lista organizada. | **Escenario 1: Eliminación exitosa**<br>Dado que el usuario selecciona una rutina,<br>Cuando presiona “Eliminar” y confirma,<br>Entonces el sistema borra la rutina de la lista.<br><br>**Escenario 2: Cancelación de eliminación**<br>Dado que el usuario selecciona una rutina para eliminar,<br>Cuando presiona “Cancelar”,<br>Entonces el sistema no realiza ningún cambio. |
 | EP03    | Gestión de Rutinas y Ejercicios | TS03 | Implementar reproductor de audio/video para ejercicios | Como desarrollador, quiero implementar un reproductor de audio/video para guiar a los usuarios en los ejercicios. | **Escenario 1: Reproducción exitosa**<br>Dado que el usuario selecciona un archivo válido,<br>Cuando inicia la reproducción,<br>Entonces el reproductor funciona con controles básicos (play, pause, stop).<br><br>**Escenario 2: Error en archivo**<br>Dado que el usuario selecciona un archivo dañado o no compatible,<br>Cuando intenta reproducirlo,<br>Entonces el sistema muestra un mensaje de error. |
 
-## EP04 – Evaluación y Seguimiento del Estrés
+**EP04 – Evaluación y Seguimiento del Estrés**
 
 | ID Épica | **Título**                      | ID   | Título                                   | Descripción                                                                 | Criterios de Aceptación |
 |----------|----------------------------------|------|------------------------------------------|-----------------------------------------------------------------------------|-------------------------|
@@ -191,7 +187,7 @@
 | EP04     | Evaluación y Seguimiento del Estrés | US16 | Generar recordatorios para seguimiento     | Como usuario, quiero generar recordatorios para dar seguimiento a mis evaluaciones periódicas. | **Escenario 1: Recordatorio creado**<br>Dado que el usuario selecciona fecha y hora,<br>Cuando guarda el recordatorio,<br>Entonces el sistema lo agenda y lo muestra en su calendario o notificaciones.<br><br>**Escenario 2: Configuración inválida**<br>Dado que el usuario selecciona una fecha pasada,<br>Cuando intenta guardar,<br>Entonces el sistema muestra un mensaje de error. |
 | EP04     | Evaluación y Seguimiento del Estrés | TS04 | Desarrollar algoritmo de cálculo de nivel de estrés | Como desarrollador, quiero implementar un algoritmo que calcule el nivel de estrés en base a las respuestas del usuario. | **Escenario 1: Cálculo correcto**<br>Dado que el usuario completa el test,<br>Cuando el sistema procesa las respuestas,<br>Entonces devuelve un puntaje y clasificación correcta (bajo, medio, alto).<br><br>**Escenario 2: Error de cálculo**<br>Dado que ocurre un fallo interno,<br>Cuando se procesa el test,<br>Entonces el sistema muestra un mensaje de error y no guarda resultados. |
 
-## EP05 – Pagos y Suscripciones
+**EP05 – Pagos y Suscripciones**
 
 | ID Épica | **Título**             | ID   | Título                          | Descripción                                                                 | Criterios de Aceptación |
 |----------|-----------------------|------|---------------------------------|-----------------------------------------------------------------------------|-------------------------|
@@ -200,14 +196,14 @@
 | EP05     | Pagos y Suscripciones | US19 | Actualizar plan de suscripción | Como usuario, quiero actualizar mi plan de suscripción para acceder a más beneficios. | **Escenario 1: Cambio exitoso de plan**<br>Dado que el usuario selecciona un plan superior,<br>Cuando confirma la actualización,<br>Entonces el sistema aplica el cambio y genera el cobro correspondiente.<br><br>**Escenario 2: Error en la actualización**<br>Dado que ocurre un fallo en el proceso,<br>Cuando el usuario intenta cambiar el plan,<br>Entonces el sistema muestra un mensaje indicando que lo intente más tarde. |
 | EP05     | Pagos y Suscripciones | TS05 | Integrar pasarela de pagos segura | Como desarrollador, quiero integrar una pasarela de pagos segura para garantizar transacciones confiables. | **Escenario 1: Integración correcta**<br>Dado que el sistema procesa un pago,<br>Cuando la transacción es aceptada,<br>Entonces el sistema devuelve un estado de éxito y guarda la transacción.<br><br>**Escenario 2: Integración con error**<br>Dado que ocurre un problema con la pasarela,<br>Cuando se procesa el pago,<br>Entonces el sistema muestra un mensaje de error y no guarda el pago como exitoso. |
 
-## EP06 – Reseñas y Calificaciones
+**EP06 – Reseñas y Calificaciones**
 
 | ID Épica | **Título**             | ID   | Título                          | Descripción                                                                 | Criterios de Aceptación |
 |----------|-----------------------|------|---------------------------------|-----------------------------------------------------------------------------|-------------------------|
 | EP06     | Reseñas y Calificaciones | US20 | Dejar reseña sobre psicólogo   | Como usuario, quiero dejar una reseña sobre el psicólogo después de mis sesiones, para compartir mi experiencia. | **Escenario 1: Reseña exitosa**<br>Dado que el usuario terminó una sesión,<br>Cuando accede a la opción “Dejar reseña” y escribe un comentario válido,<br>Entonces el sistema guarda la reseña y la muestra en el perfil del psicólogo.<br><br>**Escenario 2: Reseña inválida**<br>Dado que el usuario intenta guardar una reseña vacía o con caracteres no permitidos,<br>Cuando presiona guardar,<br>Entonces el sistema muestra un mensaje de error solicitando corrección. |
 | EP06     | Reseñas y Calificaciones | US21 | Calificar ejercicios o rutinas | Como usuario, quiero calificar los ejercicios o rutinas para dar retroalimentación sobre su utilidad. | **Escenario 1: Calificación exitosa**<br>Dado que el usuario completó un ejercicio o rutina,<br>Cuando selecciona de 1 a 5 estrellas,<br>Entonces el sistema guarda la calificación y actualiza el promedio visible.<br><br>**Escenario 2: Error en calificación**<br>Dado que ocurre un error en la conexión,<br>Cuando el usuario intenta calificar,<br>Entonces el sistema muestra un mensaje indicando que intente nuevamente. |
 
-## EP07 – Soporte y Ayuda
+**EP07 – Soporte y Ayuda**
 
 | ID Épica | **Título**        | ID   | Título                              | Descripción                                                                 | Criterios de Aceptación |
 |---------|-----------------|------|----------------------------------|-----------------------------------------------------------------------------|-------------------------|
@@ -216,7 +212,7 @@
 | EP07    | Soporte y Ayuda | US24 | Reportar un problema | Como usuario, quiero reportar un problema dentro de la app para notificar errores o inconvenientes. | **Escenario 1: Reporte exitoso**<br>Dado que el usuario detecta un problema,<br>Cuando llena el formulario de reporte y lo envía,<br>Entonces el sistema guarda el reporte y muestra confirmación.<br><br>**Escenario 2: Reporte inválido**<br>Dado que el usuario deja el formulario vacío o incompleto,<br>Cuando presiona “Enviar”,<br>Entonces el sistema muestra mensajes de validación solicitando completar los campos. |
 | EP07    | Soporte y Ayuda | TS06 | Implementar chat de soporte básico | Como desarrollador, quiero implementar un chat básico para que los usuarios puedan comunicarse en tiempo real con soporte. | **Escenario 1: Chat activo**<br>Dado que el usuario abre el chat de soporte,<br>Cuando envía un mensaje,<br>Entonces el sistema lo transmite correctamente y soporte puede responder.<br><br>**Escenario 2: Chat no disponible**<br>Dado que no hay agentes en línea,<br>Cuando el usuario intenta abrir el chat,<br>Entonces el sistema muestra un mensaje “Agente no disponible, intente más tarde”. |
 
-## EP08 – Exploración como Visitante
+**EP08 – Exploración como Visitante**
 
 | ID Épica | **Título**                  | ID   | Título                                           | Descripción                                                                                   | Criterios de Aceptación |
 |---------|-----------------------------|------|------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------|
@@ -227,13 +223,12 @@
 
 ## 3.3. Impact Mapping.  
 
-INSERTAR IMAGEN AQUI!!
+![impact_map](imgs/impact_map.png)
 
----
 
 ## 3.4. Product Backlog.  
 
-## Orden de User Stories y Technical Stories
+**Orden de User Stories y Technical Stories**
 
 | Orden | ID   | User Story / Technical Story                              | Story Points |
 |------|------|---------------------------------------------------------|-------------|
@@ -269,22 +264,4 @@ INSERTAR IMAGEN AQUI!!
 | 30   | TS06 | Implementar chat de soporte básico                      | 5           |
 | 31   | US25 | Explorar funcionalidades de la app sin registro         | 2           |
 | 32   | US26 | Visualizar landing page con beneficios y testimonios    | 2           |
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
