@@ -131,7 +131,22 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ## 2.4. Ubiquitous Language.  
 
+
+| **Término en Inglés**         | **Término en Español**           | **Definición** |
+|-------------------------------|----------------------------------|---------------|
+| **Stress Level Tracker**       | Rastreador de nivel de estrés    | Módulo de la app que mide y registra el nivel de estrés del usuario a través de autoevaluaciones rápidas y cuestionarios validados. |
+| **Guided Exercise**            | Ejercicio guiado                 | Actividad breve (respiración, meditación, estiramiento) presentada en formato interactivo dentro de la app para reducir el estrés en pocos minutos. |
+| **Personalized Reminder**      | Recordatorio personalizado       | Notificación adaptada al horario y rutina del usuario para recordarle realizar pausas activas o ejercicios de relajación. |
+| **Progress Report**            | Reporte de progreso              | Documento digital automático que resume la evolución del nivel de estrés y los hábitos del usuario en un periodo determinado. |
+| **Emotional Coaching**         | Coaching emocional               | Funcionalidad que brinda consejos, sesiones virtuales y seguimiento guiado por profesionales de la salud mental. |
+| **Community Support**          | Comunidad de apoyo               | Espacio digital en la app donde los usuarios pueden compartir experiencias, consejos y motivación, manteniendo la confidencialidad. |
+| **Stress Indicator Dashboard** | Panel de indicadores de estrés   | Vista centralizada que muestra métricas clave del estrés del usuario (horas de sueño, frecuencia de crisis, cumplimiento de rutinas). |
+| **Patient Follow-Up**          | Seguimiento de pacientes         | Herramienta dirigida a psicólogos y clínicas para monitorear en tiempo real el estado emocional y el progreso de sus pacientes. |
+| **Privacy and Security Module**| Módulo de privacidad y seguridad | Conjunto de protocolos y funciones que garantizan la confidencialidad de la información del usuario, cumpliendo normas éticas y legales. |
+| **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
+
 ---
+
 
 
 
