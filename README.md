@@ -147,6 +147,12 @@ AQUI VA UNA IMAGEN!!
 
 ### 2.3.3. User Journey Mapping.  
 
+### Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral
+AQUI VA UNA IMAGEN!!
+
+### Segmento 2:Clínicas, psicólogos y centros de salud mental
+AQUI VA UNA IMAGEN!!
+
 ---
 
 ### 2.3.4. Empathy Mapping.  
@@ -194,6 +200,7 @@ AQUI VA UNA IMAGEN!!
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
 
 ---
+
 
 
 
