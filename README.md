@@ -309,12 +309,23 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 Diseño para visualizar el login
 
-![web_application_1](imgs/web_application_2.jpg) 
+![web_application_1](imgs/web_application_wireframe_2.jpg) 
 
-![web_application_2](imgs/web_application_3.jpg) 
+![web_application_2](imgs/web_application_wireframe_3.jpg) 
 
-![web_application_3](imgs/web_application_4.jpg) 
+![web_application_3](imgs/web_application_wireframe_4.jpg) 
 
+Diseño para visualizar "Como Funciona"
+
+![web_application_4](imgs/web_application_wireframe_5.jpg) 
+
+Diseño para visualizar "Planes"
+
+![web_application_5](imgs/web_application_wireframe_6.jpg) 
+
+Diseño para visualizar "Preguntas Frecuentes"
+
+![web_application_6](imgs/web_application_wireframe_7.jpg) 
 
 ---
 
@@ -471,6 +482,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
