@@ -331,6 +331,8 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
 
+![web_application_wireflow_diagram](imgs/web_application_user_flow_diagram.jpg)
+
 ---
 
 ### 4.4.2. Web Applications Mock-ups.  
@@ -482,6 +484,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
