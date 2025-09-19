@@ -356,7 +356,7 @@ Clases principales:
 - Notification
 - Session
 
-![class_diagram](imgs/class_diagram_en.png)
+![class_diagram](imgs/class_diagram.png)
 
 ### 4.7.2. Class Dictionary.  
 
@@ -451,7 +451,8 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Users → Sessions (1 a muchos)
 - Psychologists → Sessions (1 a muchos)
 
-![database_design](imgs/database_diagram_en.png)
+![database_design](imgs/database_diagram.png)
+
 
 
 
