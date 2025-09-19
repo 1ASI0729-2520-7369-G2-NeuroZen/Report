@@ -355,6 +355,93 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ## 4.5. Web Applications Prototyping.  
 
+# Descripción de la página NeuroZen
+
+## Resúmenes de contenido
+
+Los resúmenes en esta página cumplen el rol de **introducir el propósito
+y beneficios de NeuroZen** de forma clara. Cada sección brinda la
+información justa para que el usuario entienda de qué trata la app y
+decida si quiere saber más o descargarla.
+
+-   En el **header**, se muestra el valor principal: detección y gestión
+    del estrés laboral, junto con un formulario para unirse a la lista
+    de espera y botones de descarga.\
+-   En la sección de **Características**, se resumen los beneficios
+    clave (detección temprana, autoevaluación, recomendaciones,
+    dashboard, conexión con psicólogos y privacidad).\
+-   La sección **Cómo funciona** explica en 4 pasos simples el flujo de
+    uso.\
+-   La sección de **Planes** resume las opciones (gratis, pro y
+    empresas) sin entrar en demasiados detalles técnicos.\
+-   En el **FAQ**, se muestran respuestas breves a las dudas más
+    comunes.
+
+Principio aplicado: **Divulgación progresiva**. El usuario recibe
+solo la información suficiente para decidir si quiere explorar más.
+
+------------------------------------------------------------------------
+
+## Etiquetas
+
+Cada sección de la página está encabezada con una etiqueta clara y
+visible que orienta al usuario sobre dónde se encuentra y qué puede
+hacer:
+
+-   "Características"\
+-   "Cómo funciona"\
+-   "Planes"\
+-   "Preguntas frecuentes"
+
+Estas etiquetas refuerzan el **principio de las puertas de entrada**,
+pues cada sección habla por sí misma y ayuda a establecer un sentido de
+ubicación dentro de la página.
+
+------------------------------------------------------------------------
+
+## Menús
+
+La página cuenta con **un único menú principal de navegación** en la
+parte superior (sticky, siempre visible):
+
+-   Características\
+-   Cómo funciona\
+-   Planes\
+-   Preguntas frecuentes\
+-   Descargar
+
+No existe menú secundario lateral, pero el **footer** funciona como
+navegación complementaria hacia apartados de producto, empresa y legal.
+
+Principio aplicado: **Navegación enfocada**. El menú superior lleva a
+las secciones principales de decisión (información del producto),
+mientras que el footer concentra los enlaces secundarios (legal,
+contacto, sobre la empresa).
+
+------------------------------------------------------------------------
+
+## Introducción de los flujos de interacción
+
+Los flujos principales que la página introduce al usuario son:
+
+1.  **Unirse a la lista de espera**
+    -   El usuario ingresa su correo electrónico en el formulario y
+        recibe confirmación inmediata.
+2.  **Descargar la app**
+    -   El usuario puede ir directo a App Store o Google Play desde los
+        botones destacados.
+3.  **Explorar características antes de decidir**
+    -   El usuario navega por secciones con resúmenes de funciones y
+        planes.
+4.  **Elegir un plan**
+    -   El usuario puede empezar gratis, probar la versión pro o
+        contactar al área de ventas para empresas.
+5.  **Resolver dudas rápidamente**
+    -   El usuario abre las preguntas frecuentes y obtiene respuestas
+        sin abandonar la página.
+
+![web_application_prototyping](imgs/web_application_prototyping)
+
 ---
 
 ## 4.6. Domain-Driven Software Architecture.  
@@ -484,6 +571,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
