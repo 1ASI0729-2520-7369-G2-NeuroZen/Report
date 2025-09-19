@@ -4,35 +4,57 @@
 
 ## 5.1. Software Configuration Management.  
 
-### 5.1.1. Software Development Environment Configuration.  
+A continuación, se describen los productos de software empleados en el desarrollo del proyecto **NeuroZen**. Esta sección tiene como objetivo facilitar la comprensión y continuidad del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
 
-A continuación, se describen los productos de software empleados en el desarrollo del proyecto. Esta sección tiene como objetivo facilitar la comprensión y continuidad del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
+#### Project Management
 
-**Project Management**
-Trello – https://trello.com/
-Se ha utilizado Trello como herramienta principal de gestión de tareas. Esta plataforma permite visualizar el progreso de cada etapa del proyecto mediante tableros personalizables, facilitando la organización de pendientes, tareas en desarrollo y actividades finalizadas. Además, su interfaz intuitiva y accesibilidad desde cualquier navegador con una cuenta registrada la convierten en una solución ágil para el seguimiento de proyectos en equipo.
+**Discord** – [https://discord.com/](https://discord.com/)  
+Aunque originalmente su uso es más para la comunidad de gamers, Discord también se puede utilizar para mejorar la experiencia de trabajo en equipo a través de diferentes canales de comunicación, fijar mensajes y organizar actividades del grupo.
 
-**Requirements Management**
-Google Docs – https://docs.google.com/
-Para la redacción, gestión y revisión de los requisitos del sistema se ha empleado Google Docs. Su funcionalidad de edición colaborativa en tiempo real ha permitido que todos los integrantes del equipo puedan aportar, comentar y revisar los documentos desde cualquier dispositivo.
+**WhatsApp** – [https://web.whatsapp.com/](https://web.whatsapp.com/)  
+WhatsApp es una aplicación de mensajería instantánea que se utiliza para la comunicación en tiempo real. Aunque no es una herramienta de gestión de proyectos, se emplea para mantener contacto directo y rápido con los miembros del equipo.
 
-**Product UX/UI Design**
-Figma – https://www.figma.com/
-Figma ha sido fundamental para el diseño de interfaces y la creación de prototipos interactivos. Permite que varios usuarios trabajen simultáneamente en los wireframes y mockups, lo que ha facilitado una comunicación más eficiente entre el equipo de diseño y desarrollo.
+**Trello** – [https://trello.com/](https://trello.com/)  
+Se utilizó como herramienta de gestión de tareas. Permite visualizar el progreso del proyecto mediante tableros personalizables, organizando pendientes, tareas en desarrollo y finalizadas.
 
-**Software Development**
-Landing Page (HTML, CSS, JS) – https://www.jetbrains.com/idea/
-Desarrollada con HTML5, CSS3, JavaScript y Tailwind CSS. El entorno de desarrollo fue IntelliJ IDEA Ultimate por sus herramientas avanzadas de depuración y control de versiones.
 
-**Frontend Web Application (Angular) – https://www.jetbrains.com/webstorm/**
-Desarrollada en Angular utilizando JetBrains WebStorm, que ofrece refactorización inteligente, integración con Git y herramientas de testing.
+#### Requirements Management
 
-**Web Services (.NET Core) – https://www.jetbrains.com/rider/**
-Desarrollado en ASP.NET Core con C#, usando JetBrains Rider. Se requiere el SDK de .NET disponible en https://dotnet.microsoft.com/en-us/download.
+**Google Docs** – [https://docs.google.com/](https://docs.google.com/)  
+Empleada para la redacción, gestión y revisión de requisitos del sistema. Su funcionalidad colaborativa en tiempo real facilita el aporte y comentarios de todos los integrantes del equipo.
 
-**Software Documentation**
-Google Docs y GitHub README
-La documentación del software se ha centralizado en Google Docs. El archivo README en GitHub incluye instrucciones de despliegue, estructura del repositorio y requerimientos técnicos.
+
+#### Product UX/UI Design
+
+**Figma** – [https://www.figma.com/](https://www.figma.com/)  
+Usado para el diseño de interfaces y la creación de prototipos interactivos (wireframes y mockups). Permite colaboración en tiempo real entre los equipos de diseño y desarrollo.
+
+**UXPressia** – [https://uxpressia.com/](https://uxpressia.com/)  
+Herramienta en línea para identificar y comprender problemas, necesidades y comportamientos del usuario. Fue utilizada para elaborar el *Empathy Map*, *Journey Map* e *Impact Map*.
+
+**Miro** – [https://miro.com/es/](https://miro.com/es/)  
+Plataforma colaborativa de pizarras digitales en tiempo real. Se utilizó en la creación del *As-Is* y *To-Be Scenario Map*.
+
+
+#### Software Development
+
+**Landing Page**  
+Desarrollada con tecnologías base del desarrollo web: **HTML5, CSS3, JavaScript**, junto con **React.js** y el framework **Tailwind CSS**, lo que permitió un desarrollo más ágil y modular.  
+El entorno de desarrollo principal fue **IntelliJ IDEA Ultimate** por sus herramientas avanzadas de depuración y control de versiones.
+
+
+#### Software Documentation
+
+**GitHub** – [https://github.com/](https://github.com/)  
+Plataforma de desarrollo colaborativo basada en Git. Se utilizó para alojar el código del proyecto, gestionar versiones y facilitar la colaboración entre desarrolladores.
+
+**LucidChart** – [https://lucid.app/](https://lucid.app/)  
+Herramienta de diagramación en línea usada para crear diagramas UML (como diagramas de clases), flujos y mapas mentales.
+
+**Structurizr** – [https://www.structurizr.com/](https://www.structurizr.com/)  
+Plataforma para modelado de diagramas de arquitectura de software mediante código. Se utilizó para construir los diagramas C4 del proyecto.
+
+---
 
 ### 5.1.2. Source Code Management.  
 
@@ -62,11 +84,83 @@ style: cambios de estilo sin afectar funcionalidad
 refactor: mejoras internas sin cambios funcionales
 test: añadir pruebas
 
+---
+
 ### 5.1.3. Source Code Style Guide & Conventions.  
+
+En el proyecto NeuroZen, hemos seguido una guía de estilos para mantener el código organizado, legible y fácil de mantener:
+
+**React (Frontend)**
+
+- Componentes funcionales: se prioriza el uso de functional components en lugar de clases.
+- Nomenclatura en PascalCase para componentes.
+  Ejemplo: Navbar, StressForm.
+- Props y State: se usan para el manejo de datos dinámicos y comunicación entre componentes.
+- Estructura modular: cada componente dentro de su propia carpeta cuando es complejo (ej. /components/StressForm/).
+- JSX limpio: máximo de responsabilidad por componente (Single Responsibility Principle).
+
+**Tailwind CSS**
+
+- Uso de clases utilitarias para aplicar estilos de manera rápida y consistente.
+- Nombres descriptivos en clases personalizadas si son necesarias.
+  Ejemplo: .hero-section, .btn-submit.
+- Evitar estilos inline excepto en casos específicos.
+
+**JavaScript**
+
+- Variables y funciones en camelCase.
+  Ejemplo: handleSubmit, userEmail.
+- Constantes en UPPER_CASE.
+  Ejemplo: API_URL.
+- Uso de ESLint + Prettier para mantener un formato uniforme.
+- Modularización del código para evitar funciones largas o anidadas innecesariamente.
+
+**HTML**
+
+- Etiquetas correctamente cerradas.
+  Ejemplo: <p>Welcome to NeuroZen</p>.
+- Uso exclusivo de minúsculas en etiquetas y atributos.
+- Valores de atributos siempre entre comillas dobles.
+- Todas las imágenes con alt obligatorio.
+
+**Git**
+
+- Ramas organizadas bajo el modelo GitFlow:
+  - main → versión estable en producción.
+  - develop → versión de desarrollo.
+  - feature/{nombre} → nuevas funcionalidades.
+
+- Commits siguiendo Conventional Commits:
+  - feat: add stress form component
+  - fix: correct navbar responsive issue
+  - docs: update README.
 
 ---
 
-### 5.1.4. Software Deployment Configuration.  
+### 5.1.4. Software Deployment Configuration
+
+El despliegue de **NeuroZen** se configuró de la siguiente manera:
+
+
+#### Landing Page (React + Tailwind)
+
+- **Plataforma:** Vercel  
+- **Repositorio GitHub:** conectado directamente a Vercel  
+- **Proceso:** despliegue automático al realizar *push* en la rama `main`  
+
+
+#### Web Application (React + Node.js/FastAPI)
+
+- **Frontend Web (React):** desplegado en Vercel, con soporte de rutas dinámicas mediante `vercel.json`  
+- **Backend API (Node.js/FastAPI):** desplegado en Railway, empaquetado con `Dockerfile`  
+- **CI/CD:** Railway ejecuta el despliegue automático al detectar cambios en la rama `main`  
+
+---
+
+#### Repositorios
+
+- Todo el código se encuentra en **GitHub**, bajo la organización del equipo de **NeuroZen**.  
+- El flujo de trabajo colaborativo se gestiona mediante **ramas y pull requests** siguiendo un modelo de desarrollo ágil.  
 
 ---
 
@@ -109,6 +203,7 @@ test: añadir pruebas
 ### 5.2.1.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
