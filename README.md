@@ -68,24 +68,25 @@ El equipo utiliza Git y GitHub para el control de versiones y colaboración:
 **Link de los repositorios de la organización:**  
 [https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories](https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories)
 
-**Modelo de ramas - GitFlow:**
+#### Modelo de Ramas
 
-Rama principal: main
-Rama de desarrollo: develop
-Ramas de funcionalidades: feature/{nombre-funcionalidad}
-Ramas de lanzamiento: release/{version}
-Ramas de corrección urgente: hotfix/{descripcion}
+Se sigue un modelo basado en **GitFlow simplificado**:
 
-**Convenciones:**
+- `main` → rama principal, contiene versiones estables y listas para producción  
+- `develop` → rama de desarrollo activo  
+- `feature/{nombre-funcionalidad}` → ramas específicas para nuevas funcionalidades  
+  - Ejemplo: `feature/chapter-1`, `feature/user-authentication`  
 
-Versionado semántico: MAJOR.MINOR.PATCH (ej. 1.0.0)
-Mensajes de commit bajo estándar Conventional Commits:
-feat: agregar nueva funcionalidad
-fix: corrección de bug
-docs: cambios en documentación
-style: cambios de estilo sin afectar funcionalidad
-refactor: mejoras internas sin cambios funcionales
-test: añadir pruebas
+#### Convenciones de Versionado y Commits
+
+- **Versionado semántico:** `MAJOR.MINOR.PATCH` (ejemplo: `1.0.0`)  
+- **Mensajes de commit** siguen el estándar **Conventional Commits**:  
+  - `feat:` agregar nueva funcionalidad  
+  - `fix:` corrección de bug  
+  - `docs:` cambios en documentación  
+  - `style:` cambios de estilo sin afectar la funcionalidad  
+  - `refactor:` mejoras internas sin cambios funcionales  
+  - `test:` añadir pruebas  
 
 ---
 
@@ -204,6 +205,7 @@ El despliegue de **NeuroZen** se configuró de la siguiente manera:
 ### 5.2.1.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
