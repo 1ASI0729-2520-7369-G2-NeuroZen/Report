@@ -351,7 +351,11 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
 
----
+![user_flow1](imgs/user_flow1.png)
+
+![user_flow2](imgs/user_flow2.png)
+
+![user_flow3](imgs/user_flow3.png)
 
 ## 4.5. Web Applications Prototyping.  
 
@@ -571,6 +575,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
