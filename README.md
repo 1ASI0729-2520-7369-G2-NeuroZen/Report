@@ -198,11 +198,11 @@ En la primera iteración (Sprint 1), el equipo se enfocó en la **implementació
 
 #### Historias de Usuario Abordadas
 
-| ID   | Título                                               | Descripción                                                                                                                                         | Estimación (Horas) | Asignado a | Estado |
-|------|------------------------------------------------------|--------------------------- -------------------------------------------------------------------------------------------------------------------------|--------------------|------------|--------|
-| US25 | Explorar funcionalidades de la app sin registro      | Como visitante, quiero explorar las funcionalidades principales sin crear cuenta, para conocer el valor de la aplicación.                           | 6                  | Equipo     | Done   |
-| US26 | Visualizar landing page con beneficios y testimonios | Como visitante, quiero ver información de beneficios y testimonios en la landing page, para entender la utilidad del producto.                      | 7                  | Equipo     | Done   |
-| US27 | Visualizar información general desde la landing page | Como visitante, quiero visualizar información general del producto en la landing page, para obtener una visión clara de lo que ofrece NeuroZen.     | 5                  | Equipo     | Done   |
+| ID   | Título                                               | Descripción                                                                                                                          | Estimación (Horas) | Asignado a | Estado |
+|------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|--------|
+| US25 | Explorar funcionalidades de la app sin registro       | Como visitante, quiero explorar las funcionalidades principales sin crear cuenta, para conocer el valor de la aplicación.            | 6                  | Equipo     | Done   |
+| US26 | Visualizar landing page con beneficios y testimonios  | Como visitante, quiero ver información de beneficios y testimonios en la landing page, para entender la utilidad del producto.       | 7                  | Equipo     | Done   |
+| US27 | Visualizar información general desde la landing page  | Como visitante, quiero visualizar información general del producto en la landing page, para obtener una visión clara de lo que ofrece NeuroZen. | 5                  | Equipo     | Done   |
 
 
 **Evidencia en del avance en trello**
