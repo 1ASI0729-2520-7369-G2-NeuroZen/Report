@@ -315,6 +315,16 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ### 4.4.2. Web Applications Mock-ups.  
 
+![web_mockup_1](imgs/web_mockup_1.jpg)
+
+![web_mockup_2](imgs/web_mockup_2.jpg)
+
+![web_mockup_3](imgs/web_mockup_3.jpg)
+
+![web_mockup_4](imgs/web_mockup_4.jpg)
+
+![web_mockup_5](imgs/web_mockup_5.jpg)
+
 ---
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
@@ -452,6 +462,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
