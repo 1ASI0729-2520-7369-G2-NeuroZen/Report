@@ -339,8 +339,6 @@ Ambos segmentos están dispuestos a pagar por una suscripción si perciben valor
 
 ## 2.3. Needfinding.  
 
----
-
 Al recopilar toda la información de los segmentos objetivo y realizar las entrevistas, se hará un análisis de estos mismos haciendo uso de:  
 
 - **User Persona**  
@@ -391,7 +389,13 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ### 2.3.4. Empathy Mapping.  
 
-CREAR IMAGEN DE EMPATHY MAPPIING
+**Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
+
+![empathy_mapping_1](imgs/empathy_mapping_1.png)
+
+**Segmento 2:Clínicas, psicólogos y centros de salud mental**
+
+![empathy_mapping_2](imgs/empathy_mapping_2.png)
 
 ---
 
@@ -430,6 +434,7 @@ CREAR IMAGEN DE EMPATHY MAPPIING
 | **Patient Follow-Up**          | Seguimiento de pacientes         | Herramienta dirigida a psicólogos y clínicas para monitorear en tiempo real el estado emocional y el progreso de sus pacientes. |
 | **Privacy and Security Module**| Módulo de privacidad y seguridad | Conjunto de protocolos y funciones que garantizan la confidencialidad de la información del usuario, cumpliendo normas éticas y legales. |
 | **Institutional Subscription** | Suscripción institucional        | Modelo de pago diseñado para clínicas y centros de salud mental que deseen integrar la app como complemento a sus servicios profesionales. |
+
 
 
 
