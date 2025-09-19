@@ -305,7 +305,16 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ---
 
-### 4.4.1. Web Applications Wireframes.  
+### 4.4.1. Web Applications Wireframes. 
+
+Diseño para visualizar el login
+
+![web_application_1](imgs/web_application_2.jpg) 
+
+![web_application_2](imgs/web_application_3.jpg) 
+
+![web_application_3](imgs/web_application_4.jpg) 
+
 
 ---
 
@@ -462,6 +471,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
