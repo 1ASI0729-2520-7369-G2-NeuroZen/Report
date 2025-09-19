@@ -23,7 +23,7 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 
 | Foto                                          | Nombre completo | Código     | Carrera                | Habilidades técnicas y rol                  |
 |-----------------------------------------------|-----------------|------------|------------------------|---------------------------------------------|
-| ![Alexander](imgs/foto_alexander.jpg) | Fernandez Garfias Alexander Piero | U20231B475 | Ingeniería de Software | Conocimientos en Java, Flutter, Node.js, HTML, C++, TypeScript |
+| ![Alexander](imgs/foto_alexander.jpeg) | Fernandez Garfias Alexander Piero | U20231B475 | Ingeniería de Software | Conocimientos en Java, Flutter, Node.js, HTML, C++, TypeScript |
 | ![Henry](imgs/foto_henry.jpg) | Montes Ramos Henry Jaredt | U20231G159 | Ingeniería de Software | Manejo de Java, Node.js, HTML, C++, TypeScript |
 | ![Ian](imgs/foto_ian.jpg) | Nawrocki Loureiro Ian Andre | U20231G054 | Ingeniería de Software | Enfoque en desarrollo Fullstack y Backend, además de experiencia en Java, Node.js, HTML, C++, TypeScript |
 | ![Miguel](imgs/foto_miguel.jpg) | Vila Guillen Miguel Angel | U202321774 | Ingeniería de Software | Conocimientos en Java, Node.js, HTML, C++, TypeScript |
@@ -205,5 +205,6 @@ Instituciones y profesionales que buscan complementar sus servicios con solucion
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
 ---
+
 
 
