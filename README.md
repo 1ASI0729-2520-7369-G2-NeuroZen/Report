@@ -38,7 +38,7 @@ Plataforma colaborativa de pizarras digitales en tiempo real. Se utilizó en la 
 
 #### Software Development
 
-**Landing Page**  
+**Landing Page** – [https://www.jetbrains.com/](https://www.jetbrains.com/)
 Desarrollada con tecnologías base del desarrollo web: **HTML5, CSS3, JavaScript**, junto con **React.js** y el framework **Tailwind CSS**, lo que permitió un desarrollo más ágil y modular.  
 El entorno de desarrollo principal fue **IntelliJ IDEA Ultimate** por sus herramientas avanzadas de depuración y control de versiones.
 
@@ -62,8 +62,11 @@ El equipo utiliza Git y GitHub para el control de versiones y colaboración:
 
 **Repositorios:**
 
-Report: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
-LandingPage: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Split-landing.git
+**Link del repositorio del informe:**  
+[https://github.com/1ASI0729-2520-7369-G2-NeuroZen/Report/tree/main](https://github.com/1ASI0729-2520-7369-G2-NeuroZen/Report/tree/main)
+
+**Link de los repositorios de la organización:**  
+[https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories](https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories)
 
 **Modelo de ramas - GitFlow:**
 
@@ -155,14 +158,12 @@ El despliegue de **NeuroZen** se configuró de la siguiente manera:
 - **Backend API (Node.js/FastAPI):** desplegado en Railway, empaquetado con `Dockerfile`  
 - **CI/CD:** Railway ejecuta el despliegue automático al detectar cambios en la rama `main`  
 
----
 
 #### Repositorios
 
 - Todo el código se encuentra en **GitHub**, bajo la organización del equipo de **NeuroZen**.  
 - El flujo de trabajo colaborativo se gestiona mediante **ramas y pull requests** siguiendo un modelo de desarrollo ágil.  
 
----
 
 ## 5.2. Landing Page, Services & Applications Implementation.  
 
@@ -203,6 +204,7 @@ El despliegue de **NeuroZen** se configuró de la siguiente manera:
 ### 5.2.1.8. Team Collaboration Insights during Sprint.  
 
 ---
+
 
 
 
