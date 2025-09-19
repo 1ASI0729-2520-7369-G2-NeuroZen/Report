@@ -440,7 +440,7 @@ Los flujos principales que la página introduce al usuario son:
     -   El usuario abre las preguntas frecuentes y obtiene respuestas
         sin abandonar la página.
 
-![web_application_prototyping](imgs/web_application_prototyping)
+![web_application_prototyping](imgs/web_application_prototyping.jpg)
 
 ---
 
@@ -571,6 +571,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
