@@ -224,6 +224,11 @@ A continuación, se listan los commits que evidencian el desarrollo de la **Land
 | Nawrocki Loureiro Ian Andre | 13/09/2025 | feat: add html content for landing page | 0298a7b |
 | Nawrocki Loureiro Ian Andre | 13/09/2025 | chore: init | 3ac4653 |
 
+**Evidencia de los commits del landing page**
+
+![commitslanding](imgs/commitslanding.png)
+
+
 #### Commits de Documentación y Diseño
 
 | Autor | Fecha | Commit Message | Commit ID |
@@ -254,6 +259,11 @@ A continuación, se listan los commits que evidencian el desarrollo de la **Land
 | Requena Gutiérrez Diego Gabriel | 17/09/2025 | doc: add user stories | 0b8833e |
 | Requena Gutiérrez Diego Gabriel | 17/09/2025 | doc: add to-be scenario mapping | 133fb36 |
 
+**Evidencia de los commits del report**
+
+![commits1](imgs/commits1.png)
+
+![commits2](imgs/commits2.png)
 
 ### 5.2.1.4. Development Evidence for Sprint Review.  
 
@@ -315,6 +325,7 @@ La colaboración del equipo en Sprint 1 se centró en la **organización y versi
 - Las decisiones técnicas y ajustes se comunicaron mediante reuniones cortas (stand-ups) y registros en el repositorio.  
 
 Esta metodología de colaboración permitió mantener una buena coordinación, acelerar la entrega de la landing page y sentar bases sólidas para futuros sprints.
+
 
 
 
