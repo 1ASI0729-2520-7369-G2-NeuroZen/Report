@@ -451,20 +451,217 @@ Los flujos principales que la página introduce al usuario son:
 
 ## 4.6. Domain-Driven Software Architecture.  
 
+La arquitectura de software orientada al dominio es un enfoque de diseño que se centra en la estructura y organización del software en torno a los conceptos y procesos clave de un dominio específico. Este enfoque nos permite crear sistemas que reflejen con precisión los requisitos y la lógica del negocio, lo que facilita la implementación de funcionalidades específicas y la adaptación a los cambios en el dominio. Con NeuroZen, utilizamos una arquitectura de software orientada al dominio para estructurar nuestro sistema de manera coherente y escalable, lo que nos permitirá desarrollar una aplicación robusta y fácil de mantener.
+
 ### 4.6.1. Software Architecture Context Diagram.  
 
-![context_diagram](imgs/context_diagram.png)
+#### Objetivo de la Sesión
+
+**Objetivo:**  
+Estructurar el dominio en contextos claros, detallar el flujo principal (**test de estrés → recomendaciones → contacto profesional**)  
+y los cruces entre contextos (**suscripciones, notificaciones**).
+
+---
+
+#### Captura de la Sesión:
+
+IMAGEN
+
+#### Bounded Contexts
+
+- **Identity & Access (IAM):** registro, login, autorización.
+- **Profiles & Preferences:** datos del usuario, preferencias de bienestar.
+- **Stress Test & Support:** sesiones de test, cálculo de score, planes sugeridos.
+- **Recommendations & Activities:** asignación y seguimiento de actividades.
+- **Professionals Directory:** psicólogos, solicitud de contacto.
+- **Subscriptions & Payments:** suscripciones y cobros.
+- **Notifications:** correos/push transaccionales.
+- **Analytics & Reporting:** métricas de uso y progreso.
+
+---
+
+#### Aggregates, Commands, Events, Queries (Resumen)
+
+- **User:**
+
+  - **Commands:** `RegisterUser`, `LoginUser`
+  - **Events:** `UserRegistered`, `LoginSucceeded` / `LoginFailed`
+  - **Queries:** `GetUserProfile`
+
+- **Profile:**
+
+  - **Commands:** `UpdateProfile`
+  - **Events:** `ProfileUpdated`
+  - **Queries:** `GetProfile`
+
+- **TestSession:**
+
+  - **Commands:** `StartTest`, `SubmitAnswers`
+  - **Events:** `TestSubmitted`, `StressScoreCalculated`
+  - **Queries:** `GetLastScore`
+
+- **Plan/Activities:**
+
+  - **Commands:** `AssignActivities`
+  - **Events:** `ActivitiesAssigned`
+  - **Queries:** `GetActivities`
+
+- **Psychologist:**
+
+  - **Commands:** `CreateProProfile`, `RequestContact`
+  - **Events:** `PsychologistPublished`, `PsychologistContactRequested`
+  - **Queries:** `FindPsychologists`
+
+- **Subscription:**
+
+  - **Commands:** `StartSubscription`, `ProcessPayment`
+  - **Events:** `SubscriptionActivated`, `PaymentProcessed` / `PaymentFailed`
+  - **Queries:** `GetSubscriptionStatus`
+
+- **Notification:**
+  - **Commands:** `SendEmail`, `Push`
+  - **Events:** `EmailSent`, `PushSent`
+  - **Queries:** `GetDeliveryStatus`
+
+---
+
+#### Flujo Principal (Happy Path)
+
+1. Usuario inicia test → registra respuestas → se calcula **score**.
+2. Si el **score** supera el umbral → se asignan actividades y se notifica por email/push.
+3. El usuario puede solicitar contacto con un psicólogo.
+
+---
 
 ### 4.6.2. Software Architecture Container Diagrams.  
 
-![container_diagram](imgs/container_diagram.png)
+**Descripción:**  
+El sistema **NeuroZen** está al centro y muestra su relación con actores humanos y sistemas externos (pagos, correo, contenidos de ejercicios).
+
+---
+
+#### Diagrama
+
+IMAGEN
+
+---
+
+#### Explicación
+
+- **Actores:**
+
+  - Paciente/Usuario
+  - Psicólogo
+  - Administrador
+
+- **Sistemas externos:**
+
+  - Pasarela de pagos
+  - Servicio de correo (SMTP/Provider)
+  - API de ejercicios/meditación
+
+- **Interacciones clave:**
+  - Los usuarios interactúan con **NeuroZen**.
+  - La plataforma se integra con servicios externos para pagos, notificaciones y contenidos.
+
+---
+
 
 ### 4.6.3. Software Architecture Components Diagrams.  
 
-![components_diagram](imgs/components_diagram.png)
+**Descripción:**  
+Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores de **NeuroZen**.
+
+**Diagrama**
+
+IAMGEN
+
+---
+
+#### Contenedores y Decisiones Tecnológicas
+
+- **Web Frontend (HTML/CSS/JS):** interfaz para landing, login/registro, test, actividades y directorio de psicólogos.
+- **Backend API (Node.js/Express):** lógica de dominio; expone endpoints REST.
+- **MongoDB:** persistencia (usuarios, sesiones de test, actividades, psicólogos, suscripciones).
+- **Auth Service (JWT/OAuth2):** autenticación/autorización.
+- **Notifications (Email/Push):** envíos transaccionales.
+- **Redis (opcional):** cache para sesiones/resultados.
+- **Integraciones:** pasarela de pagos, API de ejercicios, SMTP/Provider.
+
+---
+
+#### Comunicación
+
+- **Frontend ↔ Backend:** comunicación vía REST.
+- **Backend →** Auth / Notifications / DB / Redis.
+- **Backend →** pasarela de pagos, API de ejercicios y SMTP vía adaptadores.
+
+### 4.6.4. Software Architecture Component Level Diagrams
+
+#### 4.6.4.1. Backend API.
+
+#### Diagrama
+
+IMAGEN
+
+#### Componentes y Responsabilidades
+
+- **API Gateway / Router:** roteo de endpoints, validación básica.
+- **Users Module:** registro, login, refresh token, gestión de roles.
+- **Profiles Module:** CRUD de perfil y preferencias.
+- **Test & Assessment Module:** inicio/guardado de respuestas, cálculo de score.
+- **Recommendations Module:** asignación/listado de actividades, progreso.
+- **Professionals Module:** directorio/búsqueda de psicólogos, solicitud de contacto.
+- **Subscriptions & Payments Module:** planes, checkout, webhooks de pago.
+- **Notifications Module:** cola y envío de correos/push.
+- **Analytics Module:** métricas, reporting.
+
+---
+
+#### Interacciones Internas Relevantes
+
+- **Test & Assessment → Recommendations:** asignación en base al score.
+- **Subscriptions & Payments → Notifications:** confirmaciones/recordatorios.
+- **Recommendations → Notifications:** envío de plan.
+
+---
+
+#### 4.6.4.1. Frontend Web.
+
+#### Diagrama
+
+IMAGEN
+
+---
+
+#### Vistas / Componentes
+
+- **Header & Navigation:** navegación global (desktop/mobile).
+- **Landing/Home:** beneficios, ejercicios destacados, psicólogos.
+- **Auth (Login/Registro):** formularios, validaciones, almacenamiento de token.
+- **Stress Test UI:** formulario del test, feedback de score.
+- **Activities & Exercises:** plan sugerido, tarjetas de ejercicios.
+- **Psychologists Directory:** ficha/listado de profesionales.
+- **User Profile:** datos y preferencias.
+- **UI Kit / Shared Components:** botones, inputs, tarjetas, modales, toasts.
+
+---
+
+#### Notas de Implementación
+
+- **Accesibilidad:** labels, foco visible, contraste AA/AAA.
+- **Estado y persistencia ligera:** almacenamiento en **Storage** para token.
+- **Rutas:** `/`, `/login`, `/registro`, `/test`, `/actividades`, `/psicologos`, `/perfil`.
+
+---
 
 ## 4.7. Software Object-Oriented Design.  
 
+En esta sección se muestran y describen los **diagramas de clases** que detallan la implementación de los componentes en cada _bounded context_.
+
+La propuesta incluye las **clases, interfaces y enumeraciones**, junto con sus relaciones.  
+Se representan los **atributos, métodos y niveles de visibilidad** (public, private, protected).  
+Además, se indican las **multiplicidades y asociaciones** entre clases, garantizando que estén alineadas con los _bounded contexts_ definidos anteriormente.
 ---
 
 ### 4.7.1. Class Diagrams.  
@@ -576,4 +773,5 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
