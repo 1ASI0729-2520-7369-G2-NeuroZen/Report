@@ -465,7 +465,7 @@ y los cruces entre contextos (**suscripciones, notificaciones**).
 
 #### Captura de la Sesión:
 
-IMAGEN
+<p align="center"><img src="assets/md-images/diagrams/design-level-eventstorming.png" alt="Stress test mockup" width="1200px" /></p>
 
 #### Bounded Contexts
 
@@ -533,7 +533,7 @@ IMAGEN
 
 ---
 
-### 4.6.2. Software Architecture Container Diagrams.  
+### 4.6.2. Software Architecture Context Level Diagram.
 
 **Descripción:**  
 El sistema **NeuroZen** está al centro y muestra su relación con actores humanos y sistemas externos (pagos, correo, contenidos de ejercicios).
@@ -542,7 +542,7 @@ El sistema **NeuroZen** está al centro y muestra su relación con actores human
 
 #### Diagrama
 
-IMAGEN
+<p align="center"><img src="assets/md-images/diagrams/primer-diagrama.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -566,15 +566,14 @@ IMAGEN
 
 ---
 
-
-### 4.6.3. Software Architecture Components Diagrams.  
+### 4.6.3. Software Architecture Container Level Diagram.
 
 **Descripción:**  
 Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores de **NeuroZen**.
 
 **Diagrama**
 
-IAMGEN
+<p align="center"><img src="assets/md-images/diagrams/1diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -602,7 +601,7 @@ IAMGEN
 
 #### Diagrama
 
-IMAGEN
+<p align="center"><img src="assets/md-images/diagrams/2diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 #### Componentes y Responsabilidades
 
@@ -630,7 +629,7 @@ IMAGEN
 
 #### Diagrama
 
-IMAGEN
+<p align="center"><img src="assets/md-images/diagrams/3diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -773,5 +772,6 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
