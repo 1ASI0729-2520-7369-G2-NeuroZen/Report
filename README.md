@@ -1440,11 +1440,9 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
 
-![user_flow1](imgs/user_flow1.png)
+![web_application_wireframe_1.jpg](imgs/web_application_wireframe_1.jpg)
 
-![user_flow2](imgs/user_flow2.png)
-
-![user_flow3](imgs/user_flow3.png)
+![web_application_prototyping.jpg](imgs/web_application_prototyping.jpg)
 
 ## 4.5. Web Applications Prototyping.  
 
@@ -2206,6 +2204,7 @@ Esta metodología de colaboración permitió mantener una buena coordinación, a
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
