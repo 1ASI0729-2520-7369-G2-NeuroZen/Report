@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/logo.jpg" alt="Logo UPC" />
+  <img src="imgs/upc logo2.png" alt="Logo UPC" />
   
   <h2>Universidad: Universidad Peruana de Ciencias Aplicadas</h2>
   <p><strong>Carrera:</strong> Ingeniería de Software</p>
@@ -165,6 +165,7 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
 <img src="imgs/criterio_específico.png" alt="Student Outcome" /></p>
 
 ---
+
 
 
 
