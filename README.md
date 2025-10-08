@@ -465,7 +465,7 @@ y los cruces entre contextos (**suscripciones, notificaciones**).
 
 #### Captura de la Sesión:
 
-<p align="center"><img src="assets/md-images/diagrams/design-level-eventstorming.png" alt="Stress test mockup" width="1200px" /></p>
+<p align="center"><img src="imgs/design-level-eventstorming.png" alt="Stress test mockup" width="1200px" /></p>
 
 #### Bounded Contexts
 
@@ -542,7 +542,7 @@ El sistema **NeuroZen** está al centro y muestra su relación con actores human
 
 #### Diagrama
 
-<p align="center"><img src="assets/md-images/diagrams/primer-diagrama.png" alt="Stress test mockup" width="700px" /></p>
+<p align="center"><img src="imgs/primer-diagrama.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -573,7 +573,7 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 
 **Diagrama**
 
-<p align="center"><img src="assets/md-images/diagrams/1diagram.png" alt="Stress test mockup" width="700px" /></p>
+<p align="center"><img src="imgs/1diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -601,7 +601,7 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 
 #### Diagrama
 
-<p align="center"><img src="assets/md-images/diagrams/2diagram.png" alt="Stress test mockup" width="700px" /></p>
+<p align="center"><img src="imgs/2diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 #### Componentes y Responsabilidades
 
@@ -629,7 +629,7 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 
 #### Diagrama
 
-<p align="center"><img src="assets/md-images/diagrams/3diagram.png" alt="Stress test mockup" width="700px" /></p>
+<p align="center"><img src="imgs/3diagram.png" alt="Stress test mockup" width="700px" /></p>
 
 ---
 
@@ -772,6 +772,7 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 - Psychologists → Sessions (1 a muchos)
 
 ![database_design](imgs/database_diagram.png)
+
 
 
 
