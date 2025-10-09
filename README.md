@@ -2290,14 +2290,18 @@ Las evidencias de desarrollo y pruebas incluyen:
   - Se logró una versión estable del frontend con internacionalización y navegación funcional.  
   - No se reportaron errores críticos en la ejecución ni en la visualización del proyecto.  
 
-
 ### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Después de finalizar el segundo sprint, hemos logrado agregar algunas secciones como el login, register, comunidad y citas a nuestro frontend.
+
+![evidence_sprint_2](imgs/sprint_2_evidence.jpg)
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
