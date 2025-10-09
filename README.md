@@ -2321,6 +2321,16 @@ Estas herramientas permitieron mantener un flujo de trabajo coordinado, facilita
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
 
+Durante el **Sprint 2**, la colaboración del equipo se centró en el **desarrollo del frontend de NeuroZen** y la **coordinación del trabajo mediante GitHub**, consolidando un flujo de trabajo ágil y organizado:  
+
+- Cada integrante trabajó en **ramas individuales** relacionadas con las funcionalidades asignadas, como autenticación, internacionalización y módulo de coaching.  
+- Se implementó un flujo constante de **pull requests y revisiones de código**, garantizando la calidad del desarrollo y la integración continua.  
+- La gestión de versiones y commits permitió documentar el progreso del equipo, evidenciando las mejoras en la **Landing Page** y el avance del **frontend**.  
+- Las reuniones virtuales breves (stand-ups) y la comunicación continua a través de Discord facilitaron la resolución rápida de incidencias técnicas.  
+- El repositorio de GitHub funcionó como fuente única de verdad, centralizando tanto el código como la documentación y las decisiones técnicas.  
+
+Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcionalidades y fortalecer la base técnica del proyecto para los próximos sprints.
+
 
 
 
