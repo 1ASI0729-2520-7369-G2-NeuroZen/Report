@@ -2224,6 +2224,10 @@ En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la L
 
 ### 5.2.2.3.Sprint Backlog 2.
 
+![trello_2](imgs/trello_2.jpg)
+
+Este Sprint permitió entregar el **Primer avance del frontend de NeuroZen**, proporcionando a los visitantes más **funcionalidades**, **registro**, **login** y **citas y comunidad** de la aplicación.
+
 ### 5.2.2.4.Development Evidence for Sprint Review.
 
 ### 5.2.2.5.Execution Evidence for Sprint Review.
@@ -2233,6 +2237,7 @@ En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la L
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
