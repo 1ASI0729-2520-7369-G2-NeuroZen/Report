@@ -2045,11 +2045,11 @@ A continuación, se presenta el Sprint Planning 1, en el que se documentan las e
 | **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                  |
 | **Prepared By**                        | Equipo NeuroZen                                                                                                                                                                                                                                                                                                                               |
 | **Attendees (to planning meeting)**    | Fernández Garfias Alexander / Montes Ramos Henry / Nawrocki Loureiro Ian / Vila Guillen Miguel / Requena Gutiérrez Diego                                                                                                                                                                                                                      |
-| **Sprint n – 1 Review Summary**        | Este es el primer sprint, por lo tanto, no hay una revisión de sprint anterior.                                                                                                                                                                                                                                                               |
-| **Sprint n – 1 Retrospective Summary** | En esta primera etapa del proyecto se identificó la necesidad de reforzar conocimientos técnicos, especialmente en el uso de frameworks CSS. Además, se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió como objetivo central desplegar la página en GitHub Pages al finalizar el sprint. |
+| **Sprint 0 – 1 Review Summary**        | Este es el primer sprint, por lo tanto, no hay una revisión de sprint anterior.                                                                                                                                                                                                                                                               |
+| **Sprint 0 – 1 Retrospective Summary** | En esta primera etapa del proyecto se identificó la necesidad de reforzar conocimientos técnicos, especialmente en el uso de frameworks CSS. Además, se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió como objetivo central desplegar la página en GitHub Pages al finalizar el sprint. |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                               |
-| **Sprint n Goal**                      | Publicar un Landing Page funcional, con diseño responsive y estructura clara, accesible desde GitHub Pages.                                                                                                                                                                                                                                   |
-| **Sprint n Velocity**                  | 2                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Goal**                      | Publicar un Landing Page funcional, con diseño responsive y estructura clara, accesible desde GitHub Pages.                                                                                                                                                                                                                                   |
+| **Sprint 1 Velocity**                  | 2                                                                                                                                                                                                                                                                                                                                             |
 | **Sum of Story Points**                | 2                                                                                                                                                                                                                                                                                                                                             |
 
 
@@ -2191,19 +2191,153 @@ Esta metodología de colaboración permitió mantener una buena coordinación, a
 
 ### 5.2.2.1.Sprint Planning 2.
 
+A continuación, se presenta el Sprint Planning 2, en el que se documentan las evidencias de la planificación y la actualización de la Landing Page. Asimismo, se muestran los avances del proyecto y los aprendizajes obtenidos del trabajo colaborativo del equipo mediante GitHub.
+
+| Campo                                  | Descripción                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                               |
+| **Date**                               | 2025-09-29                                                                                                                                                                                                                                                                                                                                    |
+| **Time**                               | 03:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                             |
+| **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                  |
+| **Prepared By**                        | Equipo NeuroZen                                                                                                                                                                                                                                                                                                                               |
+| **Attendees (to planning meeting)**    | Fernández Garfias Alexander / Montes Ramos Henry / Nawrocki Loureiro Ian / Vila Guillen Miguel / Requena Gutiérrez Diego                                                                                                                                                                                                                      |
+| **Sprint 1 – 2 Review Summary**        | En el primer sprint, faltaban componentes.                                                                                                                                                                                                                                                               |
+| **Sprint 1 – 2 Retrospective Summary** | En esta segunda etapa del proyecto se identificó la necesidad de reforzar conocimientos técnicos. Además, se actualizó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir en el frontend, se decidió internacionalizar el frontend y agregar contenido. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                               |
+| **Sprint 2 Goal**                      | Actualizar la landing page en figma, Desarrollar una primera versión del frontend con internacionalización.                                                                                                                                                                                                                                   |
+| **Sprint 2 Velocity**                  | 4                                                                                                                                                                                                                                                                                                                                             |
+| **Sum of Story Points**                | 4                                                                                                                                                                                                                                                                                                                                             |
+
+
 ### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la Landing Page y Desarrollo del frontend con Angular**, relacionada con el Epic **EP01 – Registro y Gestión de Perfil de Usuario**.  
+
+#### Historias de Usuario Abordadas
+
+| ID   | Título                                               | Descripción                                                                                                                          | Estimación (Horas) | Asignado a | Estado |
+|------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|--------|
+| US01 | Registro de usuario       | Como usuario, quiero registrarme en la plataforma para crear mi cuenta.            | 6                  | Equipo     | Done   |
+| US02 | Inicio de sesión seguro  | Como usuario registrado, quiero iniciar sesión para acceder a mis funciones.       | 7                  | Equipo     | Done   |
+| US03 | Recuperación de contraseña  | Como usuario, quiero recuperar mi contraseña para poder acceder si la olvido. | 5                  | Equipo     | Done   |
+
+![trello_2](imgs/trello_2.jpg)
+
+Este Sprint permitió entregar el **Primer avance del frontend de NeuroZen**, proporcionando a los visitantes más **funcionalidades**, **registro**, **login** y **citas y comunidad** de la aplicación.
 
 ### 5.2.2.3.Sprint Backlog 2.
 
+A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.  
+
+#### Commits de Documentación y Diseño
+
+| Autor                           | Fecha      | Commit Message                                                                                     | Commit ID   |
+|:--------------------------------|:-----------|:---------------------------------------------------------------------------------------------------|:------------|
+| Fernandez Alexander Piero       | 03/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Fernandez Alexander Piero       | 02/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Fernandez Alexander Piero       | 03/10/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Fernandez Alexander Piero       | 05/10/2025 | feat: add login and register                                                                       | b324762     |
+| Fernandez Alexander Piero       | 06/10/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Ian Nawrocki Loureiro      | 05/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Ian Nawrocki Loureiro      | 01/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+| Ian Nawrocki Loureiro      | 03/10/2025 | feat: Implement landing page layout with header and footer components                              | 224fbf0     |
+| Ian Nawrocki Loureiro       | 02/10/2025 | initial commit                                                                                     | d98e0e8     |
+| Ian Nawrocki Loureiro      | 02/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Ian Nawrocki Loureiro     | 02/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Vila Guillén Miguel Ángel       | 29/09/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Vila Guillén Miguel Ángel       | 04/10/2025 | feat: add login and register                                                                       | b324762     |
+| Vila Guillén Miguel Ángel       | 29/09/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Vila Guillén Miguel Ángel       | 06/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Vila Guillén Miguel Ángel       | 03/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+| Montes Ramos Henry Jaredt       | 03/10/2025 | feat: Implement landing page layout with header and footer components                              | 224fbf0     |
+| Montes Ramos Henry Jaredt       | 04/10/2025 | initial commit                                                                                     | d98e0e8     |
+| Montes Ramos Henry Jaredt       | 01/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Montes Ramos Henry Jaredt       | 05/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Montes Ramos Henry Jaredt       | 04/10/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Requena Gutiérrez Diego Gabriel | 03/10/2025 | feat: add login and register                                                                       | b324762     |
+| Requena Gutiérrez Diego Gabriel | 04/10/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Requena Gutiérrez Diego Gabriel | 04/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Requena Gutiérrez Diego Gabriel | 03/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+
+**Evidencia de los commits del report**
+
+![commits3](imgs/commits_3.jpg)
+
 ### 5.2.2.4.Development Evidence for Sprint Review.
+
+Durante este segundo sprint, el desarrollo se centró en la **implementación del frontend de NeuroZen** con **internacionalización (i18n)** y nuevas secciones funcionales como **Registro**, **Inicio de sesión**, **Recuperación de contraseña** y **Coaching**.  
+
+Las evidencias de desarrollo y pruebas incluyen:  
+
+- **Pruebas funcionales manuales**  
+  - Validación del flujo completo de **registro, inicio de sesión y recuperación de contraseña**.  
+  - Verificación del **cambio dinámico de idioma (es/en)** en todos los componentes de la interfaz.  
+  - Comprobación de la **navegación entre las secciones principales**, incluyendo *Landing Page*, *Login/Register* y *Coaching*.  
+  - Confirmación de la correcta **carga de traducciones y archivos JSON** utilizados en el sistema i18n.  
+  - Validación de la **interacción con la API simulada (db.json)** para mostrar datos dinámicos.  
+
+- **Pruebas de despliegue y visualización local**  
+  - Ejecución y prueba del proyecto mediante **`ng serve`** en el entorno local (`http://localhost:4200/`).  
+  - Revisión visual y funcional del apartado **/coaching**, donde se muestran listados de psicólogos, foros comunitarios y gestión de citas.  
+
+- **Pruebas de integración en GitHub**  
+  - Validación de los commits y ramas integradas mediante *merge requests* documentadas en GitHub.  
+  - Confirmación de que el flujo de trabajo colaborativo se mantuvo estable durante las actualizaciones del frontend.  
+
+- **Resultados:**  
+  - Todas las pruebas realizadas fueron satisfactorias.  
+  - Se logró una versión estable del frontend con internacionalización y navegación funcional.  
+  - No se reportaron errores críticos en la ejecución ni en la visualización del proyecto.  
 
 ### 5.2.2.5.Execution Evidence for Sprint Review.
 
+Después de finalizar el segundo sprint, hemos logrado agregar algunas secciones como el login, register, comunidad y citas a nuestro frontend.
+
+![evidence_sprint_2](imgs/sprint_2_evidence.jpg)
+
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+Durante este **Sprint 2**, la documentación de servicios se centró en **actualizar y ampliar los lineamientos técnicos y funcionales del frontend de NeuroZen**, priorizando la implementación de la **internacionalización (i18n)** y las nuevas secciones interactivas de la aplicación.  
+Se registraron los siguientes entregables:
+
+- **Actualización de la arquitectura de la aplicación**: descripción detallada de los nuevos módulos de *login*, *register*, *recovery* y *coaching*, integrados bajo la estructura de Angular.  
+- **Diagramas de diseño actualizados**: estructura modular del frontend y flujo de navegación entre componentes, incluyendo la gestión multilenguaje.  
+- **Historias de usuario completadas**: registro, inicio de sesión y recuperación de contraseña (Epic EP01 – Registro y Gestión de Perfil de Usuario).  
+- **Documentación técnica en GitHub**: commits y registros detallados de las tareas desarrolladas, evidenciando el trabajo colaborativo mediante ramas y merges.  
+- **Internacionalización documentada**: integración de los archivos de traducción y configuración de idioma predeterminado, con guía técnica para futuras expansiones.  
+
+Esta documentación garantiza la **escalabilidad del frontend** y sienta las bases para incorporar futuras funcionalidades con soporte multilenguaje y componentes reutilizables.
 
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
+Para este **Sprint 2**, el despliegue del **frontend de NeuroZen** se realizó empleando herramientas de control de versiones y entornos de desarrollo colaborativo:  
+
+- **Git**: utilizado para el control de versiones y la gestión de cambios en el código fuente del proyecto.  
+- **GitHub**: como repositorio central para almacenar el código del frontend, gestionar ramas y realizar *pull requests* de manera colaborativa entre los integrantes del equipo.  
+- **Angular CLI**: para la construcción, ejecución y despliegue local del proyecto, asegurando una estructura modular y escalable.  
+
+Estas herramientas permitieron mantener un flujo de trabajo coordinado, facilitando la integración de nuevas funcionalidades como el registro, inicio de sesión, recuperación de contraseña, y la internacionalización del sitio.
+
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+Durante el **Sprint 2**, la colaboración del equipo se centró en el **desarrollo del frontend de NeuroZen** y la **coordinación del trabajo mediante GitHub**, consolidando un flujo de trabajo ágil y organizado:  
+
+- Cada integrante trabajó en **ramas individuales** relacionadas con las funcionalidades asignadas, como autenticación, internacionalización y módulo de coaching.  
+- Se implementó un flujo constante de **pull requests y revisiones de código**, garantizando la calidad del desarrollo y la integración continua.  
+- La gestión de versiones y commits permitió documentar el progreso del equipo, evidenciando las mejoras en la **Landing Page** y el avance del **frontend**.  
+- Las reuniones virtuales breves (stand-ups) y la comunicación continua a través de Discord facilitaron la resolución rápida de incidencias técnicas.  
+- El repositorio de GitHub funcionó como fuente única de verdad, centralizando tanto el código como la documentación y las decisiones técnicas.  
+
+Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcionalidades y fortalecer la base técnica del proyecto para los próximos sprints.
+
+
+
+
+
+
+
+
 
 
 
