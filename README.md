@@ -2222,11 +2222,47 @@ En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la L
 | US02 | Inicio de sesión seguro  | Como usuario registrado, quiero iniciar sesión para acceder a mis funciones.       | 7                  | Equipo     | Done   |
 | US03 | Recuperación de contraseña  | Como usuario, quiero recuperar mi contraseña para poder acceder si la olvido. | 5                  | Equipo     | Done   |
 
-### 5.2.2.3.Sprint Backlog 2.
-
 ![trello_2](imgs/trello_2.jpg)
 
 Este Sprint permitió entregar el **Primer avance del frontend de NeuroZen**, proporcionando a los visitantes más **funcionalidades**, **registro**, **login** y **citas y comunidad** de la aplicación.
+
+### 5.2.2.3.Sprint Backlog 2.
+
+A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.  
+
+#### Commits de Documentación y Diseño
+
+| Autor                           | Fecha      | Commit Message                                                                                     | Commit ID   |
+|:--------------------------------|:-----------|:---------------------------------------------------------------------------------------------------|:------------|
+| Fernandez Alexander Piero       | 03/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Fernandez Alexander Piero       | 02/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Fernandez Alexander Piero       | 03/10/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Fernandez Alexander Piero       | 05/10/2025 | feat: add login and register                                                                       | b324762     |
+| Fernandez Alexander Piero       | 06/10/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Ian Nawrocki Loureiro      | 05/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Ian Nawrocki Loureiro      | 01/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+| Ian Nawrocki Loureiro      | 03/10/2025 | feat: Implement landing page layout with header and footer components                              | 224fbf0     |
+| Ian Nawrocki Loureiro       | 02/10/2025 | initial commit                                                                                     | d98e0e8     |
+| Ian Nawrocki Loureiro      | 02/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Ian Nawrocki Loureiro     | 02/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Vila Guillén Miguel Ángel       | 29/09/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Vila Guillén Miguel Ángel       | 04/10/2025 | feat: add login and register                                                                       | b324762     |
+| Vila Guillén Miguel Ángel       | 29/09/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Vila Guillén Miguel Ángel       | 06/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Vila Guillén Miguel Ángel       | 03/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+| Montes Ramos Henry Jaredt       | 03/10/2025 | feat: Implement landing page layout with header and footer components                              | 224fbf0     |
+| Montes Ramos Henry Jaredt       | 04/10/2025 | initial commit                                                                                     | d98e0e8     |
+| Montes Ramos Henry Jaredt       | 01/10/2025 | fix: resolve i18n issues in navbar                                                                 | d74ceb6     |
+| Montes Ramos Henry Jaredt       | 05/10/2025 | feat: add fake api with db.json                                                                    | 760e3ec     |
+| Montes Ramos Henry Jaredt       | 04/10/2025 | fix: remove translation pipes for login and register                                               | bea20ca     |
+| Requena Gutiérrez Diego Gabriel | 03/10/2025 | feat: add login and register                                                                       | b324762     |
+| Requena Gutiérrez Diego Gabriel | 04/10/2025 | feat: Add coaching feature with psychologist listings, community forum, and appointment management | 75d2010     |
+| Requena Gutiérrez Diego Gabriel | 04/10/2025 | feat: Implement multilingual support for landing page with translation integration                 | f2c508f     |
+| Requena Gutiérrez Diego Gabriel | 03/10/2025 | feat: Add multilingual support with translation loader and language switcher                       | b032395     |
+
+**Evidencia de los commits del report**
+
+![commits3](imgs/commits_3.jpg)
 
 ### 5.2.2.4.Development Evidence for Sprint Review.
 
@@ -2237,6 +2273,7 @@ Este Sprint permitió entregar el **Primer avance del frontend de NeuroZen**, pr
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
