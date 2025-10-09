@@ -2311,7 +2311,16 @@ Esta documentación garantiza la **escalabilidad del frontend** y sienta las bas
 
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
+Para este **Sprint 2**, el despliegue del **frontend de NeuroZen** se realizó empleando herramientas de control de versiones y entornos de desarrollo colaborativo:  
+
+- **Git**: utilizado para el control de versiones y la gestión de cambios en el código fuente del proyecto.  
+- **GitHub**: como repositorio central para almacenar el código del frontend, gestionar ramas y realizar *pull requests* de manera colaborativa entre los integrantes del equipo.  
+- **Angular CLI**: para la construcción, ejecución y despliegue local del proyecto, asegurando una estructura modular y escalable.  
+
+Estas herramientas permitieron mantener un flujo de trabajo coordinado, facilitando la integración de nuevas funcionalidades como el registro, inicio de sesión, recuperación de contraseña, y la internacionalización del sitio.
+
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
