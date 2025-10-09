@@ -30,7 +30,7 @@
       <td>Fernandez Garfias Alexander Piero</td>
     </tr>
     <tr>
-      <td>U20231B475</td>
+      <td>U20231D343</td>
       <td>Montes Ramos Henry Jaredt</td>
     </tr>
     <tr>
@@ -201,8 +201,8 @@ Nuestra visión es convertirnos en la aplicación líder en salud mental laboral
 | Foto                                   | Nombre completo                   | Código     | Carrera                | Habilidades técnicas y rol                                                                               |
 | -------------------------------------- | --------------------------------- | ---------- | ---------------------- | -------------------------------------------------------------------------------------------------------- |
 | ![Alexander](imgs/foto_alexander.jpeg) | Fernandez Garfias Alexander Piero | U20231B475 | Ingeniería de Software | Conocimientos en Java, Flutter, Node.js, HTML, C++, TypeScript                                           |
-| ![Henry](imgs/foto_henry.jpg)          | Montes Ramos Henry Jaredt         | U20231G159 | Ingeniería de Software | Manejo de Java, Node.js, HTML, C++, TypeScript                                                           |
-| ![Ian](imgs/ian_foto.jpg)              | Nawrocki Loureiro Ian Andre       | U20231D343 | Ingeniería de Software | Enfoque en desarrollo Fullstack y Backend, además de experiencia en Java, Node.js, HTML, C++, TypeScript |
+| ![Henry](imgs/foto_henry.jpg)          | Montes Ramos Henry Jaredt         | U20231D343 | Ingeniería de Software | Manejo de Java, Node.js, HTML, C++, TypeScript                                                           |
+| ![Ian](imgs/ian_foto.jpg)              | Nawrocki Loureiro Ian Andre       | U20231G159 | Ingeniería de Software | Enfoque en desarrollo Fullstack y Backend, además de experiencia en Java, Node.js, HTML, C++, TypeScript |
 | ![Miguel](imgs/foto_miguel.jpg)        | Vila Guillen Miguel Angel         | U202321774 | Ingeniería de Software | Conocimientos en Java, Node.js, HTML, C++, TypeScript                                                    |
 | ![Diego](imgs/foto_diego.jpg)          | Requena Gutiérrez Diego Gabriel   | U202321774 | Ingeniería de Software | Manejo de Java, Node.js, HTML, C++, TypeScript                                                           |
 
@@ -2320,4 +2320,5 @@ Durante el **Sprint 2**, la colaboración del equipo se centró en el **desarrol
 - El repositorio de GitHub funcionó como fuente única de verdad, centralizando tanto el código como la documentación y las decisiones técnicas.
 
 Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcionalidades y fortalecer la base técnica del proyecto para los próximos sprints.
+
 
