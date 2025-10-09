@@ -2266,6 +2266,31 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 ### 5.2.2.4.Development Evidence for Sprint Review.
 
+Durante este segundo sprint, el desarrollo se centró en la **implementación del frontend de NeuroZen** con **internacionalización (i18n)** y nuevas secciones funcionales como **Registro**, **Inicio de sesión**, **Recuperación de contraseña** y **Coaching**.  
+
+Las evidencias de desarrollo y pruebas incluyen:  
+
+- **Pruebas funcionales manuales**  
+  - Validación del flujo completo de **registro, inicio de sesión y recuperación de contraseña**.  
+  - Verificación del **cambio dinámico de idioma (es/en)** en todos los componentes de la interfaz.  
+  - Comprobación de la **navegación entre las secciones principales**, incluyendo *Landing Page*, *Login/Register* y *Coaching*.  
+  - Confirmación de la correcta **carga de traducciones y archivos JSON** utilizados en el sistema i18n.  
+  - Validación de la **interacción con la API simulada (db.json)** para mostrar datos dinámicos.  
+
+- **Pruebas de despliegue y visualización local**  
+  - Ejecución y prueba del proyecto mediante **`ng serve`** en el entorno local (`http://localhost:4200/`).  
+  - Revisión visual y funcional del apartado **/coaching**, donde se muestran listados de psicólogos, foros comunitarios y gestión de citas.  
+
+- **Pruebas de integración en GitHub**  
+  - Validación de los commits y ramas integradas mediante *merge requests* documentadas en GitHub.  
+  - Confirmación de que el flujo de trabajo colaborativo se mantuvo estable durante las actualizaciones del frontend.  
+
+- **Resultados:**  
+  - Todas las pruebas realizadas fueron satisfactorias.  
+  - Se logró una versión estable del frontend con internacionalización y navegación funcional.  
+  - No se reportaron errores críticos en la ejecución ni en la visualización del proyecto.  
+
+
 ### 5.2.2.5.Execution Evidence for Sprint Review.
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
@@ -2273,6 +2298,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
