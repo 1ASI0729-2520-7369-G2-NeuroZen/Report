@@ -2212,6 +2212,16 @@ A continuación, se presenta el Sprint Planning 2, en el que se documentan las e
 
 ### 5.2.2.2. Aspect Leaders and Collaborators.
 
+En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la Landing Page y Desarrollo del frontend con Angular**, relacionada con el Epic **EP01 – Registro y Gestión de Perfil de Usuario**.  
+
+#### Historias de Usuario Abordadas
+
+| ID   | Título                                               | Descripción                                                                                                                          | Estimación (Horas) | Asignado a | Estado |
+|------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|--------|
+| US01 | Registro de usuario       | Como usuario, quiero registrarme en la plataforma para crear mi cuenta.            | 6                  | Equipo     | Done   |
+| US02 | Inicio de sesión seguro  | Como usuario registrado, quiero iniciar sesión para acceder a mis funciones.       | 7                  | Equipo     | Done   |
+| US03 | Recuperación de contraseña  | Como usuario, quiero recuperar mi contraseña para poder acceder si la olvido. | 5                  | Equipo     | Done   |
+
 ### 5.2.2.3.Sprint Backlog 2.
 
 ### 5.2.2.4.Development Evidence for Sprint Review.
@@ -2223,6 +2233,7 @@ A continuación, se presenta el Sprint Planning 2, en el que se documentan las e
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
