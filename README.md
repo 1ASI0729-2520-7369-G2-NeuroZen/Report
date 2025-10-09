@@ -2298,9 +2298,21 @@ Después de finalizar el segundo sprint, hemos logrado agregar algunas secciones
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
+Durante este **Sprint 2**, la documentación de servicios se centró en **actualizar y ampliar los lineamientos técnicos y funcionales del frontend de NeuroZen**, priorizando la implementación de la **internacionalización (i18n)** y las nuevas secciones interactivas de la aplicación.  
+Se registraron los siguientes entregables:
+
+- **Actualización de la arquitectura de la aplicación**: descripción detallada de los nuevos módulos de *login*, *register*, *recovery* y *coaching*, integrados bajo la estructura de Angular.  
+- **Diagramas de diseño actualizados**: estructura modular del frontend y flujo de navegación entre componentes, incluyendo la gestión multilenguaje.  
+- **Historias de usuario completadas**: registro, inicio de sesión y recuperación de contraseña (Epic EP01 – Registro y Gestión de Perfil de Usuario).  
+- **Documentación técnica en GitHub**: commits y registros detallados de las tareas desarrolladas, evidenciando el trabajo colaborativo mediante ramas y merges.  
+- **Internacionalización documentada**: integración de los archivos de traducción y configuración de idioma predeterminado, con guía técnica para futuras expansiones.  
+
+Esta documentación garantiza la **escalabilidad del frontend** y sienta las bases para incorporar futuras funcionalidades con soporte multilenguaje y componentes reutilizables.
+
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 
 
 
