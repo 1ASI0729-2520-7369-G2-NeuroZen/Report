@@ -2325,7 +2325,53 @@ Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcio
 
 ### 5.2.3.1.Sprint Planning 3.
 
+| Campo                                  | Descripción                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                                                    |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                             |
+| **Date**                               | 2025-11-01                                                                                                                                                                                                                                                                                                                                  |
+| **Time**                               | 03:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                           |
+| **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                |
+| **Prepared By**                        | Equipo NeuroZen                                                                                                                                                                                                                                                                                                                             |
+| **Attendees (to planning meeting)**    | Fernández Garfias Alexander / Montes Ramos Henry / Nawrocki Loureiro Ian / Vila Guillen Miguel / Requena Gutiérrez Diego                                                                                                                                                                                                                    |
+| **Sprint 2 – 3 Review Summary**        | Durante el Sprint 2 se completó la actualización del Landing Page, se internacionalizó el frontend y se fortaleció el diseño visual del proyecto. Los objetivos planteados se cumplieron de acuerdo con los tiempos estimados.                                                                                                              |
+| **Sprint 2 – 3 Retrospective Summary** | El equipo identificó la necesidad de estandarizar flujos y modelos para alinear el backend con los requerimientos funcionales del producto. Como mejora clave, se acordó que el backend debía ser construido bajo Domain-Driven Design para mantener coherencia modular con los bounded contexts definidos en la arquitectura del proyecto. Además, completamos el desarrollo del frontend. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 3 Goal**                      | Desarrollar el backend del proyecto NeuroZen utilizando Spring Boot, implementando los tres bounded contexts principales y aplicando principios de Domain-Driven Design (DDD) para garantizar un diseño modular, escalable y alineado a la arquitectura del dominio.                                                                        |
+| **Sprint 3 Velocity**                  | 6                                                                                                                                                                                                                                                                                                                                           |
+| **Sum of Story Points**                | 6                                                                                                                                                                                                                                                                                                                                           |
+
 ### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En la tercera iteración (Sprint 3), el equipo se enfocó en el desarrollo del backend de NeuroZen, construido con Spring Boot y diseñado completamente bajo Domain-Driven Design (DDD). Este sprint estuvo asociado a dos epics principales:
+
+**EP02 – Gestión del Test, Recomendaciones y Reportes**
+
+**EP03 – Gestión de Citas y Conexión con Profesionales**
+
+Durante este sprint se desarrollaron los primeros módulos funcionales del backend correspondientes a los bounded contexts definidos: Stress Test & Reports, Appointments & Professional Support, e Identity & Access.
+
+El desarrollo incluyó la creación de los controladores, servicios de dominio, repositorios y la definición de entidades agregadas, siguiendo principios de diseño modular y separación estricta de capas.
+
+#### Historias de Usuario Abordadas
+
+| ID   | Título                            | Descripción                                                                                                           | Estimación (Horas) | Asignado a | Estado |
+| ---- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------ | ---------- | ------ |
+| US04 | Generación de reportes            | Como empleado/psicólogo, quiero generar nuevos reportes para analizar el progreso y estado emocional de los usuarios. | 6                  | Equipo     | Done   |
+| US05 | Consulta de reportes generales    | Como empleado autorizado, quiero ver todos los reportes disponibles para supervisar la información registrada.        | 4                  | Equipo     | Done   |
+| US06 | Consulta de reporte por ID        | Como empleado, quiero visualizar un reporte específico para revisar información detallada sobre un caso.              | 3                  | Equipo     | Done   |
+| US07 | Consulta de reportes por empleado | Como administrador, quiero obtener todos los reportes generados por un empleado para evaluar su desempeño.            | 4                  | Equipo     | Done   |
+| US08 | Crear una cita con un profesional | Como usuario, quiero agendar una cita con un psicólogo para recibir apoyo profesional.                                | 7                  | Equipo     | Done   |
+| US09 | Reprogramar una cita              | Como usuario, quiero reprogramar la fecha de una cita ya agendada para ajustarla a mi disponibilidad.                 | 5                  | Equipo     | Done   |
+| US10 | Iniciar una cita                  | Como psicólogo, quiero marcar una cita como iniciada para gestionar el tiempo y registro correcto del proceso.        | 4                  | Equipo     | Done   |
+| US11 | Confirmar una cita                | Como usuario, quiero confirmar una cita para validar mi asistencia y el tiempo del psicólogo.                         | 4                  | Equipo     | Done   |
+| US12 | Completar una cita                | Como psicólogo, quiero marcar una cita como completada para cerrar formalmente la sesión.                             | 4                  | Equipo     | Done   |
+| US13 | Cancelar una cita                 | Como usuario o psicólogo, quiero cancelar una cita para liberar el horario y evitar confusiones.                      | 3                  | Equipo     | Done   |
+| US14 | Consultar citas por ID            | Como usuario o psicólogo, quiero ver la información completa de una cita específica.                                  | 3                  | Equipo     | Done   |
+| US15 | Ver todas las citas               | Como psicólogo, quiero consultar todas las citas disponibles para visualizar mi planificación del día.                | 4                  | Equipo     | Done   |
+| US16 | Ver citas por psicólogo           | Como psicólogo, quiero consultar todas mis citas agendadas para administrar mi agenda.                                | 4                  | Equipo     | Done   |
+| US17 | Ver citas por empleado            | Como administrador, quiero consultar las citas asociadas a un empleado para control y auditoría.                      | 4                  | Equipo     | Done   |
+
 
 ### 5.2.3.3.Sprint Backlog 3.
 
@@ -2340,3 +2386,4 @@ Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcio
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
