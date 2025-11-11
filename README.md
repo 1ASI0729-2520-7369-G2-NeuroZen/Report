@@ -2408,9 +2408,9 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 **Evidencia de los commits del backend**
 
-![commits_backend_1](imgs/commits_backend_1.png)
+![commits_backend_1](imgs/commits_backend_1.jpg)
 
-![commits_backend_2](imgs/commits_backend_2.png)
+![commits_backend_2](imgs/commits_backend_2.jpg)
 
 ### 5.2.2.4. Development Evidence for Sprint Review (Sprint 3)
 
@@ -2503,10 +2503,15 @@ Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de r
 
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 
+Después de finalizar el tercer sprint, hemos logrado agregar los endpoints antes mencionados, estos se pueden evidenciar mediante la página en swagger.
+
+![evidence_sprint_3](imgs/sprint_3_evidence.jpg)
+
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 
 
