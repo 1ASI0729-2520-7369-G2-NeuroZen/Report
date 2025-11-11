@@ -2507,11 +2507,55 @@ Después de finalizar el tercer sprint, hemos logrado agregar los endpoints ante
 
 ![evidence_sprint_3](imgs/sprint_3_evidence.jpg)
 
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante este **Sprint 3**, la documentación de servicios se centró en la **definición, estandarización y ampliación de los servicios del backend de NeuroZen**, desarrollados bajo **Spring Boot** y aplicando principios de **Domain-Driven Design (DDD)** dentro de los bounded contexts implementados.  
+Se registraron los siguientes entregables técnicos:
+
+- **Documentación formal de la arquitectura del backend**: descripción de la estructura hexagonal, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Profiles*, *Appointments*, *Patients*, *Professionals* y *Reports*.
+
+- **Especificación de servicios de dominio (Command y Query Services)**: lineamientos para el diseño y uso de servicios como:
+  - `PatientCommandService` y `PatientQueryService`
+  - `ProfessionalCommandService` y `ProfessionalQueryService`
+  - `MedicalAppointmentCommandService` y `MedicalAppointmentQueryService`
+  - `ProfileCommandService` y `ProfileQueryService`
+  
+  Cada uno documentado con sus responsabilidades, reglas de negocio y uso dentro del dominio.
+
+- **Documentación de ensambladores (Resource Assemblers)**: guía técnica de cómo se transforman los *Resources* en *Commands* y entidades del dominio, incluyendo:
+  - `CreatePatientCommandFromResourceAssembler`
+  - `ProfessionalResourceFromEntityAssembler`
+  - `PatientResourceFromEntityAssembler`
+  - Ensambladores para Appointment y Profiles
+
+- **Documentación generada automáticamente en Swagger**:  
+  Todos los endpoints REST desarrollados fueron expuestos y documentados mediante Swagger UI, permitiendo visualizar:
+  - Rutas disponibles
+  - Métodos HTTP
+  - Parámetros
+  - Códigos de respuesta
+  - Modelos utilizados en los requests y responses
+
+- **Documentación técnica en GitHub**:  
+  Se registraron commits que evidencian:
+  - Creación de interfaces de servicios
+  - Implementación de context-facades
+  - Implementación de repositorios
+  - Definición del `AppointmentStatus` enum
+  - Ensamblaje y validación de recursos mediante records
+  - Incorporación de reglas de negocio para entidades del dominio
+
+  Todo este trabajo se llevó a cabo mediante ramas, PRs y merges que reflejan el flujo de trabajo colaborativo del equipo.
+
+- **Modelos y Value Objects documentados**:  
+  Se dejaron especificaciones técnicas para agregados clave como *Profile*, *Patient*, *Professional* y *Appointment*, junto con sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
+
+Esta documentación garantiza la **escalabilidad del backend**, y establece una base sólida para la incorporación de nuevos servicios, integraciones externas y ampliación de los bounded contexts en próximos sprints.
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 
 
 
