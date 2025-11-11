@@ -2552,9 +2552,24 @@ Se registraron los siguientes entregables técnicos:
 
 Esta documentación garantiza la **escalabilidad del backend**, y establece una base sólida para la incorporación de nuevos servicios, integraciones externas y ampliación de los bounded contexts en próximos sprints.
 
-### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** se realizó utilizando herramientas de control de versiones, entornos de desarrollo colaborativo y utilidades propias del ecosistema de **Spring Boot**:
+
+- **Git**: utilizado para el control de versiones, permitiendo registrar la evolución del backend, manejar los cambios de código entre módulos y mantener un historial claro de commits.
+
+- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts como *Profiles*, *Appointments*, *Patients*, *Professionals* y *Reports*.
+
+- **Spring Boot & Maven**: herramientas principales para la construcción, empaquetado y despliegue del backend.  
+  Se emplearon comandos como `mvn spring-boot:run` y `mvn clean install` para validar el correcto funcionamiento del proyecto.
+
+- **Swagger UI**: utilizado para desplegar y documentar automáticamente los servicios desarrollados. Permitió verificar los endpoints REST expuestos y probar interacciones del backend desde la ruta:  
+  `http://localhost:8081/swagger-ui/index.html`
+
+Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinado durante el desarrollo del backend, facilitando la integración de nuevos servicios, la validación de reglas de dominio y la consolidación de la arquitectura basada en DDD.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 
 
 
