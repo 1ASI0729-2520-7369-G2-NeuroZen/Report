@@ -2372,12 +2372,134 @@ El desarrollo incluyó la creación de los controladores, servicios de dominio, 
 | US16 | Ver citas por psicólogo           | Como psicólogo, quiero consultar todas mis citas agendadas para administrar mi agenda.                                | 4                  | Equipo     | Done   |
 | US17 | Ver citas por empleado            | Como administrador, quiero consultar las citas asociadas a un empleado para control y auditoría.                      | 4                  | Equipo     | Done   |
 
-
 ### 5.2.3.3.Sprint Backlog 3.
+
+A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.
+
+#### Commits de Documentación y Diseño
+
+| Autor                           | Fecha      | Commit Message                                                                                                                                         | Commit ID |
+| :------------------------------ | :--------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
+| Fernandez Alexander Piero       | 03/11/2025 | add: create PatientQueryService interface                                                                                                              | ef8e48e   |
+| Fernandez Alexander Piero       | 07/11/2025 | feat(profiles): add resources and controller for profile creation and retrieval                                                                        | 42c9fda   |
+| Fernandez Alexander Piero       | 10/11/2025 | add: create MedicalAppointmentCommandService interface                                                                                                 | 2192ec7   |
+| Fernandez Alexander Piero       | 05/11/2025 | add: create MedicalAppointmentQueryService interface                                                                                                   | e0c5a72   |
+| Fernandez Alexander Piero       | 08/11/2025 | feat(profiles): implement profiles-context-facade for profile creation and retrieval                                                                   | 37801bb   |
+| Ian Nawrocki Loureiro           | 02/11/2025 | add: add the AppointmentStatus enum with the appointment statuses                                                                                      | 6344216   |
+| Ian Nawrocki Loureiro           | 04/11/2025 | add: create CreatePatientResource record with validation; add CreatePatientCommandFromResourceAssembler; add PatientResource record                    | 66a24f4   |
+| Ian Nawrocki Loureiro           | 09/11/2025 | add: create ProfessionalCommandService and ProfessionalQueryService interfaces; add ProfessionalResource ; add ProfessionalResourceFromEntityAssembler | 315725e   |
+| Ian Nawrocki Loureiro           | 06/11/2025 | feat(profiles): add profiles-context-facade interface for profile operations                                                                           | 6e0e97a   |
+| Ian Nawrocki Loureiro           | 11/11/2025 | feat(proyect)                                                                                                                                          | 7b4785b   |
+| Vila Guillén Miguel Ángel       | 03/11/2025 | add: create MedicalAppointmentResource and RequestMedicalAppointmentResource records with validation                                                   | d3bc507   |
+| Vila Guillén Miguel Ángel       | 05/11/2025 | Add: Create the PatientCommandService interface                                                                                                        | cbd6514   |
+| Vila Guillén Miguel Ángel       | 08/11/2025 | feat(profiles): add external-profile-service for profile fetching and creation                                                                         | 6cea77e   |
+| Vila Guillén Miguel Ángel       | 09/11/2025 | feat(profiles): add profile-repository for managing profile persistence                                                                                | cf6bdfb   |
+| Vila Guillén Miguel Ángel       | 11/11/2025 | add: Merge pull request #2 from 1ASI0729-2520-7369-G2-NeuroZen/develop                                                                                 | 5eb102c   |
+| Montes Ramos Henry Jaredt       | 02/11/2025 | feat(profiles): add profile aggregate and related value objects for profile management                                                                 | c33318e   |
+| Montes Ramos Henry Jaredt       | 06/11/2025 | feat(profiles): implement command and query services for profile management                                                                            | a177ab8   |
+| Montes Ramos Henry Jaredt       | 08/11/2025 | feat(profiles): add resources and controller for profile creation and retrieval                                                                        | 42c9fda   |
+| Montes Ramos Henry Jaredt       | 09/11/2025 | add: create PatientQueryService interface                                                                                                              | ef8e48e   |
+| Montes Ramos Henry Jaredt       | 11/11/2025 | chore: update project version to 1.0.0 and enhance project description                                                                                 | 21f06d6   |
+| Requena Gutiérrez Diego Gabriel | 01/11/2025 | add: create MedicalAppointmentResource and RequestMedicalAppointmentResource records with validation                                                   | d3bc507   |
+| Requena Gutiérrez Diego Gabriel | 04/11/2025 | add: create ProfessionalCommandService and ProfessionalQueryService interfaces; add ProfessionalResource and Assembler                                 | 315725e   |
+| Requena Gutiérrez Diego Gabriel | 07/11/2025 | add: create CreatePatientResource record with validation; add CommandFromResourceAssembler; add PatientResource record                                 | 66a24f4   |
+| Requena Gutiérrez Diego Gabriel | 09/11/2025 | add: add the AppointmentStatus enum with the appointment statuses                                                                                      | 6344216   |
+| Requena Gutiérrez Diego Gabriel | 10/11/2025 | feat(profiles): add external-profile-service for profile fetching and creation                                                                         | 6cea77e   |
 
 **Evidencia de los commits del backend**
 
-### 5.2.3.4.Development Evidence for Sprint Review.
+![commits_backend_1](imgs/commits_backend_1.png)
+
+![commits_backend_2](imgs/commits_backend_2.png)
+
+### 5.2.2.4. Development Evidence for Sprint Review (Sprint 3)
+
+Durante este tercer sprint, el desarrollo se centró en la **implementación del backend de NeuroZen**, construido con **Spring Boot**, siguiendo principios de **Domain-Driven Design (DDD)** y con la creación de varios **bounded contexts clave**:
+
+- **Profiles Context**
+- **Appointments & Scheduling Context**
+- **Patients & Professionals Context**
+- **Reports & Monitoring Context**
+
+El objetivo principal fue establecer la arquitectura sólida del backend, exponer los **endpoints REST** necesarios y garantizar que los flujos principales del sistema funcionaran correctamente.
+
+---
+
+## **Evidencias de desarrollo y pruebas**
+
+### **Pruebas funcionales manuales**
+
+Se realizaron validaciones manuales para confirmar el correcto funcionamiento de los módulos desarrollados:
+
+- Verificación de los endpoints de **Profiles**, validando creación y obtención de perfiles mediante los servicios de comando y consulta.
+- Pruebas del módulo de **Appointments**, cubriendo:
+  - Creación de citas
+  - Reprogramación
+  - Inicio, confirmación, cancelación y finalización de citas
+  - Consulta de citas por ID, psicólogo o empleado
+- Validación de los módulos de **Patients** y **Professionals**, comprobando:
+  - Creación de recursos
+  - Ensamblaje correcto desde EntityAssembler
+  - Validación de campos obligatorios
+- Pruebas de **Reports**, verificando:
+  - Generación de reportes
+  - Recuperación por ID
+  - Filtrado por empleado
+- Revisión de **lógica del dominio**, incluyendo:
+  - Estados de Appointment (`AppointmentStatus`)
+  - Ensambladores desde recursos a comandos
+  - Interfaces para command-service y query-service
+
+---
+
+### **Pruebas de despliegue y ejecución local**
+
+- Ejecución del backend en entorno local mediante:
+  - `mvn spring-boot:run`
+  - Ejecución mediante contenedor Docker (cuando aplicó)
+- Revisión completa del **Swagger UI** hospedado en:  
+  `http://localhost:8081/swagger-ui/index.html`
+- Validación visual de todos los endpoints de los bounded contexts:
+  - `/api/v1/reports`
+  - `/api/v1/appointments`
+  - `/api/v1/patients`
+  - `/api/v1/professionals`
+  - `/api/v1/profiles`
+
+Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de rutas REST.
+
+---
+
+### **Pruebas de integración en GitHub**
+
+- Validación de integraciones mediante:
+  - **Pull Requests**, incluyendo el merge principal:  
+    *“Merge pull request #2 from 1ASI0729-2520-7369-G2-NeuroZen/develop”*
+  - Validación de commits relacionados a:
+    - context-facade
+    - resource assemblers
+    - interfaces command/query
+    - repositories
+    - entidades y value objects
+
+- Comprobación de que todos los miembros del equipo aportaron equitativamente en módulos como:
+  - Profiles
+  - Patients
+  - Professionals
+  - Appointments
+
+- Confirmación de que el flujo de trabajo colaborativo mediante GitHub se mantuvo estable durante todo el sprint.
+
+---
+
+## **Resultados**
+
+- Todos los endpoints desarrollados funcionaron correctamente.
+- Se estableció una versión funcional, modular y documentada del backend.
+- Los bounded contexts quedaron completamente integrados.
+- Swagger se actualizó con todos los recursos y operaciones implementadas.
+- No se reportaron errores críticos en la lógica del dominio ni en la ejecución de los servicios.
+- Se dejó una arquitectura sólida y escalable para el Sprint 4.
 
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 
@@ -2386,4 +2508,5 @@ El desarrollo incluyó la creación de los controladores, servicios de dominio, 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 
