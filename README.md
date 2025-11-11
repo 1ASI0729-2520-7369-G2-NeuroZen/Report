@@ -2321,4 +2321,22 @@ Durante el **Sprint 2**, la colaboración del equipo se centró en el **desarrol
 
 Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcionalidades y fortalecer la base técnica del proyecto para los próximos sprints.
 
+### 5.2.3. Sprint 3.
 
+### 5.2.3.1.Sprint Planning 3.
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+
+### 5.2.3.3.Sprint Backlog 3.
+
+**Evidencia de los commits del backend**
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
