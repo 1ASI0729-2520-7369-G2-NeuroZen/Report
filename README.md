@@ -2568,9 +2568,23 @@ Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** s
 
 Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinado durante el desarrollo del backend, facilitando la integración de nuevos servicios, la validación de reglas de dominio y la consolidación de la arquitectura basada en DDD.
 
-### 5.2.3.8.Team Collaboration Insights during Sprint.
+### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrollo del backend de NeuroZen** y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado y alineado con los principios de *Domain-Driven Design (DDD)*:
 
+- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts del backend, incluyendo *Profiles*, *Patients*, *Professionals*, *Appointments* y *Reports*.
 
+- Se mantuvo un flujo constante de **pull requests, revisiones y merges**, garantizando la calidad del código y la correcta integración de los servicios de dominio, repositorios, agregados y controladores REST.
 
+- La gestión de commits permitió documentar de manera clara el avance colectivo del equipo, evidenciando la creación de interfaces de comando y consulta, assemblers, repositorios, validaciones, enums y controladores.
+
+- Las reuniones virtuales breves (stand-ups) y la comunicación continua mediante Discord facilitaron la resolución inmediata de dudas técnicas, sincronización entre miembros y reparto efectivo de responsabilidades.
+
+- El repositorio de GitHub operó como la **fuente única de verdad del backend**, centralizando:
+  - Código fuente actualizado
+  - Documentación técnica de los servicios
+  - Estructura de la arquitectura del dominio
+  - Historial de PRs, problemas detectados y decisiones de diseño
+
+Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
 
