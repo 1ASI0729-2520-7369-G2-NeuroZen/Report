@@ -2599,6 +2599,127 @@ Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrol
 
 Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
 
+## 5.3. Validation Interviews.
+
+## 5.3.1. Diseño de Entrevistas.
+
+**Segmento 1:Trabajadores y profesionales en entornos de alta presión laboral**  
+
+Para evaluar la efectividad del landing page de NeuroZen, hemos formulado preguntas para 
+comprender cómo los residentes perciben la aplicación y si sienten que el diseño y contenido 
+de la página reflejan adecuadamente su objetivo que es apaciguar el estrés de las personas. 
+Además queremos saber si la página motiva a los usuarios a registrarse y a confiar en 
+Neurozen como una ayuda a su estrés.  
+
+Introducción:  
+Buenos días soy [Tu Nombre], estudiante de la UPC, y junto a mi equipo estamos 
+desarrollando Neurozen, una aplicación para ayudar a las personas a reducir el estrés. 
+Nos gustaría hacerle algunas preguntas sobre la página web y aplicación móvil del proyecto, 
+y le agradecemos su tiempo para ayudarnos con esta entrevista.  
+
+Preguntas:  
+- ¿Qué te hizo sentir o pensar la página cuando la viste por primera vez?  
+- ¿Entendiste fácilmente para qué sirve la aplicación? ¿Qué crees que hace?  
+- ¿Qué te parece la parte donde puedes registrarte o iniciar sesión? ¿Te queda claro cómo hacerlo?  
+- ¿La página te da confianza sobre la seguridad de tus datos o privacidad? ¿Por qué?  
+- ¿Te parece que el diseño (colores, botones, distribución) es fácil de usar y moverse?  
+- ¿Qué cambiarías o mejorarías en esta página?  
+- ¿Qué opinas de las nuevas funciones de la aplicación como ver perfil, herramientas contra el estrés y suscripciones?  
+
+---
+
+**Segmento 2: Clínicas, psicólogos y centros de salud mental**
+
+Para evaluar la efectividad del landing page de NeuroZen, hemos formulado preguntas 
+dirigidas a usuarios pertenecientes al segmento objetivo: Clínicas, psicólogos y centros de salud mental.
+A continuación, presentamos una entrevista 
+realizada a Cristofer, uno de nuestros usuarios de prueba.  
+
+Introducción:  
+Buenos días soy [Tu Nombre], estudiante de la UPC, y junto a mi equipo estamos 
+desarrollando Neurozen, una aplicación para ayudar a las personas a reducir el estrés. 
+Nos gustaría hacerle algunas preguntas sobre la página web y aplicación móvil del proyecto, 
+y le agradecemos su tiempo para ayudarnos con esta entrevista.  
+
+Preguntas:  
+- ¿La estética de la página (colores, imágenes, diseño) te resulta atractiva o te causa alguna impresión en particular?  
+- ¿Te resultó fácil navegar por el menú y encontrar las secciones como “Beneficios” o “Ejercicios”?  
+- ¿Sentiste que el contenido se adapta a alguien como tú, con horarios poco estructurados o sin un trabajo fijo?  
+- ¿Qué opinas de la sección de “Ejercicios contra el estrés”? ¿Te llama la atención probarlos?  
+- ¿Te quedó claro que la plataforma también ofrece contacto con profesionales? ¿Te parecería útil esa opción?  
+- ¿Cambiarías algo del diseño o contenido para que sea más útil o claro para ti?  
+- ¿Qué opinas de las nuevas funciones de login, ver perfil y suscripciones dentro de la aplicación?  
+
+
+## 5.3.2. Registro de Entrevistas.
+
+**Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
+
+- Nombre: Milenio Bonifacio Vila Lujan.
+
+- Sexo: Masculino.
+
+- Edad: 27 años.
+
+- Estado Civil: Viudo.
+
+- Labor: Vendedor de helados.
+
+Detalles de la entrevista:
+
+- Duración: 
+
+Link : 
+
+Resumen de los puntos clave en la entrevista:
+
+Milenio Bonifacio, un vendedor de helados de 27 años, comentó durante la entrevista que la landing page de NeuroZen le generó una impresión tranquila y clara, entendiendo rápidamente que la aplicación está orientada a reducir el estrés. Consideró intuitiva la sección de registro y percibió confianza en el diseño, aunque sugirió incluir más información sobre privacidad. Señaló que la distribución y los colores facilitan la navegación, y recomendó añadir ejemplos visuales del funcionamiento. Sobre las nuevas funciones, opinó que son útiles y coherentes con el propósito de la app.
+
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+- Nombre: 
+
+- Sexo:
+
+- Edad: 
+
+- Estado Civil: 
+
+- Labor: 
+
+Detalles de la entrevista:
+
+- Duración:
+
+- Link:
+
+Resumen de los puntos clave en la entrevista:
+
+---
+
+## 5.3.3. Evaluaciones según heurísticas.
+
+**Evaluación heurística de la aplicación NeuroZen**
+
+Este análisis se basa en principios de usabilidad para evaluar la experiencia del usuario en la aplicación NeuroZen. Se identifican fortalezas, debilidades y recomendaciones de mejora.
+
+| **Heurística**                         | **Severidad** | **Descripción**                                                                                                                                     | **Recomendación**                                                                                                   |
+|---------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Visibilidad del estado del sistema    | 2             | La aplicación cuenta con una sección de “Tests” donde el usuario puede realizar un test dentro de la misma página web para ver su nivel de estrés. | La sección de test debe mejorar un poco el diseño en mostrar las preguntas más interactivas para el usuario.        |
+| Control y libertad del usuario        | 1             | El usuario puede eliminar, cancelar o rehacer cualquier actividad que esté haciendo en la aplicación, porque siempre tiene una opción para cancelar.| En esta sección no hay mejoras, ya que siempre se encuentra esta heurística.                                        |
+| Diseño estético y minimalista         | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                               | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo. |
+| Reconocimiento en lugar de recuerdo   | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                   | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
+
+
+---
+
+## 5.4. Video About-the-Product.
+
+ Link : 
+ 
+---
+
+
 
 
 
