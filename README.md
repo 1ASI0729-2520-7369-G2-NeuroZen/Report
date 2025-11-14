@@ -2705,7 +2705,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 | **Heurística**                         | **Severidad** | **Descripción**                                                                                                                                     | **Recomendación**                                                                                                   |
 |---------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Visibilidad del estado del sistema    | 2             | La aplicación cuenta con una sección de “Tests” donde el usuario puede realizar un test dentro de la misma página web para ver su nivel de estrés. | La sección de test debe mejorar un poco el diseño en mostrar las preguntas más interactivas para el usuario.        |
+| Visibilidad del estado del sistema    | 2             | La aplicación cuenta con una sección de “Coaching” donde el usuario puede realizar una cita con un profesional. | La sección de Coaching debe mejorar un poco el diseño en mostrar los horarios disponibles para el usuario.        |
 | Control y libertad del usuario        | 1             | El usuario puede eliminar, cancelar o rehacer cualquier actividad que esté haciendo en la aplicación, porque siempre tiene una opción para cancelar.| En esta sección no hay mejoras, ya que siempre se encuentra esta heurística.                                        |
 | Diseño estético y minimalista         | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                               | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo. |
 | Reconocimiento en lugar de recuerdo   | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                   | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
@@ -2718,6 +2718,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
  Link : 
  
 ---
+
 
 
 
