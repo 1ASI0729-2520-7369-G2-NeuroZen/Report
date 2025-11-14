@@ -2673,9 +2673,9 @@ Preguntas:
 
 Detalles de la entrevista:
 
-- Duración: 
+- Duración: 8:54 minutos.
 
-Link : 
+Link : https://drive.google.com/file/d/1tSwWvcAtwTsvwS4lWL9BhmycCpFoFS7u/view?usp=sharing
 
 Resumen de los puntos clave en la entrevista:
 
@@ -2724,6 +2724,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
  Link : 
  
 ---
+
 
 
 
