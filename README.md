@@ -2186,7 +2186,7 @@ Esta metodología de colaboración permitió mantener una buena coordinación, a
 
 ### 5.2.2. Sprint 2.
 
-### 5.2.2.1.Sprint Planning 2.
+### 5.2.2.1. Sprint Planning 2.
 
 A continuación, se presenta el Sprint Planning 2, en el que se documentan las evidencias de la planificación y la actualización de la Landing Page. Asimismo, se muestran los avances del proyecto y los aprendizajes obtenidos del trabajo colaborativo del equipo mediante GitHub.
 
@@ -2222,7 +2222,7 @@ En la segunda iteración (Sprint 2), el equipo se enfocó en la **mejora de la L
 
 Este Sprint permitió entregar el **Primer avance del frontend de NeuroZen**, proporcionando a los visitantes más **funcionalidades**, **registro**, **login** y **citas y comunidad** de la aplicación.
 
-### 5.2.2.3.Sprint Backlog 2.
+### 5.2.2.3. Sprint Backlog 2.
 
 A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.
 
@@ -2260,7 +2260,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 ![commits3](imgs/commits_3.jpg)
 
-### 5.2.2.4.Development Evidence for Sprint Review.
+### 5.2.2.4. Development Evidence for Sprint Review.
 
 Durante este segundo sprint, el desarrollo se centró en la **implementación del frontend de NeuroZen** con **internacionalización (i18n)** y nuevas secciones funcionales como **Registro**, **Inicio de sesión**, **Recuperación de contraseña** y **Coaching**.
 
@@ -2289,13 +2289,13 @@ Las evidencias de desarrollo y pruebas incluyen:
   - Se logró una versión estable del frontend con internacionalización y navegación funcional.
   - No se reportaron errores críticos en la ejecución ni en la visualización del proyecto.
 
-### 5.2.2.5.Execution Evidence for Sprint Review.
+### 5.2.2.5. Execution Evidence for Sprint Review.
 
 Después de finalizar el segundo sprint, hemos logrado agregar algunas secciones como el login, register, comunidad y citas a nuestro frontend.
 
 ![evidence_sprint_2](imgs/sprint_2_evidence.jpg)
 
-### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Durante este **Sprint 2**, la documentación de servicios se centró en **actualizar y ampliar los lineamientos técnicos y funcionales del frontend de NeuroZen**, priorizando la implementación de la **internacionalización (i18n)** y las nuevas secciones interactivas de la aplicación.  
 Se registraron los siguientes entregables:
@@ -2308,7 +2308,7 @@ Se registraron los siguientes entregables:
 
 Esta documentación garantiza la **escalabilidad del frontend** y sienta las bases para incorporar futuras funcionalidades con soporte multilenguaje y componentes reutilizables.
 
-### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 Para este **Sprint 2**, el despliegue del **frontend de NeuroZen** se realizó empleando herramientas de control de versiones y entornos de desarrollo colaborativo:
 
@@ -2318,7 +2318,7 @@ Para este **Sprint 2**, el despliegue del **frontend de NeuroZen** se realizó e
 
 Estas herramientas permitieron mantener un flujo de trabajo coordinado, facilitando la integración de nuevas funcionalidades como el registro, inicio de sesión, recuperación de contraseña, y la internacionalización del sitio.
 
-### 5.2.2.8.Team Collaboration Insights during Sprint.
+### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 Durante el **Sprint 2**, la colaboración del equipo se centró en el **desarrollo del frontend de NeuroZen** y la **coordinación del trabajo mediante GitHub**, consolidando un flujo de trabajo ágil y organizado:
 
@@ -2332,7 +2332,7 @@ Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcio
 
 ### 5.2.3. Sprint 3.
 
-### 5.2.3.1.Sprint Planning 3.
+### 5.2.3.1. Sprint Planning 3.
 
 | Campo                                  | Descripción                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2383,7 +2383,7 @@ El desarrollo incluyó la creación de los controladores, servicios de dominio, 
 
 ![trello_3](imgs/trello_sprint3.jpg)
 
-### 5.2.3.3.Sprint Backlog 3.
+### 5.2.3.3. Sprint Backlog 3.
 
 A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.
 
@@ -2512,7 +2512,7 @@ Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de r
 - No se reportaron errores críticos en la lógica del dominio ni en la ejecución de los servicios.
 - Se dejó una arquitectura sólida y escalable para el Sprint 4.
 
-### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Después de finalizar el tercer sprint, hemos logrado agregar los endpoints antes mencionados, estos se pueden evidenciar mediante la página en swagger.
 
@@ -2598,6 +2598,7 @@ Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrol
   - Historial de PRs, problemas detectados y decisiones de diseño
 
 Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
+
 
 
 
