@@ -160,6 +160,15 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
       - [5.2.2.6 Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7 Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8 Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
+     - [5.2.3 Sprint 3](#52x-sprint-3)
+      - [5.2.3.1 Sprint Planning 2](#52x1-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 2](#52x3-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
   - [5.3 Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2414,7 +2423,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 ![commits_backend_2](imgs/commits_backend_2.jpg)
 
-### 5.2.2.4. Development Evidence for Sprint Review (Sprint 3)
+### 5.2.3.4. Development Evidence for Sprint Review (Sprint 3)
 
 Durante este tercer sprint, el desarrollo se centró en la **implementación del backend de NeuroZen**, construido con **Spring Boot**, siguiendo principios de **Domain-Driven Design (DDD)** y con la creación de varios **bounded contexts clave**:
 
@@ -2509,12 +2518,12 @@ Después de finalizar el tercer sprint, hemos logrado agregar los endpoints ante
 
 ![evidence_sprint_3](imgs/sprint_3_evidence.jpg)
 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Durante este **Sprint 3**, la documentación de servicios se centró en la **definición, estandarización y ampliación de los servicios del backend de NeuroZen**, desarrollados bajo **Spring Boot** y aplicando principios de **Domain-Driven Design (DDD)** dentro de los bounded contexts implementados.  
 Se registraron los siguientes entregables técnicos:
 
-- **Documentación formal de la arquitectura del backend**: descripción de la estructura hexagonal, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Profiles*, *Appointments*, *Patients*, *Professionals* y *Reports*.
+- **Documentación formal de la arquitectura del backend**: descripción de la arquitectura DDD, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Appointments*, *Iam*, *Reports* y *Assets*.
 
 - **Especificación de servicios de dominio (Command y Query Services)**: lineamientos para el diseño y uso de servicios como:
   - `PatientCommandService` y `PatientQueryService`
@@ -2550,11 +2559,11 @@ Se registraron los siguientes entregables técnicos:
   Todo este trabajo se llevó a cabo mediante ramas, PRs y merges que reflejan el flujo de trabajo colaborativo del equipo.
 
 - **Modelos y Value Objects documentados**:  
-  Se dejaron especificaciones técnicas para agregados clave como *Profile*, *Patient*, *Professional* y *Appointment*, junto con sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
+  Se dejaron especificaciones técnicas para agregados clave como *Appointment*, *Assesment*, *Report* y *User*, junto con sus value objects como *Patient*, *Profesional*, *AppointmentStatus* y *ProgressMetrics*.         Además de sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
 
 Esta documentación garantiza la **escalabilidad del backend**, y establece una base sólida para la incorporación de nuevos servicios, integraciones externas y ampliación de los bounded contexts en próximos sprints.
 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** se realizó utilizando herramientas de control de versiones, entornos de desarrollo colaborativo y utilidades propias del ecosistema de **Spring Boot**:
 
@@ -2570,7 +2579,7 @@ Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** s
 
 Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinado durante el desarrollo del backend, facilitando la integración de nuevos servicios, la validación de reglas de dominio y la consolidación de la arquitectura basada en DDD.
 
-### 5.2.2.8. Team Collaboration Insights during Sprint.
+### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrollo del backend de NeuroZen** y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado y alineado con los principios de *Domain-Driven Design (DDD)*:
 
@@ -2589,5 +2598,6 @@ Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrol
   - Historial de PRs, problemas detectados y decisiones de diseño
 
 Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
+
 
 
