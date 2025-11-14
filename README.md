@@ -1568,14 +1568,10 @@ y los cruces entre contextos (**suscripciones, notificaciones**).
 
 #### Bounded Contexts
 
-- **Identity & Access (IAM):** registro, login, autorización.
-- **Profiles & Preferences:** datos del usuario, preferencias de bienestar.
-- **Stress Test & Support:** sesiones de test, cálculo de score, planes sugeridos.
-- **Recommendations & Activities:** asignación y seguimiento de actividades.
-- **Professionals Directory:** psicólogos, solicitud de contacto.
-- **Subscriptions & Payments:** suscripciones y cobros.
-- **Notifications:** correos/push transaccionales.
-- **Analytics & Reporting:** métricas de uso y progreso.
+- **IAM (Identity & Access Management):** registro, login, autorización y gestión de identidades.
+- **Assessments:** sesiones de evaluación, tests de estrés, cálculo de scores y análisis de resultados.
+- **Appointments:** gestión de citas con profesionales, agendamiento, confirmación y seguimiento.
+- **Reports:** generación de reportes, métricas de uso, progreso de usuarios y análisis de datos.
 
 ---
 
@@ -2352,7 +2348,7 @@ Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcio
 | **Sprint 2 – 3 Review Summary**        | Durante el Sprint 2 se completó la actualización del Landing Page, se internacionalizó el frontend y se fortaleció el diseño visual del proyecto. Los objetivos planteados se cumplieron de acuerdo con los tiempos estimados.                                                                                                              |
 | **Sprint 2 – 3 Retrospective Summary** | El equipo identificó la necesidad de estandarizar flujos y modelos para alinear el backend con los requerimientos funcionales del producto. Como mejora clave, se acordó que el backend debía ser construido bajo Domain-Driven Design para mantener coherencia modular con los bounded contexts definidos en la arquitectura del proyecto. Además, completamos el desarrollo del frontend. |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                             |
-| **Sprint 3 Goal**                      | Desarrollar el backend del proyecto NeuroZen utilizando Spring Boot, implementando los tres bounded contexts principales y aplicando principios de Domain-Driven Design (DDD) para garantizar un diseño modular, escalable y alineado a la arquitectura del dominio.                                                                        |
+| **Sprint 3 Goal**                      | Desarrollar el backend del proyecto NeuroZen utilizando Spring Boot, implementando los cuatro bounded contexts principales (Reports, Assessments, Appointments e IAM) y aplicando principios de Domain-Driven Design (DDD) para garantizar un diseño modular, escalable y alineado a la arquitectura del dominio.                                                                        |
 | **Sprint 3 Velocity**                  | 6                                                                                                                                                                                                                                                                                                                                           |
 | **Sum of Story Points**                | 6                                                                                                                                                                                                                                                                                                                                           |
 
@@ -2364,7 +2360,7 @@ En la tercera iteración (Sprint 3), el equipo se enfocó en el desarrollo del b
 
 **EP03 – Gestión de Citas y Conexión con Profesionales**
 
-Durante este sprint se desarrollaron los primeros módulos funcionales del backend correspondientes a los bounded contexts definidos: Stress Test & Reports, Appointments & Professional Support, e Identity & Access.
+Durante este sprint se desarrollaron los primeros módulos funcionales del backend correspondientes a los bounded contexts definidos: Reports, Assessments, Appointments e IAM.
 
 El desarrollo incluyó la creación de los controladores, servicios de dominio, repositorios y la definición de entidades agregadas, siguiendo principios de diseño modular y separación estricta de capas.
 
@@ -2530,7 +2526,7 @@ Después de finalizar el tercer sprint, hemos logrado agregar los endpoints ante
 Durante este **Sprint 3**, la documentación de servicios se centró en la **definición, estandarización y ampliación de los servicios del backend de NeuroZen**, desarrollados bajo **Spring Boot** y aplicando principios de **Domain-Driven Design (DDD)** dentro de los bounded contexts implementados.  
 Se registraron los siguientes entregables técnicos:
 
-- **Documentación formal de la arquitectura del backend**: descripción de la arquitectura DDD, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Appointments*, *Iam*, *Reports* y *Assets*.
+- **Documentación formal de la arquitectura del backend**: descripción de la arquitectura DDD, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Appointments*, *IAM*, *Reports* y *Assessments*.
 
 - **Especificación de servicios de dominio (Command y Query Services)**: lineamientos para el diseño y uso de servicios como:
   - `PatientCommandService` y `PatientQueryService`
@@ -2566,7 +2562,7 @@ Se registraron los siguientes entregables técnicos:
   Todo este trabajo se llevó a cabo mediante ramas, PRs y merges que reflejan el flujo de trabajo colaborativo del equipo.
 
 - **Modelos y Value Objects documentados**:  
-  Se dejaron especificaciones técnicas para agregados clave como *Appointment*, *Assesment*, *Report* y *User*, junto con sus value objects como *Patient*, *Profesional*, *AppointmentStatus* y *ProgressMetrics*.         Además de sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
+  Se dejaron especificaciones técnicas para agregados clave como *Appointment*, *Assessment*, *Report* y *User*, junto con sus value objects como *Patient*, *Profesional*, *AppointmentStatus* y *ProgressMetrics*.         Además de sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
 
 Esta documentación garantiza la **escalabilidad del backend**, y establece una base sólida para la incorporación de nuevos servicios, integraciones externas y ampliación de los bounded contexts en próximos sprints.
 
@@ -2576,7 +2572,7 @@ Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** s
 
 - **Git**: utilizado para el control de versiones, permitiendo registrar la evolución del backend, manejar los cambios de código entre módulos y mantener un historial claro de commits.
 
-- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts como *Profiles*, *Appointments*, *Patients*, *Professionals* y *Reports*.
+- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts: *Appointments*, *IAM*, *Reports* y *Assessments*.
 
 - **Spring Boot & Maven**: herramientas principales para la construcción, empaquetado y despliegue del backend.  
   Se emplearon comandos como `mvn spring-boot:run` y `mvn clean install` para validar el correcto funcionamiento del proyecto.
@@ -2590,7 +2586,7 @@ Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinad
 
 Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrollo del backend de NeuroZen** y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado y alineado con los principios de *Domain-Driven Design (DDD)*:
 
-- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts del backend, incluyendo *Profiles*, *Patients*, *Professionals*, *Appointments* y *Reports*.
+- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts del backend: *Appointments*, *IAM*, *Reports* y *Assessments*.
 
 - Se mantuvo un flujo constante de **pull requests, revisiones y merges**, garantizando la calidad del código y la correcta integración de los servicios de dominio, repositorios, agregados y controladores REST.
 
