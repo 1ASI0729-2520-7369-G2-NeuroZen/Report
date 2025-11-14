@@ -161,9 +161,9 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
       - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
      - [5.2.3 Sprint 3](#523-sprint-3)
-      - [5.2.3.1 Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint Backlog 2](#5233-sprint-backlog-3)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
@@ -2598,6 +2598,7 @@ Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrol
   - Historial de PRs, problemas detectados y decisiones de diseño
 
 Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
+
 
 
 
