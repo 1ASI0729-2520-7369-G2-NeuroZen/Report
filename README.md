@@ -2684,23 +2684,25 @@ Milenio Bonifacio, un vendedor de helados de 27 años, comentó durante la entre
 
 **Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
 
-- Nombre: 
+- Nombre: Luisana Giovanna Falla Torres.
 
-- Sexo:
+- Sexo: Femenino.
 
-- Edad: 
+- Edad: 23 años.
 
-- Estado Civil: 
+- Estado Civil: Soltera.
 
-- Labor: 
+- Labor: Psicologa.
 
 Detalles de la entrevista:
 
-- Duración:
+- Duración: 3:43 minutos.
 
-- Link:
+- Link: https://youtu.be/zurlIOHgitM
 
 Resumen de los puntos clave en la entrevista:
+
+En general, la app le pareció visualmente atractiva y tranquila: los colores suaves y el diseño limpio le transmiten calma y profesionalismo. Comentó que le resultó fácil navegar por el menú y encontrar las secciones, y que la plataforma se siente adecuada para alguien con horarios irregulares, porque ofrece ejercicios y herramientas rápidas que puede usar en cualquier momento. Señaló que la sección de ejercicios contra el estrés le llama la atención y que sí le gustaría probarlos, y que también le quedó claro que la plataforma ofrece contacto con profesionales, algo que considera muy útil como complemento. Como sugerencia de mejora, indicó que reforzaría los mensajes sobre privacidad y seguridad de datos y haría más explícito el progreso y los beneficios de las suscripciones y funciones nuevas como login y ver perfil.
 
 ---
 
@@ -2725,6 +2727,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
  Link : 
  
 ---
+
 
 
 
