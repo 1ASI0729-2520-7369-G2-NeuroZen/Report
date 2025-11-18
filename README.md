@@ -183,7 +183,7 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
 *Criterio:* Capacidad de comunicarse efectivamente con un rango de audiencias.
 | **Criterio específico**                                                    | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Conclusiones**                                                                                                                                                                                                                                                                        |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | - **Fernandez Garfias Alexander Piero**: Participó en las reuniones internas del equipo explicando la estructura del backend y las responsabilidades de cada *bounded context*.<br>- **Montes Ramos Henry Jaredt**: Presentó en las sesiones grupales los avances del contexto de *appointments*, detallando el diseño de servicios y endpoints.<br>- **Nawrocki Loureiro Ian Andre**: Expuso las decisiones tomadas respecto a los *aggregates* y entidades en el contexto de *reports*.<br>- **Vila Guillen Miguel Angel**: Comunicó el flujo completo de la API a nivel global para asegurar que todos comprendan la arquitectura.<br>- **Requena Gutiérrez Diego Gabriel**: Explicó en reuniones la validación y el manejo de errores del backend. | La comunicación oral del equipo permitió transmitir con claridad los conceptos técnicos del backend, facilitando la comprensión global del sistema y alineando los avances entre los tres bounded contexts. Se garantizaron discusiones efectivas que aceleraron la toma de decisiones. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | - **Fernandez Garfias Alexander Piero**: Participó en las reuniones internas del equipo explicando la estructura del backend y las responsabilidades de cada *bounded context*.<br>- **Montes Ramos Henry Jaredt**: Presentó en las sesiones grupales los avances del contexto de *appointments*, detallando el diseño de servicios y endpoints.<br>- **Nawrocki Loureiro Ian Andre**: Expuso las decisiones tomadas respecto a los *aggregates* y entidades en el contexto de *reports*.<br>- **Vila Guillen Miguel Angel**: Comunicó el flujo completo de la API a nivel global para asegurar que todos comprendan la arquitectura.<br>- **Requena Gutiérrez Diego Gabriel**: Explicó en reuniones la validación y el manejo de errores del backend. | La comunicación oral del equipo permitió transmitir con claridad los conceptos técnicos del backend, facilitando la comprensión global del sistema y alineando los avances entre los tres bounded contexts de lógica de negocio implementados en el Sprint 3 (Assessments, Appointments y Reports). El bounded context IAM será implementado en el Sprint 4. Se garantizaron discusiones efectivas que aceleraron la toma de decisiones. |
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | - **Fernandez Garfias Alexander Piero**: Redactó documentación en GitHub sobre la estructura del dominio y organización de paquetes.<br>- **Montes Ramos Henry Jaredt**: Elaboró el trabajo TRS y adjuntó documentación del sprint 3 en el reporte del proyecto.<br>- **Nawrocki Loureiro Ian Andre**: Documentó mediante comentarios y secciones formales el funcionamiento del módulo de reportes.<br>- **Vila Guillen Miguel Angel**: Redactó la documentación del API general con los endpoints expuestos en Swagger UI.<br>- **Requena Gutiérrez Diego Gabriel**: Produjo documentación sobre validaciones, errores y respuestas estándar del backend.                                                                   | La documentación escrita permitió que el backend se comprendiera de manera clara y accesible para diferentes audiencias: desarrolladores del equipo, revisores del proyecto e integrantes no técnicos. Esto fortaleció la trazabilidad y mantenibilidad del sistema.                    |
 
 
@@ -844,28 +844,26 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ## 3.2. User Stories.
 
-**Epics**
+**Bounded Contexts**
 
-| EPIC ID | Nombre del EPIC                           |
-| ------- | ----------------------------------------- |
-| EP01    | Registro y Gestión de Perfil de Huésped   |
-| EP02    | Registro y Gestión de Perfil de Anfitrión |
-| EP03    | Gestión de Propiedades                    |
-| EP04    | Búsqueda y Reserva de Estancias           |
-| EP05    | Pagos y Facturación                       |
-| EP06    | Reseñas y Calificaciones                  |
-| EP07    | Soporte y Ayuda                           |
-| EP08    | Exploración como Visitante                |
+Los bounded contexts definidos para NeuroZen son:
 
-**User Stories por Epic**
+- **IAM (Identity & Access Management):** Gestión de identidades, autenticación y autorización de usuarios (pacientes y psicólogos).
+- **Assessments:** Evaluaciones psicológicas, tests de estrés, cálculo de scores y análisis de resultados.
+- **Appointments:** Gestión de citas psicológicas, agendamiento, confirmación y seguimiento de sesiones.
+- **Reports:** Generación de reportes, métricas de uso, progreso de usuarios y análisis de datos.
 
-**EP01 – Registro y Gestión de Perfil de Usuario**
+**User Stories por Bounded Context**
+
+### Bounded Context: IAM (Identity & Access Management)
+
+**EP01 – Registro y Autenticación**
 
 _User Stories_
 
 | User Story ID | Título                     |
 | ------------- | -------------------------- |
-| US01          | Registro de usuario        |
+| US01          | Registro de paciente       |
 | US02          | Inicio de sesión seguro    |
 | US03          | Recuperación de contraseña |
 | US04          | Edición de perfil personal |
@@ -874,7 +872,8 @@ _Technical Stories_
 
 | Technical Story ID | Título                                            |
 | ------------------ | ------------------------------------------------- |
-| TS01               | Validar formularios de registro/login en frontend |
+| TS01               | Registro de usuario a través de la API           |
+| TS02               | Inicio de sesión a través de la API              |
 
 **EP02 – Registro y Gestión de Perfil de Psicólogo**
 
@@ -883,7 +882,7 @@ _User Stories_
 | User Story ID | Título                                     |
 | ------------- | ------------------------------------------ |
 | US05          | Registro de psicólogo                      |
-| US06          | Verificación de credenciales profesionales |
+| US06          | Verificación de identidad básica           |
 | US07          | Configuración de datos de contacto         |
 | US08          | Edición de perfil de psicólogo             |
 
@@ -891,163 +890,141 @@ _Technical Stories_
 
 | Technical Story ID | Título                                        |
 | ------------------ | --------------------------------------------- |
-| TS02               | Validar documentos y credenciales en frontend |
+| TS03               | Validar documentos y credenciales en frontend |
 
-**EP03 – Gestión de Rutinas y Ejercicios**
+### Bounded Context: Assessments
 
-_User Stories_
-
-| User Story ID | Título                                           |
-| ------------- | ------------------------------------------------ |
-| US09          | Registrar rutina personalizada                   |
-| US10          | Acceder a ejercicios de relajación y respiración |
-| US11          | Editar o actualizar rutina diaria                |
-| US12          | Eliminar rutina                                  |
-
-_Technical Stories_
-
-| Technical Story ID | Título                                                 |
-| ------------------ | ------------------------------------------------------ |
-| TS03               | Implementar reproductor de audio/video para ejercicios |
-
-**EP04 – Evaluación y Seguimiento del Estrés**
+**EP03 – Evaluación y Tests de Estrés**
 
 _User Stories_
 
 | User Story ID | Título                                               |
 | ------------- | ---------------------------------------------------- |
-| US13          | Realizar test de nivel de estrés                     |
-| US14          | Ver resultados e historial de evaluaciones           |
-| US15          | Recibir recomendaciones automáticas según resultados |
-| US16          | Generar recordatorios para seguimiento               |
+| US09          | Realizar test de nivel de estrés                     |
+| US10          | Ver resultados e historial de evaluaciones           |
+| US11          | Recibir recomendaciones automáticas según resultados |
+| US12          | Generar recordatorios para seguimiento               |
 
 _Technical Stories_
 
 | Technical Story ID | Título                                              |
 | ------------------ | --------------------------------------------------- |
 | TS04               | Desarrollar algoritmo de cálculo de nivel de estrés |
+| TS05               | Obtener evaluación por ID a través de la API        |
+| TS06               | Obtener todas las evaluaciones a través de la API   |
 
-**EP05 – Pagos y Suscripciones**
+### Bounded Context: Appointments
+
+**EP04 – Gestión de Citas Psicológicas**
 
 _User Stories_
 
-| User Story ID | Título                         |
-| ------------- | ------------------------------ |
-| US17          | Realizar pago de suscripción   |
-| US18          | Consultar comprobantes de pago |
-| US19          | Actualizar plan de suscripción |
+| User Story ID | Título                                           |
+| ------------- | ------------------------------------------------ |
+| US13          | Agendar cita con psicólogo                       |
+| US14          | Ver citas programadas                            |
+| US15          | Cancelar cita                                    |
+| US16          | Confirmar asistencia a cita                      |
+| US17          | Ver historial de citas                           |
+| US18          | Reagendar cita                                    |
 
 _Technical Stories_
 
-| Technical Story ID | Título                            |
-| ------------------ | --------------------------------- |
-| TS05               | Integrar pasarela de pagos segura |
+| Technical Story ID | Título                                                 |
+| ------------------ | ------------------------------------------------------ |
+| TS07               | Crear cita a través de la API                         |
+| TS08               | Obtener cita por ID a través de la API                |
+| TS09               | Obtener todas las citas a través de la API            |
+| TS10               | Actualizar estado de cita a través de la API          |
 
-**EP06 – Reseñas y Calificaciones**
+### Bounded Context: Reports
 
-_User Stories_
-
-| User Story ID | Título                         |
-| ------------- | ------------------------------ |
-| US20          | Dejar reseña sobre psicólogo   |
-| US21          | Calificar ejercicios o rutinas |
-
-**EP07 – Soporte y Ayuda**
+**EP05 – Generación de Reportes y Análisis**
 
 _User Stories_
 
-| User Story ID | Título                                 |
-| ------------- | -------------------------------------- |
-| US22          | Acceder a soporte técnico desde la app |
-| US23          | Consultar preguntas frecuentes         |
-| US24          | Reportar un problema                   |
+| User Story ID | Título                                           |
+| ------------- | ------------------------------------------------ |
+| US19          | Generar reporte de progreso personal             |
+| US20          | Ver reportes de evaluaciones                    |
+| US21          | Exportar reporte en PDF                          |
+| US22          | Ver métricas de uso de la plataforma             |
+| US23          | Generar reporte de citas realizadas              |
+| US24          | Ver análisis de tendencias de estrés              |
 
 _Technical Stories_
 
-| Technical Story ID | Título                             |
-| ------------------ | ---------------------------------- |
-| TS06               | Implementar chat de soporte básico |
+| Technical Story ID | Título                                                 |
+| ------------------ | ------------------------------------------------------ |
+| TS11               | Generar reporte a través de la API                    |
+| TS12               | Obtener reporte por ID a través de la API             |
+| TS13               | Obtener todos los reportes a través de la API         |
 
-**EP08 – Exploración como Visitante**
+---
 
-_User Stories_
+**Tablas Detalladas de User Stories y Technical Stories**
 
-| User Story ID | Título                                               |
-| ------------- | ---------------------------------------------------- |
-| US25          | Explorar funcionalidades de la app sin registro      |
-| US26          | Visualizar landing page con beneficios y testimonios |
+**EP01 – Registro y Autenticación**
 
-**EP01 – Registro y Gestión de Perfil de Usuario**
-
-| ID Épica | Épica                                   | ID   | Título                               | Descripción                                  | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
-| -------- | --------------------------------------- | ---- | ------------------------------------ | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP01     | Registro y Gestión de Perfil de Usuario | US01 | Registro de usuario                  | Como nuevo usuario, quiero registrarme en la plataforma, para crear una cuenta personal y acceder a las funcionalidades de NeuroZen.                | **Escenario 1: Registro exitoso**<br>Dado que accedo al formulario y completo todos los campos,<br>Cuando presiono "Crear cuenta",<br>Entonces el sistema registra mi cuenta y muestra mensaje de bienvenida.<br><br>**Escenario 2: Campos incompletos**<br>Dado que dejo campos obligatorios vacíos,<br>Cuando intento crear cuenta,<br>Entonces el sistema muestra errores de validación.               |
-| EP01     | Registro y Gestión de Perfil de Usuario | US02 | Inicio de sesión seguro              | Como usuario registrado, quiero iniciar sesión de manera segura, para acceder a mi panel personal y utilizar las funcionalidades que ofrece NeuroZen. | **Escenario 1: Login exitoso**<br>Dado que ingreso credenciales válidas,<br>Cuando presiono "Iniciar sesión",<br>Entonces accedo al panel principal.<br><br>**Escenario 2: Login fallido**<br>Dado que ingreso credenciales inválidas,<br>Cuando presiono "Iniciar sesión",<br>Entonces el sistema muestra mensaje de error.                                                                             |
-| EP01     | Registro y Gestión de Perfil de Usuario | US03 | Recuperación de contraseña           | Como usuario registrado, quiero recuperar mi contraseña en caso de olvido, para restablecer el acceso a mi cuenta en NeuroZen.           | **Escenario 1: Recuperación exitosa**<br>Dado que ingreso mi correo registrado,<br>Cuando solicito recuperación,<br>Entonces recibo enlace por correo.<br><br>**Escenario 2: Correo no registrado**<br>Dado que ingreso correo no registrado,<br>Cuando solicito recuperación,<br>Entonces el sistema indica que el correo no existe.                                                                     |
-| EP01     | Registro y Gestión de Perfil de Usuario | US04 | Edición de perfil personal           | Como usuario autenticado, quiero editar mis datos personales, para mantener actualizada mi información dentro de la plataforma NeuroZen.          | **Escenario 1: Edición exitosa**<br>Dado que modifico mis datos personales,<br>Cuando guardo cambios,<br>Entonces el sistema actualiza la información.<br><br>**Escenario 2: Error al guardar**<br>Dado que ocurre fallo del sistema,<br>Cuando intento guardar,<br>Entonces se muestra mensaje de error sin guardar cambios.                                                                            |
-| EP01     | Registro y Gestión de Perfil de Usuario | TS01 | Validaciones frontend registro/login | Como usuario de la plataforma, quiero que los formularios de registro e inicio de sesión validen mis datos, para evitar errores e ingresar correctamente a NeuroZen.             | **Escenario 1: Campos vacíos**<br>Dado que dejo campos obligatorios vacíos,<br>Cuando envío el formulario,<br>Entonces se muestran mensajes de validación.<br><br>**Escenario 2: Formato inválido**<br>Dado que ingreso correo con formato inválido,<br>Cuando envío formulario,<br>Entonces se muestra error de formato.                                                                                |
+| ID Épica | Épica                      | ID   | Título                     | Descripción                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | -------------------------- | ---- | -------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP01     | Registro y Autenticación   | US01 | Registro de paciente       | Como paciente, quiero registrarme en la plataforma para crear mi cuenta.                                     | - Escenario 1: Registro exitoso<br>Dado que el usuario completa el formulario de registro con datos válidos,<br>Cuando envía la solicitud de registro,<br>Entonces el sistema registra al usuario y confirma la creación de la cuenta.                                                                                                 |
+| EP01     | Registro y Autenticación   | US02 | Inicio de sesión seguro    | Como paciente registrado, quiero iniciar sesión para acceder a mis funciones.                              | - Escenario 1: Inicio exitoso<br>Dado que el usuario ya está registrado,<br>Cuando envía credenciales válidas,<br>Entonces el sistema autentica al usuario y le permite acceder a sus funciones.<br><br>- Escenario 2: Inicio fallido<br>Dado que el usuario envía credenciales incorrectas,<br>Cuando intenta iniciar sesión,<br>Entonces el sistema rechaza la autenticación y notifica el error. |
+| EP01     | Registro y Autenticación   | US03 | Recuperación de contraseña | Como paciente, quiero recuperar mi contraseña para poder acceder si la olvido.                               | - Escenario 1: Recuperación exitosa<br>Dado que el usuario olvidó su contraseña,<br>Cuando solicita la recuperación proporcionando su correo electrónico,<br>Entonces el sistema procesa la solicitud y envía un enlace de restablecimiento al correo registrado.                                                                     |
+| EP01     | Registro y Autenticación   | US04 | Edición de perfil personal | Como paciente autenticado, quiero editar mi información personal para mantenerla actualizada.               | - Escenario 1: Edición de perfil<br>Dado que el usuario está autenticado,<br>Cuando modifica sus datos personales y envía la actualización,<br>Entonces el sistema actualiza la información del perfil correctamente.                                                                                                                |
+| EP01     | Registro y Autenticación   | TS01 | Registro de usuario a través de la API | Como desarrollador frontend, quiero registrar usuarios a través de la API para implementar el flujo de registro en la interfaz. | - Escenario 1: Registro exitoso<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos: Username, Password, Email, Role,<br>Cuando la API valida y persiste el usuario,<br>Entonces la API responde 200 OK y retorna el usuario creado con sus atributos (id, username, email, role).<br><br>- Escenario 2: Error de validación<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos faltantes o inválidos,<br>Cuando la API rechaza la petición por validación,<br>Entonces la API responde 400 Bad Request y retorna un payload de error describiendo los problemas de validación. |
+| EP01     | Registro y Autenticación   | TS02 | Inicio de sesión a través de la API | Como desarrollador frontend, quiero autenticar usuarios a través de la API para implementar el flujo de inicio de sesión. | - Escenario 1: Autenticación exitosa<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con atributos: Username, Password,<br>Cuando las credenciales son válidas,<br>Entonces la API responde 200 OK y retorna AuthenticatedUserResource (información del usuario y token JWT).<br><br>- Escenario 2: Credenciales inválidas<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con credenciales incorrectas,<br>Cuando la API valida las credenciales,<br>Entonces la API responde 401 Unauthorized o 404 Not Found con un payload de error. |
 
 **EP02 – Registro y Gestión de Perfil de Psicólogo**
 
-| ID Épica | Épica                                     | ID   | Título                                   | Descripción                                   | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                         |
-| -------- | ----------------------------------------- | ---- | ---------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | US05 | Registro de psicólogo                    | Como profesional de la salud mental, quiero registrarme como psicólogo en la plataforma, para crear un perfil profesional dentro de NeuroZen y ofrecer mis servicios a los usuarios.                   | **Escenario 1: Registro exitoso**<br>Dado que completo todos los campos profesionales,<br>Cuando presiono "Crear cuenta",<br>Entonces el sistema registra mi perfil profesional.<br><br>**Escenario 2: Campos incompletos**<br>Dado que omito campos obligatorios,<br>Cuando intento registrarme,<br>Entonces el sistema muestra errores de validación.                                          |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | US06 | Verificación de credenciales             | Como psicólogo registrado, quiero verificar mis credenciales profesionales, para validar mi identidad y asegurar que mi perfil en NeuroZen cumpla con los requisitos formales del servicio.     | **Escenario 1: Documento válido**<br>Dado que subo título o licencia válida,<br>Cuando el sistema lo procesa,<br>Entonces mi perfil cambia a "En revisión".<br><br>**Escenario 2: Documento inválido**<br>Dado que subo archivo no permitido,<br>Cuando intento verificar,<br>Entonces el sistema rechaza el archivo con mensaje de error.                                                      |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | US07 | Configuración de datos de contacto       | Como psicólogo autenticado en la plataforma, quiero configurar mis datos de contacto, para asegurar que los usuarios y el equipo de NeuroZen puedan comunicarse conmigo correctamente.             | **Escenario 1: Configuración exitosa**<br>Dado que ingreso teléfono y correo válidos,<br>Cuando guardo cambios,<br>Entonces el sistema actualiza mi contacto.<br><br>**Escenario 2: Datos inválidos**<br>Dado que ingreso datos con formato incorrecto,<br>Cuando intento guardar,<br>Entonces el sistema muestra errores de validación.                                                        |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | US08 | Edición de perfil de psicólogo           | Como psicólogo registrado, quiero actualizar mi información profesional, para mantener mis datos laborales y académicos actualizados dentro de la plataforma NeuroZen.        | **Escenario 1: Edición exitosa**<br>Dado que modifico especialidad, experiencia o tarifas,<br>Cuando guardo cambios,<br>Entonces el sistema actualiza mi perfil.<br><br>**Escenario 2: Error de conexión**<br>Dado que ocurre error de conexión,<br>Cuando intento guardar,<br>Entonces se muestra mensaje de error sin guardar.                                                                |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | TS02 | Validar campos de formulario en frontend | Como usuario de la plataforma NeuroZen, quiero que los formularios de registro y edición validen mis datos profesionales, para evitar errores y asegurar el correcto procesamiento de la información del psicólogo. | **Escenario 1: Validación de correo**<br>Dado que ingreso correo inválido,<br>Cuando envío formulario,<br>Entonces se muestra error de formato.<br><br>**Escenario 2: Validación de documento**<br>Dado que subo archivo no permitido,<br>Cuando intento verificar,<br>Entonces se muestra mensaje de validación.                                                                               |
+| ID Épica | Épica                                     | ID   | Título                           | Descripción                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ----------------------------------------- | ---- | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | US05 | Registro de psicólogo            | Como psicólogo, quiero registrarme en la plataforma para publicar mis servicios.                           | - Escenario 1: Registro exitoso<br>Dado que el usuario completa el formulario de registro de psicólogo con datos válidos,<br>Cuando envía la solicitud de registro,<br>Entonces el sistema registra al psicólogo y confirma la creación de la cuenta.                                                                                  |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | US06 | Verificación de identidad básica | Como psicólogo, quiero verificar mi identidad de manera sencilla para dar confianza a los pacientes.       | - Escenario 1: Verificación cargada<br>Dado que el psicólogo está autenticado,<br>Cuando envía un documento válido de identificación,<br>Entonces el sistema procesa el documento y actualiza el estado de verificación como "En revisión".                                                                                          |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | US07 | Configuración de datos de contacto | Como psicólogo, quiero configurar mis datos de contacto para que los pacientes puedan comunicarse.        | - Escenario 1: Configuración exitosa<br>Dado que el psicólogo está autenticado,<br>Cuando envía datos de contacto actualizados (teléfono o correo),<br>Entonces el sistema actualiza los datos de contacto correctamente.                                                                                                          |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | US08 | Edición de perfil de psicólogo   | Como psicólogo, quiero editar mi información personal y de negocio para mantenerla actualizada.             | - Escenario 1: Edición correcta<br>Dado que el psicólogo está autenticado,<br>Cuando envía información actualizada de su perfil,<br>Entonces el sistema actualiza los cambios exitosamente.                                                                                                                                            |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | TS03 | Validar documentos en frontend   | Como desarrollador frontend, quiero validar documentos y credenciales en frontend para mejorar la experiencia del usuario. | - Escenario 1: Validación de documento<br>Dado que se recibe un documento para validar,<br>Cuando el frontend valida el formato y tamaño,<br>Entonces se muestra un mensaje de confirmación o error antes de enviar al backend.                                                                                                    |
 
-**EP03 – Gestión de Rutinas y Ejercicios**
+**EP03 – Evaluación y Tests de Estrés**
 
-| ID Épica | Épica                           | ID   | Título                                        | Descripción                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                        |
-| -------- | ------------------------------- | ---- | --------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP03     | Gestión de Rutinas y Ejercicios | US09 | Registrar rutina personalizada                | Como usuario de NeuroZen, quiero crear una rutina personalizada de manejo del estrés, para organizar actividades que me ayuden a mejorar mi bienestar emocional. | **Escenario 1: Registro exitoso**<br>Dado que completo nombre, duración y ejercicios,<br>Cuando guardo la rutina,<br>Entonces se muestra en mi lista.<br><br>**Escenario 2: Campos incompletos**<br>Dado que dejo campos obligatorios vacíos,<br>Cuando intento guardar,<br>Entonces el sistema muestra errores de validación.                                                                  |
-| EP03     | Gestión de Rutinas y Ejercicios | US10 | Acceder a ejercicios de relajación            | Como usuario de NeuroZen, quiero acceder a ejercicios guiados de relajación, para realizar actividades que me ayuden a reducir el estrés de forma inmediata y estructurada. | **Escenario 1: Acceso exitoso**<br>Dado que selecciono un ejercicio disponible,<br>Cuando presiono "Reproducir",<br>Entonces se inicia reproducción audio/video.<br><br>**Escenario 2: Error de conexión**<br>Dado que ocurre error de conexión,<br>Cuando intento reproducir,<br>Entonces se muestra "Intente nuevamente".                                                                    |
-| EP03     | Gestión de Rutinas y Ejercicios | US11 | Editar rutina diaria                          | Como usuario de NeuroZen, quiero editar mi rutina diaria, para ajustar el tiempo o los ejercicios según mis necesidades actuales de manejo del estrés.                 | **Escenario 1: Edición exitosa**<br>Dado que modifico duración o ejercicios,<br>Cuando guardo cambios,<br>Entonces el sistema actualiza la rutina.<br><br>**Escenario 2: Error al guardar**<br>Dado que ocurre fallo del sistema,<br>Cuando intento guardar,<br>Entonces se muestra mensaje de error sin guardar.                                                                             |
-| EP03     | Gestión de Rutinas y Ejercicios | US12 | Eliminar rutina                               | Como usuario de NeuroZen, quiero eliminar una rutina que ya no utilizo, para mantener organizada mi lista de actividades y evitar información innecesaria.           | **Escenario 1: Eliminación exitosa**<br>Dado que selecciono rutina y confirmo,<br>Cuando presiono "Eliminar",<br>Entonces se borra de mi lista.<br><br>**Escenario 2: Cancelar eliminación**<br>Dado que selecciono eliminar,<br>Cuando presiono "Cancelar",<br>Entonces no se realiza cambio.                                                                                                 |
-| EP03     | Gestión de Rutinas y Ejercicios | TS03 | Implementar reproductor multimedia            | Como usuario de NeuroZen, quiero contar con un reproductor multimedia funcional, para visualizar o escuchar correctamente los ejercicios guiados incluidos en la plataforma.    | **Escenario 1: Reproducción exitosa**<br>Dado que el archivo es válido,<br>Cuando inicio reproducción,<br>Entonces funcionan controles play, pause y stop.<br><br>**Escenario 2: Archivo incompatible**<br>Dado que el archivo está dañado,<br>Cuando intento reproducir,<br>Entonces se muestra mensaje de error.                                                                            |
+| ID Épica | Épica                      | ID   | Título                                   | Descripción                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | -------------------------- | ---- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP03     | Evaluación y Tests de Estrés | US09 | Realizar test de nivel de estrés         | Como paciente, quiero realizar un test de nivel de estrés para conocer mi estado emocional actual.         | - Escenario 1: Test completado<br>Dado que el paciente responde todas las preguntas del test,<br>Cuando finaliza el test,<br>Entonces el sistema calcula y muestra el nivel de estrés del paciente.                                                                                                                                    |
+| EP03     | Evaluación y Tests de Estrés | US10 | Ver resultados e historial de evaluaciones | Como paciente, quiero ver mis resultados e historial de evaluaciones para revisar mi progreso.             | - Escenario 1: Consulta exitosa<br>Dado que el paciente tiene evaluaciones previas,<br>Cuando accede al historial,<br>Entonces el sistema muestra la lista de evaluaciones con fecha y nivel de estrés.<br><br>- Escenario 2: Sin evaluaciones<br>Dado que el paciente no tiene evaluaciones,<br>Cuando accede al historial,<br>Entonces el sistema muestra "Sin datos disponibles".                                                                                  |
+| EP03     | Evaluación y Tests de Estrés | US11 | Recibir recomendaciones automáticas     | Como paciente, quiero recibir recomendaciones automáticas según mis resultados para mejorar mi bienestar.   | - Escenario 1: Recomendaciones generadas<br>Dado que el paciente completa una evaluación,<br>Cuando el sistema procesa los resultados,<br>Entonces el sistema genera y muestra recomendaciones personalizadas basadas en el nivel de estrés.                                                                                            |
+| EP03     | Evaluación y Tests de Estrés | US12 | Generar recordatorios para seguimiento   | Como paciente, quiero generar recordatorios para futuras evaluaciones para mantener un seguimiento continuo. | - Escenario 1: Recordatorio creado<br>Dado que el paciente selecciona una fecha y hora futura,<br>Cuando guarda el recordatorio,<br>Entonces el sistema agenda el recordatorio en las notificaciones.                                                                                                                                    |
+| EP03     | Evaluación y Tests de Estrés | TS04 | Desarrollar algoritmo de cálculo        | Como desarrollador backend, quiero implementar un algoritmo de cálculo del nivel de estrés para clasificar las respuestas. | - Escenario 1: Cálculo correcto<br>Dado que el paciente completa el test,<br>Cuando el sistema procesa las respuestas,<br>Entonces el algoritmo devuelve una clasificación (bajo/medio/alto) del nivel de estrés.                                                                                                                    |
+| EP03     | Evaluación y Tests de Estrés | TS05 | Obtener evaluación por ID a través de la API | Como desarrollador frontend, quiero obtener una evaluación por ID para implementar la vista de detalle.    | - Escenario 1: Evaluación encontrada<br>Dado que se recibe una petición GET a /api/v1/assessments/{assessmentId},<br>Cuando la API encuentra la evaluación,<br>Entonces la API responde 200 OK y retorna AssessmentResource con los datos de la evaluación.<br><br>- Escenario 2: Evaluación no encontrada<br>Dado que se recibe una petición GET a /api/v1/assessments/{assessmentId} para un ID inexistente,<br>Cuando la API no encuentra la evaluación,<br>Entonces la API responde 404 Not Found y retorna un payload de error. |
+| EP03     | Evaluación y Tests de Estrés | TS06 | Obtener todas las evaluaciones a través de la API | Como desarrollador frontend, quiero obtener todas las evaluaciones para implementar la lista de evaluaciones. | - Escenario 1: Lista exitosa<br>Dado que se recibe una petición GET a /api/v1/assessments,<br>Cuando la API retorna evaluaciones,<br>Entonces la API responde 200 OK con un array de AssessmentResource items.<br><br>- Escenario 2: Lista vacía<br>Dado que se recibe una petición GET a /api/v1/assessments cuando no hay evaluaciones,<br>Cuando la API no encuentra evaluaciones,<br>Entonces la API responde 200 OK con un array vacío.                             |
 
-**EP04 – Evaluación y Seguimiento del Estrés**
+**EP04 – Gestión de Citas Psicológicas**
 
-| ID Épica | Épica                               | ID   | Título                                   | Descripción                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------- | ----------------------------------- | ---- | ---------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP04     | Evaluación y Seguimiento del Estrés | US13 | Realizar test de nivel de estrés         | Como usuario de NeuroZen, quiero realizar un test de nivel de estrés, para conocer mi estado emocional actual y obtener una evaluación basada en mis respuestas.               | **Escenario 1: Test completado**<br>Dado que respondo todas las preguntas,<br>Cuando finalizo el test,<br>Entonces el sistema muestra mi nivel de estrés.<br><br>**Escenario 2: Test incompleto**<br>Dado que omito preguntas obligatorias,<br>Cuando intento finalizar,<br>Entonces se muestra aviso para completar respuestas.                                                                                     |
-| EP04     | Evaluación y Seguimiento del Estrés | US14 | Ver historial de evaluaciones            | Como usuario de NeuroZen, quiero consultar mi historial de evaluaciones, para revisar cómo ha variado mi nivel de estrés a lo largo del tiempo.            | **Escenario 1: Consulta exitosa**<br>Dado que tengo evaluaciones previas,<br>Cuando accedo a "Historial",<br>Entonces veo lista con fecha y nivel de estrés.<br><br>**Escenario 2: Sin evaluaciones**<br>Dado que no he realizado evaluaciones,<br>Cuando accedo a "Historial",<br>Entonces se muestra "Sin datos disponibles".                                                                                      |
-| EP04     | Evaluación y Seguimiento del Estrés | US15 | Recibir recomendaciones automáticas      | Como usuario de NeuroZen, quiero recibir recomendaciones automáticas basadas en mi nivel de estrés, para contar con sugerencias que me ayuden a mejorar mi bienestar de forma personalizada.          | **Escenario 1: Recomendaciones generadas**<br>Dado que completo evaluación,<br>Cuando se procesan resultados,<br>Entonces recibo recomendaciones personalizadas.<br><br>**Escenario 2: Error del sistema**<br>Dado que ocurre fallo,<br>Cuando se procesan resultados,<br>Entonces se muestra "Intente más tarde".                                                                                                   |
-| EP04     | Evaluación y Seguimiento del Estrés | US16 | Generar recordatorios                    | Como usuario de NeuroZen, quiero generar recordatorios para futuras evaluaciones de estrés, para mantener un seguimiento continuo de mi estado emocional.      | **Escenario 1: Recordatorio creado**<br>Dado que selecciono fecha y hora futura,<br>Cuando guardo recordatorio,<br>Entonces se agenda en notificaciones.<br><br>**Escenario 2: Fecha inválida**<br>Dado que selecciono fecha pasada,<br>Cuando intento guardar,<br>Entonces se muestra mensaje de error.                                                                                                            |
-| EP04     | Evaluación y Seguimiento del Estrés | TS04 | Desarrollar algoritmo de cálculo         | Como plataforma NeuroZen, quiero implementar un algoritmo de cálculo del nivel de estrés, para clasificar las respuestas del usuario en categorías medibles y generar resultados consistentes.     | **Escenario 1: Cálculo correcto**<br>Dado que el usuario completa test,<br>Cuando se procesan respuestas,<br>Entonces se devuelve clasificación (bajo/medio/alto).<br><br>**Escenario 2: Error de procesamiento**<br>Dado que ocurre fallo interno,<br>Cuando se intenta calcular,<br>Entonces se muestra error sin guardar.                                                                                        |
+| ID Épica | Épica                          | ID   | Título                   | Descripción                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ------------------------------ | ---- | ------------------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP04     | Gestión de Citas Psicológicas  | US13 | Agendar cita con psicólogo | Como paciente, quiero agendar una cita con un psicólogo para recibir atención profesional.                 | - Escenario 1: Cita agendada exitosamente<br>Dado que el paciente está autenticado y selecciona un psicólogo disponible,<br>Cuando envía la solicitud de cita con fecha y hora,<br>Entonces el sistema registra la cita y confirma el agendamiento.                                                                                    |
+| EP04     | Gestión de Citas Psicológicas  | US14 | Ver citas programadas     | Como paciente, quiero ver mis citas programadas para estar informado de mis próximas sesiones.             | - Escenario 1: Consulta exitosa<br>Dado que el paciente tiene citas programadas,<br>Cuando accede a sus citas,<br>Entonces el sistema muestra la lista de citas con fecha, hora y psicólogo asignado.                                                                                                                                    |
+| EP04     | Gestión de Citas Psicológicas  | US15 | Cancelar cita             | Como paciente, quiero cancelar una cita programada si no puedo asistir.                                      | - Escenario 1: Cancelación exitosa<br>Dado que el paciente tiene una cita programada,<br>Cuando solicita la cancelación,<br>Entonces el sistema cancela la cita y actualiza el estado.                                                                                  |
+| EP04     | Gestión de Citas Psicológicas  | US16 | Confirmar asistencia a cita | Como paciente, quiero confirmar mi asistencia a una cita para asegurar que el psicólogo esté preparado.       | - Escenario 1: Confirmación exitosa<br>Dado que el paciente tiene una cita programada,<br>Cuando confirma su asistencia,<br>Entonces el sistema actualiza el estado de la cita como confirmada.                                                                        |
+| EP04     | Gestión de Citas Psicológicas  | US17 | Ver historial de citas    | Como paciente, quiero ver mi historial de citas para revisar mis sesiones anteriores.                       | - Escenario 1: Consulta exitosa<br>Dado que el paciente tiene citas realizadas,<br>Cuando accede al historial,<br>Entonces el sistema muestra la lista de citas pasadas con fecha, hora y psicólogo.                                                                  |
+| EP04     | Gestión de Citas Psicológicas  | US18 | Reagendar cita             | Como paciente, quiero reagendar una cita programada si necesito cambiar la fecha u hora.                     | - Escenario 1: Reagendamiento exitoso<br>Dado que el paciente tiene una cita programada,<br>Cuando solicita reagendar con nueva fecha y hora,<br>Entonces el sistema actualiza la cita con los nuevos datos.                                                          |
+| EP04     | Gestión de Citas Psicológicas  | TS07 | Crear cita a través de la API | Como desarrollador frontend, quiero crear citas a través de la API para implementar el flujo de agendamiento. | - Escenario 1: Creación exitosa<br>Dado que se recibe una petición POST a /api/v1/appointments con atributos: PatientId, PsychologistId, ScheduledAt,<br>Cuando la API valida y persiste la cita,<br>Entonces la API responde 201 Created y retorna la cita creada con sus atributos (id, patientId, psychologistId, scheduledAt, status).<br><br>- Escenario 2: Error de validación<br>Dado que se recibe una petición POST a /api/v1/appointments con atributos faltantes o inválidos,<br>Cuando la API rechaza la petición por validación,<br>Entonces la API responde 400 Bad Request y retorna un payload de error. |
+| EP04     | Gestión de Citas Psicológicas  | TS08 | Obtener cita por ID a través de la API   | Como desarrollador frontend, quiero obtener una cita por ID para implementar la vista de detalle.           | - Escenario 1: Cita encontrada<br>Dado que se recibe una petición GET a /api/v1/appointments/{appointmentId},<br>Cuando la API encuentra la cita,<br>Entonces la API responde 200 OK y retorna AppointmentResource con los datos de la cita.<br><br>- Escenario 2: Cita no encontrada<br>Dado que se recibe una petición GET a /api/v1/appointments/{appointmentId} para un ID inexistente,<br>Cuando la API no encuentra la cita,<br>Entonces la API responde 404 Not Found y retorna un payload de error. |
+| EP04     | Gestión de Citas Psicológicas  | TS09 | Obtener todas las citas a través de la API | Como desarrollador frontend, quiero obtener todas las citas para implementar la lista de citas.          | - Escenario 1: Lista exitosa<br>Dado que se recibe una petición GET a /api/v1/appointments,<br>Cuando la API retorna citas,<br>Entonces la API responde 200 OK con un array de AppointmentResource items.<br><br>- Escenario 2: Lista vacía<br>Dado que se recibe una petición GET a /api/v1/appointments cuando no hay citas,<br>Cuando la API no encuentra citas,<br>Entonces la API responde 200 OK con un array vacío. |
+| EP04     | Gestión de Citas Psicológicas  | TS10 | Actualizar estado de cita a través de la API | Como desarrollador frontend, quiero actualizar el estado de una cita para implementar cancelación o confirmación. | - Escenario 1: Actualización exitosa<br>Dado que se recibe una petición PUT a /api/v1/appointments/{appointmentId} con el nuevo estado,<br>Cuando la API valida y actualiza la cita,<br>Entonces la API responde 200 OK y retorna la cita actualizada.                                                                                  |
 
-**EP05 – Pagos y Suscripciones**
+**EP05 – Generación de Reportes y Análisis**
 
-| ID Épica | Épica                 | ID   | Título                         | Descripción                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------- | --------------------- | ---- | ------------------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP05     | Pagos y Suscripciones | US17 | Realizar pago de suscripción   | Como usuario registrado de NeuroZen, quiero realizar el pago de mi suscripción, para habilitar el acceso a las funcionalidades premium de la plataforma. | **Escenario 1: Pago exitoso**<br>Dado que ingreso datos válidos de tarjeta,<br>Cuando confirmo pago,<br>Entonces se procesa y muestra confirmación.<br><br>**Escenario 2: Pago rechazado**<br>Dado que datos son inválidos o sin fondos,<br>Cuando intento pagar,<br>Entonces se muestra mensaje de error.                                                                                                          |
-| EP05     | Pagos y Suscripciones | US18 | Consultar comprobantes de pago | Como usuario de NeuroZen, quiero consultar mis comprobantes de pago, para revisar el historial de transacciones realizadas dentro de la plataforma.        | **Escenario 1: Consulta exitosa**<br>Dado que tengo pagos realizados,<br>Cuando accedo a "Comprobantes",<br>Entonces veo lista con fecha, monto y método.<br><br>**Escenario 2: Sin pagos**<br>Dado que no he realizado pagos,<br>Cuando accedo a sección,<br>Entonces se muestra "Sin registros disponibles".                                                                                                      |
-| EP05     | Pagos y Suscripciones | US19 | Actualizar plan de suscripción | Como usuario de NeuroZen, quiero actualizar mi plan de suscripción, para acceder a un nivel superior de beneficios o modificar mi plan actual.       | **Escenario 1: Cambio exitoso**<br>Dado que selecciono plan superior,<br>Cuando confirmo actualización,<br>Entonces se aplica cambio y genera cargo.<br><br>**Escenario 2: Error en actualización**<br>Dado que ocurre fallo,<br>Cuando intento cambiar plan,<br>Entonces se muestra "Intente más tarde".                                                                                                            |
-| EP05     | Pagos y Suscripciones | TS05 | Integrar pasarela de pagos     | Como sistema de NeuroZen, quiero integrar una pasarela de pagos segura, para procesar transacciones de forma confiable y protegida.     | **Escenario 1: Integración correcta**<br>Dado que se procesa transacción válida,<br>Cuando la pasarela acepta,<br>Entonces se devuelve estado exitoso.<br><br>**Escenario 2: Error de pasarela**<br>Dado que ocurre problema con pasarela,<br>Cuando se procesa pago,<br>Entonces se muestra error sin registrar.                                                                                                   |
-
-**EP06 – Reseñas y Calificaciones**
-
-| ID Épica | Épica                    | ID   | Título                       | Descripción                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                      |
-| -------- | ------------------------ | ---- | ---------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| EP06     | Reseñas y Calificaciones | US20 | Dejar reseña sobre psicólogo | Como usuario de NeuroZen, quiero dejar una reseña sobre el psicólogo con el que tuve una sesión, para compartir mi experiencia y contribuir a la calidad del servicio.  | **Escenario 1: Reseña exitosa**<br>Dado que completé sesión,<br>Cuando escribo reseña válida,<br>Entonces se guarda y muestra en perfil.<br><br>**Escenario 2: Reseña inválida**<br>Dado que dejo reseña vacía o con caracteres no permitidos,<br>Cuando intento guardar,<br>Entonces se muestra error de validación.                                                                                       |
-| EP06     | Reseñas y Calificaciones | US21 | Calificar ejercicios         | Como usuario de NeuroZen, quiero calificar los ejercicios que realizo dentro de la plataforma, para proporcionar retroalimentación y mejorar las recomendaciones personalizadas. | **Escenario 1: Calificación exitosa**<br>Dado que completé ejercicio,<br>Cuando selecciono de 1 a 5 estrellas,<br>Entonces se guarda y actualiza promedio.<br><br>**Escenario 2: Error de conexión**<br>Dado que ocurre error de conexión,<br>Cuando intento calificar,<br>Entonces se muestra "Intente nuevamente".                                                                                        |
-
-**EP07 – Soporte y Ayuda**
-
-| ID Épica | Épica           | ID   | Título                           | Descripción                               | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
-| -------- | --------------- | ---- | -------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP07     | Soporte y Ayuda | US22 | Acceder a soporte técnico        | Como usuario de NeuroZen, quiero acceder al soporte técnico desde la plataforma, para recibir ayuda cuando presento dificultades con el uso del sistema.                | **Escenario 1: Acceso exitoso**<br>Dado que selecciono "Soporte técnico",<br>Cuando accedo,<br>Entonces se abre canal de soporte.<br><br>**Escenario 2: Error de conexión**<br>Dado que ocurre fallo,<br>Cuando intento abrir soporte,<br>Entonces se muestra "Intente más tarde".                                                                                                                      |
-| EP07     | Soporte y Ayuda | US23 | Consultar preguntas frecuentes   | Como usuario de NeuroZen, quiero consultar las preguntas frecuentes, para resolver dudas rápidas sin necesidad de contactar al soporte.             | **Escenario 1: Consulta exitosa**<br>Dado que accedo a preguntas frecuentes,<br>Cuando selecciono pregunta,<br>Entonces se muestra respuesta.<br><br>**Escenario 2: Sin contenido**<br>Dado que no hay FAQs,<br>Cuando intento acceder,<br>Entonces se muestra "Sin información disponible".                                                                                                             |
-| EP07     | Soporte y Ayuda | US24 | Reportar problema                | Como usuario de NeuroZen, quiero reportar un problema desde la aplicación, para notificar errores o inconvenientes que afecten mi experiencia.       | **Escenario 1: Reporte exitoso**<br>Dado que completo formulario,<br>Cuando envío reporte,<br>Entonces se guarda y muestra confirmación.<br><br>**Escenario 2: Formulario incompleto**<br>Dado que dejo campos vacíos,<br>Cuando intento enviar,<br>Entonces se muestran errores de validación.                                                                                                          |
-| EP07     | Soporte y Ayuda | TS06 | Implementar chat de soporte      | Como equipo técnico de NeuroZen, quiero implementar un chat de soporte en tiempo real, para permitir que los usuarios reciban asistencia inmediata cuando lo necesiten. | **Escenario 1: Chat activo**<br>Dado que hay agentes disponibles,<br>Cuando envío mensaje,<br>Entonces se transmite y soporte responde.<br><br>**Escenario 2: Sin agentes**<br>Dado que no hay agentes en línea,<br>Cuando intento abrir chat,<br>Entonces se muestra "Agente no disponible".                                                                                                             |
-
-**EP08 – Exploración como Visitante**
-
-| ID Épica | Épica                      | ID   | Título                                    | Descripción                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                 |
-| -------- | -------------------------- | ---- | ----------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP08     | Exploración como Visitante | US25 | Explorar funcionalidades sin registro     | Como visitante de NeuroZen, quiero explorar parcialmente las funcionalidades de la plataforma sin crear una cuenta, para conocer el servicio antes de registrarme.             | **Escenario 1: Exploración exitosa**<br>Dado que accedo como visitante,<br>Cuando navego sección de exploración,<br>Entonces visualizo funcionalidades limitadas.<br><br>**Escenario 2: Restricción de funciones**<br>Dado que intento acceder función premium sin cuenta,<br>Cuando intento usarla,<br>Entonces se muestra invitación a registrarse.                                                  |
-| EP08     | Exploración como Visitante | US26 | Visualizar landing page                   | Como visitante de NeuroZen, quiero visualizar la landing page de la plataforma, para conocer sus beneficios, características principales y propuesta de valor. | **Escenario 1: Visualización correcta**<br>Dado que accedo a landing page,<br>Cuando carga la página,<br>Entonces se muestran beneficios y testimonios.<br><br>**Escenario 2: Error de carga**<br>Dado que ocurre problema de conexión,<br>Cuando intento cargar página,<br>Entonces se muestra "Error al cargar, intente más tarde".                                                                   |
+| ID Épica | Épica                          | ID   | Título                           | Descripción                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | ------------------------------ | ---- | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP05     | Generación de Reportes y Análisis | US19 | Generar reporte de progreso personal | Como paciente, quiero generar un reporte de mi progreso personal para ver mi evolución.                    | - Escenario 1: Reporte generado exitosamente<br>Dado que el paciente está autenticado y tiene datos de evaluaciones,<br>Cuando solicita generar un reporte de progreso,<br>Entonces el sistema genera y muestra el reporte con métricas y gráficos de progreso.                                                                      |
+| EP05     | Generación de Reportes y Análisis | US20 | Ver reportes de evaluaciones     | Como paciente, quiero ver reportes de mis evaluaciones para analizar mis resultados.                       | - Escenario 1: Consulta exitosa<br>Dado que el paciente tiene evaluaciones realizadas,<br>Cuando accede a los reportes de evaluaciones,<br>Entonces el sistema muestra los reportes con análisis detallados de cada evaluación.                                                                                                      |
+| EP05     | Generación de Reportes y Análisis | US21 | Exportar reporte en PDF           | Como paciente, quiero exportar un reporte en PDF para compartirlo o guardarlo.                             | - Escenario 1: Exportación exitosa<br>Dado que el paciente tiene un reporte generado,<br>Cuando solicita exportar en PDF,<br>Entonces el sistema genera y descarga el archivo PDF con el reporte.                                                                                                                                    |
+| EP05     | Generación de Reportes y Análisis | US22 | Ver métricas de uso de la plataforma | Como administrador, quiero ver métricas de uso de la plataforma para analizar el comportamiento de los usuarios. | - Escenario 1: Consulta exitosa<br>Dado que el administrador está autenticado,<br>Cuando accede a las métricas de uso,<br>Entonces el sistema muestra estadísticas de uso, usuarios activos y tendencias.                                                                                                                              |
+| EP05     | Generación de Reportes y Análisis | US23 | Generar reporte de citas realizadas | Como psicólogo, quiero generar un reporte de las citas realizadas para analizar mi actividad.              | - Escenario 1: Reporte generado exitosamente<br>Dado que el psicólogo está autenticado y tiene citas realizadas,<br>Cuando solicita generar un reporte de citas,<br>Entonces el sistema genera y muestra el reporte con estadísticas de citas.                                                                                        |
+| EP05     | Generación de Reportes y Análisis | US24 | Ver análisis de tendencias de estrés | Como administrador, quiero ver análisis de tendencias de estrés para identificar patrones en la plataforma. | - Escenario 1: Consulta exitosa<br>Dado que el administrador está autenticado,<br>Cuando accede al análisis de tendencias,<br>Entonces el sistema muestra gráficos y estadísticas de tendencias de estrés de los usuarios.                                                                                                            |
+| EP05     | Generación de Reportes y Análisis | TS11 | Generar reporte a través de la API | Como desarrollador frontend, quiero generar reportes a través de la API para implementar la funcionalidad de reportes. | - Escenario 1: Generación exitosa<br>Dado que se recibe una petición POST a /api/v1/reports con atributos: UserId, ReportType, DateRange,<br>Cuando la API genera el reporte,<br>Entonces la API responde 200 OK y retorna el reporte generado con sus datos.                                                                           |
+| EP05     | Generación de Reportes y Análisis | TS12 | Obtener reporte por ID a través de la API | Como desarrollador frontend, quiero obtener un reporte por ID para implementar la vista de detalle.        | - Escenario 1: Reporte encontrado<br>Dado que se recibe una petición GET a /api/v1/reports/{reportId},<br>Cuando la API encuentra el reporte,<br>Entonces la API responde 200 OK y retorna ReportResource con los datos del reporte.<br><br>- Escenario 2: Reporte no encontrado<br>Dado que se recibe una petición GET a /api/v1/reports/{reportId} para un ID inexistente,<br>Cuando la API no encuentra el reporte,<br>Entonces la API responde 404 Not Found y retorna un payload de error. |
+| EP05     | Generación de Reportes y Análisis | TS13 | Obtener todos los reportes a través de la API | Como desarrollador frontend, quiero obtener todos los reportes para implementar la lista de reportes.     | - Escenario 1: Lista exitosa<br>Dado que se recibe una petición GET a /api/v1/reports,<br>Cuando la API retorna reportes,<br>Entonces la API responde 200 OK con un array de ReportResource items.<br><br>- Escenario 2: Lista vacía<br>Dado que se recibe una petición GET a /api/v1/reports cuando no hay reportes,<br>Cuando la API no encuentra reportes,<br>Entonces la API responde 200 OK con un array vacío. |
 --
 
 ## 3.3. Impact Mapping.
@@ -1058,40 +1035,45 @@ _User Stories_
 
 **Orden de User Stories y Technical Stories**
 
-| Orden | ID   | User Story / Technical Story                           | Story Points |
-| ----- | ---- | ------------------------------------------------------ | ------------ |
-| 01    | US01 | Registro de usuario                                    | 5            |
-| 02    | US02 | Inicio de sesión seguro                                | 3            |
-| 03    | US03 | Recuperación de contraseña                             | 3            |
-| 04    | US04 | Edición de perfil personal                             | 5            |
-| 05    | TS01 | Validar formularios de registro/login en frontend      | 3            |
-| 06    | US05 | Registro de psicólogo                                  | 5            |
-| 07    | US06 | Verificación de credenciales profesionales             | 8            |
-| 08    | US07 | Configuración de datos de contacto                     | 3            |
-| 09    | US08 | Edición de perfil de psicólogo                         | 5            |
-| 10    | TS02 | Validar documentos y credenciales en frontend          | 5            |
-| 11    | US09 | Registrar rutina personalizada                         | 5            |
-| 12    | US10 | Acceder a ejercicios de relajación y respiración       | 8            |
-| 13    | US11 | Editar o actualizar rutina diaria                      | 5            |
-| 14    | US12 | Eliminar rutina                                        | 3            |
-| 15    | TS03 | Implementar reproductor de audio/video para ejercicios | 8            |
-| 16    | US13 | Realizar test de nivel de estrés                       | 5            |
-| 17    | US14 | Ver resultados e historial de evaluaciones             | 5            |
-| 18    | US15 | Recibir recomendaciones automáticas según resultados   | 8            |
-| 19    | US16 | Generar recordatorios para seguimiento                 | 5            |
-| 20    | TS04 | Desarrollar algoritmo de cálculo de nivel de estrés    | 8            |
-| 21    | US17 | Realizar pago de suscripción                           | 5            |
-| 22    | US18 | Consultar comprobantes de pago                         | 3            |
-| 23    | US19 | Actualizar plan de suscripción                         | 5            |
-| 24    | TS05 | Integrar pasarela de pagos segura                      | 8            |
-| 25    | US20 | Dejar reseña sobre psicólogo                           | 3            |
-| 26    | US21 | Calificar ejercicios o rutinas                         | 3            |
-| 27    | US22 | Acceder a soporte técnico desde la app                 | 3            |
-| 28    | US23 | Consultar preguntas frecuentes                         | 2            |
-| 29    | US24 | Reportar un problema                                   | 3            |
-| 30    | TS06 | Implementar chat de soporte básico                     | 5            |
-| 31    | US25 | Explorar funcionalidades de la app sin registro        | 2            |
-| 32    | US26 | Visualizar landing page con beneficios y testimonios   | 2            |
+| Orden | ID   | User Story / Technical Story                           | Story Points | Bounded Context |
+| ----- | ---- | ------------------------------------------------------ | ------------ | --------------- |
+| 01    | US01 | Registro de paciente                                   | 5            | IAM             |
+| 02    | US02 | Inicio de sesión seguro                                | 3            | IAM             |
+| 03    | US03 | Recuperación de contraseña                             | 3            | IAM             |
+| 04    | US04 | Edición de perfil personal                             | 5            | IAM             |
+| 05    | TS01 | Registro de usuario a través de la API                 | 5            | IAM             |
+| 06    | TS02 | Inicio de sesión a través de la API                   | 3            | IAM             |
+| 07    | US05 | Registro de psicólogo                                  | 5            | IAM             |
+| 08    | US06 | Verificación de identidad básica                       | 8            | IAM             |
+| 09    | US07 | Configuración de datos de contacto                    | 3            | IAM             |
+| 10    | US08 | Edición de perfil de psicólogo                         | 5            | IAM             |
+| 11    | TS03 | Validar documentos en frontend                         | 5            | IAM             |
+| 12    | US09 | Realizar test de nivel de estrés                       | 5            | Assessments     |
+| 13    | US10 | Ver resultados e historial de evaluaciones            | 5            | Assessments     |
+| 14    | US11 | Recibir recomendaciones automáticas según resultados   | 8            | Assessments     |
+| 15    | US12 | Generar recordatorios para seguimiento                 | 5            | Assessments     |
+| 16    | TS04 | Desarrollar algoritmo de cálculo de nivel de estrés   | 8            | Assessments     |
+| 17    | TS05 | Obtener evaluación por ID a través de la API          | 3            | Assessments     |
+| 18    | TS06 | Obtener todas las evaluaciones a través de la API      | 3            | Assessments     |
+| 19    | US13 | Agendar cita con psicólogo                             | 5            | Appointments    |
+| 20    | US14 | Ver citas programadas                                  | 3            | Appointments    |
+| 21    | US15 | Cancelar cita                                          | 3            | Appointments    |
+| 22    | US16 | Confirmar asistencia a cita                             | 3            | Appointments    |
+| 23    | US17 | Ver historial de citas                                 | 5            | Appointments    |
+| 24    | US18 | Reagendar cita                                          | 5            | Appointments    |
+| 25    | TS07 | Crear cita a través de la API                          | 5            | Appointments    |
+| 26    | TS08 | Obtener cita por ID a través de la API                 | 3            | Appointments    |
+| 27    | TS09 | Obtener todas las citas a través de la API            | 3            | Appointments    |
+| 28    | TS10 | Actualizar estado de cita a través de la API            | 5            | Appointments    |
+| 29    | US19 | Generar reporte de progreso personal                   | 5            | Reports         |
+| 30    | US20 | Ver reportes de evaluaciones                           | 5            | Reports         |
+| 31    | US21 | Exportar reporte en PDF                                | 8            | Reports         |
+| 32    | US22 | Ver métricas de uso de la plataforma                   | 8            | Reports         |
+| 33    | US23 | Generar reporte de citas realizadas                    | 5            | Reports         |
+| 34    | US24 | Ver análisis de tendencias de estrés                   | 8            | Reports         |
+| 35    | TS11 | Generar reporte a través de la API                    | 5            | Reports         |
+| 36    | TS12 | Obtener reporte por ID a través de la API             | 3            | Reports         |
+| 37    | TS13 | Obtener todos los reportes a través de la API          | 3            | Reports         |
 
 # Capítulo IV: Product Design
 
@@ -2347,7 +2329,7 @@ Esta metodología colaborativa permitió integrar de forma exitosa nuevas funcio
 | **Sprint 2 – 3 Review Summary**        | Durante el Sprint 2 se completó la actualización del Landing Page, se internacionalizó el frontend y se fortaleció el diseño visual del proyecto. Los objetivos planteados se cumplieron de acuerdo con los tiempos estimados.                                                                                                              |
 | **Sprint 2 – 3 Retrospective Summary** | El equipo identificó la necesidad de estandarizar flujos y modelos para alinear el backend con los requerimientos funcionales del producto. Como mejora clave, se acordó que el backend debía ser construido bajo Domain-Driven Design para mantener coherencia modular con los bounded contexts definidos en la arquitectura del proyecto. Además, completamos el desarrollo del frontend. |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                             |
-| **Sprint 3 Goal**                      | Desarrollar el backend del proyecto NeuroZen utilizando Spring Boot, implementando los cuatro bounded contexts principales (Reports, Assessments, Appointments e IAM) y aplicando principios de Domain-Driven Design (DDD) para garantizar un diseño modular, escalable y alineado a la arquitectura del dominio.                                                                        |
+| **Sprint 3 Goal**                      | Desarrollar el backend del proyecto NeuroZen utilizando Spring Boot, implementando los tres bounded contexts principales de lógica de negocio (Reports, Assessments y Appointments) y aplicando principios de Domain-Driven Design (DDD) para garantizar un diseño modular, escalable y alineado a la arquitectura del dominio. El bounded context IAM (Identity & Access Management) será implementado en el Sprint 4.                                                                        |
 | **Sprint 3 Velocity**                  | 6                                                                                                                                                                                                                                                                                                                                           |
 | **Sum of Story Points**                | 6                                                                                                                                                                                                                                                                                                                                           |
 
@@ -2359,7 +2341,7 @@ En la tercera iteración (Sprint 3), el equipo se enfocó en el desarrollo del b
 
 **EP03 – Gestión de Citas y Conexión con Profesionales**
 
-Durante este sprint se desarrollaron los primeros módulos funcionales del backend correspondientes a los bounded contexts definidos: Reports, Assessments, Appointments e IAM.
+Durante este sprint se desarrollaron los primeros módulos funcionales del backend correspondientes a los tres bounded contexts de lógica de negocio: Reports, Assessments y Appointments. El bounded context IAM será implementado en el Sprint 4.
 
 El desarrollo incluyó la creación de los controladores, servicios de dominio, repositorios y la definición de entidades agregadas, siguiendo principios de diseño modular y separación estricta de capas.
 
@@ -2426,12 +2408,13 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 ### 5.2.3.4. Development Evidence for Sprint Review (Sprint 3)
 
-Durante este tercer sprint, el desarrollo se centró en la **implementación del backend de NeuroZen**, construido con **Spring Boot**, siguiendo principios de **Domain-Driven Design (DDD)** y con la creación de varios **bounded contexts clave**:
+Durante este tercer sprint, el desarrollo se centró en la **implementación del backend de NeuroZen**, construido con **Spring Boot**, siguiendo principios de **Domain-Driven Design (DDD)** y con la creación de tres **bounded contexts de lógica de negocio**:
 
-- **Profiles Context**
-- **Appointments & Scheduling Context**
-- **Patients & Professionals Context**
-- **Reports & Monitoring Context**
+- **Assessments Context**: Evaluaciones psicológicas, tests de estrés y análisis de resultados
+- **Appointments Context**: Gestión de citas psicológicas, agendamiento y seguimiento
+- **Reports Context**: Generación de reportes, métricas y análisis de datos
+
+**Nota**: El bounded context IAM (Identity & Access Management) será implementado en el Sprint 4.
 
 El objetivo principal fue establecer la arquitectura sólida del backend, exponer los **endpoints REST** necesarios y garantizar que los flujos principales del sistema funcionaran correctamente.
 
@@ -2471,12 +2454,13 @@ Se realizaron validaciones manuales para confirmar el correcto funcionamiento de
   - Ejecución mediante contenedor Docker (cuando aplicó)
 - Revisión completa del **Swagger UI** hospedado en:  
   `http://localhost:8081/swagger-ui/index.html`
-- Validación visual de todos los endpoints de los bounded contexts:
-  - `/api/v1/reports`
-  - `/api/v1/appointments`
-  - `/api/v1/patients`
-  - `/api/v1/professionals`
-  - `/api/v1/profiles`
+- Validación visual de todos los endpoints de los bounded contexts implementados:
+  - `/api/v1/reports` (Reports Context)
+  - `/api/v1/appointments` (Appointments Context)
+  - `/api/v1/assessments` (Assessments Context)
+  - `/api/v1/patients` (módulo interno)
+  - `/api/v1/professionals` (módulo interno)
+  - `/api/v1/profiles` (módulo interno)
 
 Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de rutas REST.
 
@@ -2508,10 +2492,10 @@ Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de r
 
 - Todos los endpoints desarrollados funcionaron correctamente.
 - Se estableció una versión funcional, modular y documentada del backend.
-- Los bounded contexts quedaron completamente integrados.
+- Los tres bounded contexts de lógica de negocio (Reports, Assessments y Appointments) quedaron completamente integrados.
 - Swagger se actualizó con todos los recursos y operaciones implementadas.
 - No se reportaron errores críticos en la lógica del dominio ni en la ejecución de los servicios.
-- Se dejó una arquitectura sólida y escalable para el Sprint 4.
+- Se dejó una arquitectura sólida y escalable para el Sprint 4, donde se implementará el bounded context IAM.
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
@@ -2525,7 +2509,7 @@ Después de finalizar el tercer sprint, hemos logrado agregar los endpoints ante
 Durante este **Sprint 3**, la documentación de servicios se centró en la **definición, estandarización y ampliación de los servicios del backend de NeuroZen**, desarrollados bajo **Spring Boot** y aplicando principios de **Domain-Driven Design (DDD)** dentro de los bounded contexts implementados.  
 Se registraron los siguientes entregables técnicos:
 
-- **Documentación formal de la arquitectura del backend**: descripción de la arquitectura DDD, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de *Appointments*, *IAM*, *Reports* y *Assessments*.
+- **Documentación formal de la arquitectura del backend**: descripción de la arquitectura DDD, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts implementados: *Appointments*, *Reports* y *Assessments*. El bounded context *IAM* será documentado en el Sprint 4.
 
 - **Especificación de servicios de dominio (Command y Query Services)**: lineamientos para el diseño y uso de servicios como:
   - `PatientCommandService` y `PatientQueryService`
@@ -2571,7 +2555,7 @@ Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** s
 
 - **Git**: utilizado para el control de versiones, permitiendo registrar la evolución del backend, manejar los cambios de código entre módulos y mantener un historial claro de commits.
 
-- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts: *Appointments*, *IAM*, *Reports* y *Assessments*.
+- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts implementados: *Appointments*, *Reports* y *Assessments*. El bounded context *IAM* será integrado en el Sprint 4.
 
 - **Spring Boot & Maven**: herramientas principales para la construcción, empaquetado y despliegue del backend.  
   Se emplearon comandos como `mvn spring-boot:run` y `mvn clean install` para validar el correcto funcionamiento del proyecto.
@@ -2585,7 +2569,7 @@ Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinad
 
 Durante el **Sprint 3**, la colaboración del equipo se centró en el **desarrollo del backend de NeuroZen** y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado y alineado con los principios de *Domain-Driven Design (DDD)*:
 
-- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts del backend: *Appointments*, *IAM*, *Reports* y *Assessments*.
+- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts de lógica de negocio implementados en el Sprint 3: *Appointments*, *Reports* y *Assessments*. El bounded context *IAM* será desarrollado en el Sprint 4.
 
 - Se mantuvo un flujo constante de **pull requests, revisiones y merges**, garantizando la calidad del código y la correcta integración de los servicios de dominio, repositorios, agregados y controladores REST.
 
