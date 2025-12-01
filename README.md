@@ -14,7 +14,7 @@
   <h3>Informe de Trabajo Final</h3>
 
   <p><strong>Startup:</strong> NeuroZen</p>
-  <p><strong>Nombre del Producto:</strong> NeuroZen/p>
+  <p><strong>Nombre del Producto:</strong> NeuroZen</p>
 </div>
 
 <h3 align="center">Relación de Integrantes:</h3>
@@ -174,6 +174,17 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4 Video About-the-Product](#54-video-about-the-product)
+  - [5.2.4 Sprint 4](#524-sprint-4)
+    - [5.2.4.1 Sprint Planning 4](#5241-sprint-planning-4)
+    - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-4)
+    - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Bibliografía y referencias](#bibliografía-y-referencias)
 
 ---
 
@@ -1236,14 +1247,14 @@ También se incorporan **íconos de redes sociales**: Facebook, Instagram, Linke
 
 ### 4.2.3. SEO Tags and Meta Tags.
 
-Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el fin de optimizar la visibilidad en buscadores y mejorar la experiencia de los usuarios en redes sociales y navegadores. A continuación, se detallan los ejemplos aplicados en la **Landing Page**:
+Para la plataforma **NeuroZen**, se definen etiquetas SEO y metaetiquetas con el fin de optimizar la visibilidad en buscadores y mejorar la experiencia de los usuarios en redes sociales y navegadores. A continuación, se detallan los ejemplos aplicados en la **Landing Page**:
 
 #### Landing Page
 
-<title>SmartSay - Bienestar emocional y apoyo psicológico en tu empresa</title>
-<meta name="description" content="SmartSay conecta empleados y psicólogos en un espacio seguro para gestionar el bienestar emocional dentro de la empresa. Rápido, confidencial y accesible.">
-<meta name="keywords" content="SmartSay, salud mental laboral, apoyo psicológico, bienestar emocional, estrés laboral, psicólogos online">
-<meta name="author" content="Equipo SmartSay">
+<title>NeuroZen - Detección temprana de estrés y apoyo psicológico</title>
+<meta name="description" content="NeuroZen ayuda a detectar y gestionar el estrés laboral conectando a personas y psicólogos en un entorno digital seguro. Rápido, confidencial y accesible.">
+<meta name="keywords" content="NeuroZen, salud mental laboral, apoyo psicológico, bienestar emocional, estrés laboral, psicólogos online, autoevaluación estrés">
+<meta name="author" content="Equipo NeuroZen">
 
 <!-- CSS & Icons -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -1256,7 +1267,7 @@ Para la plataforma **SmartSay**, se definen etiquetas SEO y metaetiquetas con el
 
 ### 4.2.4. Searching Systems.
 
-En **SmartSay**, el sistema de búsqueda y filtros está diseñado para que tanto empleados como psicólogos encuentren de manera rápida la información que necesitan dentro de la aplicación. Estos mecanismos simplifican la navegación y permiten acceder de forma más directa a recursos, sesiones o reportes.
+En **NeuroZen**, el sistema de búsqueda y filtros está diseñado para que tanto empleados como psicólogos encuentren de manera rápida la información que necesitan dentro de la aplicación. Estos mecanismos simplifican la navegación y permiten acceder de forma más directa a recursos, sesiones o reportes.
 
 #### Filtros de búsqueda por entradas
 
@@ -1888,9 +1899,12 @@ Plataforma colaborativa de pizarras digitales en tiempo real. Se utilizó en la 
 
 #### Software Development
 
-**Landing Page** – [https://www.jetbrains.com/](https://www.jetbrains.com/)
-Desarrollada con tecnologías base del desarrollo web: **HTML5, CSS3, JavaScript**, junto con **React.js** y el framework **Tailwind CSS**, lo que permitió un desarrollo más ágil y modular.  
-El entorno de desarrollo principal fue **IntelliJ IDEA Ultimate** por sus herramientas avanzadas de depuración y control de versiones.
+**Landing Page y Frontend Web**
+
+- **Landing Page (`landing-page`):** desarrollada con **HTML5, CSS3 y JavaScript**, siguiendo las guías de estilo definidas en el Capítulo IV para comunicar claramente la propuesta de valor de NeuroZen.
+- **Frontend Web (`frontend`):** desarrollado con **Angular 20** (generado con Angular CLI), TypeScript y CSS, alineado a la arquitectura basada en bounded contexts descrita en este informe.
+
+El equipo utilizó principalmente **Visual Studio Code** e **IntelliJ IDEA** como entornos de desarrollo, aprovechando sus capacidades de integración con Git, formateo automático y soporte para TypeScript/Java.
 
 #### Software Documentation
 
@@ -1995,22 +2009,33 @@ En el proyecto NeuroZen, hemos seguido una guía de estilos para mantener el có
 
 El despliegue de **NeuroZen** se configuró de la siguiente manera:
 
-#### Landing Page (React + Tailwind)
+#### Landing Page
 
-- **Plataforma:** Vercel
-- **Repositorio GitHub:** conectado directamente a Vercel
-- **Proceso:** despliegue automático al realizar _push_ en la rama `main`
+- **Repositorio GitHub:** `https://github.com/1ASI0729-2520-7369-G2-NeuroZen/landing-page`
+- **Tecnologías:** HTML5, CSS3 y JavaScript.
+- **Proceso:** la página se construye a partir del código fuente de este repositorio y se publica en un servicio estático (GitHub Pages u otro servicio similar) para exponer la propuesta de valor del producto.
+- /////////PONER URL DE DEPLOY DE LA LANDING AQUÍ///////////
 
-#### Web Application (React + Node.js/FastAPI)
+#### Web Application (Frontend Angular)
 
-- **Frontend Web (React):** desplegado en Vercel, con soporte de rutas dinámicas mediante `vercel.json`
-- **Backend API (Node.js/FastAPI):** desplegado en Railway, empaquetado con `Dockerfile`
-- **CI/CD:** Railway ejecuta el despliegue automático al detectar cambios en la rama `main`
+- **Repositorio GitHub:** `https://github.com/1ASI0729-2520-7369-G2-NeuroZen/frontend`
+- **Framework:** Angular 20 (Angular CLI).
+- **Plataforma de despliegue:** **Firebase Hosting**.
+- **URL desplegada:** `https://neurogenz.web.app/login`
+- **Proceso:** el proyecto se construye con `ng build --configuration production` y se despliega mediante Firebase CLI, integrando el flujo con la rama principal del repositorio.
 
-#### Repositorios
+#### Backend API (Spring Boot)
 
-- Todo el código se encuentra en **GitHub**, bajo la organización del equipo de **NeuroZen**.
-- El flujo de trabajo colaborativo se gestiona mediante **ramas y pull requests** siguiendo un modelo de desarrollo ágil.
+- **Repositorio GitHub:** `https://github.com/1ASI0729-2520-7369-G2-NeuroZen/backend`
+- **Framework:** Spring Boot, siguiendo los bounded contexts descritos (Assessments, Appointments, Reports e IAM).
+- **Plataforma de despliegue:** **Render**.
+- **URL de Swagger en producción:** `https://neurozen-backend.onrender.com/swagger-ui/index.html`
+- **Proceso:** el backend se empaqueta como aplicación Spring Boot y se despliega en Render, donde se configura la build (por ejemplo, `mvn clean install`) y el comando de ejecución (`java -jar ...`), manteniendo integración continua con GitHub.
+
+#### Repositorios y modelo colaborativo
+
+- Todo el código se encuentra en **GitHub**, bajo la organización del equipo de **NeuroZen** (`https://github.com/1ASI0729-2520-7369-G2-NeuroZen`).
+- El flujo de trabajo colaborativo se gestiona mediante **ramas y pull requests** siguiendo un modelo de desarrollo ágil y el uso de **Conventional Commits**.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -2368,7 +2393,7 @@ El desarrollo incluyó la creación de los controladores, servicios de dominio, 
 
 ### 5.2.3.3. Sprint Backlog 3.
 
-A continuación, se listan los commits que evidencian el desarrollo del **FrontEnd de NeuroZen** en este segundo sprint.
+A continuación, se listan los commits que evidencian el desarrollo del **Backend de NeuroZen** en este tercer sprint.
 
 #### Commits de Documentación y Diseño
 
@@ -2406,102 +2431,140 @@ A continuación, se listan los commits que evidencian el desarrollo del **FrontE
 
 ![commits_backend_2](imgs/commits_backend_2.jpg)
 
-### 5.2.3.4. Development Evidence for Sprint Review (Sprint 3)
+### 5.2.3.4. Development Evidence for Sprint Review.
 
-Durante este tercer sprint, el desarrollo se centró en la **implementación del backend de NeuroZen**, construido con **Spring Boot**, siguiendo principios de **Domain-Driven Design (DDD)** y con la creación de tres **bounded contexts de lógica de negocio**:
+En este tercer sprint, el entregable principal fue el **Backend API REST de NeuroZen** siguiendo los principios de **Domain-Driven Design (DDD)**.
 
-- **Assessments Context**: Evaluaciones psicológicas, tests de estrés y análisis de resultados
-- **Appointments Context**: Gestión de citas psicológicas, agendamiento y seguimiento
-- **Reports Context**: Generación de reportes, métricas y análisis de datos
+La ejecución se centró en:
 
-**Nota**: El bounded context IAM (Identity & Access Management) será implementado en el Sprint 4.
+- Implementar una **API REST** siguiendo la arquitectura DDD con separación en bounded contexts.
+- Desarrollar los **bounded contexts core del negocio**: Assessments, Appointments y Reports.
+- Configurar **Spring Boot** con persistencia de datos mediante JPA/Hibernate.
+- Implementar **Swagger/OpenAPI** para documentación interactiva de la API.
+- Priorizar la **lógica de negocio core** necesaria para el funcionamiento principal del sistema.
 
-El objetivo principal fue establecer la arquitectura sólida del backend, exponer los **endpoints REST** necesarios y garantizar que los flujos principales del sistema funcionaran correctamente.
+### Bounded Contexts del Sistema
 
----
+Nuestro sistema está diseñado con **4 bounded contexts**:
 
-## **Evidencias de desarrollo y pruebas**
+1. **Assessments** - Evaluaciones psicológicas, tests de estrés y análisis de resultados
+2. **Appointments** - Gestión de citas psicológicas, agendamiento y seguimiento
+3. **Reports** - Generación de reportes, métricas y análisis de datos
+4. **IAM** - Identity and Access Management
 
-### **Pruebas funcionales manuales**
+En este **Sprint 3**, nos enfocamos en implementar los **3 bounded contexts core del negocio** (Assessments, Appointments y Reports), ya que representan la lógica de negocio fundamental del sistema de gestión de salud mental. El bounded context de **IAM** se implementará en el **Sprint 4**, ya que no representa lógica de negocio core y puede desarrollarse posteriormente sin afectar el funcionamiento principal del sistema.
 
-Se realizaron validaciones manuales para confirmar el correcto funcionamiento de los módulos desarrollados:
+### Bounded contexts desarrollados
 
-- Verificación de los endpoints de **Profiles**, validando creación y obtención de perfiles mediante los servicios de comando y consulta.
-- Pruebas del módulo de **Appointments**, cubriendo:
-  - Creación de citas
-  - Reprogramación
-  - Inicio, confirmación, cancelación y finalización de citas
-  - Consulta de citas por ID, psicólogo o empleado
-- Validación de los módulos de **Patients** y **Professionals**, comprobando:
-  - Creación de recursos
-  - Ensamblaje correcto desde EntityAssembler
-  - Validación de campos obligatorios
-- Pruebas de **Reports**, verificando:
-  - Generación de reportes
-  - Recuperación por ID
-  - Filtrado por empleado
-- Revisión de **lógica del dominio**, incluyendo:
-  - Estados de Appointment (`AppointmentStatus`)
-  - Ensambladores desde recursos a comandos
-  - Interfaces para command-service y query-service
+#### 1. BOUNDED CONTEXT ASSESSMENTS
 
----
+Este bounded context gestiona las evaluaciones psicológicas y tests de estrés del sistema:
 
-### **Pruebas de despliegue y ejecución local**
+- **AssessmentsController**: Endpoints para gestionar evaluaciones
+  - `GET /api/v1/assessments/{assessmentId}` - Obtener evaluación por ID
+  - `POST /api/v1/assessments` - Crear nueva evaluación
+  - `GET /api/v1/assessments` - Obtener todas las evaluaciones
+  - `GET /api/v1/assessments/patient/{patientId}` - Obtener evaluaciones por paciente
 
-- Ejecución del backend en entorno local mediante:
-  - `mvn spring-boot:run`
-  - Ejecución mediante contenedor Docker (cuando aplicó)
-- Revisión completa del **Swagger UI** hospedado en:  
-  `http://localhost:8081/swagger-ui/index.html`
-- Validación visual de todos los endpoints de los bounded contexts implementados:
-  - `/api/v1/reports` (Reports Context)
-  - `/api/v1/appointments` (Appointments Context)
-  - `/api/v1/assessments` (Assessments Context)
-  - `/api/v1/patients` (módulo interno)
-  - `/api/v1/professionals` (módulo interno)
-  - `/api/v1/profiles` (módulo interno)
+#### 2. BOUNDED CONTEXT APPOINTMENTS
 
-Estas pruebas confirmaron la disponibilidad del backend y el correcto mapeo de rutas REST.
+Este bounded context gestiona las citas psicológicas:
 
----
+- **AppointmentsController**: Endpoints para gestionar citas
+  - `GET /api/v1/appointments/{appointmentId}` - Obtener cita por ID
+  - `POST /api/v1/appointments` - Crear nueva cita
+  - `GET /api/v1/appointments` - Obtener todas las citas
+  - `GET /api/v1/appointments/psychologist/{psychologistId}` - Obtener citas por psicólogo
+  - `GET /api/v1/appointments/patient/{patientId}` - Obtener citas por paciente
+  - `PUT /api/v1/appointments/{appointmentId}/confirm` - Confirmar una cita
+  - `PUT /api/v1/appointments/{appointmentId}/cancel` - Cancelar una cita
+  - `PUT /api/v1/appointments/{appointmentId}/start` - Iniciar una cita
+  - `PUT /api/v1/appointments/{appointmentId}/complete` - Completar una cita
+  - `PUT /api/v1/appointments/{appointmentId}/reschedule` - Reprogramar una cita
 
-### **Pruebas de integración en GitHub**
+#### 3. BOUNDED CONTEXT REPORTS
 
-- Validación de integraciones mediante:
-  - **Pull Requests**, incluyendo el merge principal:  
-    *“Merge pull request #2 from 1ASI0729-2520-7369-G2-NeuroZen/develop”*
-  - Validación de commits relacionados a:
-    - context-facade
-    - resource assemblers
-    - interfaces command/query
-    - repositories
-    - entidades y value objects
+Este bounded context gestiona la generación de reportes y análisis de datos:
 
-- Comprobación de que todos los miembros del equipo aportaron equitativamente en módulos como:
-  - Profiles
-  - Patients
-  - Professionals
-  - Appointments
+- **ReportsController**: Endpoints para gestionar reportes
+  - `GET /api/v1/reports/{reportId}` - Obtener reporte por ID
+  - `POST /api/v1/reports` - Generar nuevo reporte
+  - `GET /api/v1/reports` - Obtener todos los reportes
+  - `GET /api/v1/reports/patient/{patientId}` - Obtener reportes por paciente
 
-- Confirmación de que el flujo de trabajo colaborativo mediante GitHub se mantuvo estable durante todo el sprint.
+### Características técnicas implementadas
 
----
+- Arquitectura basada en **Domain-Driven Design (DDD)** con bounded contexts
+- **Spring Boot** con **JPA/Hibernate** para persistencia de datos
+- **Swagger/OpenAPI** para documentación interactiva de la API
+- **API REST** con endpoints organizados por bounded contexts
+- Separación de responsabilidades mediante **Command y Query Services**
+- **Resource Assemblers** para transformación entre capas de dominio y aplicación
 
-## **Resultados**
+### Evidencia visual
 
-- Todos los endpoints desarrollados funcionaron correctamente.
-- Se estableció una versión funcional, modular y documentada del backend.
-- Los tres bounded contexts de lógica de negocio (Reports, Assessments y Appointments) quedaron completamente integrados.
-- Swagger se actualizó con todos los recursos y operaciones implementadas.
-- No se reportaron errores críticos en la lógica del dominio ni en la ejecución de los servicios.
-- Se dejó una arquitectura sólida y escalable para el Sprint 4, donde se implementará el bounded context IAM.
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- **Swagger UI - Documentación de la API**
+
+  Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por bounded contexts (Assessments, Appointments, Reports).
+
+  /////////PONER IMAGEN DE SWAGGER UI GENERAL AQUÍ///////////
+
+- **Swagger - Endpoints de Assessments**
+
+  Vista detallada de los endpoints del bounded context de Assessments, mostrando los métodos HTTP disponibles y sus parámetros.
+
+  /////////PONER IMAGEN DE SWAGGER ASSESSMENTS AQUÍ///////////
+
+- **Swagger - Endpoints de Appointments**
+
+  Vista detallada de los endpoints del bounded context de Appointments, incluyendo operaciones de creación, consulta, confirmación, cancelación, inicio y finalización.
+
+  /////////PONER IMAGEN DE SWAGGER APPOINTMENTS AQUÍ///////////
+
+- **Swagger - Endpoints de Reports**
+
+  Vista detallada de los endpoints del bounded context de Reports, mostrando las operaciones para gestionar la generación y consulta de reportes.
+
+  /////////PONER IMAGEN DE SWAGGER REPORTS AQUÍ///////////
+
+- **Ejemplo de respuesta - Obtener evaluación por ID**
+
+  Respuesta JSON al consultar una evaluación específica, mostrando la estructura de datos retornada por la API.
+
+  /////////PONER IMAGEN DE RESPUESTA API ASSESSMENT AQUÍ///////////
+
+- **Ejemplo de creación - Crear nueva cita**
+
+  Petición POST para crear una nueva cita, mostrando el cuerpo de la solicitud y la respuesta con el recurso creado.
+
+  /////////PONER IMAGEN DE CREACIÓN DE APPOINTMENT AQUÍ///////////
+
+- **Estructura del proyecto**
+
+  Vista de la estructura de carpetas del proyecto, mostrando la organización por bounded contexts (Assessments, Appointments, Reports).
+
+  /////////PONER IMAGEN DE ESTRUCTURA DEL PROYECTO BACKEND AQUÍ///////////
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Después de finalizar el tercer sprint, hemos logrado agregar los endpoints antes mencionados, estos se pueden evidenciar mediante la página en swagger.
+En este **Sprint 3**, el entregable principal fue el **Backend API REST de NeuroZen** siguiendo los principios de **Domain-Driven Design (DDD)**.
+
+La ejecución se centró en:
+
+- Implementar una **API REST** siguiendo la arquitectura DDD con separación en bounded contexts.
+- Desarrollar los **bounded contexts core del negocio**: Assessments, Appointments y Reports.
+- Configurar **Spring Boot** con persistencia de datos mediante JPA/Hibernate.
+- Implementar **Swagger/OpenAPI** para documentación interactiva de la API.
+- Priorizar la **lógica de negocio core** necesaria para el funcionamiento principal del sistema.
+
+### Evidencia visual
+
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
 
 ![evidence_sprint_3](imgs/sprint_3_evidence.jpg)
+
 ![evidence_sprint_3](imgs/sprint_3_1_evidence.jpg)
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
@@ -2551,19 +2614,29 @@ Esta documentación garantiza la **escalabilidad del backend**, y establece una 
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Para este **Sprint 3**, el despliegue y ejecución del **backend de NeuroZen** se realizó utilizando herramientas de control de versiones, entornos de desarrollo colaborativo y utilidades propias del ecosistema de **Spring Boot**:
+Durante este Sprint 3, el equipo desplegó el **Backend API REST de NeuroZen**. El despliegue se realizó utilizando la plataforma **Render**, que permite ejecutar servicios web de forma continua y escalable.
 
-- **Git**: utilizado para el control de versiones, permitiendo registrar la evolución del backend, manejar los cambios de código entre módulos y mantener un historial claro de commits.
+### Herramientas y plataformas utilizadas
 
-- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts implementados: *Appointments*, *Reports* y *Assessments*. El bounded context *IAM* será integrado en el Sprint 4.
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente del backend.
 
-- **Spring Boot & Maven**: herramientas principales para la construcción, empaquetado y despliegue del backend.  
-  Se emplearon comandos como `mvn spring-boot:run` y `mvn clean install` para validar el correcto funcionamiento del proyecto.
+- **GitHub**: Se creó y configuró el repositorio oficial para el backend, facilitando la colaboración del equipo y el seguimiento de los cambios realizados en los bounded contexts (Assessments, Appointments, Reports).
 
-- **Swagger UI**: utilizado para desplegar y documentar automáticamente los servicios desarrollados. Permitió verificar los endpoints REST expuestos y probar interacciones del backend desde la ruta:  
-  `http://localhost:8081/swagger-ui/index.html`
+- **Render**: Plataforma de hosting en la nube utilizada para desplegar la API REST, permitiendo que el servicio esté disponible de forma continua y accesible para el frontend y otros clientes.
 
-Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinado durante el desarrollo del backend, facilitando la integración de nuevos servicios, la validación de reglas de dominio y la consolidación de la arquitectura basada en DDD.
+- **Spring Boot & Maven**: Framework y herramienta de construcción utilizados para desarrollar y empaquetar el backend.
+
+- **Swagger/OpenAPI**: Documentación interactiva de la API desplegada junto con el servicio, permitiendo probar los endpoints directamente desde el navegador.
+
+Este flujo aseguró que el backend desarrollado estuviera disponible para todo el equipo, permitiendo realizar pruebas de integración con el frontend y validar el funcionamiento de la API en un entorno de producción simulado.
+
+### Evidencia del despliegue
+
+/////////PONER CAPTURA DEL PANEL DE RENDER CON EL BACKEND DESPLEGADO AQUÍ///////////
+
+/////////PONER CAPTURA DE SWAGGER EN RENDER (URL DE PRODUCCIÓN) AQUÍ///////////
+
+- **URL pública del servicio desplegado en Render:** [NeuroZen Backend](https://neurozen-backend.onrender.com/swagger-ui/index.html)
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -2629,9 +2702,9 @@ y le agradecemos su tiempo para ayudarnos con esta entrevista.
 
 Preguntas:  
 - ¿La estética de la página (colores, imágenes, diseño) te resulta atractiva o te causa alguna impresión en particular?  
-- ¿Te resultó fácil navegar por el menú y encontrar las secciones como “Beneficios” o “Ejercicios”?  
+- ¿Te resultó fácil navegar por el menú y encontrar las secciones como "Beneficios" o "Ejercicios"?  
 - ¿Sentiste que el contenido se adapta a alguien como tú, con horarios poco estructurados o sin un trabajo fijo?  
-- ¿Qué opinas de la sección de “Ejercicios contra el estrés”? ¿Te llama la atención probarlos?  
+- ¿Qué opinas de la sección de "Ejercicios contra el estrés"? ¿Te llama la atención probarlos?  
 - ¿Te quedó claro que la plataforma también ofrece contacto con profesionales? ¿Te parecería útil esa opción?  
 - ¿Cambiarías algo del diseño o contenido para que sea más útil o claro para ti?  
 - ¿Qué opinas de las nuevas funciones de login, ver perfil y suscripciones dentro de la aplicación?  
@@ -2681,7 +2754,7 @@ Detalles de la entrevista:
 
 Resumen de los puntos clave en la entrevista:
 
-En general, la app le pareció visualmente atractiva y tranquila: los colores suaves y el diseño limpio le transmiten calma y profesionalismo. Comentó que le resultó fácil navegar por el menú y encontrar las secciones, y que la plataforma se siente adecuada para alguien con horarios irregulares, porque ofrece ejercicios y herramientas rápidas que puede usar en cualquier momento. Señaló que la sección de ejercicios contra el estrés le llama la atención y que sí le gustaría probarlos, y que también le quedó claro que la plataforma ofrece contacto con profesionales, algo que considera muy útil como complemento. Como sugerencia de mejora, indicó que reforzaría los mensajes sobre privacidad y seguridad de datos y haría más explícito el progreso y los beneficios de las suscripciones y funciones nuevas como login y ver perfil.
+En general, la app le pareció visualmente atractiva y tranquila: los colores suaves y el diseño limpio le transmiten calma y profesionalismo. Comentó que le resultó fácil navegar por el menú y encontrar las secciones, y que la plataforma se siente adecuada para alguien con horarios irregulares, porque ofrece ejercicios y herramientas rápidas que puede usar en cualquier momento. Señaló que la sección de ejercicios contra el estrés le llama la atención y que sí le gustaría probarlos, y que también le quedó claro que la plataforma ofrece contacto con profesionales, algo que considera muy útil como complemento. Como sugerencia de mejora, indicó que reforzaría los mensajes sobre privacidad y seguridad de datos y haría más explícito el progreso y los beneficios de las suscripciones y funciones nuevas como login y ver perfil.
 
 ---
 
@@ -2693,7 +2766,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 | **Heurística**                         | **Severidad** | **Descripción**                                                                                                                                     | **Recomendación**                                                                                                   |
 |---------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Visibilidad del estado del sistema    | 2             | La aplicación cuenta con una sección de “Coaching” donde el usuario puede realizar una cita con un profesional. | La sección de Coaching debe mejorar un poco el diseño en mostrar los horarios disponibles para el usuario.        |
+| Visibilidad del estado del sistema    | 2             | La aplicación cuenta con una sección de "Coaching" donde el usuario puede realizar una cita con un profesional. | La sección de Coaching debe mejorar un poco el diseño en mostrar los horarios disponibles para el usuario.        |
 | Control y libertad del usuario        | 1             | El usuario puede eliminar, cancelar o rehacer cualquier actividad que esté haciendo en la aplicación, porque siempre tiene una opción para cancelar.| En esta sección no hay mejoras, ya que siempre se encuentra esta heurística.                                        |
 | Diseño estético y minimalista         | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                               | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo. |
 | Reconocimiento en lugar de recuerdo   | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                   | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
@@ -2703,24 +2776,315 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 ## 5.4. Video About-the-Product.
 
- Link : [https://drive.google.com/drive/folders/1QKIhjGjVBRUseb-Dmqxlr7SKaehoY427?usp=sharing](https://drive.google.com/file/d/1LG2EnjfgSGPPUvwj0PuSfS1iatz1gU__/view?usp=sharing)
- 
+El Video About-the-Product de NeuroZen está dirigido a dos públicos principales: los visitantes del Landing Page que desean conocer el modelo de negocio y las características principales de la plataforma, y los usuarios de las aplicaciones que necesitan realizar tareas relacionadas con los procesos soportados por la solución.
+
+Este video presenta de manera clara y concisa las funcionalidades clave de NeuroZen, incluyendo la gestión de evaluaciones de estrés y bienestar mental para trabajadores, la programación de citas con psicólogos, y la generación de reportes de progreso. El tono utilizado es profesional y accesible, alineado con la identidad visual y comunicacional de la plataforma.
+
+### Contenido del Video
+
+El video incluye:
+
+- **Modelo de negocio:** Explicación de cómo NeuroZen ayuda a trabajadores a gestionar su bienestar mental y a psicólogos a ofrecer servicios de coaching y terapia de manera eficiente.
+
+- **Características principales:** Demostración de las funcionalidades core de la plataforma para trabajadores y psicólogos.
+
+- **Procesos soportados:** Flujos de trabajo para evaluación de estrés, programación de citas psicológicas, seguimiento de progreso y generación de reportes.
+
+- **Experiencia de usuario:** Visualización de la interfaz y navegación de la aplicación web.
+
+### Testimonio de Usuario
+
+Durante las sesiones de validación, los usuarios expresaron opiniones positivas sobre la plataforma. A continuación, un testimonio destacado:
+
+> *"La aplicación es práctica, clara y fácil de usar. Creo que mi equipo podría adaptarse sin problema. Una vez terminada la herramienta con las funciones sugeridas, la usaría sin dudar."*  
+
+> **— Usuario validado durante las entrevistas de necesidad**
+
+### Metadatos del Video
+
+**Screenshot del Video:**
+
+/////////PONER CAPTURA DEL VIDEO ABOUT-THE-PRODUCT AQUÍ///////////
+
+**URL de Google Drive:**
+
+[Video About-the-Product](https://drive.google.com/file/d/1LG2EnjfgSGPPUvwj0PuSfS1iatz1gU__/view?usp=sharing)
+
+**URL de YouTube (para incrustar en Landing Page):**
+
+/////////PONER URL DE YOUTUBE SI SE SUBE EL VIDEO A YOUTUBE///////////
+
+**Duración del Video:**
+
+/////////PONER DURACIÓN DEL VIDEO (ej: 8:40 minutos)///////////
+
 ---
 
+### 5.2.4. Sprint 4.
 
+### 5.2.4.1. Sprint Planning 4.
 
+| Campo                               | Descripción                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint Planning Background**      | Este sprint se planificó como el cierre del ciclo de vida del proyecto, enfocándose en completar el bounded context IAM, cerrar brechas entre frontend y backend, estabilizar los despliegues y preparar evidencias finales (video del producto, entrevistas de validación, conclusiones y documentación).                                                                                                            |
+| **Date**                            | 2025-11-25                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                            | 07:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                        | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Prepared By**                     | Equipo NeuroZen                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Attendees (to planning meeting)** | Fernández Garfias Alexander / Montes Ramos Henry / Nawrocki Loureiro Ian / Vila Guillen Miguel / Requena Gutiérrez Diego                                                                                                                                                                                                                                                                                                   |
+| **Sprint 3 – 4 Review Summary**     | En el Sprint 3 se completó la base del backend con DDD para los bounded contexts de Reports, Assessments y Appointments, exponiendo endpoints REST y documentándolos en Swagger. El frontend Angular ya contaba con flujos principales (landing, login, registro, coaching).                                                                                                                                             |
+| **Sprint 3 – 4 Retrospective**      | Se identificó como prioridad completar IAM, integrar los endpoints del backend con el frontend desplegado y estabilizar la experiencia de usuario (usabilidad, rendimiento y mensajes de error). También se acordó reforzar la documentación final (validación, heurísticas, video, conclusiones y anexos) para cumplir con todos los entregables del curso de Desarrollo de Aplicaciones Open Source. |
+| **Sprint Goal & User Stories**      | —                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 4 Goal**                   | Implementar el bounded context IAM en el backend, integrar completamente el frontend Angular con el backend desplegado en Render, estabilizar la experiencia del usuario y cerrar la documentación final del proyecto (entrevistas de validación, heurísticas, video del producto, conclusiones, bibliografía y anexos), dejando la versión liberada de NeuroZen lista para uso académico.                                 |
+| **Sprint 4 Velocity**               | 8                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sum of Story Points**             | 8                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
+### 5.2.4.2. Aspect Leaders and Collaborators.
 
+En la cuarta iteración (Sprint 4), el equipo se enfocó en tres frentes principales: **seguridad y autenticación (IAM)**, **integración frontend–backend** y **cierre de documentación y evidencias**.
 
+#### Historias de Usuario Abordadas
 
+| ID   | Título                     | Descripción                                                                   | Estimación (Horas) | Asignado a | Estado |
+| ---- | -------------------------- | ----------------------------------------------------------------------------- | ------------------ | ---------- | ------ |
+| US01 | Registro de paciente       | Como paciente, quiero registrarme en la plataforma para crear mi cuenta.     | 5                  | Equipo     | Done   |
+| US02 | Inicio de sesión seguro    | Como paciente registrado, quiero iniciar sesión para acceder a mis funciones.  | 3                  | Equipo     | Done   |
+| US03 | Recuperación de contraseña | Como paciente, quiero recuperar mi contraseña para poder acceder si la olvido. | 3                  | Equipo     | Done   |
+| US05 | Registro de psicólogo      | Como psicólogo, quiero registrarme en la plataforma para publicar mis servicios. | 5                  | Equipo     | Done   |
 
+/////////PONER CAPTURA DE TABLERO/TRELLO SPRINT 4 AQUÍ///////////
 
+Este Sprint permitió completar el **bounded context IAM de NeuroZen**, proporcionando autenticación y autorización segura para pacientes y psicólogos, así como la integración completa entre frontend y backend.
 
+### 5.2.4.3. Sprint Backlog 4.
 
+A continuación, se listan los commits que evidencian el desarrollo del **Backend IAM y la integración frontend-backend** en este cuarto sprint.
 
+#### Commits de Desarrollo (Backend IAM)
 
+| Autor                           | Fecha      | Commit Message                                                                                     | Commit ID |
+| :------------------------------ | :--------- | :------------------------------------------------------------------------------------------------- | :-------- |
+| Fernandez Alexander Piero       | XX/11/2025 | feat(iam): add authentication endpoints and JWT token generation                                   | XXXXXXX   |
+| Ian Nawrocki Loureiro           | XX/11/2025 | feat(iam): implement user registration and password recovery                                       | XXXXXXX   |
+| Vila Guillén Miguel Ángel       | XX/11/2025 | feat(iam): add role-based access control and authorization filters                                 | XXXXXXX   |
+| Montes Ramos Henry Jaredt       | XX/11/2025 | feat(iam): integrate IAM context with existing bounded contexts                                    | XXXXXXX   |
+| Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(iam): add security configuration and CORS setup for frontend integration                     | XXXXXXX   |
 
+**Evidencia de los commits del backend IAM**
 
+/////////PONER CAPTURA DE COMMITS DEL BACKEND IAM AQUÍ///////////
 
+#### Commits de Desarrollo (Frontend Integration)
 
+| Autor                           | Fecha      | Commit Message                                                                                     | Commit ID |
+| :------------------------------ | :--------- | :------------------------------------------------------------------------------------------------- | :-------- |
+| Fernandez Alexander Piero       | XX/11/2025 | feat(frontend): integrate login and register with backend API                                     | XXXXXXX   |
+| Ian Nawrocki Loureiro           | XX/11/2025 | feat(frontend): add HTTP interceptors for authentication tokens                                    | XXXXXXX   |
+| Vila Guillén Miguel Ángel       | XX/11/2025 | feat(frontend): connect coaching module with appointments API                                      | XXXXXXX   |
+| Montes Ramos Henry Jaredt       | XX/11/2025 | feat(frontend): add error handling and loading states for API calls                                | XXXXXXX   |
+| Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(frontend): configure environment variables for production API endpoints                       | XXXXXXX   |
+
+**Evidencia de los commits del frontend**
+
+/////////PONER CAPTURA DE COMMITS DEL FRONTEND INTEGRACIÓN AQUÍ///////////
+
+### 5.2.4.4. Development Evidence for Sprint Review.
+
+En este **Sprint 4**, el entregable principal fue la **implementación del bounded context IAM y la integración completa entre frontend y backend de NeuroZen**.
+
+La ejecución se centró en:
+
+- Implementar el **bounded context IAM** con autenticación y autorización basada en JWT.
+- Integrar completamente el **frontend Angular** con el **backend Spring Boot** desplegado en Render.
+- Estabilizar la experiencia del usuario con manejo de errores y estados de carga.
+- Completar la documentación final del proyecto (entrevistas de validación, heurísticas, video del producto).
+
+### Bounded Context IAM desarrollado
+
+#### BOUNDED CONTEXT IAM (Identity & Access Management)
+
+Este bounded context gestiona la autenticación, autorización y gestión de identidades de usuarios:
+
+- **AuthenticationController**: Endpoints para autenticación
+  - `POST /api/v1/authentication/sign-up` - Registro de nuevo usuario (paciente o psicólogo)
+  - `POST /api/v1/authentication/sign-in` - Inicio de sesión
+  - `POST /api/v1/authentication/recover-password` - Recuperación de contraseña
+  - `POST /api/v1/authentication/refresh-token` - Renovación de token JWT
+
+- **UserController**: Endpoints para gestión de usuarios
+  - `GET /api/v1/users/{userId}` - Obtener usuario por ID
+  - `PUT /api/v1/users/{userId}` - Actualizar información de usuario
+  - `GET /api/v1/users/profile` - Obtener perfil del usuario autenticado
+
+### Características técnicas implementadas
+
+- Autenticación basada en **JWT (JSON Web Tokens)**
+- **Autorización basada en roles** (paciente, psicólogo, administrador)
+- **CORS configurado** para permitir comunicación con el frontend desplegado en Firebase
+- **Integración frontend-backend** mediante servicios HTTP en Angular
+- **Manejo de estados de carga y errores** en la interfaz de usuario
+- **Variables de entorno** para configuración de URLs de API en producción
+
+### Evidencia visual
+
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- **Swagger UI - Endpoints de IAM**
+
+  Vista detallada de los endpoints del bounded context de IAM, mostrando los métodos HTTP disponibles para autenticación y gestión de usuarios.
+
+  /////////PONER IMAGEN DE SWAGGER IAM AQUÍ///////////
+
+- **Frontend - Login integrado con backend**
+
+  Vista del formulario de login en el frontend Angular conectado al backend en Render, mostrando la autenticación funcional.
+
+  /////////PONER IMAGEN DE LOGIN FRONTEND CONECTADO AQUÍ///////////
+
+- **Frontend - Registro integrado con backend**
+
+  Vista del formulario de registro en el frontend Angular, mostrando la integración con el endpoint de sign-up del backend.
+
+  /////////PONER IMAGEN DE REGISTRO FRONTEND CONECTADO AQUÍ///////////
+
+- **Frontend - Coaching con datos reales**
+
+  Vista del módulo de coaching consumiendo endpoints reales de Appointments desde el backend.
+
+  /////////PONER IMAGEN DE COACHING CON DATOS REALES AQUÍ///////////
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+En este **Sprint 4**, el entregable principal fue la **versión final integrada de NeuroZen** con todos los bounded contexts implementados y funcionando en producción.
+
+La ejecución se centró en:
+
+- Validar el funcionamiento extremo a extremo del sistema completo.
+- Verificar la autenticación y autorización en producción.
+- Confirmar la integración entre frontend (Firebase) y backend (Render).
+- Completar todas las funcionalidades principales del sistema.
+
+### Evidencia visual
+
+A continuación, se adjuntan capturas de pantalla que evidencian la ejecución realizada en este Sprint:
+
+- **Frontend desplegado - Página de Login**
+
+  Vista de la página de login desplegada en Firebase Hosting, accesible desde `https://neurogenz.web.app/login`.
+
+  /////////PONER CAPTURA DE LOGIN EN PRODUCCIÓN AQUÍ///////////
+
+- **Frontend desplegado - Dashboard**
+
+  Vista del dashboard después del login exitoso, mostrando las funcionalidades principales.
+
+  /////////PONER CAPTURA DE DASHBOARD EN PRODUCCIÓN AQUÍ///////////
+
+- **Frontend desplegado - Módulo de Coaching**
+
+  Vista del módulo de coaching con citas y psicólogos obtenidos desde el backend.
+
+  /////////PONER CAPTURA DE COACHING EN PRODUCCIÓN AQUÍ///////////
+
+- **Backend desplegado - Swagger en producción**
+
+  Vista de Swagger UI accesible desde `https://neurozen-backend.onrender.com/swagger-ui/index.html`, mostrando todos los bounded contexts implementados.
+
+  /////////PONER CAPTURA DE SWAGGER EN RENDER AQUÍ///////////
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante este **Sprint 4**, la documentación de servicios se centró en la **finalización y consolidación de todos los servicios del backend de NeuroZen**, incluyendo el bounded context IAM y la documentación de la integración frontend-backend.
+
+Se registraron los siguientes entregables técnicos:
+
+- **Documentación completa del bounded context IAM**: descripción de los endpoints de autenticación, autorización y gestión de usuarios, incluyendo:
+  - Flujo de registro y login
+  - Generación y validación de tokens JWT
+  - Autorización basada en roles
+  - Recuperación de contraseña
+
+- **Documentación de integración frontend-backend**: guía técnica de cómo el frontend Angular consume los endpoints del backend, incluyendo:
+  - Configuración de servicios HTTP en Angular
+  - Manejo de tokens JWT en el frontend
+  - Interceptores HTTP para autenticación automática
+  - Manejo de errores y estados de carga
+
+- **Documentación actualizada en Swagger**: todos los bounded contexts (Assessments, Appointments, Reports e IAM) fueron documentados completamente en Swagger UI, permitiendo visualizar:
+  - Rutas disponibles de todos los bounded contexts
+  - Métodos HTTP y parámetros
+  - Modelos de request y response
+  - Códigos de respuesta y manejo de errores
+
+- **Documentación técnica en GitHub**: commits que evidencian:
+  - Implementación del bounded context IAM
+  - Integración de autenticación JWT
+  - Configuración de CORS y seguridad
+  - Integración frontend-backend
+  - Ajustes finales de despliegue
+
+Esta documentación garantiza la **completitud del sistema** y establece una base sólida para futuras extensiones y mantenimiento del proyecto.
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint 4, el equipo desplegó la **versión final integrada de NeuroZen** con todos los componentes funcionando en producción.
+
+El despliegue se realizó utilizando las siguientes plataformas y herramientas:
+
+- **Git**: Se utilizó para el control de versiones, registrando cada cambio en el código fuente del backend y frontend.
+
+- **GitHub**: Se utilizaron los repositorios oficiales para el backend y frontend, facilitando la colaboración del equipo y el seguimiento de los cambios realizados en todos los bounded contexts.
+
+- **Render**: Plataforma de hosting en la nube utilizada para desplegar el Backend API REST, permitiendo que el servicio esté disponible de forma continua y accesible para el frontend.
+
+- **Firebase Hosting**: Plataforma utilizada para desplegar el Frontend Angular, proporcionando una URL pública y estable para la aplicación web.
+
+- **Swagger/OpenAPI**: Documentación interactiva de la API desplegada junto con el servicio backend, permitiendo probar los endpoints directamente desde el navegador.
+
+Este flujo aseguró que tanto el backend como el frontend estuvieran disponibles públicamente, permitiendo validar el funcionamiento completo del sistema en un entorno de producción.
+
+### Evidencia del despliegue
+
+- **Panel de Render - Backend desplegado**
+
+  Vista del panel de Render mostrando el servicio del backend desplegado y en ejecución.
+
+  /////////PONER CAPTURA DEL PANEL DE RENDER CON EL BACKEND DESPLEGADO AQUÍ///////////
+
+- **Panel de Firebase Hosting - Frontend desplegado**
+
+  Vista del panel de Firebase Hosting mostrando el frontend Angular desplegado y las configuraciones de despliegue.
+
+  /////////PONER CAPTURA DEL PANEL DE FIREBASE HOSTING CON EL FRONTEND DESPLEGADO AQUÍ///////////
+
+- **URLs de despliegue en producción:**
+  - **Backend API REST:** [https://neurozen-backend.onrender.com/swagger-ui/index.html](https://neurozen-backend.onrender.com/swagger-ui/index.html)
+  - **Frontend Angular:** [https://neurogenz.web.app/login](https://neurogenz.web.app/login)
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Durante el **Sprint 4**, la colaboración del equipo se centró en la **finalización del proyecto NeuroZen** y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado para cerrar todos los entregables:
+
+- Cada integrante trabajó en **ramas individuales** asociadas a las tareas finales: implementación de IAM, integración frontend-backend, documentación final y preparación de evidencias (entrevistas, heurísticas, video).
+
+- Se mantuvo un flujo constante de **pull requests, revisiones y merges**, garantizando la calidad del código y la correcta integración de todos los componentes del sistema.
+
+- La gestión de commits permitió documentar de manera clara el avance colectivo del equipo, evidenciando la implementación del bounded context IAM, la integración completa frontend-backend, y la finalización de la documentación del proyecto.
+
+- Las reuniones virtuales breves (stand-ups) y la comunicación continua mediante Discord facilitaron la coordinación final, sincronización entre miembros y distribución efectiva de responsabilidades para cumplir con todos los entregables del curso.
+
+- El repositorio de GitHub operó como la **fuente única de verdad del proyecto**, centralizando:
+  - Código fuente final del backend y frontend
+  - Documentación técnica completa
+  - Estructura final de la arquitectura del dominio
+  - Historial de PRs, decisiones de diseño y evidencias del proyecto
+
+- Sesiones de prueba conjunta (frontend + backend) para detectar rápidamente errores de integración y resolverlos en equipo.
+
+- Reparto claro de responsabilidades: algunos miembros se enfocaron en código, otros en pruebas y documentación, pero todos revisaron el resultado final.
+
+Esta metodología colaborativa permitió completar exitosamente todos los bounded contexts del sistema, integrar completamente frontend y backend, y finalizar la documentación del proyecto, estableciendo una base sólida y completa para el cierre del ciclo de vida del proyecto NeuroZen.
+
+---
 
