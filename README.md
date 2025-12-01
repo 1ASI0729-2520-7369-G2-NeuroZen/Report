@@ -2871,7 +2871,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 | Montes Ramos Henry Jaredt       | XX/11/2025 | feat(iam): integrate IAM context with existing bounded contexts                                    | XXXXXXX   |
 | Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(iam): add security configuration and CORS setup for frontend integration                     | XXXXXXX   |
 
-**Evidencia de los commits del backend IAM**
+
 
 <img width="1167" height="737" alt="image" src="https://github.com/user-attachments/assets/f248bcc8-365c-47a5-825c-ad791637fd53" />
 
@@ -2887,8 +2887,8 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 | Montes Ramos Henry Jaredt       | XX/11/2025 | feat(frontend): add error handling and loading states for API calls                                | XXXXXXX   |
 | Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(frontend): configure environment variables for production API endpoints                       | XXXXXXX   |
 
-**Evidencia de los commits del frontend**
 
+<img width="1138" height="755" alt="image" src="https://github.com/user-attachments/assets/f1105177-1239-4b76-9fff-cb723565d2bb" />
 
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
@@ -3171,3 +3171,4 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
