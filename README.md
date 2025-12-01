@@ -2873,7 +2873,9 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 
 **Evidencia de los commits del backend IAM**
 
-/////////PONER CAPTURA DE COMMITS DEL BACKEND IAM AQUÍ///////////
+<img width="1167" height="737" alt="image" src="https://github.com/user-attachments/assets/f248bcc8-365c-47a5-825c-ad791637fd53" />
+
+
 
 #### Commits de Desarrollo (Frontend Integration)
 
@@ -2887,7 +2889,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 
 **Evidencia de los commits del frontend**
 
-/////////PONER CAPTURA DE COMMITS DEL FRONTEND INTEGRACIÓN AQUÍ///////////
+
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
 
@@ -3166,5 +3168,6 @@ Como recomendaciones para trabajos futuros se sugiere:
 - Calm. Sitio oficial de la aplicación de meditación y sueño. https://www.calm.com
 
 - Wysa. Sitio oficial del asistente de salud mental basado en IA. https://www.wysa.io
+
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
