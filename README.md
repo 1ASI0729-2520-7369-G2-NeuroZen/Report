@@ -2936,7 +2936,12 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista detallada de los endpoints del bounded context de IAM, mostrando los métodos HTTP disponibles para autenticación y gestión de usuarios.
 
-  /////////PONER IMAGEN DE SWAGGER IAM AQUÍ///////////
+<img width="1870" height="912" alt="image" src="https://github.com/user-attachments/assets/213894e5-512a-4342-8dd3-fdc50d2c587c" />
+<img width="1869" height="911" alt="image" src="https://github.com/user-attachments/assets/f2dc1160-a7fd-4396-ac1f-7ca898601515" />
+<img width="1895" height="508" alt="image" src="https://github.com/user-attachments/assets/995a1ebc-e194-4efe-a2c6-845fc632b18a" />
+
+
+
 
 - **Frontend - Login integrado con backend**
 
@@ -3171,4 +3176,5 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
