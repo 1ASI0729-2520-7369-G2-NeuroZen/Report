@@ -3088,3 +3088,83 @@ Esta metodología colaborativa permitió completar exitosamente todos los bounde
 
 ---
 
+## Conclusiones y recomendaciones
+
+Al cierre del proyecto **NeuroZen**, se lograron cumplir los objetivos planteados en la rúbrica del curso de Desarrollo de Aplicaciones Open Source: se construyó una propuesta de valor clara, se levantaron y analizaron requerimientos, se especificaron historias de usuario y backlog, se diseñó una arquitectura basada en DDD y se implementaron versiones desplegadas de landing page, frontend y backend.  
+El trabajo por sprints permitió iterar sobre el producto, pasando de una primera versión centrada en la landing page, a una aplicación web en Angular y, finalmente, a un backend modular en Spring Boot con bounded contexts bien definidos.
+
+Entre los principales aprendizajes destacan:
+
+- La importancia de **alinear constantemente diseño, frontend y backend** para evitar divergencias entre lo que se promete en la experiencia de usuario y lo que realmente ofrece la API.
+- El valor de **GitHub y las buenas prácticas de control de versiones** (ramas por feature, pull requests, Conventional Commits) para coordinar el trabajo del equipo y mantener un historial claro.
+- La utilidad de enfoques como **Lean UX, Needfinding y DDD** para diseñar soluciones que responden a necesidades reales de usuarios y organizaciones, no solo a requisitos técnicos abstractos.
+
+Como recomendaciones para trabajos futuros se sugiere:
+
+- Profundizar en la **seguridad y protección de datos sensibles**, incorporando autenticación más avanzada, auditoría y cumplimiento normativo explícito (por ejemplo, alineamiento con estándares como GDPR).  
+- Extender las funcionalidades del backend (nuevos bounded contexts o integraciones con wearables) y fortalecer las pruebas automatizadas (unitarias, de integración y end-to-end).  
+- Continuar refinando la experiencia de usuario en el frontend, incluyendo más experimentos de usabilidad y validación con usuarios reales de los segmentos objetivo.
+
+## Bibliografía y referencias
+
+### Documentación Técnica
+
+- Angular. (2024). *Angular Documentation*. Recuperado de https://angular.dev/
+
+- Spring. (2024). *Spring Boot Documentation*. Recuperado de https://spring.io/projects/spring-boot
+
+- Oracle Corporation. (2024). *MySQL Documentation*. Recuperado de https://dev.mysql.com/doc/
+
+- Swagger. (2024). *OpenAPI Specification*. Recuperado de https://swagger.io/specification/
+
+- Firebase. (2024). *Firebase Hosting Documentation*. Recuperado de https://firebase.google.com/docs/hosting
+
+- Render. (2024). *Render Documentation*. Recuperado de https://render.com/docs
+
+### Arquitectura y Diseño
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+- Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
+
+### Metodologías Ágiles
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Recuperado de https://scrumguides.org/
+
+- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley Professional.
+
+- Gothelf, J., & Seiden, J. (2013). *Lean UX: Applying Lean Principles to Improve User Experience*. O'Reilly Media.
+
+### Usabilidad y Experiencia de Usuario
+
+- W3C. (2021). *Web Content Accessibility Guidelines (WCAG) 2.1*. Recuperado de https://www.w3.org/WAI/WCAG21/quickref/
+
+### Herramientas y Plataformas
+
+- GitHub. (2024). *GitHub Documentation*. Recuperado de https://docs.github.com/
+
+- Git. (2024). *Git Documentation*. Recuperado de https://git-scm.com/doc
+
+### Referencias del Proyecto
+
+- Organización de GitHub de NeuroZen: https://github.com/1ASI0729-2520-7369-G2-NeuroZen
+
+- Repositorio del frontend de NeuroZen: https://github.com/1ASI0729-2520-7369-G2-NeuroZen/frontend
+
+- Repositorio del backend de NeuroZen: https://github.com/1ASI0729-2520-7369-G2-NeuroZen/backend
+
+- Repositorio de la landing page de NeuroZen: https://github.com/1ASI0729-2520-7369-G2-NeuroZen/landing-page
+
+- Frontend desplegado: https://neurogenz.web.app/login
+
+- Backend desplegado (Swagger UI): https://neurozen-backend.onrender.com/swagger-ui/index.html
+
+### Referencias de Competidores y Benchmarking
+
+- Headspace. Sitio oficial de la aplicación de meditación y bienestar. https://www.headspace.com
+
+- Calm. Sitio oficial de la aplicación de meditación y sueño. https://www.calm.com
+
+- Wysa. Sitio oficial del asistente de salud mental basado en IA. https://www.wysa.io
+
+- BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
