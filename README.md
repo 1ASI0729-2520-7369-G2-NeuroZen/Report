@@ -2802,25 +2802,17 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 ### Metadatos del Video
 
-**Screenshot del Video:**
-
-/////////PONER CAPTURA DEL VIDEO ABOUT-THE-PRODUCT AQUÍ///////////
 
 **URL de Google Drive:**
 
 [Video About-the-Product](https://drive.google.com/file/d/1LG2EnjfgSGPPUvwj0PuSfS1iatz1gU__/view?usp=sharing)
 
-**URL de YouTube (para incrustar en Landing Page):**
-
-/////////PONER URL DE YOUTUBE SI SE SUBE EL VIDEO A YOUTUBE///////////
-
-**Duración del Video:**
-
-/////////PONER DURACIÓN DEL VIDEO (ej: 8:40 minutos)///////////
 
 ---
 
+
 ### 5.2.4. Sprint 4.
+
 
 ### 5.2.4.1. Sprint Planning 4.
 
@@ -3181,6 +3173,7 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
 
 
