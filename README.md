@@ -2946,21 +2946,19 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista del formulario de login en el frontend Angular conectado al backend en Render, mostrando la autenticación funcional.
 
-<img width="2228" height="1056" alt="Screenshot 2025-12-01 at 8 16 25 PM" src="https://github.com/user-attachments/assets/c8dc56ac-1f72-4577-be7f-6e0975450c27" />
 
 
 - **Frontend - Registro integrado con backend**
 
   Vista del formulario de registro en el frontend Angular, mostrando la integración con el endpoint de sign-up del backend.
 
-  <img width="2225" height="1042" alt="Screenshot 2025-12-01 at 8 16 54 PM" src="https://github.com/user-attachments/assets/ce736179-54e8-4d12-ab8f-41fdd77e5ad5" />
-
 
 - **Frontend - Coaching con datos reales**
 
   Vista del módulo de coaching consumiendo endpoints reales de Appointments desde el backend.
-
-  /////////PONER IMAGEN DE COACHING CON DATOS REALES AQUÍ///////////
+  
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/e5239b09-219f-4930-a4fb-8dcfd2fb4c56" />
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/748a9c3b-94ea-4b20-b6a9-95220c394751" /> 
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.
 
@@ -2980,26 +2978,33 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 - **Frontend desplegado - Página de Login**
 
   Vista de la página de login desplegada en Firebase Hosting, accesible desde `https://neurogenz.web.app/login`.
+<img width="1600" height="885" alt="image" src="https://github.com/user-attachments/assets/aa43c585-f3b3-4df5-8dfc-4e177b311343" />
 
-  /////////PONER CAPTURA DE LOGIN EN PRODUCCIÓN AQUÍ///////////
 
 - **Frontend desplegado - Dashboard**
 
   Vista del dashboard después del login exitoso, mostrando las funcionalidades principales.
-
-  /////////PONER CAPTURA DE DASHBOARD EN PRODUCCIÓN AQUÍ///////////
+  
+<img width="1560" height="1600" alt="image" src="https://github.com/user-attachments/assets/dc7e91d3-0d28-43d9-b9a9-fce101758246" />
 
 - **Frontend desplegado - Módulo de Coaching**
 
   Vista del módulo de coaching con citas y psicólogos obtenidos desde el backend.
+  
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/e5239b09-219f-4930-a4fb-8dcfd2fb4c56" />
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/748a9c3b-94ea-4b20-b6a9-95220c394751" />
 
-  /////////PONER CAPTURA DE COACHING EN PRODUCCIÓN AQUÍ///////////
+
+- **Frontend desplegado - Módulo de Assessment**
+
+  <img width="1230" height="1600" alt="image" src="https://github.com/user-attachments/assets/03d41c71-cb84-40be-a4fc-70f5febac487" />
+
 
 - **Backend desplegado - Swagger en producción**
 
   Vista de Swagger UI accesible desde `https://neurozen-backend.onrender.com/swagger-ui/index.html`, mostrando todos los bounded contexts implementados.
 
-  /////////PONER CAPTURA DE SWAGGER EN RENDER AQUÍ///////////
+<img width="2240" height="1061" alt="Screenshot 2025-12-01 at 8 51 08 PM" src="https://github.com/user-attachments/assets/fa01c7b9-e4be-48f5-a3f7-571ae305c0bd" />
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -3058,13 +3063,12 @@ Este flujo aseguró que tanto el backend como el frontend estuvieran disponibles
 
   Vista del panel de Render mostrando el servicio del backend desplegado y en ejecución.
 
-  /////////PONER CAPTURA DEL PANEL DE RENDER CON EL BACKEND DESPLEGADO AQUÍ///////////
 
 - **Panel de Firebase Hosting - Frontend desplegado**
 
   Vista del panel de Firebase Hosting mostrando el frontend Angular desplegado y las configuraciones de despliegue.
 
-  /////////PONER CAPTURA DEL PANEL DE FIREBASE HOSTING CON EL FRONTEND DESPLEGADO AQUÍ///////////
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/1cad6e15-49ec-40ab-9f07-4cf1cb0125ef" />
 
 - **URLs de despliegue en producción:**
   - **Backend API REST:** [https://neurozen-backend.onrender.com/swagger-ui/index.html](https://neurozen-backend.onrender.com/swagger-ui/index.html)
@@ -3177,6 +3181,7 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
 
 
