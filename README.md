@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/upc logo2.png" alt="Logo UPC" />
+  <img src="imgs/upc logo2.png" alt="Logo UPC"  width="200px" />
   
   <h2>Universidad: Universidad Peruana de Ciencias Aplicadas</h2>
   <p><strong>Carrera:</strong> Ingeniería de Software</p>
@@ -3181,6 +3181,7 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
 
 
