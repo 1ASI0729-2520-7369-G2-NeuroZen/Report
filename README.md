@@ -2853,7 +2853,6 @@ En la cuarta iteración (Sprint 4), el equipo se enfocó en tres frentes princip
 | US03 | Recuperación de contraseña | Como paciente, quiero recuperar mi contraseña para poder acceder si la olvido. | 3                  | Equipo     | Done   |
 | US05 | Registro de psicólogo      | Como psicólogo, quiero registrarme en la plataforma para publicar mis servicios. | 5                  | Equipo     | Done   |
 
-/////////PONER CAPTURA DE TABLERO/TRELLO SPRINT 4 AQUÍ///////////
 
 Este Sprint permitió completar el **bounded context IAM de NeuroZen**, proporcionando autenticación y autorización segura para pacientes y psicólogos, así como la integración completa entre frontend y backend.
 
@@ -2947,13 +2946,15 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista del formulario de login en el frontend Angular conectado al backend en Render, mostrando la autenticación funcional.
 
-  /////////PONER IMAGEN DE LOGIN FRONTEND CONECTADO AQUÍ///////////
+<img width="2228" height="1056" alt="Screenshot 2025-12-01 at 8 16 25 PM" src="https://github.com/user-attachments/assets/c8dc56ac-1f72-4577-be7f-6e0975450c27" />
+
 
 - **Frontend - Registro integrado con backend**
 
   Vista del formulario de registro en el frontend Angular, mostrando la integración con el endpoint de sign-up del backend.
 
-  /////////PONER IMAGEN DE REGISTRO FRONTEND CONECTADO AQUÍ///////////
+  <img width="2225" height="1042" alt="Screenshot 2025-12-01 at 8 16 54 PM" src="https://github.com/user-attachments/assets/ce736179-54e8-4d12-ab8f-41fdd77e5ad5" />
+
 
 - **Frontend - Coaching con datos reales**
 
@@ -3176,5 +3177,6 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
 
