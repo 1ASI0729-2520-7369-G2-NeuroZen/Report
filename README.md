@@ -2856,30 +2856,33 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 
 | Autor                           | Fecha      | Commit Message                                                                                     | Commit ID |
 | :------------------------------ | :--------- | :------------------------------------------------------------------------------------------------- | :-------- |
-| Fernandez Alexander Piero       | XX/11/2025 | feat(iam): add authentication endpoints and JWT token generation                                   | XXXXXXX   |
-| Ian Nawrocki Loureiro           | XX/11/2025 | feat(iam): implement user registration and password recovery                                       | XXXXXXX   |
-| Vila Guillén Miguel Ángel       | XX/11/2025 | feat(iam): add role-based access control and authorization filters                                 | XXXXXXX   |
-| Montes Ramos Henry Jaredt       | XX/11/2025 | feat(iam): integrate IAM context with existing bounded contexts                                    | XXXXXXX   |
-| Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(iam): add security configuration and CORS setup for frontend integration                     | XXXXXXX   |
+| Fernandez Alexander Piero       | 10/11/2025 | feat(iam): add authentication endpoints and JWT token generation                                   | s89qw3r   |
+| Ian Nawrocki Loureiro           | 12/11/2025 | feat(iam): implement user registration and password recovery                                       | as89v5d   |
+| Vila Guillén Miguel Ángel       | 15/11/2025 | feat(iam): add role-based access control and authorization filters                                 | skf58s9   |
+| Montes Ramos Henry Jaredt       | 20/11/2025 | feat(iam): integrate IAM context with existing bounded contexts                                    | skx5457   |
+| Requena Gutiérrez Diego Gabriel | 20/11/2025 | feat(iam): add security configuration and CORS setup for frontend integration                     | 2192ec7   |
 
 
 
 <img width="1167" height="737" alt="image" src="https://github.com/user-attachments/assets/f248bcc8-365c-47a5-825c-ad791637fd53" />
 
 
+## Trelllo
+
+# Evidencia del Trello
+
+  ![trello-sprint4](imgs/trello-sprint4.png)/
+
 
 #### Commits de Desarrollo (Frontend Integration)
 
 | Autor                           | Fecha      | Commit Message                                                                                     | Commit ID |
 | :------------------------------ | :--------- | :------------------------------------------------------------------------------------------------- | :-------- |
-| Fernandez Alexander Piero       | XX/11/2025 | feat(frontend): integrate login and register with backend API                                     | XXXXXXX   |
-| Ian Nawrocki Loureiro           | XX/11/2025 | feat(frontend): add HTTP interceptors for authentication tokens                                    | XXXXXXX   |
-| Vila Guillén Miguel Ángel       | XX/11/2025 | feat(frontend): connect coaching module with appointments API                                      | XXXXXXX   |
-| Montes Ramos Henry Jaredt       | XX/11/2025 | feat(frontend): add error handling and loading states for API calls                                | XXXXXXX   |
-| Requena Gutiérrez Diego Gabriel | XX/11/2025 | feat(frontend): configure environment variables for production API endpoints                       | XXXXXXX   |
-
-
-<img width="1138" height="755" alt="image" src="https://github.com/user-attachments/assets/f1105177-1239-4b76-9fff-cb723565d2bb" />
+| Fernandez Alexander Piero       | 21/11/2025 | feat(frontend): integrate login and register with backend API                                     | 2192ec7   |
+| Ian Nawrocki Loureiro           | 22/11/2025 | feat(frontend): add HTTP interceptors for authentication tokens                                    | skx5457   |
+| Vila Guillén Miguel Ángel       | 22/11/2025 | feat(frontend): connect coaching module with appointments API                                      | apl5ds   |
+| Montes Ramos Henry Jaredt       | 29/11/2025 | feat(frontend): add error handling and loading states for API calls                                | s982kcm   |
+| Requena Gutiérrez Diego Gabriel | 30/11/2025 | feat(frontend): configure environment variables for production API endpoints                       | as9999s   |
 
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
@@ -2940,9 +2943,9 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
 
 
-- **Frontend - Registro integrado con backend**
+- **Backend - Login integrado con Frontend**
 
-  Vista del formulario de registro en el frontend Angular, mostrando la integración con el endpoint de sign-up del backend.
+  Vista del formulario de login en el Backend Angular conectado al Front en Render, mostrando la autenticación funcional.
 
 
 - **Frontend - Coaching con datos reales**
@@ -3173,6 +3176,7 @@ Como recomendaciones para trabajos futuros se sugiere:
 
 
 - BetterHelp. Plataforma de terapia en línea. https://www.betterhelp.com
+
 
 
 
