@@ -2632,9 +2632,11 @@ Este flujo aseguró que el backend desarrollado estuviera disponible para todo e
 
 ### Evidencia del despliegue
 
-/////////PONER CAPTURA DEL PANEL DE RENDER CON EL BACKEND DESPLEGADO AQUÍ///////////
+**Deploy en Render**
+  ![backend_deploy_render](imgs/backend_deploy_render.png)/
 
-/////////PONER CAPTURA DE SWAGGER EN RENDER (URL DE PRODUCCIÓN) AQUÍ///////////
+**Deploy en Swagger**
+  ![backend_deploy_swagger](imgs/backend_deploy_swagger.png)/
 
 - **URL pública del servicio desplegado en Render:** [NeuroZen Backend](https://neurozen-backend.onrender.com/swagger-ui/index.html)
 
