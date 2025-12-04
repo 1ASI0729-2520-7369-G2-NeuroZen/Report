@@ -2522,7 +2522,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista detallada de los endpoints del bounded context de Appointments, incluyendo operaciones de creación, consulta, confirmación, cancelación, inicio y finalización.
 
-![appointments_ui_png](imgsswagger_apoint.png)
+![swagger_apoint.png](imgs/swagger_apoint.png)
 
 - **Swagger - Endpoints de Reports**
 
