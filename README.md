@@ -2509,32 +2509,32 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por bounded contexts (Assessments, Appointments, Reports).
 
-![swwager_ui_png](imgs/swwager_ui_png)
+![swwager_ui_png](imgs/swwager_ui.png)
 
 
 - **Swagger - Endpoints de Assessments**
 
   Vista detallada de los endpoints del bounded context de Assessments, mostrando los métodos HTTP disponibles y sus parámetros.
 
-![assessments_ui_png](imgs/assessments_ui_png)
+![assessments_ui_png](imgs/assessments_ui.png)
 
 - **Swagger - Endpoints de Appointments**
 
   Vista detallada de los endpoints del bounded context de Appointments, incluyendo operaciones de creación, consulta, confirmación, cancelación, inicio y finalización.
 
-![appointments_ui_png](imgs/appointments_ui_png)
+![appointments_ui_png](imgs/appointments_ui.png)
 
 - **Swagger - Endpoints de Reports**
 
   Vista detallada de los endpoints del bounded context de Reports, mostrando las operaciones para gestionar la generación y consulta de reportes.
 
-![reports_ui_png](imgs/reports_ui_png)
+![reports_ui_png](imgs/reports_ui.png)
 
 - **Estructura del proyecto**
 
   Vista de la estructura de carpetas del proyecto, mostrando la organización por bounded contexts (Assessments, Appointments, Reports).
 
-![backend_structura_png](imgs/backend_structura_png)
+![backend_structura_png](imgs/backend_structura.png)
 
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
