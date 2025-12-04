@@ -2870,7 +2870,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 
 
 
-<img width="1167" height="737" alt="image" src="https://github.com/user-attachments/assets/f248bcc8-365c-47a5-825c-ad791637fd53" />
+  ![commit_4](imgs/commit_4.png)
 
 
 ## Trelllo
@@ -2942,14 +2942,14 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista del formulario de login en el frontend Angular conectado al backend en Render, mostrando la autenticación funcional.
 
-![backend_deploy_swagger](imgs/front_integrado.png)
+![front_integrado](imgs/front_integrado.png)
 
 
 - **Backend - Login integrado con Frontend**
 
   Vista del formulario de login en el Backend Angular conectado al Front en Render, mostrando la autenticación funcional.
 
-![backend_deploy_swagger](imgs/backend_integrado.png)
+![backend_integrado](imgs/backend_integrado.png)
 
 - **Frontend - Coaching con datos reales**
 
@@ -2976,7 +2976,7 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista de la página de login desplegada en Firebase Hosting, accesible desde `https://neurogenz.web.app/login`.
 
-![backend_deploy_swagger](imgs/front_integrado.png)
+![front_integrado](imgs/front_integrado.png)
 
 
 - **Frontend desplegado - Dashboard**
@@ -2990,12 +2990,12 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
   Vista del módulo de coaching con citas y psicólogos obtenidos desde el backend.
   
   
-![front_assessment](imgs/front_assessment.png)
+![front_coaching](imgs/front_coaching.png)
 
 
 - **Frontend desplegado - Módulo de Assessment**
 
-![front_coaching](imgs/front_coaching.png)
+![front_assessment](imgs/front_assessment.png)
 
 
 
