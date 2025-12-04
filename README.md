@@ -2012,10 +2012,7 @@ El despliegue de **NeuroZen** se configuró de la siguiente manera:
 #### Landing Page
 
 - **Repositorio GitHub:** `https://github.com/1ASI0729-2520-7369-G2-NeuroZen/landing-page`
-- **Tecnologías:** HTML5, CSS3 y JavaScript.
-- **Proceso:** la página se construye a partir del código fuente de este repositorio y se publica en un servicio estático (GitHub Pages u otro servicio similar) para exponer la propuesta de valor del producto.
-- /////////PONER URL DE DEPLOY DE LA LANDING AQUÍ///////////
-
+- **Tecnologías:** HTML5, CSS3 y JavaScript. para exponer la propuesta de valor del producto.
 #### Web Application (Frontend Angular)
 
 - **Repositorio GitHub:** `https://github.com/1ASI0729-2520-7369-G2-NeuroZen/frontend`
@@ -2939,30 +2936,26 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Vista detallada de los endpoints del bounded context de IAM, mostrando los métodos HTTP disponibles para autenticación y gestión de usuarios.
 
-<img width="1870" height="912" alt="image" src="https://github.com/user-attachments/assets/213894e5-512a-4342-8dd3-fdc50d2c587c" />
-<img width="1869" height="911" alt="image" src="https://github.com/user-attachments/assets/f2dc1160-a7fd-4396-ac1f-7ca898601515" />
-<img width="1895" height="508" alt="image" src="https://github.com/user-attachments/assets/995a1ebc-e194-4efe-a2c6-845fc632b18a" />
-
-
-
+![backend_deploy_swagger](imgs/backend_deploy_swagger.png)
 
 - **Frontend - Login integrado con backend**
 
   Vista del formulario de login en el frontend Angular conectado al backend en Render, mostrando la autenticación funcional.
 
+![backend_deploy_swagger](imgs/front_integrado.png)
 
 
 - **Backend - Login integrado con Frontend**
 
   Vista del formulario de login en el Backend Angular conectado al Front en Render, mostrando la autenticación funcional.
 
+![backend_deploy_swagger](imgs/backend_integrado.png)
 
 - **Frontend - Coaching con datos reales**
 
   Vista del módulo de coaching consumiendo endpoints reales de Appointments desde el backend.
-  
-<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/e5239b09-219f-4930-a4fb-8dcfd2fb4c56" />
-<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/748a9c3b-94ea-4b20-b6a9-95220c394751" /> 
+
+![coaching_datos](imgs/coaching_datos.png)
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.
 
@@ -2982,33 +2975,35 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 - **Frontend desplegado - Página de Login**
 
   Vista de la página de login desplegada en Firebase Hosting, accesible desde `https://neurogenz.web.app/login`.
-<img width="1600" height="885" alt="image" src="https://github.com/user-attachments/assets/aa43c585-f3b3-4df5-8dfc-4e177b311343" />
+
+![backend_deploy_swagger](imgs/front_integrado.png)
 
 
 - **Frontend desplegado - Dashboard**
 
   Vista del dashboard después del login exitoso, mostrando las funcionalidades principales.
   
-<img width="1560" height="1600" alt="image" src="https://github.com/user-attachments/assets/dc7e91d3-0d28-43d9-b9a9-fce101758246" />
+![front_dashboard](imgs/front_dashboard.png)
 
 - **Frontend desplegado - Módulo de Coaching**
 
   Vista del módulo de coaching con citas y psicólogos obtenidos desde el backend.
   
-<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/e5239b09-219f-4930-a4fb-8dcfd2fb4c56" />
-<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/748a9c3b-94ea-4b20-b6a9-95220c394751" />
+  
+![front_assessment](imgs/front_assessment.png)
 
 
 - **Frontend desplegado - Módulo de Assessment**
 
-  <img width="1230" height="1600" alt="image" src="https://github.com/user-attachments/assets/03d41c71-cb84-40be-a4fc-70f5febac487" />
+![front_coaching](imgs/front_coaching.png)
+
 
 
 - **Backend desplegado - Swagger en producción**
 
   Vista de Swagger UI accesible desde `https://neurozen-backend.onrender.com/swagger-ui/index.html`, mostrando todos los bounded contexts implementados.
 
-<img width="2240" height="1061" alt="Screenshot 2025-12-01 at 8 51 08 PM" src="https://github.com/user-attachments/assets/fa01c7b9-e4be-48f5-a3f7-571ae305c0bd" />
+![backend_deploy_swagger](imgs/backend_deploy_swagger.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -3072,7 +3067,7 @@ Este flujo aseguró que tanto el backend como el frontend estuvieran disponibles
 
   Vista del panel de Firebase Hosting mostrando el frontend Angular desplegado y las configuraciones de despliegue.
 
-<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/1cad6e15-49ec-40ab-9f07-4cf1cb0125ef" />
+![backend_deploy_render](imgs/backend_deploy_render.png)
 
 - **URLs de despliegue en producción:**
   - **Backend API REST:** [https://neurozen-backend.onrender.com/swagger-ui/index.html](https://neurozen-backend.onrender.com/swagger-ui/index.html)
