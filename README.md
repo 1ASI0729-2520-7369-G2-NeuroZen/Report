@@ -356,7 +356,7 @@ En la gestión cotidiana de la salud mental: manejo del estrés, ansiedad y emoc
 
 **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
-- Riesgo de abandono del uso\*\* → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
+- Riesgo de abandono del uso** → Se resolverá con recordatorios amigables, recompensas por constancia y experiencias interactivas.
 - **Desconfianza en la efectividad** → Se resolverá mostrando respaldo científico, contenido validado y alianzas con profesionales certificados.
 
 **¿Cómo y cuándo es usado nuestro producto?**
@@ -365,8 +365,8 @@ De manera regular en la vida diaria: al iniciar el día con ejercicios de respir
 
 **¿Qué problemas tiene nuestro producto?**
 
-- Falta de personalización para cada usuario\*\* → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
-- Posible saturación de información\*\* → Se solucionará con una interfaz clara, simple y progresiva.
+- Falta de personalización para cada usuario** → Lo abordaremos con algoritmos adaptativos y perfiles dinámicos.
+- Posible saturación de información** → Se solucionará con una interfaz clara, simple y progresiva.
 
 **¿Qué características son importantes?**
 
@@ -883,8 +883,8 @@ _Technical Stories_
 
 | Technical Story ID | Título                                            |
 | ------------------ | ------------------------------------------------- |
-| TS01               | Registro de usuario a través de la API           |
-| TS02               | Inicio de sesión a través de la API              |
+| TS01               | Registro de usuario           |
+| TS02               | Inicio de sesión              |
 
 **EP02 – Registro y Gestión de Perfil de Psicólogo**
 
@@ -901,7 +901,7 @@ _Technical Stories_
 
 | Technical Story ID | Título                                        |
 | ------------------ | --------------------------------------------- |
-| TS03               | Validar documentos y credenciales en frontend |
+| TS03               | Validación de documentos de identidad |
 
 ### Bounded Context: Assessments
 
@@ -983,8 +983,8 @@ _Technical Stories_
 | EP01     | Registro y Autenticación   | US02 | Inicio de sesión seguro    | Como paciente registrado, quiero iniciar sesión para acceder a mis funciones.                              | - Escenario 1: Inicio exitoso<br>Dado que el usuario ya está registrado,<br>Cuando envía credenciales válidas,<br>Entonces el sistema autentica al usuario y le permite acceder a sus funciones.<br><br>- Escenario 2: Inicio fallido<br>Dado que el usuario envía credenciales incorrectas,<br>Cuando intenta iniciar sesión,<br>Entonces el sistema rechaza la autenticación y notifica el error. |
 | EP01     | Registro y Autenticación   | US03 | Recuperación de contraseña | Como paciente, quiero recuperar mi contraseña para poder acceder si la olvido.                               | - Escenario 1: Recuperación exitosa<br>Dado que el usuario olvidó su contraseña,<br>Cuando solicita la recuperación proporcionando su correo electrónico,<br>Entonces el sistema procesa la solicitud y envía un enlace de restablecimiento al correo registrado.                                                                     |
 | EP01     | Registro y Autenticación   | US04 | Edición de perfil personal | Como paciente autenticado, quiero editar mi información personal para mantenerla actualizada.               | - Escenario 1: Edición de perfil<br>Dado que el usuario está autenticado,<br>Cuando modifica sus datos personales y envía la actualización,<br>Entonces el sistema actualiza la información del perfil correctamente.                                                                                                                |
-| EP01     | Registro y Autenticación   | TS01 | Registro de usuario a través de la API | Como desarrollador frontend, quiero registrar usuarios a través de la API para implementar el flujo de registro en la interfaz. | - Escenario 1: Registro exitoso<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos: Username, Password, Email, Role,<br>Cuando la API valida y persiste el usuario,<br>Entonces la API responde 200 OK y retorna el usuario creado con sus atributos (id, username, email, role).<br><br>- Escenario 2: Error de validación<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos faltantes o inválidos,<br>Cuando la API rechaza la petición por validación,<br>Entonces la API responde 400 Bad Request y retorna un payload de error describiendo los problemas de validación. |
-| EP01     | Registro y Autenticación   | TS02 | Inicio de sesión a través de la API | Como desarrollador frontend, quiero autenticar usuarios a través de la API para implementar el flujo de inicio de sesión. | - Escenario 1: Autenticación exitosa<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con atributos: Username, Password,<br>Cuando las credenciales son válidas,<br>Entonces la API responde 200 OK y retorna AuthenticatedUserResource (información del usuario y token JWT).<br><br>- Escenario 2: Credenciales inválidas<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con credenciales incorrectas,<br>Cuando la API valida las credenciales,<br>Entonces la API responde 401 Unauthorized o 404 Not Found con un payload de error. |
+| EP01     | Registro y Autenticación   | TS01 | Registro de usuario | Como desarrollador frontend, quiero registrar usuarios a través de la API para implementar el flujo de registro en la interfaz. | - Escenario 1: Registro exitoso<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos: Username, Password, Email, Role,<br>Cuando la API valida y persiste el usuario,<br>Entonces la API responde 200 OK y retorna el usuario creado con sus atributos (id, username, email, role).<br><br>- Escenario 2: Error de validación<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-up con atributos faltantes o inválidos,<br>Cuando la API rechaza la petición por validación,<br>Entonces la API responde 400 Bad Request y retorna un payload de error describiendo los problemas de validación. |
+| EP01     | Registro y Autenticación   | TS02 | Inicio de sesión | Como desarrollador frontend, quiero autenticar usuarios a través de la API para implementar el flujo de inicio de sesión. | - Escenario 1: Autenticación exitosa<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con atributos: Username, Password,<br>Cuando las credenciales son válidas,<br>Entonces la API responde 200 OK y retorna AuthenticatedUserResource (información del usuario y token JWT).<br><br>- Escenario 2: Credenciales inválidas<br>Dado que se recibe una petición POST a /api/v1/authentication/sign-in con credenciales incorrectas,<br>Cuando la API valida las credenciales,<br>Entonces la API responde 401 Unauthorized o 404 Not Found con un payload de error. |
 
 **EP02 – Registro y Gestión de Perfil de Psicólogo**
 
@@ -994,7 +994,7 @@ _Technical Stories_
 | EP02     | Registro y Gestión de Perfil de Psicólogo | US06 | Verificación de identidad básica | Como psicólogo, quiero verificar mi identidad de manera sencilla para dar confianza a los pacientes.       | - Escenario 1: Verificación cargada<br>Dado que el psicólogo está autenticado,<br>Cuando envía un documento válido de identificación,<br>Entonces el sistema procesa el documento y actualiza el estado de verificación como "En revisión".                                                                                          |
 | EP02     | Registro y Gestión de Perfil de Psicólogo | US07 | Configuración de datos de contacto | Como psicólogo, quiero configurar mis datos de contacto para que los pacientes puedan comunicarse.        | - Escenario 1: Configuración exitosa<br>Dado que el psicólogo está autenticado,<br>Cuando envía datos de contacto actualizados (teléfono o correo),<br>Entonces el sistema actualiza los datos de contacto correctamente.                                                                                                          |
 | EP02     | Registro y Gestión de Perfil de Psicólogo | US08 | Edición de perfil de psicólogo   | Como psicólogo, quiero editar mi información personal y de negocio para mantenerla actualizada.             | - Escenario 1: Edición correcta<br>Dado que el psicólogo está autenticado,<br>Cuando envía información actualizada de su perfil,<br>Entonces el sistema actualiza los cambios exitosamente.                                                                                                                                            |
-| EP02     | Registro y Gestión de Perfil de Psicólogo | TS03 | Validar documentos en frontend   | Como desarrollador frontend, quiero validar documentos y credenciales en frontend para mejorar la experiencia del usuario. | - Escenario 1: Validación de documento<br>Dado que se recibe un documento para validar,<br>Cuando el frontend valida el formato y tamaño,<br>Entonces se muestra un mensaje de confirmación o error antes de enviar al backend.                                                                                                    |
+| EP02     | Registro y Gestión de Perfil de Psicólogo | TS03 | Validación de documentos de identidad   | Como desarrollador, quiero implementar la validación de documentos de identidad para verificar la identidad de los psicólogos en el sistema. | - Escenario 1: Validación de documento<br>Dado que se recibe un documento para validar,<br>Cuando el frontend valida el formato y tamaño,<br>Entonces se muestra un mensaje de confirmación o error antes de enviar al backend.                                                                                                    |
 
 **EP03 – Evaluación y Tests de Estrés**
 
@@ -1052,13 +1052,13 @@ _Technical Stories_
 | 02    | US02 | Inicio de sesión seguro                                | 3            | IAM             |
 | 03    | US03 | Recuperación de contraseña                             | 3            | IAM             |
 | 04    | US04 | Edición de perfil personal                             | 5            | IAM             |
-| 05    | TS01 | Registro de usuario a través de la API                 | 5            | IAM             |
-| 06    | TS02 | Inicio de sesión a través de la API                   | 3            | IAM             |
+| 05    | TS01 | Registro de usuario                 | 5            | IAM             |
+| 06    | TS02 | Inicio de sesión                   | 3            | IAM             |
 | 07    | US05 | Registro de psicólogo                                  | 5            | IAM             |
 | 08    | US06 | Verificación de identidad básica                       | 8            | IAM             |
 | 09    | US07 | Configuración de datos de contacto                    | 3            | IAM             |
 | 10    | US08 | Edición de perfil de psicólogo                         | 5            | IAM             |
-| 11    | TS03 | Validar documentos en frontend                         | 5            | IAM             |
+| 11    | TS03 | Validación de documentos de identidad                         | 5            | IAM             |
 | 12    | US09 | Realizar test de nivel de estrés                       | 5            | Assessments     |
 | 13    | US10 | Ver resultados e historial de evaluaciones            | 5            | Assessments     |
 | 14    | US11 | Recibir recomendaciones automáticas según resultados   | 8            | Assessments     |
@@ -1462,14 +1462,14 @@ decida si quiere saber más o descargarla.
 
 - En el **header**, se muestra el valor principal: detección y gestión
   del estrés laboral, junto con un formulario para unirse a la lista
-  de espera y botones de descarga.\
+  de espera y botones de descarga.
 - En la sección de **Características**, se resumen los beneficios
   clave (detección temprana, autoevaluación, recomendaciones,
-  dashboard, conexión con psicólogos y privacidad).\
+  dashboard, conexión con psicólogos y privacidad).
 - La sección **Cómo funciona** explica en 4 pasos simples el flujo de
-  uso.\
+  uso.
 - La sección de **Planes** resume las opciones (gratis, pro y
-  empresas) sin entrar en demasiados detalles técnicos.\
+  empresas) sin entrar en demasiados detalles técnicos.
 - En el **FAQ**, se muestran respuestas breves a las dudas más
   comunes.
 
@@ -1484,9 +1484,9 @@ Cada sección de la página está encabezada con una etiqueta clara y
 visible que orienta al usuario sobre dónde se encuentra y qué puede
 hacer:
 
-- "Características"\
-- "Cómo funciona"\
-- "Planes"\
+- "Características"
+- "Cómo funciona"
+- "Planes"
 - "Preguntas frecuentes"
 
 Estas etiquetas refuerzan el **principio de las puertas de entrada**,
@@ -1500,10 +1500,10 @@ ubicación dentro de la página.
 La página cuenta con **un único menú principal de navegación** en la
 parte superior (sticky, siempre visible):
 
-- Características\
-- Cómo funciona\
-- Planes\
-- Preguntas frecuentes\
+- Características
+- Cómo funciona
+- Planes
+- Preguntas frecuentes
 - Descargar
 
 No existe menú secundario lateral, pero el **footer** funciona como
