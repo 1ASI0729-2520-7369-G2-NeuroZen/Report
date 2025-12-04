@@ -2509,43 +2509,33 @@ A continuación, se adjuntan capturas de pantalla que evidencian la ejecución r
 
   Aquí se puede observar la interfaz de Swagger que documenta todos los endpoints disponibles de la API, organizados por bounded contexts (Assessments, Appointments, Reports).
 
-  /////////PONER IMAGEN DE SWAGGER UI GENERAL AQUÍ///////////
+![swwager_ui_png](imgs/swwager_ui_png)
+
 
 - **Swagger - Endpoints de Assessments**
 
   Vista detallada de los endpoints del bounded context de Assessments, mostrando los métodos HTTP disponibles y sus parámetros.
 
-  /////////PONER IMAGEN DE SWAGGER ASSESSMENTS AQUÍ///////////
+![assessments_ui_png](imgs/assessments_ui_png)
 
 - **Swagger - Endpoints de Appointments**
 
   Vista detallada de los endpoints del bounded context de Appointments, incluyendo operaciones de creación, consulta, confirmación, cancelación, inicio y finalización.
 
-  /////////PONER IMAGEN DE SWAGGER APPOINTMENTS AQUÍ///////////
+![appointments_ui_png](imgs/appointments_ui_png)
 
 - **Swagger - Endpoints de Reports**
 
   Vista detallada de los endpoints del bounded context de Reports, mostrando las operaciones para gestionar la generación y consulta de reportes.
 
-  /////////PONER IMAGEN DE SWAGGER REPORTS AQUÍ///////////
-
-- **Ejemplo de respuesta - Obtener evaluación por ID**
-
-  Respuesta JSON al consultar una evaluación específica, mostrando la estructura de datos retornada por la API.
-
-  /////////PONER IMAGEN DE RESPUESTA API ASSESSMENT AQUÍ///////////
-
-- **Ejemplo de creación - Crear nueva cita**
-
-  Petición POST para crear una nueva cita, mostrando el cuerpo de la solicitud y la respuesta con el recurso creado.
-
-  /////////PONER IMAGEN DE CREACIÓN DE APPOINTMENT AQUÍ///////////
+![reports_ui_png](imgs/reports_ui_png)
 
 - **Estructura del proyecto**
 
   Vista de la estructura de carpetas del proyecto, mostrando la organización por bounded contexts (Assessments, Appointments, Reports).
 
-  /////////PONER IMAGEN DE ESTRUCTURA DEL PROYECTO BACKEND AQUÍ///////////
+![backend_structura_png](imgs/backend_structura_png)
+
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
@@ -2633,10 +2623,14 @@ Este flujo aseguró que el backend desarrollado estuviera disponible para todo e
 ### Evidencia del despliegue
 
 **Deploy en Render**
-  ![backend_deploy_render](imgs/backend_deploy_render.png)/
+
+
+  ![backend_deploy_render](imgs/backend_deploy_render.png)
 
 **Deploy en Swagger**
-  ![backend_deploy_swagger](imgs/backend_deploy_swagger.png)/
+
+
+  ![backend_deploy_swagger](imgs/backend_deploy_swagger.png)
 
 - **URL pública del servicio desplegado en Render:** [NeuroZen Backend](https://neurozen-backend.onrender.com/swagger-ui/index.html)
 
@@ -2730,6 +2724,10 @@ Detalles de la entrevista:
 
 - Duración: 8:54 minutos.
 
+**Evidencia del video**
+
+![entrevista_milenio](imgs/entrevista_milenio.png)
+
 Link : https://drive.google.com/file/d/1tSwWvcAtwTsvwS4lWL9BhmycCpFoFS7u/view?usp=sharing
 
 Resumen de los puntos clave en la entrevista:
@@ -2753,6 +2751,11 @@ Detalles de la entrevista:
 - Duración: 3:43 minutos.
 
 - Link: https://youtu.be/zurlIOHgitM
+
+**Evidencia del video**
+
+![entrevista_lusiana](imgs/entrevista_lusiana.png)
+
 
 Resumen de los puntos clave en la entrevista:
 
@@ -2809,6 +2812,10 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 
 [Video About-the-Product](https://drive.google.com/file/d/1LG2EnjfgSGPPUvwj0PuSfS1iatz1gU__/view?usp=sharing)
 
+
+**Evidencia del video**
+
+![about_the_product](imgs/about_the_product.png)
 
 ---
 
@@ -2873,7 +2880,7 @@ A continuación, se listan los commits que evidencian el desarrollo del **Backen
 
 # Evidencia del Trello
 
-  ![trello-sprint4](imgs/trello-sprint4.png)/
+  ![trello-sprint4](imgs/trello-sprint4.png)
 
 
 #### Commits de Desarrollo (Frontend Integration)
