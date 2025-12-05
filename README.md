@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/upc logo2.png" alt="Logo UPC"  width="200px" />
+  <img src="imgs/upc logo2.png" alt="Logo UPC"  width="100px" />
   
   <h2>Universidad: Universidad Peruana de Ciencias Aplicadas</h2>
   <p><strong>Carrera:</strong> Ingeniería de Software</p>
