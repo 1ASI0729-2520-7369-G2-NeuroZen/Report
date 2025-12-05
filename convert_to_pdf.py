@@ -18,8 +18,26 @@ def convert_markdown_to_pdf(md_file, pdf_file):
         md_content = f.read()
     
     # Convertir markdown a HTML
-    md = markdown.Markdown(extensions=['extra', 'codehilite', 'tables', 'fenced_code', 'toc'])
-    html_content = md.convert(md_content)
+    # Usar nl2br para preservar saltos de línea (convierte \n en <br>)
+    extensions_list = ['extra', 'codehilite', 'tables', 'fenced_code', 'toc']
+    try:
+        # Intentar agregar nl2br si está disponible
+        extensions_list.append('nl2br')
+        md = markdown.Markdown(extensions=extensions_list)
+        html_content = md.convert(md_content)
+    except Exception:
+        # Si nl2br no está disponible, usar sin esa extensión
+        # y procesar manualmente los saltos de línea
+        md = markdown.Markdown(extensions=['extra', 'codehilite', 'tables', 'fenced_code', 'toc'])
+        html_content = md.convert(md_content)
+        # Convertir saltos de línea dentro de párrafos en <br>
+        # Solo dentro de tags <p>, no en otros elementos
+        def replace_newlines_in_paragraphs(match):
+            content = match.group(1)
+            # Reemplazar \n con <br> pero preservar \n\n como separadores de párrafo
+            content = re.sub(r'(?<!\n)\n(?!\n)', '<br>', content)
+            return f'<p>{content}</p>'
+        html_content = re.sub(r'<p>(.*?)</p>', replace_newlines_in_paragraphs, html_content, flags=re.DOTALL)
     
     # Obtener la ruta base para las imagenes
     base_path = Path(md_file).parent.absolute()
@@ -45,6 +63,38 @@ def convert_markdown_to_pdf(md_file, pdf_file):
     
     html_content = convert_image_paths(html_content)
     
+    # Remover atributos border de las tablas HTML y agregar estilos inline
+    def fix_table_borders(html):
+        # Remover atributo border de las tablas
+        html = re.sub(r'<table\s+([^>]*?)\s*border\s*=\s*["\']?\d+["\']?([^>]*)>', 
+                     r'<table \1\2>', html, flags=re.IGNORECASE)
+        html = re.sub(r'<table\s+border\s*=\s*["\']?\d+["\']?([^>]*)>', 
+                     r'<table\1>', html, flags=re.IGNORECASE)
+        
+        # Agregar bordes inline a todas las celdas th y td
+        def add_border_to_cell(match):
+            full_tag = match.group(0)
+            # Si ya tiene style, agregar border al final
+            if 'style=' in full_tag.lower():
+                result = re.sub(r'(style\s*=\s*["\'])([^"\']*)(["\'])', 
+                               r'\1\2; border: 1.5px solid #000 !important; \3', 
+                               full_tag, flags=re.IGNORECASE)
+                return result
+            else:
+                # Agregar style completo
+                return full_tag.replace('>', ' style="border: 1.5px solid #000 !important;">')
+        
+        # Aplicar a todas las celdas
+        html = re.sub(r'<(th|td)([^>]*)>', add_border_to_cell, html, flags=re.IGNORECASE)
+        
+        return html
+    
+    html_content = fix_table_borders(html_content)
+    
+    # Eliminar todos los tags <hr> (líneas horizontales) del HTML
+    html_content = re.sub(r'<hr\s*/?>', '', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<hr\s+[^>]*>', '', html_content, flags=re.IGNORECASE)
+    
     # Crear HTML completo con estilos CSS
     html_template = f"""
     <!DOCTYPE html>
@@ -62,6 +112,25 @@ def convert_markdown_to_pdf(md_file, pdf_file):
                 color: #333;
                 max-width: 100%;
                 padding: 20px;
+            }}
+            p {{
+                white-space: pre-line;
+                margin: 1em 0;
+            }}
+            /* Evitar que las tablas hereden white-space: pre-line */
+            table p {{
+                white-space: normal;
+                margin: 0;
+            }}
+            /* Controlar saltos de línea dentro de las celdas */
+            table td, table th {{
+                line-height: 1.4;
+            }}
+            /* Limitar saltos de línea excesivos en tablas */
+            table br {{
+                display: block;
+                content: "";
+                margin-top: 0.3em;
             }}
             h1, h2, h3, h4, h5, h6 {{
                 color: #2c3e50;
@@ -89,24 +158,57 @@ def convert_markdown_to_pdf(md_file, pdf_file):
                 background-color: transparent;
                 padding: 0;
             }}
-            table {{
-                border-collapse: collapse;
-                width: 100%;
-                margin: 1em 0;
-                font-size: 0.9em;
+            /* Estilos de tabla - máxima especificidad */
+            table, table[border], table * {{
+                border-collapse: collapse !important;
+                border-spacing: 0 !important;
             }}
-            th, td {{
-                border: 1px solid #ddd;
-                padding: 8px;
-                text-align: left;
+            table {{
+                width: 100% !important;
+                margin: 1em 0 !important;
+                font-size: 0.9em !important;
+                border: 2px solid #000 !important;
+            }}
+            /* Bordes para TODAS las celdas - máxima prioridad */
+            table th,
+            table td,
+            table[border] th,
+            table[border] td,
+            th[style*="border"],
+            td[style*="border"] {{
+                border-top: 1.5px solid #000 !important;
+                border-right: 1.5px solid #000 !important;
+                border-bottom: 1.5px solid #000 !important;
+                border-left: 1.5px solid #000 !important;
+                padding: 8px !important;
+                text-align: left !important;
+                white-space: normal !important;
+                vertical-align: top !important;
             }}
             th {{
-                background-color: #3498db;
-                color: white;
-                font-weight: bold;
+                background-color: #3498db !important;
+                color: white !important;
+                font-weight: bold !important;
+            }}
+            tr {{
+                border: none !important;
             }}
             tr:nth-child(even) {{
-                background-color: #f2f2f2;
+                background-color: #f2f2f2 !important;
+            }}
+            /* Asegurar bordes incluso en celdas con rowspan/colspan */
+            th[rowspan],
+            td[rowspan],
+            th[colspan],
+            td[colspan],
+            table th[rowspan],
+            table td[rowspan],
+            table th[colspan],
+            table td[colspan] {{
+                border-top: 1.5px solid #000 !important;
+                border-right: 1.5px solid #000 !important;
+                border-bottom: 1.5px solid #000 !important;
+                border-left: 1.5px solid #000 !important;
             }}
             img {{
                 max-width: 100%;
@@ -132,9 +234,11 @@ def convert_markdown_to_pdf(md_file, pdf_file):
                 text-decoration: none;
             }}
             hr {{
-                border: none;
-                border-top: 2px solid #ecf0f1;
-                margin: 2em 0;
+                display: none !important;
+                border: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                height: 0 !important;
             }}
         </style>
     </head>

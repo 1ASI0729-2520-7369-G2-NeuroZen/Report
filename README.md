@@ -54,8 +54,6 @@
 | ----------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.0         | 09/09/2025 | - Fernandez Garfias Alexander Piero <br> - Montes Ramos Henry Jaredt <br> - Nawrocki Loureiro Ian Andre <br> - Vila Guillen Miguel Angel <br> - Requena Gutiérrez, Diego Gabriel | Se incluyeron los siguientes capítulos: <br>• Estructura del informe <br>• Capítulo I: Introducción <br>• Capítulo II: Requirements Elicitation & Analysis <br>• Capítulo III: Requirements Specification <br>• Capítulo IV: Product Design <br>• Capítulo V: Product Implementation, Validation & Deployment <br>• Landing Page |
 
----
-
 ## Project Report Collaboration Insights
 
 **Link del repositorio del informe:**  
@@ -65,8 +63,6 @@
 [https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories](https://github.com/orgs/1ASI0729-2520-7369-G2-NeuroZen/repositories)
 
 El desarrollo de este informe se llevó a cabo de manera colaborativa a través de la plataforma GitHub, empleando la metodología GitFlow y la estandarización de Conventional Commits. La participación de cada integrante del equipo se materializó mediante la creación de ramas independientes, la realización de aportes individuales y la validación conjunta a través de revisiones de Pull Requests
-
----
 
 ## Contenido
 
@@ -186,19 +182,12 @@ El desarrollo de este informe se llevó a cabo de manera colaborativa a través 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía y referencias](#bibliografía-y-referencias)
 
----
-
 ## Student Outcome
 
 **Student Outcome 3** – Comunicación efectiva con un rango de audiencias
 *Criterio:* Capacidad de comunicarse efectivamente con un rango de audiencias.
-| **Criterio específico**                                                    | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Conclusiones**                                                                                                                                                                                                                                                                        |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | - **Fernandez Garfias Alexander Piero**: Participó en las reuniones internas del equipo explicando la estructura del backend y las responsabilidades de cada *bounded context*.<br>- **Montes Ramos Henry Jaredt**: Presentó en las sesiones grupales los avances del contexto de *appointments*, detallando el diseño de servicios y endpoints.<br>- **Nawrocki Loureiro Ian Andre**: Expuso las decisiones tomadas respecto a los *aggregates* y entidades en el contexto de *reports*.<br>- **Vila Guillen Miguel Angel**: Comunicó el flujo completo de la API a nivel global para asegurar que todos comprendan la arquitectura.<br>- **Requena Gutiérrez Diego Gabriel**: Explicó en reuniones la validación y el manejo de errores del backend. | La comunicación oral del equipo permitió transmitir con claridad los conceptos técnicos del backend, facilitando la comprensión global del sistema y alineando los avances entre los tres bounded contexts de lógica de negocio implementados en el Sprint 3 (Assessments, Appointments y Reports). El bounded context IAM será implementado en el Sprint 4. Se garantizaron discusiones efectivas que aceleraron la toma de decisiones. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | - **Fernandez Garfias Alexander Piero**: Redactó documentación en GitHub sobre la estructura del dominio y organización de paquetes.<br>- **Montes Ramos Henry Jaredt**: Elaboró el trabajo TRS y adjuntó documentación del sprint 3 en el reporte del proyecto.<br>- **Nawrocki Loureiro Ian Andre**: Documentó mediante comentarios y secciones formales el funcionamiento del módulo de reportes.<br>- **Vila Guillen Miguel Angel**: Redactó la documentación del API general con los endpoints expuestos en Swagger UI.<br>- **Requena Gutiérrez Diego Gabriel**: Produjo documentación sobre validaciones, errores y respuestas estándar del backend.                                                                   | La documentación escrita permitió que el backend se comprendiera de manera clara y accesible para diferentes audiencias: desarrolladores del equipo, revisores del proyecto e integrantes no técnicos. Esto fortaleció la trazabilidad y mantenibilidad del sistema.                    |
 
-
----
+![student-outcome](imgs/student-outcome.png)
 
 # Capítulo I: Introducción
 
@@ -407,8 +396,6 @@ Instituciones y profesionales que buscan complementar sus servicios con solucion
 
 En conjunto, NeuroZen se orienta tanto a usuarios individuales que necesitan apoyo en la gestión del estrés como a profesionales de la salud que desean ampliar y mejorar la calidad de sus servicios mediante el uso de herramientas digitales.
 
----
-
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
@@ -418,8 +405,6 @@ En el mercado de soluciones digitales para la gestión del estrés y la salud me
 Entre los competidores más relevantes se encuentran **Headspace**, **Calm** y **BetterHelp**, cada uno con enfoques distintos que van desde la relajación guiada hasta la terapia en línea.
 
 Analizar estas alternativas permite identificar fortalezas y debilidades que servirán como base para diferenciar a **Neurozeen** mediante la detección temprana del estrés laboral y el acompañamiento personalizado.
-
----
 
 ## 2.1.1. Análisis competitivo
 
@@ -569,8 +554,6 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 - Crear una comunidad digital (foros, grupos en redes) donde los usuarios compartan experiencias y consejos, aumentando la retención.
 - Implementar un piloto gratuito en empresas y universidades para validar la efectividad y generar casos de éxito iniciales.
 
----
-
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
@@ -596,8 +579,6 @@ A continuación, se plantean las **estrategias y tácticas preliminares** frente
 - ¿Qué funcionalidades serían imprescindibles en una app para que la recomienden a sus pacientes?
 - ¿Estarían dispuestos a pagar por una suscripción empresarial o modelo de licencia para integrar esta solución en su clínica?
 - ¿Qué tan abierta está su institución a adoptar nuevas tecnologías para mejorar la atención en salud mental?
-
----
 
 ### 2.2.2. Registro de entrevistas
 
@@ -663,8 +644,6 @@ Cristofer trabaja como repartidor y no tiene horarios fijos. La inestabilidad la
 
 Laura es diseñadora gráfica freelance y fotógrafa de eventos. Sufre estrés medio-alto por la inestabilidad económica, la sobrecarga de proyectos y clientes exigentes. No logra desconectarse, afectando su salud y creatividad. Usa yoga o ejercicio, pero de forma irregular. Valora soluciones móviles rápidas, técnicas para establecer límites con clientes y métodos que le ayuden a relajarse al cerrar la jornada.
 
----
-
 **Entrevista – Segmento 2: Clínicas, psicólogos y centros de salud mental**
 
 **Entrevista 1**
@@ -697,8 +676,6 @@ Carlos es psicólogo clínico y actualmente usa videollamadas y formularios onli
 
 Diego es psicólogo organizacional y trabaja con programas de bienestar laboral. Actualmente usa cuestionarios y hojas de cálculo, pero cree que son poco efectivos. Considera que NeuroZen tendría gran impacto si ofrece métricas claras y reportes grupales. Señala que la privacidad y la percepción de control son críticas, aunque las empresas estarían dispuestas a pagar por este tipo de soluciones.
 
----
-
 **Entrevista 3**
 
 **Datos del entrevistado:**
@@ -713,8 +690,6 @@ Diego es psicólogo organizacional y trabaja con programas de bienestar laboral.
 **Resumen de la entrevista**
 
 Martín es psicólogo educativo y actualmente trabaja con estudiantes universitarios usando formularios y videollamadas. Percibe muchas limitaciones en las apps actuales y considera que NeuroZen sería de gran utilidad si integra autoevaluaciones rápidas y ejercicios prácticos. Sus principales preocupaciones son la privacidad y la accesibilidad económica.
-
----
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -756,8 +731,6 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 - **Journey Mapping**
 - **Empathy Mapping**
 - **As-Is Scenario Mapping**
-
----
 
 ### 2.3.1. User Personas.
 
@@ -806,8 +779,6 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 
 ![empathy_mapping_2](imgs/empathy_mapping_2.png)
 
----
-
 ### 2.3.5. As-is Scenario Mapping.
 
 **Segmento 1: Trabajadores y profesionales en entornos de alta presión laboral**
@@ -850,8 +821,6 @@ Al recopilar toda la información de los segmentos objetivo y realizar las entre
 | **DOING**    | Encuentra la app en la store recomendada por colegas.<br><br>Lee testimonios de usuarios con perfiles similares.<br><br>Descarga la versión gratuita.       | Explora ejercicios guiados y test de estrés inicial.<br><br>Revisa precios accesibles.<br><br>Configura recordatorios en la app.    | Realiza test semanales de estrés.<br><br>Usa ejercicios de respiración y meditación guiados.<br><br>Sigue rutinas personalizadas cortas. | Revisa métricas de progreso en la app.<br><br>Recibe recomendaciones automáticas.<br><br>Ajusta su rutina según alertas de la app.   |
 | **THINKING** | “Esto parece hecho para gente como yo.”<br><br>“Vale la pena probar, no necesito tanto tiempo libre.”<br><br>“Podría mejorar mi rendimiento en el trabajo.” | “Es más práctica que otras apps que probé.”<br><br>“El precio es accesible.”<br><br>“Los recordatorios me ayudarán a no abandonar.” | “Finalmente tengo algo estructurado.”<br><br>“Los ejercicios me calman rápido.”<br><br>“La rutina es realista y alcanzable.”             | “Estoy logrando ser constante.”<br><br>“Los resultados son visibles.”<br><br>“Ya no me siento atrapado en el mismo ciclo de estrés.” |
 | **FEELING**  | Motivación inicial.<br><br>Confianza.<br><br>Alivio.                                                                                                        | Curiosidad positiva.<br><br>Seguridad.<br><br>Optimismo.                                                                            | Tranquilidad.<br><br>Constancia.<br><br>Satisfacción.                                                                                    | Orgullo personal.<br><br>Confianza en su progreso.<br><br>Esperanza a largo plazo.                                                   |
-
----
 
 ## 3.2. User Stories.
 
@@ -971,8 +940,6 @@ _Technical Stories_
 | TS12               | Obtener reporte por ID a través de la API             |
 | TS13               | Obtener todos los reportes a través de la API         |
 
----
-
 **Tablas Detalladas de User Stories y Technical Stories**
 
 **EP01 – Registro y Autenticación**
@@ -1088,8 +1055,6 @@ _Technical Stories_
 
 # Capítulo IV: Product Design
 
----
-
 ## 4.1. Style Guidelines.
 
 ### 4.1.1. General Style Guidelines.
@@ -1143,15 +1108,11 @@ _Technical Stories_
 - Texto alternativo en imágenes (`alt`).
 - Botones con `aria-label` en íconos.
 
----
-
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
 
 En la plataforma, se emplean diferentes sistemas de organización del contenido para mejorar la accesibilidad y experiencia de los usuarios, dependiendo del tipo de información que se presenta. Estos sistemas aseguran que los usuarios puedan navegar de manera intuitiva y eficiente por la aplicación. A continuación, se detallan los enfoques utilizados:
-
----
 
 **Organización Visual del Contenido**
 
@@ -1180,8 +1141,6 @@ Los esquemas de categorización por audiencia y por tópicos están integrados e
 
 Este enfoque asegura que la experiencia de navegación sea **intuitiva, eficiente y adaptada a las necesidades de cada perfil de usuario**, mejorando la usabilidad y efectividad de la plataforma.
 
----
-
 ### 4.2.2. Labeling Systems.
 
 La plataforma emplea un sistema de etiquetado **directo, simple y orientado a la acción**, con el fin de facilitar la comprensión rápida de los contenidos y la navegación fluida para ambos tipos de usuarios (empleados y psicólogos).  
@@ -1198,15 +1157,11 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 - **Reseñas** (icono de comentarios)
 - **Contacto** (icono de sobre)
 
----
-
 **Botón principal (CTA)**
 
 - **Registrarse** → llamada a la acción principal, válida tanto para empleados como para psicólogos.
 
 ![boton_principal](imgs/boton_principal.png)
-
----
 
 **Sección "Cómo funciona" para Empleados**
 
@@ -1217,8 +1172,6 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 
 ![features](imgs/features.png)
 
----
-
 **Sección "Cómo funciona" para Psicólogos**
 
 - **Registrarse** (icono de usuario con +)
@@ -1227,8 +1180,6 @@ En la barra superior se utilizan etiquetas claras y acompañadas de íconos:
 - **Dar seguimiento y ajustar terapias** (icono de calendario o check)
 
 ![how](imgs/how.png)
-
----
 
 **Footer**  
 En el pie de página se incluyen etiquetas claras y concisas:
@@ -1242,8 +1193,6 @@ En el pie de página se incluyen etiquetas claras y concisas:
 También se incorporan **íconos de redes sociales**: Facebook, Instagram, LinkedIn, Twitter.
 
 ![planes](imgs/planes.png)
-
----
 
 ### 4.2.3. SEO Tags and Meta Tags.
 
@@ -1309,8 +1258,6 @@ El flujo de búsqueda se caracteriza por ser **simple y eficiente**:
 2. La información se actualiza en tiempo real, sin necesidad de recargar la página.
 3. Se permite **aplicar múltiples filtros** de forma simultánea.
 4. El usuario puede **eliminar filtros fácilmente** para volver a la vista general.
-
----
 
 ### 4.2.5. Navigation Systems
 
@@ -1397,8 +1344,6 @@ La aplicación web ofrece una **navegación adaptada al rol**:
 
 ## 4.4. Web Applications UX/UI Design.
 
----
-
 ### 4.4.1. Web Applications Wireframes.
 
 Diseño para visualizar el login
@@ -1421,13 +1366,9 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ![web_application_6](imgs/web_application_wireframe_7.jpg)
 
----
-
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ![web_application_wireflow_diagram](imgs/web_application_user_flow_diagram.jpg)
-
----
 
 ### 4.4.2. Web Applications Mock-ups.
 
@@ -1441,8 +1382,6 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ![web_mockup_5](imgs/web_mockup_5.jpg)
 
----
-
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 ![web_application_wireframe_1.jpg](imgs/web_application_wireframe_1.jpg)
@@ -1451,9 +1390,9 @@ Diseño para visualizar "Preguntas Frecuentes"
 
 ## 4.5. Web Applications Prototyping.
 
-# Descripción de la página NeuroZen
+### Descripción de la página NeuroZen
 
-## Resúmenes de contenido
+### Resúmenes de contenido
 
 Los resúmenes en esta página cumplen el rol de **introducir el propósito
 y beneficios de NeuroZen** de forma clara. Cada sección brinda la
@@ -1476,9 +1415,7 @@ decida si quiere saber más o descargarla.
 Principio aplicado: **Divulgación progresiva**. El usuario recibe
 solo la información suficiente para decidir si quiere explorar más.
 
----
-
-## Etiquetas
+### Etiquetas
 
 Cada sección de la página está encabezada con una etiqueta clara y
 visible que orienta al usuario sobre dónde se encuentra y qué puede
@@ -1493,9 +1430,7 @@ Estas etiquetas refuerzan el **principio de las puertas de entrada**,
 pues cada sección habla por sí misma y ayuda a establecer un sentido de
 ubicación dentro de la página.
 
----
-
-## Menús
+### Menús
 
 La página cuenta con **un único menú principal de navegación** en la
 parte superior (sticky, siempre visible):
@@ -1514,9 +1449,7 @@ las secciones principales de decisión (información del producto),
 mientras que el footer concentra los enlaces secundarios (legal,
 contacto, sobre la empresa).
 
----
-
-## Introducción de los flujos de interacción
+### Introducción de los flujos de interacción
 
 Los flujos principales que la página introduce al usuario son:
 
@@ -1538,8 +1471,6 @@ Los flujos principales que la página introduce al usuario son:
 
 ![web_application_prototyping](imgs/web_application_prototyping.jpg)
 
----
-
 ## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software orientada al dominio es un enfoque de diseño que se centra en la estructura y organización del software en torno a los conceptos y procesos clave de un dominio específico. Este enfoque nos permite crear sistemas que reflejen con precisión los requisitos y la lógica del negocio, lo que facilita la implementación de funcionalidades específicas y la adaptación a los cambios en el dominio. Con NeuroZen, utilizamos una arquitectura de software orientada al dominio para estructurar nuestro sistema de manera coherente y escalable, lo que nos permitirá desarrollar una aplicación robusta y fácil de mantener.
@@ -1552,8 +1483,6 @@ La arquitectura de software orientada al dominio es un enfoque de diseño que se
 Estructurar el dominio en contextos claros, detallar el flujo principal (**test de estrés → recomendaciones → contacto profesional**)  
 y los cruces entre contextos (**suscripciones, notificaciones**).
 
----
-
 #### Captura de la Sesión:
 
 <p align="center"><img src="imgs/design-level-eventstorming.png" alt="Stress test mockup" width="1200px" /></p>
@@ -1564,8 +1493,6 @@ y los cruces entre contextos (**suscripciones, notificaciones**).
 - **Assessments:** sesiones de evaluación, tests de estrés, cálculo de scores y análisis de resultados.
 - **Appointments:** gestión de citas con profesionales, agendamiento, confirmación y seguimiento.
 - **Reports:** generación de reportes, métricas de uso, progreso de usuarios y análisis de datos.
-
----
 
 #### Aggregates, Commands, Events, Queries (Resumen)
 
@@ -1610,28 +1537,20 @@ y los cruces entre contextos (**suscripciones, notificaciones**).
   - **Events:** `EmailSent`, `PushSent`
   - **Queries:** `GetDeliveryStatus`
 
----
-
 #### Flujo Principal (Happy Path)
 
 1. Usuario inicia test → registra respuestas → se calcula **score**.
 2. Si el **score** supera el umbral → se asignan actividades y se notifica por email/push.
 3. El usuario puede solicitar contacto con un psicólogo.
 
----
-
 ### 4.6.2. Software Architecture Context Level Diagram.
 
 **Descripción:**  
 El sistema **NeuroZen** está al centro y muestra su relación con actores humanos y sistemas externos (pagos, correo, contenidos de ejercicios).
 
----
-
 #### Diagrama
 
 <p align="center"><img src="imgs/primer-diagrama.png" alt="Stress test mockup" width="700px" /></p>
-
----
 
 #### Explicación
 
@@ -1651,8 +1570,6 @@ El sistema **NeuroZen** está al centro y muestra su relación con actores human
   - Los usuarios interactúan con **NeuroZen**.
   - La plataforma se integra con servicios externos para pagos, notificaciones y contenidos.
 
----
-
 ### 4.6.3. Software Architecture Container Level Diagram.
 
 **Descripción:**  
@@ -1661,8 +1578,6 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 **Diagrama**
 
 <p align="center"><img src="imgs/1diagram.png" alt="Stress test mockup" width="700px" /></p>
-
----
 
 #### Contenedores y Decisiones Tecnológicas
 
@@ -1673,8 +1588,6 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 - **Notifications (Email/Push):** envíos transaccionales.
 - **Redis (opcional):** cache para sesiones/resultados.
 - **Integraciones:** pasarela de pagos, API de ejercicios, SMTP/Provider.
-
----
 
 #### Comunicación
 
@@ -1702,23 +1615,17 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 - **Notifications Module:** cola y envío de correos/push.
 - **Analytics Module:** métricas, reporting.
 
----
-
 #### Interacciones Internas Relevantes
 
 - **Test & Assessment → Recommendations:** asignación en base al score.
 - **Subscriptions & Payments → Notifications:** confirmaciones/recordatorios.
 - **Recommendations → Notifications:** envío de plan.
 
----
-
 #### 4.6.4.1. Frontend Web.
 
 #### Diagrama
 
 <p align="center"><img src="imgs/3diagram.png" alt="Stress test mockup" width="700px" /></p>
-
----
 
 #### Vistas / Componentes
 
@@ -1731,15 +1638,11 @@ Elementos de alto nivel, responsabilidades y comunicaciones entre contenedores d
 - **User Profile:** datos y preferencias.
 - **UI Kit / Shared Components:** botones, inputs, tarjetas, modales, toasts.
 
----
-
 #### Notas de Implementación
 
 - **Accesibilidad:** labels, foco visible, contraste AA/AAA.
 - **Estado y persistencia ligera:** almacenamiento en **Storage** para token.
 - **Rutas:** `/`, `/login`, `/registro`, `/test`, `/actividades`, `/psicologos`, `/perfil`.
-
----
 
 ## 4.7. Software Object-Oriented Design.
 
@@ -1748,8 +1651,6 @@ En esta sección se muestran y describen los **diagramas de clases** que detalla
 La propuesta incluye las **clases, interfaces y enumeraciones**, junto con sus relaciones.  
 Se representan los **atributos, métodos y niveles de visibilidad** (public, private, protected).  
 Además, se indican las **multiplicidades y asociaciones** entre clases, garantizando que estén alineadas con los _bounded contexts_ definidos anteriormente.
-
----
 
 ### 4.7.1. Class Diagrams.
 
@@ -1864,8 +1765,6 @@ El diagrama de base de datos representa visualmente las tablas y sus relaciones 
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
----
-
 ## 5.1. Software Configuration Management.
 
 A continuación, se describen los productos de software empleados en el desarrollo del proyecto **NeuroZen**. Esta sección tiene como objetivo facilitar la comprensión y continuidad del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
@@ -1917,8 +1816,6 @@ Herramienta de diagramación en línea usada para crear diagramas UML (como diag
 **Structurizr** – [https://www.structurizr.com/](https://www.structurizr.com/)  
 Plataforma para modelado de diagramas de arquitectura de software mediante código. Se utilizó para construir los diagramas C4 del proyecto.
 
----
-
 ### 5.1.2. Source Code Management.
 
 El equipo utiliza Git y GitHub para el control de versiones y colaboración:
@@ -1950,8 +1847,6 @@ Se sigue un modelo basado en **GitFlow simplificado**:
   - `style:` cambios de estilo sin afectar la funcionalidad
   - `refactor:` mejoras internas sin cambios funcionales
   - `test:` añadir pruebas
-
----
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
@@ -2002,8 +1897,6 @@ En el proyecto NeuroZen, hemos seguido una guía de estilos para mantener el có
   - feat: add stress form component
   - fix: correct navbar responsive issue
   - docs: update README.
-
----
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -2678,8 +2571,6 @@ Preguntas:
 - ¿Qué cambiarías o mejorarías en esta página?  
 - ¿Qué opinas de las nuevas funciones de la aplicación como ver perfil, herramientas contra el estrés y suscripciones?  
 
----
-
 **Segmento 2: Clínicas, psicólogos y centros de salud mental**
 
 Para evaluar la efectividad del landing page de NeuroZen, hemos formulado preguntas 
@@ -2758,8 +2649,6 @@ Resumen de los puntos clave en la entrevista:
 
 En general, la app le pareció visualmente atractiva y tranquila: los colores suaves y el diseño limpio le transmiten calma y profesionalismo. Comentó que le resultó fácil navegar por el menú y encontrar las secciones, y que la plataforma se siente adecuada para alguien con horarios irregulares, porque ofrece ejercicios y herramientas rápidas que puede usar en cualquier momento. Señaló que la sección de ejercicios contra el estrés le llama la atención y que sí le gustaría probarlos, y que también le quedó claro que la plataforma ofrece contacto con profesionales, algo que considera muy útil como complemento. Como sugerencia de mejora, indicó que reforzaría los mensajes sobre privacidad y seguridad de datos y haría más explícito el progreso y los beneficios de las suscripciones y funciones nuevas como login y ver perfil.
 
----
-
 ## 5.3.3. Evaluaciones según heurísticas.
 
 **Evaluación heurística de la aplicación NeuroZen**
@@ -2773,8 +2662,6 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 | Diseño estético y minimalista         | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                               | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo. |
 | Reconocimiento en lugar de recuerdo   | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                   | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
 
-
----
 
 ## 5.4. Video About-the-Product.
 
@@ -2813,8 +2700,6 @@ Durante las sesiones de validación, los usuarios expresaron opiniones positivas
 **Evidencia del video**
 
 ![about_the_product](imgs/about_the_product.png)
-
----
 
 
 ### 5.2.4. Sprint 4.
@@ -3097,8 +2982,6 @@ Durante el **Sprint 4**, la colaboración del equipo se centró en la **finaliza
 
 Esta metodología colaborativa permitió completar exitosamente todos los bounded contexts del sistema, integrar completamente frontend y backend, y finalizar la documentación del proyecto, estableciendo una base sólida y completa para el cierre del ciclo de vida del proyecto NeuroZen.
 
----
-
 ## Conclusiones y recomendaciones
 
 Al cierre del proyecto **NeuroZen**, se lograron cumplir los objetivos planteados en la rúbrica del curso de Desarrollo de Aplicaciones Open Source: se construyó una propuesta de valor clara, se levantaron y analizaron requerimientos, se especificaron historias de usuario y backlog, se diseñó una arquitectura basada en DDD y se implementaron versiones desplegadas de landing page, frontend y backend.  
@@ -3115,6 +2998,25 @@ Como recomendaciones para trabajos futuros se sugiere:
 - Profundizar en la **seguridad y protección de datos sensibles**, incorporando autenticación más avanzada, auditoría y cumplimiento normativo explícito (por ejemplo, alineamiento con estándares como GDPR).  
 - Extender las funcionalidades del backend (nuevos bounded contexts o integraciones con wearables) y fortalecer las pruebas automatizadas (unitarias, de integración y end-to-end).  
 - Continuar refinando la experiencia de usuario en el frontend, incluyendo más experimentos de usabilidad y validación con usuarios reales de los segmentos objetivo.
+
+### About-The-Team
+
+**Screenshot del Video:**
+
+![About-The-Team 1](imgs/att1.png)
+
+![About-The-Team 2](imgs/att2.png)
+
+![About-The-Team 3](imgs/att3.png)
+
+![About-The-Team 4](imgs/att4.png)
+
+![About-The-Team 5](imgs/att5.png)
+
+**URL de Microsoft Stream:**
+
+[About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDYNnzqBIioSYjF8vN2T3OpAdcXtBADPPZBVAs1j7tfzhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9aImOb)
+
 
 ## Bibliografía y referencias
 
