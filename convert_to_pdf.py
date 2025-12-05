@@ -105,6 +105,106 @@ def convert_markdown_to_pdf(md_file, pdf_file):
         flags=re.IGNORECASE
     )
     
+    # Agregar salto de página para "Contenido"
+    html_content = re.sub(
+        r'(<h2[^>]*>Contenido</h2>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Agregar saltos de página para "Student Outcome" y todos los capítulos
+    # Student Outcome
+    html_content = re.sub(
+        r'(<h2[^>]*>Student Outcome</h2>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Capítulo I
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo I: Introducción</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Capítulo II
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo II: Requirements Elicitation &amp; Analysis</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    # También buscar sin el &amp; codificado
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo II: Requirements Elicitation & Analysis</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Capítulo III
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo III: Requirements Specification</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Capítulo IV
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo IV: Product Design</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Capítulo V
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo V: Product Implementation, Validation &amp; Deployment</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    # También buscar sin el &amp; codificado
+    html_content = re.sub(
+        r'(<h1[^>]*>Capítulo V: Product Implementation, Validation & Deployment</h1>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # NO agregar saltos de página para subsecciones dentro de los capítulos
+    # Solo los capítulos principales (I, II, III, IV, V) tienen salto de página
+    # Las subsecciones (1.1, 1.1.1, 1.1.2, 2.1, etc.) NO tienen salto de página
+    
+    # Agregar saltos de página para secciones finales
+    # Conclusiones y recomendaciones
+    html_content = re.sub(
+        r'(<h2[^>]*>Conclusiones y recomendaciones</h2>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # About-The-Team
+    html_content = re.sub(
+        r'(<h3[^>]*>About-The-Team</h3>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Bibliografía y referencias
+    html_content = re.sub(
+        r'(<h2[^>]*>Bibliografía y referencias</h2>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
     # Crear HTML completo con estilos CSS
     html_template = f"""
     <!DOCTYPE html>
