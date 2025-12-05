@@ -95,6 +95,16 @@ def convert_markdown_to_pdf(md_file, pdf_file):
     html_content = re.sub(r'<hr\s*/?>', '', html_content, flags=re.IGNORECASE)
     html_content = re.sub(r'<hr\s+[^>]*>', '', html_content, flags=re.IGNORECASE)
     
+    # Agregar salto de página después de "Relación de Integrantes"
+    # Buscar el h2 "Registro de Versiones del Informe" y agregar div con salto de página antes
+    # Esto asegura que "Registro de Versiones del Informe" comience en una nueva página
+    html_content = re.sub(
+        r'(<h2[^>]*>Registro de Versiones del Informe</h2>)',
+        r'<div class="new-page"></div>\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
     # Crear HTML completo con estilos CSS
     html_template = f"""
     <!DOCTYPE html>
@@ -239,6 +249,14 @@ def convert_markdown_to_pdf(md_file, pdf_file):
                 margin: 0 !important;
                 padding: 0 !important;
                 height: 0 !important;
+            }}
+            /* Forzar salto de página para "Registro de Versiones del Informe" */
+            .page-break-before {{
+                page-break-before: always !important;
+            }}
+            /* Asegurar que el contenido después de la tabla de integrantes esté en nueva página */
+            .new-page {{
+                page-break-before: always !important;
             }}
         </style>
     </head>
